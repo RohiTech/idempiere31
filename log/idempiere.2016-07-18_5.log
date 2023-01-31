@@ -1,0 +1,509 @@
+*** 2016-07-18 14:10:27.823 idempiere Log (CLogFile) ***
+14:10:27.823 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:10:27.838 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+14:10:28.437 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-18 13:51:19.023 [17]
+14:10:28.469 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:10:28.469 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:10:28.500-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:10:28.609 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:10:28.625-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:10:28.641-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:10:28.641-----------> EMail.isValid: From is invalid=null [17]
+14:10:28.641-----------> EMail.isValid: From is invalid=null [17]
+14:10:28.641-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.47) to you @ company.org: Invalid Data (System) [17]
+14:10:28.641 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:10:28.641 AdempiereMonitor.init:  [17]
+14:10:30.848-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:10:31.148-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1399961333:19/metainfo/zk/config.xml [17]
+14:10:31.148-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1399961333:28/metainfo/zk/config.xml [17]
+14:10:31.170-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1399961333:29/metainfo/zk/config.xml [17]
+14:10:31.201-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1399961333:31/metainfo/zk/zk.xml [17]
+14:10:31.574-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:10:31.605-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:10:31.668-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+14:10:31.668-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+14:10:31.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+14:10:31.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+14:10:31.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+14:10:31.699-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+14:10:31.715-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+14:10:31.886           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:10:33.015-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-18 14:10:33.244 idempiere Log (CLogFile) ***
+14:10:35.191-----------> Node: [10.0.5.47]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+14:12:34.408-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [37]
+14:12:34.412-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [37]
+14:12:34.462-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [36]
+14:12:34.462-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [36]
+14:12:45.278-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.process.conta.general.ComputeSaldosHistoricos [51]
+java.lang.ClassNotFoundException: ni.hmil.process.conta.general.ComputeSaldosHistoricos cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.process.ServerProcessCtl.startProcess(ServerProcessCtl.java:408)
+	at org.compiere.process.ServerProcessCtl.run(ServerProcessCtl.java:239)
+	at org.compiere.process.ServerProcessCtl.process(ServerProcessCtl.java:100)
+	at org.compiere.server.Scheduler.runProcess(Scheduler.java:172)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:118)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+
+14:13:06.969===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [37]
+14:17:16.088===========> PreparedStatementProxy.init: SELECT COUNT(1) FROM AD_Note WHERE AD_Client_ID=? AND AD_User_ID IN (0,?) AND Processed='N' AND AD_BroadcastMessage_ID IS NULL [38]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getNoticeCount(DPActivitiesModel.java:55)
+
+14:17:35.032===========> DB.getSQLValue: SELECT COUNT(1) FROM AD_Note WHERE AD_Client_ID=? AND AD_User_ID IN (0,?) AND Processed='N' AND AD_BroadcastMessage_ID IS NULL [38]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No Database Connection
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getNoticeCount(DPActivitiesModel.java:55)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:126)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getNoticeCount(DPActivitiesModel.java:55)
+
+14:18:21.164-----------> BasicResourcePool.log: com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@3b4d3478 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (2). Last acquisition attempt exception:  [44]
+org.postgresql.util.PSQLException: Connection to 10.0.4.98:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.; State=08001; ErrorCode=0
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:247)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+
+14:18:21.164-----------> BasicResourcePool.log: Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@2461a1d6 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests. [44]
+14:18:05.008===========> PreparedStatementProxy.init: SELECT AD_Process_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,Name,Description,Help,ProcedureName,IsReport,Value,IsDirectPrint,AD_ReportView_ID,Classname,AccessLevel,EntityType,Statistic_Count,Statistic_Seconds,AD_PrintFormat_ID,WorkflowValue,AD_Workflow_ID,IsBetaFunctionality,IsServerProcess,ShowHelp,JasperReport,AD_Form_ID,CopyFromProcess,AD_Process_UU,AD_CtxHelp_ID FROM AD_Process WHERE AD_Process_ID=? [61]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.PO.load(PO.java:1327)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Process.<init>(X_AD_Process.java:38)
+	at org.compiere.model.MProcess.<init>(MProcess.java:100)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:114)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+14:18:12.920===========> PreparedStatementProxy.init: SELECT COUNT(1) FROM R_Request WHERE (SalesRep_ID=? OR AD_Role_ID=?) AND Processed='N' AND (DateNextAction IS NULL OR TRUNC(DateNextAction) <= TRUNC(statement_timestamp())) AND (R_Status_ID IS NULL OR R_Status_ID IN (SELECT R_Status_ID FROM R_Status WHERE IsClosed='N')) AND AD_Client_ID=1000000 AND (R_Request_ID IS NULL OR R_Request_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 417 AND AD_User_ID <> 0 AND IsActive = 'Y' )) [38]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getRequestCount(DPActivitiesModel.java:70)
+
+14:18:23.945===========> MProcess.load: AD_Process_ID=1000054, SQL=SELECT AD_Process_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,Name,Description,Help,ProcedureName,IsReport,Value,IsDirectPrint,AD_ReportView_ID,Classname,AccessLevel,EntityType,Statistic_Count,Statistic_Seconds,AD_PrintFormat_ID,WorkflowValue,AD_Workflow_ID,IsBetaFunctionality,IsServerProcess,ShowHelp,JasperReport,AD_Form_ID,CopyFromProcess,AD_Process_UU,AD_CtxHelp_ID FROM AD_Process WHERE AD_Process_ID=? [61]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No Database Connection
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.PO.load(PO.java:1327)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Process.<init>(X_AD_Process.java:38)
+	at org.compiere.model.MProcess.<init>(MProcess.java:100)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:114)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.PO.load(PO.java:1327)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Process.<init>(X_AD_Process.java:38)
+	at org.compiere.model.MProcess.<init>(MProcess.java:100)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:114)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+14:18:31.891===========> DB.getSQLValue: SELECT COUNT(1) FROM R_Request WHERE (SalesRep_ID=? OR AD_Role_ID=?) AND Processed='N' AND (DateNextAction IS NULL OR TRUNC(DateNextAction) <= TRUNC(SysDate)) AND (R_Status_ID IS NULL OR R_Status_ID IN (SELECT R_Status_ID FROM R_Status WHERE IsClosed='N')) AND AD_Client_ID=1000000 AND  (R_Request_ID IS NULL OR R_Request_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 417 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  [38]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No Database Connection
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getRequestCount(DPActivitiesModel.java:70)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:127)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getRequestCount(DPActivitiesModel.java:70)
+
+14:18:57.042-----------> BasicResourcePool.log: com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@71f70018 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (2). Last acquisition attempt exception:  [46]
+org.postgresql.util.PSQLException: Connection to 10.0.4.98:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.; State=08001; ErrorCode=0
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:247)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+
+14:18:57.043-----------> BasicResourcePool.log: Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@2461a1d6 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests. [46]
+14:18:42.887===========> MPInstance.saveError: FillMandatory - AD_Process_ID is mandatory. [61]
+14:19:38.418-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@b9f0b9b -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks! [43]
+14:19:38.432-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@b9f0b9b -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@f805f25
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxfftomwddxf|44703168, dataSourceName->iDempiereDS]-HelperThread-#0
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@43e7c6f7
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxfftomwddxf|44703168, dataSourceName->iDempiereDS]-HelperThread-#2
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@290253b7
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxfftomwddxf|44703168, dataSourceName->iDempiereDS]-HelperThread-#1
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@151cf7d6
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@125bae61
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@41156bb1
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@1c37aa51
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@17d4b997
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@ee474ba
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@38ab66f9
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxfftomwddxf|44703168, dataSourceName->iDempiereDS]-HelperThread-#0,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxfftomwddxf|44703168, dataSourceName->iDempiereDS]-HelperThread-#2,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxfftomwddxf|44703168, dataSourceName->iDempiereDS]-HelperThread-#1,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+ [43]
+14:19:42.107-----------> BasicResourcePool.log: com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@290253b7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (2). Last acquisition attempt exception:  [45]
+org.postgresql.util.PSQLException: Connection to 10.0.4.98:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.; State=08001; ErrorCode=0
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:247)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+
+14:19:42.108-----------> BasicResourcePool.log: Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@2461a1d6 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests. [45]
+14:18:57.069===========> PreparedStatementProxy.init: SELECT count(*) FROM AD_WF_Activity a WHERE a.Processed='N' AND a.WFState='OS' AND ( a.AD_User_ID=? OR EXISTS (SELECT * FROM AD_WF_Responsible r WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='H' AND COALESCE(r.AD_User_ID,0)=0 AND COALESCE(r.AD_Role_ID,0)=0 AND (a.AD_User_ID=? OR a.AD_User_ID IS NULL)) OR EXISTS (SELECT * FROM AD_WF_Responsible r WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='H' AND r.AD_User_ID=?) OR EXISTS (SELECT * FROM AD_WF_Responsible r INNER JOIN AD_User_Roles ur ON (r.AD_Role_ID=ur.AD_Role_ID) WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='R' AND ur.AD_User_ID=?)) AND a.AD_Client_ID=? AND a.AD_Client_ID IN (0,1000000) AND (a.AD_WF_Activity_ID IS NULL OR a.AD_WF_Activity_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 644 AND AD_User_ID <> 0 AND IsActive = 'Y' )) [38]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getWorkflowCount(DPActivitiesModel.java:105)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:128)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+

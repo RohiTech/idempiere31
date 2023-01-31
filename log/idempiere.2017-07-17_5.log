@@ -1,0 +1,235 @@
+*** 2017-07-17 13:13:35.622 idempiere Log (CLogFile) ***
+13:13:35.622 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+13:13:35.669 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+13:13:37.185 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+13:13:37.192 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+13:13:37.301 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+13:13:37.301 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+13:13:37.551-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+13:13:37.864 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+13:13:38.207-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:13:38.224-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:13:38.224-----------> EMail.isValid: From is invalid=null [17]
+13:13:38.224-----------> EMail.isValid: From is invalid=null [17]
+13:13:38.225-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+13:13:38.225 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+13:13:38.225 AdempiereMonitor.init:  [17]
+13:13:41.413-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+13:13:42.039-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/config.xml [17]
+13:13:42.039-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:28/metainfo/zk/config.xml [17]
+13:13:42.039-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/config.xml [17]
+13:13:42.085-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk1399961333:31/metainfo/zk/zk.xml [17]
+13:13:42.554-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+13:13:42.574-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+13:13:42.652-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+13:13:42.668-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+13:13:42.668-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+13:13:42.668-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+13:13:42.668-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+13:13:42.684-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+13:13:42.699-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+13:13:43.121           WebUIServlet.init: iDempiere Web Client started successfully [17]
+13:13:44.230-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-17 13:13:44.645 idempiere Log (CLogFile) ***
+13:13:49.661-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+13:15:59.253===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:15:59.312===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:15:59.446===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:16:00.173===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.192===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.206===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.220===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.232===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.242===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.251===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.262===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.271===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.280===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.288===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.299===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.307===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.321===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.349===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.369===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.384===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.402===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.428===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:00.458===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+13:16:02.563===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+13:16:03.030===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:16:03.129===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:16:03.142===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:16:03.152===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:16:03.165===========> DesktopImpl.service: [Desktop z_mnx:/index.zul] client error: Failed to mount: adempiere.set is not a function [40]
+13:16:03.980===========> PackIn.importXML: importXML: [61]
+java.lang.NullPointerException
+	at org.adempiere.pipo2.handler.TableElementHandler.endElement(TableElementHandler.java:111)
+	at org.adempiere.pipo2.PackInHandler.processDeferElements(PackInHandler.java:394)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:309)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+13:16:03.994===========> PackIn.importXML: importXML: [61]
+java.lang.RuntimeException
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: java.lang.NullPointerException
+	at org.adempiere.pipo2.handler.TableElementHandler.endElement(TableElementHandler.java:111)
+	at org.adempiere.pipo2.PackInHandler.processDeferElements(PackInHandler.java:394)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:309)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+13:16:04.006===========> PackInProcess.doIt: importXML: [61]
+java.lang.RuntimeException
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: java.lang.NullPointerException
+	at org.adempiere.pipo2.handler.TableElementHandler.endElement(TableElementHandler.java:111)
+	at org.adempiere.pipo2.PackInHandler.processDeferElements(PackInHandler.java:394)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:309)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+13:16:04.018===========> PackInProcess.process: java.lang.RuntimeException [61]
+java.lang.NullPointerException
+	at org.adempiere.pipo2.handler.TableElementHandler.endElement(TableElementHandler.java:111)
+	at org.adempiere.pipo2.PackInHandler.processDeferElements(PackInHandler.java:394)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:309)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+

@@ -1,0 +1,201 @@
+*** 2016-05-18 09:26:50.425 idempiere Log (CLogFile) ***
+09:26:50.425 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:26:50.425 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+09:27:01.453 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:27:01.468 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:27:01.485-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:27:01.595 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:27:01.610-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:27:01.610-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:27:01.610-----------> EMail.isValid: From is invalid=null [17]
+09:27:01.610-----------> EMail.isValid: From is invalid=null [17]
+09:27:01.610-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+09:27:01.610 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:27:01.610 AdempiereMonitor.init:  [17]
+09:27:03.110-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:27:03.376-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://178.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://178.fwk1480207683:19/metainfo/zk/config.xml [17]
+09:27:03.376-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://178.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://178.fwk1480207683:28/metainfo/zk/config.xml [17]
+09:27:03.376-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://178.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://178.fwk1480207683:29/metainfo/zk/config.xml [17]
+09:27:03.407-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://178.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://178.fwk1480207683:31/metainfo/zk/zk.xml [17]
+09:27:03.797-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:27:03.829-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:27:03.891-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://178.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+09:27:03.891-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://178.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+09:27:03.907-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://178.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+09:27:03.907-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://178.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+09:27:03.907-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://178.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+09:27:03.922-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://178.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+09:27:03.938-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://178.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+09:27:04.094           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:27:05.134-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-05-18 09:27:05.393 idempiere Log (CLogFile) ***
+09:27:07.502-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [51]
+09:28:16.941-----------> DefaultFormFactory.newFormInstance: Web UI form not implemented for the swing form ni.inss.webui.apps.form.WMyFirstFormController [34]
+09:28:33.547===========> UiEngineImpl.handleError:  [34]
+org.adempiere.webui.exception.ApplicationException: Failed to open ni.inss.webui.apps.form.WMyFirstFormController
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: Failed to open ni.inss.webui.apps.form.WMyFirstFormController
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:163)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+
+09:31:07.080-----------> DefaultFormFactory.newFormInstance: Web UI form not implemented for the swing form ni.inss.webui.apps.form.WMyFirstFormController [40]
+09:31:14.761===========> UiEngineImpl.handleError:  [40]
+org.adempiere.webui.exception.ApplicationException: Failed to open ni.inss.webui.apps.form.WMyFirstFormController
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: Failed to open ni.inss.webui.apps.form.WMyFirstFormController
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:163)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+
+09:38:52.124-----------> DefaultFormFactory.newFormInstance: Web UI form not implemented for the swing form ni.inss.webui.apps.form.WMyFirstFormController [33]
+09:38:54.380===========> UiEngineImpl.handleError:  [33]
+org.adempiere.webui.exception.ApplicationException: Failed to open ni.inss.webui.apps.form.WMyFirstFormController
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: Failed to open ni.inss.webui.apps.form.WMyFirstFormController
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:163)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+

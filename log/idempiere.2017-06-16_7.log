@@ -1,0 +1,137 @@
+*** 2017-06-16 14:44:57.136 idempiere Log (CLogFile) ***
+14:44:57.136 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:44:57.141 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+14:44:57.809 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-16 11:29:07.854 [17]
+14:44:57.824 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:44:57.824 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:44:57.846-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:44:57.933 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:44:58.170-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:44:58.172-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:44:58.173-----------> EMail.isValid: From is invalid=null [17]
+14:44:58.173-----------> EMail.isValid: From is invalid=null [17]
+14:44:58.173-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+14:44:58.173 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:44:58.173 AdempiereMonitor.init:  [17]
+14:44:59.928-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:45:00.182-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+14:45:00.189-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+14:45:00.194-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+14:45:00.231-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+14:45:00.653-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:45:00.683-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:45:00.760-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+14:45:00.763-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+14:45:00.768-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+14:45:00.773-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+14:45:00.778-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+14:45:00.793-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+14:45:00.799-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+14:45:01.171           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:45:02.344-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:45:02.469-----------> LCO_ValidatorWH.initialize:  [69]
+
+*** 2017-06-16 14:45:02.651 idempiere Log (CLogFile) ***
+14:45:05.282-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+14:45:34.780-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [28]
+14:45:34.781-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [28]
+14:48:08.491===========> GridTab.processCallout:  [37]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+14:48:08.626-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5 [37]
+14:48:38.035===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [27]
+14:49:15.779===========> MPaymentAllocate.saveError: FillMandatory - Organización [29]
+14:49:15.781-----------> GridTable.saveWarning: FillMandatory - Organización [29]
+14:49:53.660-----------> Env.getContextAsDate: No value for: DateTrx [32]
+14:51:42.782===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [160]
+14:52:23.525===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [160]
+14:53:23.102===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+14:54:57.279===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [137]
+14:55:07.398-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [137]
+java.lang.Exception: Reversal ERROR: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+15:00:57.328===========> Configuration.invokeDesktopCleanups: Failed to invoke class org.adempiere.webui.session.SessionContextListener [39]
+java.lang.NullPointerException
+	at org.zkoss.zk.ui.http.ExecutionImpl.getAttribute(ExecutionImpl.java:470)
+	at org.adempiere.webui.adwindow.StatusBar.setStatusLine(StatusBar.java:144)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.updateUI(AbstractADWindowContent.java:3138)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onModalClose(AbstractADWindowContent.java:3101)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onEvent(AbstractADWindowContent.java:1098)
+	at org.adempiere.webui.adwindow.ADWindowContent.onEvent(ADWindowContent.java:194)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.adempiere.webui.component.Window.onPageDetached(Window.java:84)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setParent(AbstractComponent.java:1020)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1680)
+	at org.adempiere.webui.desktop.DefaultDesktop.logout(DefaultDesktop.java:676)
+

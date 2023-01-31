@@ -1,0 +1,211 @@
+*** 2016-06-28 11:27:34.212 idempiere Log (CLogFile) ***
+11:27:34.211 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+11:27:34.214 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+11:27:34.856 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+11:27:34.856 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+11:27:34.899-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+11:27:35.078 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+11:27:35.091-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:27:35.098-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:27:35.099-----------> EMail.isValid: From is invalid=null [17]
+11:27:35.099-----------> EMail.isValid: From is invalid=null [17]
+11:27:35.099-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.41) to you @ company.org: Invalid Data (System) [17]
+11:27:35.099 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+11:27:35.099 AdempiereMonitor.init:  [17]
+11:27:36.990-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:27:37.274-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk176207911:2/metainfo/zk/config.xml
+with bundleresource://179.fwk176207911:19/metainfo/zk/config.xml [17]
+11:27:37.280-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk176207911:11/metainfo/zk/config.xml
+with bundleresource://179.fwk176207911:28/metainfo/zk/config.xml [17]
+11:27:37.289-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk176207911:12/metainfo/zk/config.xml
+with bundleresource://179.fwk176207911:29/metainfo/zk/config.xml [17]
+11:27:37.322-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk176207911:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk176207911:31/metainfo/zk/zk.xml [17]
+11:27:37.706-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+11:27:37.744-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+11:27:37.806-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk176207911:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:18/metainfo/zk/lang-addon.xml [17]
+11:27:37.806-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk176207911:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:19/metainfo/zk/lang-addon.xml [17]
+11:27:37.806-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk176207911:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:22/metainfo/zk/lang-addon.xml [17]
+11:27:37.824-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk176207911:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:23/metainfo/zk/lang-addon.xml [17]
+11:27:37.828-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk176207911:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:24/metainfo/zk/lang-addon.xml [17]
+11:27:37.828-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk176207911:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:29/metainfo/zk/lang-addon.xml [17]
+11:27:37.844-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk176207911:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:30/metainfo/zk/lang-addon.xml [17]
+11:27:37.959           WebUIServlet.init: iDempiere Web Client started successfully [17]
+11:27:38.945-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-28 11:27:39.143 idempiere Log (CLogFile) ***
+11:27:41.075-----------> Node: [10.0.5.41]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+11:27:45.768-----------> PackInHandler.dumpUnresolvedElements: AD_Field_Trl [Help=, Name=Payroll Process, Description=, AD_Language=es_EC, IsActive=true, IsTranslated=false] [49]
+11:27:45.768-----------> PackInHandler.dumpUnresolvedElements: AD_Field [AD_Client_ID=0, AD_Org_ID=0, MandatoryLogic=, ReadOnlyLogic=, IsToolbarButton=, IsAlwaysUpdateable=, IsUpdateable=, ColumnSpan=1, EntityType=U, IsCentrallyMaintained=true, IsDisplayed=false, AD_Column_ID=7de173e7-91df-4cef-a089-b577030da571, SeqNo=230, AD_Tab_ID=53113, IsSameLine=false, IsHeading=false, Help=, IsFieldOnly=false, IsReadOnly=false, ObscureType=, Name=Payroll Process, IsMandatory=, AD_Val_Rule_ID=, Included_Tab_ID=, IsDisplayedGrid=true, SeqNoGrid=230, IsAllowCopy=, AD_Field_UU=431165e4-4513-4c56-bdd1-31df2dc74148, SortNo=0, IsEncrypted=false, IsActive=true, DisplayLength=0, DisplayLogic=, DefaultValue=, Description=, XPosition=1, NumLines=1, IsQuickEntry=false, IsAdvancedField=false, IsDefaultFocus=false, AD_FieldGroup_ID=, AD_Reference_ID=, AD_Reference_Value_ID=] unresolved [AD_Column_ID] [49]
+11:27:45.779===========> PackIn.importXML: importXML: [49]
+org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+11:27:46.011===========> PackIn.importXML: importXML: [49]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+11:27:46.086===========> PipoDictionaryService.merge: importXML: [49]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+11:27:46.186===========> Trx.commit: PipoDS_c5a00419-124a-49c9-9bd0-2c4b7b6f16ac [49]
+org.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «ad_element» viola la llave foránea «entityt_adelement»
+  Detail: La llave (entitytype)=(IGI) no está presente en la tabla «ad_entitytype».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.util.Trx.commit(Trx.java:399)
+	at org.compiere.util.Trx.close(Trx.java:451)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:117)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+11:27:46.264===========> Trx.saveError: DeleteErrorDependent - ERROR: inserción o actualización en la tabla «ad_element» viola la llave foránea «entityt_adelement»
+  Detail: La llave (entitytype)=(IGI) no está presente en la tabla «ad_entitytype». [49]
+11:27:46.577===========> Incremental2PackActivator.packIn: Pack in failed. [49]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+11:29:49.052===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [64]

@@ -1,0 +1,336 @@
+*** 2017-08-18 15:19:24.956 idempiere Log (CLogFile) ***
+15:19:24.955 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:19:24.959 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+15:19:25.478 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+15:19:25.480 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+15:19:25.482 AdempiereActivator.installPackage: ni.idempiere.procesingdocuments 1.0.0 was installed: 2017-08-18 11:31:17.908 [17]
+15:19:25.484 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+15:19:25.496 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:19:25.496 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:19:25.512-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+15:19:25.576 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:19:25.772-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:19:25.773-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:19:25.774-----------> EMail.isValid: From is invalid=null [17]
+15:19:25.774-----------> EMail.isValid: From is invalid=null [17]
+15:19:25.774-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.8.100) to you @ company.org: Invalid Data (System) [17]
+15:19:25.774 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:19:25.774 AdempiereMonitor.init:  [17]
+15:19:27.464-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:19:27.691-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/config.xml [17]
+15:19:27.696-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:28/metainfo/zk/config.xml [17]
+15:19:27.701-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/config.xml [17]
+15:19:27.727-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1399961333:31/metainfo/zk/zk.xml [17]
+15:19:28.092-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:19:28.116-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:19:28.175-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+15:19:28.178-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+15:19:28.183-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+15:19:28.186-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+15:19:28.189-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+15:19:28.201-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+15:19:28.210-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+15:19:28.509           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:19:29.429-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-18 15:19:29.646 idempiere Log (CLogFile) ***
+15:19:31.753-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+15:21:28.478===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [34]
+15:21:29.632===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [133]
+15:21:29.875===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [133]
+15:21:30.160===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [133]
+15:21:30.209===========> MAllocationHdr.load: (rs) - 25: C_AllocationHdr.c_campaing_id (class java.lang.Integer) - org.postgresql.util.PSQLException: The column name c_campaing_id was not found in this ResultSet. [133]
+15:21:42.122-----------> MAllocationHdr.get_Value: Column not found - C_Payment_ID [133]
+15:21:42.124-----------> MAllocationHdr.get_Value: Column not found - C_Invoice_ID [133]
+15:21:42.252===========> MAllocationHdr.load: [WFP_57631263-cb4c-48be-833f-4c6773ab35ff] - C_AllocationHdr_ID=1000676, SQL=SELECT DateTrx,Processed,C_AllocationHdr_ID,IsActive,Description,Posted,Processing,DateAcct,C_Currency_ID,AD_Org_ID,IsManual,DocAction,IsApproved,UpdatedBy,Updated,DocumentNo,DocStatus,CreatedBy,Created,ApprovalAmt,AD_Client_ID,ProcessedOn,C_AllocationHdr_UU,Reversal_ID,C_DocType_ID,c_campaing_id,C_Project_ID,C_Campaign_ID FROM C_AllocationHdr WHERE C_AllocationHdr_ID=? [133]
+org.postgresql.util.PSQLException: ERROR: column "c_campaing_id" does not exist
+  Hint: Perhaps you meant to reference the column "c_allocationhdr.c_campaign_id".
+  Position: 285; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.PO.load(PO.java:1340)
+	at org.compiere.model.PO.doInsert(PO.java:2979)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at org.compiere.model.MAllocationHdr.copyFrom(MAllocationHdr.java:1182)
+	at org.compiere.model.MAllocationHdr.reverseIt(MAllocationHdr.java:839)
+	at org.compiere.model.MAllocationHdr.reverseAccrualIt(MAllocationHdr.java:676)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+
+15:21:42.406===========> MAllocationHdr.doInsert: [WFP_57631263-cb4c-48be-833f-4c6773ab35ff] - reloading [133]
+15:21:42.539-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [133]
+org.adempiere.exceptions.AdempiereException: SaveError
+	at org.compiere.model.PO.saveEx(PO.java:2224)
+	at org.compiere.model.MAllocationHdr.copyFrom(MAllocationHdr.java:1182)
+	at org.compiere.model.MAllocationHdr.reverseIt(MAllocationHdr.java:839)
+	at org.compiere.model.MAllocationHdr.reverseAccrualIt(MAllocationHdr.java:676)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+	at ni.idempiere.override.models.NIMPayment.deAllocate(NIMPayment.java:375)
+	at ni.idempiere.override.models.NIMPayment.reverse(NIMPayment.java:562)
+	at ni.idempiere.override.models.NIMPayment.reverseAccrualIt(NIMPayment.java:467)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:24:04.052===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+15:24:04.172===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+15:24:04.318===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+15:24:04.362===========> MAllocationHdr.load: (rs) - 25: C_AllocationHdr.c_campaing_id (class java.lang.Integer) - org.postgresql.util.PSQLException: The column name c_campaing_id was not found in this ResultSet. [189]
+15:24:04.434===========> MColumn.load: NO Data found for AD_Column_ID=1000188 [189]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Column.<init>(X_AD_Column.java:40)
+	at org.compiere.model.MColumn.<init>(MColumn.java:128)
+	at org.compiere.model.MColumn.get(MColumn.java:75)
+	at org.compiere.model.MColumn.get(MColumn.java:58)
+	at org.compiere.model.PO.copyValues(PO.java:1261)
+	at org.compiere.model.PO.copyValues(PO.java:1219)
+	at org.compiere.model.MAllocationHdr.copyFrom(MAllocationHdr.java:1167)
+	at org.compiere.model.MAllocationHdr.reverseIt(MAllocationHdr.java:839)
+	at org.compiere.model.MAllocationHdr.reverseAccrualIt(MAllocationHdr.java:676)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+
+15:24:04.478-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [189]
+java.lang.NullPointerException
+	at org.compiere.model.MColumn.isUUIDColumn(MColumn.java:198)
+	at org.compiere.model.PO.copyValues(PO.java:1264)
+	at org.compiere.model.PO.copyValues(PO.java:1219)
+	at org.compiere.model.MAllocationHdr.copyFrom(MAllocationHdr.java:1167)
+	at org.compiere.model.MAllocationHdr.reverseIt(MAllocationHdr.java:839)
+	at org.compiere.model.MAllocationHdr.reverseAccrualIt(MAllocationHdr.java:676)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+	at ni.idempiere.override.models.NIMPayment.deAllocate(NIMPayment.java:375)
+
+15:25:37.034===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+15:25:37.143===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+15:25:37.286===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+15:25:37.330===========> MAllocationHdr.load: (rs) - 25: C_AllocationHdr.c_campaing_id (class java.lang.Integer) - org.postgresql.util.PSQLException: The column name c_campaing_id was not found in this ResultSet. [189]
+15:25:37.364===========> MColumn.load: NO Data found for AD_Column_ID=1000188 [189]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Column.<init>(X_AD_Column.java:40)
+	at org.compiere.model.MColumn.<init>(MColumn.java:128)
+	at org.compiere.model.MColumn.get(MColumn.java:75)
+	at org.compiere.model.MColumn.get(MColumn.java:58)
+	at org.compiere.model.PO.copyValues(PO.java:1261)
+	at org.compiere.model.PO.copyValues(PO.java:1219)
+	at org.compiere.model.MAllocationHdr.copyFrom(MAllocationHdr.java:1167)
+	at org.compiere.model.MAllocationHdr.reverseIt(MAllocationHdr.java:839)
+	at org.compiere.model.MAllocationHdr.reverseAccrualIt(MAllocationHdr.java:676)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+
+15:25:37.401-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [189]
+java.lang.NullPointerException
+	at org.compiere.model.MColumn.isUUIDColumn(MColumn.java:198)
+	at org.compiere.model.PO.copyValues(PO.java:1264)
+	at org.compiere.model.PO.copyValues(PO.java:1219)
+	at org.compiere.model.MAllocationHdr.copyFrom(MAllocationHdr.java:1167)
+	at org.compiere.model.MAllocationHdr.reverseIt(MAllocationHdr.java:839)
+	at org.compiere.model.MAllocationHdr.reverseAccrualIt(MAllocationHdr.java:676)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+	at ni.idempiere.override.models.NIMPayment.deAllocate(NIMPayment.java:375)
+
+15:25:53.792===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+15:25:54.319===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [168]
+15:25:54.508===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [168]
+15:25:54.680===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [168]
+15:25:54.725===========> MAllocationHdr.load: (rs) - 25: C_AllocationHdr.c_campaing_id (class java.lang.Integer) - org.postgresql.util.PSQLException: The column name c_campaing_id was not found in this ResultSet. [168]
+15:25:54.778-----------> MAllocationHdr.get_Value: Column not found - C_Payment_ID [168]
+15:25:54.779-----------> MAllocationHdr.get_Value: Column not found - C_Invoice_ID [168]
+15:25:54.854-----------> MAllocationLine.set_Value: Column not updateable - C_Project_ID - NewValue=1000000 - OldValue=1000000 [168]
+15:25:54.855===========> MAllocationLine.saveError: ColumnReadonly - Column not updateable - C_Project_ID - NewValue=1000000 - OldValue=1000000 [168]
+15:25:55.037-----------> MAllocationHdr.get_Value: Column not found - C_Payment_ID [168]
+15:25:55.037-----------> MAllocationHdr.get_Value: Column not found - C_Invoice_ID [168]
+15:25:55.063===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [168]
+15:25:55.135-----------> MAllocationHdr.get_Value: Column not found - C_Payment_ID [168]
+15:25:55.135-----------> MAllocationHdr.get_Value: Column not found - C_Invoice_ID [168]
+15:25:55.174===========> MAllocationHdr.load: [WFP_d5ab9c4f-04ac-49e9-82d4-5a14a26f401b] - C_AllocationHdr_ID=1000677, SQL=SELECT DateTrx,Processed,C_AllocationHdr_ID,IsActive,Description,Posted,Processing,DateAcct,C_Currency_ID,AD_Org_ID,IsManual,DocAction,IsApproved,UpdatedBy,Updated,DocumentNo,DocStatus,CreatedBy,Created,ApprovalAmt,AD_Client_ID,ProcessedOn,C_AllocationHdr_UU,Reversal_ID,C_DocType_ID,c_campaing_id,C_Project_ID,C_Campaign_ID FROM C_AllocationHdr WHERE C_AllocationHdr_ID=? [168]
+org.postgresql.util.PSQLException: ERROR: column "c_campaing_id" does not exist
+  Hint: Perhaps you meant to reference the column "c_allocationhdr.c_campaign_id".
+  Position: 285; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.PO.load(PO.java:1340)
+	at org.compiere.model.PO.doInsert(PO.java:2979)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at org.compiere.model.PO.saveEx(PO.java:2350)
+	at ni.idempiere.override.models.NIMPayment.reverse(NIMPayment.java:582)
+	at ni.idempiere.override.models.NIMPayment.reverseCorrectIt(NIMPayment.java:490)
+	at org.compiere.process.DocumentEngine.reverseCorrectIt(DocumentEngine.java:585)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:357)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:25:55.208===========> MAllocationHdr.doInsert: [WFP_d5ab9c4f-04ac-49e9-82d4-5a14a26f401b] - reloading [168]
+15:25:55.300-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [168]
+org.adempiere.exceptions.AdempiereException: SaveError
+	at org.compiere.model.PO.saveEx(PO.java:2224)
+	at org.compiere.model.PO.saveEx(PO.java:2350)
+	at ni.idempiere.override.models.NIMPayment.reverse(NIMPayment.java:582)
+	at ni.idempiere.override.models.NIMPayment.reverseCorrectIt(NIMPayment.java:490)
+	at org.compiere.process.DocumentEngine.reverseCorrectIt(DocumentEngine.java:585)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:357)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:26:28.398===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [193]
+15:27:20.590-----------> MWFActivity.run: MWFNode[193-(DocPrepare),Action=DocumentAction=PR] [150]
+java.lang.Exception: Withholding Not Generated
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+15:27:51.836===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [145]
+15:27:51.958-----------> MAllocationHdr.get_Value: Column not found - C_Payment_ID [145]
+15:27:51.959-----------> MAllocationHdr.get_Value: Column not found - C_Invoice_ID [145]
+15:27:51.989===========> MAllocationHdr.load: [WFP_3925acf1-3337-448a-b546-94e3a9213a3c] - C_AllocationHdr_ID=1000678, SQL=SELECT DateTrx,Processed,C_AllocationHdr_ID,IsActive,Description,Posted,Processing,DateAcct,C_Currency_ID,AD_Org_ID,IsManual,DocAction,IsApproved,UpdatedBy,Updated,DocumentNo,DocStatus,CreatedBy,Created,ApprovalAmt,AD_Client_ID,ProcessedOn,C_AllocationHdr_UU,Reversal_ID,C_DocType_ID,c_campaing_id,C_Project_ID,C_Campaign_ID FROM C_AllocationHdr WHERE C_AllocationHdr_ID=? [145]
+org.postgresql.util.PSQLException: ERROR: column "c_campaing_id" does not exist
+  Hint: Perhaps you meant to reference the column "c_allocationhdr.c_campaign_id".
+  Position: 285; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.PO.load(PO.java:1340)
+	at org.compiere.model.PO.doInsert(PO.java:2979)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at ni.idempiere.override.models.NIMPayment.allocateIt(NIMPayment.java:653)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:1965)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:27:52.021===========> MAllocationHdr.doInsert: [WFP_3925acf1-3337-448a-b546-94e3a9213a3c] - reloading [145]
+15:27:52.037===========> NIMPayment.allocateIt: P.Allocations not created [145]
+15:27:52.046===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [145]
+15:28:06.403-----------> AbstractADWindowContent.onNewCallback: Insert Record disabled for Tab [194]
+15:28:20.577-----------> AbstractADWindowContent.onNewCallback: Insert Record disabled for Tab [194]

@@ -1,0 +1,159 @@
+*** 2016-07-18 13:51:18.079 idempiere Log (CLogFile) ***
+13:51:18.075 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+13:51:18.087 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+13:51:18.869 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\ni.idempiere.importcurrencyrate6861010302735320158.zip [17]
+13:51:18.941 PipoDictionaryService.merge: dict file->C:\Users\OBENAV~1\AppData\Local\Temp\ni.idempiere.importcurrencyrate\dict\PackOut.xml [17]
+13:51:36.952 PipoDictionaryService.merge: commit PipoDS_2a5e8071-5eaf-4942-92e9-9c7440a61e70 [17]
+13:51:37.633 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+13:51:37.633 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+13:51:37.874-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+13:51:38.421 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+13:51:38.423-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:51:38.439-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:51:38.439-----------> EMail.isValid: From is invalid=null [17]
+13:51:38.439-----------> EMail.isValid: From is invalid=null [17]
+13:51:38.439-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.47) to you @ company.org: Invalid Data (System) [17]
+13:51:38.439 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+13:51:38.439 AdempiereMonitor.init:  [17]
+13:51:41.164-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+13:51:41.481-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:19/metainfo/zk/config.xml [17]
+13:51:41.481-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:28/metainfo/zk/config.xml [17]
+13:51:41.481-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:29/metainfo/zk/config.xml [17]
+13:51:41.512-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk491298318:31/metainfo/zk/zk.xml [17]
+13:51:41.924-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+13:51:41.955-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+13:51:42.036-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+13:51:42.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+13:51:42.048-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+13:51:42.048-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+13:51:42.064-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+13:51:42.064-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+13:51:42.080-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+13:51:42.221           WebUIServlet.init: iDempiere Web Client started successfully [17]
+13:51:43.456-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-18 13:51:43.696 idempiere Log (CLogFile) ***
+13:51:45.983-----------> Node: [10.0.5.47]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+13:52:10.444-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.process.conta.general.ComputeSaldosHistoricos [51]
+java.lang.ClassNotFoundException: ni.hmil.process.conta.general.ComputeSaldosHistoricos cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.process.ServerProcessCtl.startProcess(ServerProcessCtl.java:408)
+	at org.compiere.process.ServerProcessCtl.run(ServerProcessCtl.java:239)
+	at org.compiere.process.ServerProcessCtl.process(ServerProcessCtl.java:100)
+	at org.compiere.server.Scheduler.runProcess(Scheduler.java:172)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:118)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+
+13:57:10.880-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.process.conta.general.ComputeSaldosHistoricos [56]
+java.lang.ClassNotFoundException: ni.hmil.process.conta.general.ComputeSaldosHistoricos cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.process.ServerProcessCtl.startProcess(ServerProcessCtl.java:408)
+	at org.compiere.process.ServerProcessCtl.run(ServerProcessCtl.java:239)
+	at org.compiere.process.ServerProcessCtl.process(ServerProcessCtl.java:100)
+	at org.compiere.server.Scheduler.runProcess(Scheduler.java:172)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:118)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+
+14:02:12.344-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.process.conta.general.ComputeSaldosHistoricos [58]
+java.lang.ClassNotFoundException: ni.hmil.process.conta.general.ComputeSaldosHistoricos cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.process.ServerProcessCtl.startProcess(ServerProcessCtl.java:408)
+	at org.compiere.process.ServerProcessCtl.run(ServerProcessCtl.java:239)
+	at org.compiere.process.ServerProcessCtl.process(ServerProcessCtl.java:100)
+	at org.compiere.server.Scheduler.runProcess(Scheduler.java:172)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:118)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+
+14:07:13.209-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.process.conta.general.ComputeSaldosHistoricos [62]
+java.lang.ClassNotFoundException: ni.hmil.process.conta.general.ComputeSaldosHistoricos cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.process.ServerProcessCtl.startProcess(ServerProcessCtl.java:408)
+	at org.compiere.process.ServerProcessCtl.run(ServerProcessCtl.java:239)
+	at org.compiere.process.ServerProcessCtl.process(ServerProcessCtl.java:100)
+	at org.compiere.server.Scheduler.runProcess(Scheduler.java:172)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:118)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+

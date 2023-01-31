@@ -1,0 +1,152 @@
+*** 2017-04-27 16:16:16.372 idempiere Log (CLogFile) ***
+16:16:16.372 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:16:16.375 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+16:16:17.005 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:16:17.005 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:16:17.027-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:16:17.130 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:16:17.334-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:16:17.336-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:16:17.337-----------> EMail.isValid: From is invalid=null [17]
+16:16:17.337-----------> EMail.isValid: From is invalid=null [17]
+16:16:17.337-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+16:16:17.337 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:16:17.337 AdempiereMonitor.init:  [17]
+16:16:19.218-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:16:19.471-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+16:16:19.476-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+16:16:19.482-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+16:16:19.516-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+16:16:19.927-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:16:19.952-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:16:20.014-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+16:16:20.019-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+16:16:20.025-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+16:16:20.030-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+16:16:20.036-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+16:16:20.051-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+16:16:20.057-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+16:16:20.397           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:16:21.622-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:16:21.736-----------> LCO_ValidatorWH.initialize:  [70]
+
+*** 2017-04-27 16:16:21.954 idempiere Log (CLogFile) ***
+16:16:24.643-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+16:17:12.606===========> NICreateLineFormSO.getServiceOrder: 	SELECT  C_Campaign_ID, 			Value  	FROM 	C_Campaign 	WHERE	AD_Client_ID=1000000 AND IsActive='Y' AND (DocStatus='CO') 	ORDER BY created DESC [32]
+org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 94; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.adempiere.webui.form.NICreateLineFormSO.getServiceOrder(NICreateLineFormSO.java:125)
+	at org.adempiere.webui.form.WNICreateLineFormSO.dynamicInitialise(WNICreateLineFormSO.java:159)
+	at org.adempiere.webui.form.WNICreateLineFormSO.initForm(WNICreateLineFormSO.java:124)
+	at org.adempiere.webui.form.WNICreateLineFormSO.<init>(WNICreateLineFormSO.java:99)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+
+16:17:12.708===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [32]
+16:18:12.596===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [32]
+16:28:55.391===========> DB.executeUpdate: INSERT INTO C_Project (C_Project_ID,AD_Org_ID,AD_Client_ID,IsActive,Created,CreatedBy,Updated,Name,UpdatedBy,IsSummary,Value,C_Currency_ID,C_BPartner_ID,IsCommitment,CommittedAmt,GenerateTo,Processed,SalesRep_ID,PlannedAmt,PlannedQty,PlannedMarginAmt,C_PaymentTerm_ID,InvoicedAmt,CopyFrom,InvoicedQty,ProjectBalanceAmt,CommittedQty,IsCommitCeiling,ProjectCategory,Processing,ProjInvoiceRule,ProjectLineLevel,C_Project_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveC_Project_7de1555c-389f-4e1f-be8d-87cdd4a94e05] [187]
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists.; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+16:28:55.576===========> DB.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [187]
+16:28:55.578-----------> MProject.doInsert: [POSaveC_Project_7de1555c-389f-4e1f-be8d-87cdd4a94e05]Not inserted - C_Project [187]
+16:28:55.829===========> MProject.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [187]
+16:28:55.831-----------> GridTable.saveWarning: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [187]
+16:29:02.552===========> DB.executeUpdate: INSERT INTO C_Project (C_Project_ID,AD_Org_ID,AD_Client_ID,IsActive,Created,CreatedBy,Updated,Name,UpdatedBy,IsSummary,Value,C_Currency_ID,C_BPartner_ID,IsCommitment,CommittedAmt,GenerateTo,Processed,SalesRep_ID,PlannedAmt,PlannedQty,PlannedMarginAmt,C_PaymentTerm_ID,InvoicedAmt,CopyFrom,InvoicedQty,ProjectBalanceAmt,CommittedQty,IsCommitCeiling,ProjectCategory,Processing,ProjInvoiceRule,ProjectLineLevel,C_Project_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveC_Project_a2d9997c-f679-4123-9424-f59a22c95830] [34]
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists.; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+16:29:02.596===========> DB.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [34]
+16:29:02.597-----------> MProject.doInsert: [POSaveC_Project_a2d9997c-f679-4123-9424-f59a22c95830]Not inserted - C_Project [34]
+16:29:02.605===========> MProject.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [34]
+16:29:02.607-----------> GridTable.saveWarning: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [34]

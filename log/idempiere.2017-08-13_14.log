@@ -1,0 +1,1348 @@
+*** 2017-08-13 16:59:45.926 idempiere Log (CLogFile) ***
+16:59:45.925 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:59:45.928 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+16:59:46.532 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+16:59:46.535 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+16:59:46.537 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+16:59:46.552 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:59:46.552 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:59:46.571-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+16:59:46.653 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:59:46.859-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:59:46.861-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:59:46.862-----------> EMail.isValid: From is invalid=null [17]
+16:59:46.862-----------> EMail.isValid: From is invalid=null [17]
+16:59:46.862-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+16:59:46.862 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:59:46.862 AdempiereMonitor.init:  [17]
+16:59:48.798-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:59:49.046-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/config.xml [17]
+16:59:49.054-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:28/metainfo/zk/config.xml [17]
+16:59:49.060-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/config.xml [17]
+16:59:49.095-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1480207683:31/metainfo/zk/zk.xml [17]
+16:59:49.487-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:59:49.516-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:59:49.580-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+16:59:49.584-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+16:59:49.591-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+16:59:49.596-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+16:59:49.602-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+16:59:49.614-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+16:59:49.622-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+16:59:49.946           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:59:51.258-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-13 16:59:51.536 idempiere Log (CLogFile) ***
+16:59:54.145-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+17:00:42.552===========> DB.executeUpdate: UPDATE I_Order SET M_Warehouse_ID=(SELECT M_Warehouse_ID FROM M_Warehouse w WHERE w.Name=I_Order.LocatorName AND I_Order.AD_Client_ID=w.AD_Client_ID), AD_Org_ID=(SELECT AD_Org_ID FROM M_Warehouse w WHERE w.Name=I_Order.LocatorName AND I_Order.AD_Client_ID=w.AD_Client_ID)WHERE M_Warehouse_ID IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: column i_order.locatorname does not exist
+  Position: 90; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:279)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.710===========> DB.saveError: DBExecuteError - ERROR: column i_order.locatorname does not exist
+  Position: 90 [58]
+17:00:42.714-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.714-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:287)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.715===========> DB.executeUpdate: UPDATE I_Order SET M_Warehouse_ID=(SELECT MAX(M_Warehouse_ID) FROM M_Warehouse w WHERE I_Order.AD_Client_ID=w.AD_Client_ID AND I_Order.AD_Org_ID=w.AD_Org_ID) WHERE M_Warehouse_ID IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:287)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.750===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.753-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.754-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:296)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.754===========> DB.executeUpdate: UPDATE I_Order SET M_Warehouse_ID=(SELECT M_Warehouse_ID FROM M_Warehouse w WHERE I_Order.AD_Client_ID=w.AD_Client_ID) WHERE M_Warehouse_ID IS NULL AND EXISTS (SELECT AD_Client_ID FROM M_Warehouse w WHERE w.AD_Client_ID=I_Order.AD_Client_ID GROUP BY AD_Client_ID HAVING COUNT(*)=1) AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:296)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.767===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.770-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.771-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:304)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.771===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=No Warehouse, ' WHERE M_Warehouse_ID IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:304)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.786===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.788-----------> NIImportOrder.doIt: No Warehouse=-1 [58]
+17:00:42.791-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.792-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:314)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.793===========> DB.executeUpdate: UPDATE I_Order SET C_BPartner_ID=u.C_BPartner_ID,AD_User_ID=u.AD_User_ID FROM AD_User u WHERE I_Order.EMail=u.EMail AND I_Order.AD_Client_ID=u.AD_Client_ID AND u.C_BPartner_ID IS NOT NULL AND I_Order.C_BPartner_ID IS NULL AND I_Order.EMail IS NOT NULL AND I_Order.I_IsImported<>'Y' AND I_Order.AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:314)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.826===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.831-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.831-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:323)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.832===========> DB.executeUpdate: UPDATE I_Order SET C_BPartner_ID=u.C_BPartner_ID,AD_User_ID=u.AD_User_ID FROM AD_User u WHERE I_Order.ContactName=u.Name AND I_Order.AD_Client_ID=u.AD_Client_ID AND u.C_BPartner_ID IS NOT NULL AND I_Order.C_BPartner_ID IS NULL AND I_Order.ContactName IS NOT NULL AND EXISTS (SELECT Name FROM AD_User u WHERE I_Order.ContactName=u.Name AND I_Order.AD_Client_ID=u.AD_Client_ID AND u.C_BPartner_ID IS NOT NULL GROUP BY Name HAVING COUNT(*)=1) AND I_Order.I_IsImported<>'Y' AND I_Order.AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:323)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.846===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.849-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.850-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:331)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.851===========> DB.executeUpdate: UPDATE I_Order SET C_BPartner_ID=(SELECT MAX(C_BPartner_ID) FROM C_BPartner bp WHERE I_Order.BPartnerValue=bp.Value AND I_Order.AD_Client_ID=bp.AD_Client_ID) WHERE C_BPartner_ID IS NULL AND BPartnerValue IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:331)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.910===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.912-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.913-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:339)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.914===========> DB.executeUpdate: UPDATE I_Order SET C_BPartner_ID=(SELECT C_BPartnerCashTrx_ID FROM AD_ClientInfo c WHERE I_Order.AD_Client_ID=c.AD_Client_ID) WHERE C_BPartner_ID IS NULL AND BPartnerValue IS NULL AND Name IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:339)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.931===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.934-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.935-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:352)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.936===========> DB.executeUpdate: UPDATE I_Order SET BillTo_ID=bpl.C_BPartner_Location_ID,C_BPartner_Location_ID=bpl.C_BPartner_Location_ID FROM C_BPartner_Location bpl INNER JOIN C_Location l ON (bpl.C_Location_ID=l.C_Location_ID) WHERE I_Order.C_BPartner_ID=bpl.C_BPartner_ID AND bpl.AD_Client_ID=I_Order.AD_Client_ID AND MD5(I_Order.Address1)=MD5(l.Address1) AND MD5(I_Order.Address2)=MD5(l.Address2) AND MD5(I_Order.City)=MD5(l.City) AND MD5(I_Order.Postal)=MD5(l.Postal) AND I_Order.C_Region_ID=l.C_Region_ID AND I_Order.C_Country_ID=l.C_Country_ID AND I_Order.C_BPartner_ID IS NOT NULL AND I_Order.C_BPartner_Location_ID IS NULL AND I_Order.I_IsImported='N' AND I_Order.AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:352)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.956===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.959-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.960-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:362)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.961===========> DB.executeUpdate: UPDATE I_Order SET BillTo_ID=(SELECT MAX(C_BPartner_Location_ID) FROM C_BPartner_Location l WHERE l.C_BPartner_ID=I_Order.C_BPartner_ID AND I_Order.AD_Client_ID=l.AD_Client_ID AND ((l.IsBillTo='Y' AND I_Order.IsSOTrx='Y') OR (l.IsPayFrom='Y' AND I_Order.IsSOTrx='N'))) WHERE C_BPartner_ID IS NOT NULL AND BillTo_ID IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:362)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.974===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.977-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:42.978-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:372)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.979===========> DB.executeUpdate: UPDATE I_Order SET C_BPartner_Location_ID=(SELECT MAX(C_BPartner_Location_ID) FROM C_BPartner_Location l WHERE l.C_BPartner_ID=I_Order.C_BPartner_ID AND I_Order.AD_Client_ID=l.AD_Client_ID AND ((l.IsShipTo='Y' AND I_Order.IsSOTrx='Y') OR I_Order.IsSOTrx='N')) WHERE C_BPartner_ID IS NOT NULL AND C_BPartner_Location_ID IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:372)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:42.995===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:42.999-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.000-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:379)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.001===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=No BP Location, ' WHERE C_BPartner_ID IS NOT NULL AND (BillTo_ID IS NULL OR C_BPartner_Location_ID IS NULL) AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:379)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.019===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.021-----------> NIImportOrder.doIt: No BP Location=-1 [58]
+17:00:43.024-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.025-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:398)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.026===========> DB.executeUpdate: UPDATE I_Order SET C_Country_ID=(SELECT C_Country_ID FROM C_Country c WHERE I_Order.CountryCode=c.CountryCode AND c.AD_Client_ID IN (0, I_Order.AD_Client_ID)) WHERE C_BPartner_ID IS NULL AND C_Country_ID IS NULL AND CountryCode IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:398)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.042===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.046-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.047-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:405)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.048===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=Invalid Country, ' WHERE C_BPartner_ID IS NULL AND C_Country_ID IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:405)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.062===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.064-----------> NIImportOrder.doIt: Invalid Country=-1 [58]
+17:00:43.066-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.067-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:416)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.068===========> DB.executeUpdate: UPDATE I_Order Set RegionName=(SELECT MAX(Name) FROM C_Region r WHERE r.IsDefault='Y' AND r.C_Country_ID=I_Order.C_Country_ID AND r.AD_Client_ID IN (0, I_Order.AD_Client_ID)) WHERE C_BPartner_ID IS NULL AND C_Region_ID IS NULL AND RegionName IS NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:416)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.086===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.089-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.090-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:425)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.091===========> DB.executeUpdate: UPDATE I_Order Set C_Region_ID=(SELECT C_Region_ID FROM C_Region r WHERE r.Name=I_Order.RegionName AND r.C_Country_ID=I_Order.C_Country_ID AND r.AD_Client_ID IN (0, I_Order.AD_Client_ID)) WHERE C_BPartner_ID IS NULL AND C_Region_ID IS NULL AND RegionName IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:425)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.109===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.112-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.113-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:434)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.114===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=Invalid Region, ' WHERE C_BPartner_ID IS NULL AND C_Region_ID IS NULL AND EXISTS (SELECT * FROM C_Country c WHERE c.C_Country_ID=I_Order.C_Country_ID AND c.HasRegion='Y') AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:434)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.126===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.127-----------> NIImportOrder.doIt: Invalid Region=-1 [58]
+17:00:43.130-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.131-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:444)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.132===========> DB.executeUpdate: UPDATE I_Order SET M_Product_ID=(SELECT MAX(M_Product_ID) FROM M_Product p WHERE I_Order.ProductValue=p.Value AND I_Order.AD_Client_ID=p.AD_Client_ID) WHERE M_Product_ID IS NULL AND ProductValue IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:444)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.153===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.156-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.157-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:451)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.158===========> DB.executeUpdate: UPDATE I_Order SET M_Product_ID=(SELECT MAX(M_Product_ID) FROM M_Product p WHERE I_Order.UPC=p.UPC AND I_Order.AD_Client_ID=p.AD_Client_ID) WHERE M_Product_ID IS NULL AND UPC IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:451)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.177===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.181-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.182-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:458)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.185===========> DB.executeUpdate: UPDATE I_Order SET M_Product_ID=(SELECT MAX(M_Product_ID) FROM M_Product p WHERE I_Order.SKU=p.SKU AND I_Order.AD_Client_ID=p.AD_Client_ID) WHERE M_Product_ID IS NULL AND SKU IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:458)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.229===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.233-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.233-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:464)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.234===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=Invalid Product, ' WHERE M_Product_ID IS NULL AND (ProductValue IS NOT NULL OR UPC IS NOT NULL OR SKU IS NOT NULL) AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:464)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.269===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.272-----------> NIImportOrder.doIt: Invalid Product=-1 [58]
+17:00:43.275-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.276-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:473)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.277===========> DB.executeUpdate: UPDATE I_Order SET C_Charge_ID=(SELECT C_Charge_ID FROM C_Charge c WHERE I_Order.ChargeName=c.Name AND I_Order.AD_Client_ID=c.AD_Client_ID) WHERE C_Charge_ID IS NULL AND ChargeName IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:473)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.321===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.323-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.324-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:479)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.325===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=Invalid Charge, ' WHERE C_Charge_ID IS NULL AND (ChargeName IS NOT NULL) AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:479)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.358===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.359-----------> NIImportOrder.doIt: Invalid Charge=-1 [58]
+17:00:43.361-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.361-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:488)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.362===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=Product and Charge, ' WHERE M_Product_ID IS NOT NULL AND C_Charge_ID IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:488)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.396===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.398-----------> NIImportOrder.doIt: Invalid Product and Charge exclusive=-1 [58]
+17:00:43.401-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.401-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:498)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.402===========> DB.executeUpdate: UPDATE I_Order SET C_Tax_ID=(SELECT MAX(C_Tax_ID) FROM C_Tax t WHERE I_Order.TaxIndicator=t.TaxIndicator AND I_Order.AD_Client_ID=t.AD_Client_ID) WHERE C_Tax_ID IS NULL AND TaxIndicator IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:498)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.436===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.439-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [58]
+17:00:43.440-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block ] which will not be reported to listeners! [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:504)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.440===========> DB.executeUpdate: UPDATE I_Order SET I_IsImported='E', I_ErrorMsg=I_ErrorMsg||'ERR=Invalid Tax, ' WHERE C_Tax_ID IS NULL AND TaxIndicator IS NOT NULL AND I_IsImported<>'Y' AND AD_Client_ID=1000000 [SvrProcess_df354549-0c25-45e8-b502-71035204a90a] [58]
+org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at ni.idempiere.override.process.NIImportOrder.doIt(NIImportOrder.java:504)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+17:00:43.451===========> DB.saveError: DBExecuteError - ERROR: current transaction is aborted, commands ignored until end of transaction block [58]
+17:00:43.452-----------> NIImportOrder.doIt: Invalid Tax=-1 [58]

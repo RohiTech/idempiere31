@@ -1,0 +1,78 @@
+*** 2016-06-22 15:10:26.637 idempiere Log (CLogFile) ***
+15:10:26.637 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:10:26.637 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+15:10:27.032 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:10:27.032 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:10:27.048-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:10:27.157 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+15:10:27.157 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+15:10:27.223 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:10:27.223-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:10:27.238-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:10:27.238-----------> EMail.isValid: From is invalid=null [17]
+15:10:27.238-----------> EMail.isValid: From is invalid=null [17]
+15:10:27.238-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.40) to you @ company.org: Invalid Data (System) [17]
+15:10:27.238 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:10:27.238 AdempiereMonitor.init:  [17]
+15:10:28.739-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:10:28.994-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://180.fwk47108597:2/metainfo/zk/config.xml
+with bundleresource://180.fwk47108597:19/metainfo/zk/config.xml [17]
+15:10:28.998-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://180.fwk47108597:11/metainfo/zk/config.xml
+with bundleresource://180.fwk47108597:28/metainfo/zk/config.xml [17]
+15:10:29.004-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://180.fwk47108597:12/metainfo/zk/config.xml
+with bundleresource://180.fwk47108597:29/metainfo/zk/config.xml [17]
+15:10:29.030-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://180.fwk47108597:14/metainfo/zk/zk.xml
+with bundleresource://180.fwk47108597:31/metainfo/zk/zk.xml [17]
+15:10:29.425-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:10:29.449-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:10:29.509-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://180.fwk47108597:1/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:18/metainfo/zk/lang-addon.xml [17]
+15:10:29.512-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://180.fwk47108597:2/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:19/metainfo/zk/lang-addon.xml [17]
+15:10:29.518-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://180.fwk47108597:5/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:22/metainfo/zk/lang-addon.xml [17]
+15:10:29.523-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://180.fwk47108597:6/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:23/metainfo/zk/lang-addon.xml [17]
+15:10:29.529-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://180.fwk47108597:7/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:24/metainfo/zk/lang-addon.xml [17]
+15:10:29.544-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://180.fwk47108597:12/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:29/metainfo/zk/lang-addon.xml [17]
+15:10:29.553-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://180.fwk47108597:13/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk47108597:30/metainfo/zk/lang-addon.xml [17]
+15:10:29.674           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:10:30.785-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-22 15:10:31.124 idempiere Log (CLogFile) ***
+15:10:33.589-----------> Node: [10.0.5.40]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+15:18:36.057-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [36]
+15:18:36.058-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [36]
+15:18:36.743-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+15:18:36.744-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+15:18:49.655-----------> LCO_ValidatorWH.initialize:  [69]
+15:18:49.725-----------> LCO_ValidatorWH.initialize:  [69]
+15:18:55.702-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [36]
+15:18:55.702-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [36]
+15:19:51.126===========> NICalloutPayment.invoiceinallocate: linea 729 =Pay=151.237196, Discount=0.000000 [36]
+15:19:53.715===========> NICalloutPayment.invoiceallocate: linea 616 =WriteOffAmt=3.024723 [36]
+15:19:54.988===========> NICalloutPayment.amountsinallocate: linea 802 =Pay=148.212473, Discount=0, WriteOff=3.024723, OverUnderAmt=0 [36]
+15:19:55.952===========> NICalloutPayment.invoiceallocate: linea 632 =WriteOffAmt=3.024723 [36]
+15:21:09.431===========> NICalloutPayment.invoiceinallocate: linea 729 =Pay=151.237196, Discount=0.000000 [32]
+15:21:17.770===========> NICalloutPayment.invoiceallocate: linea 616 =WriteOffAmt=3.024723 [32]
+15:21:58.120===========> NICalloutPayment.amountsinallocate: linea 802 =Pay=148.212473, Discount=0, WriteOff=3.024723, OverUnderAmt=0 [32]
+15:21:59.466===========> NICalloutPayment.invoiceallocate: linea 632 =WriteOffAmt=3.024723 [32]

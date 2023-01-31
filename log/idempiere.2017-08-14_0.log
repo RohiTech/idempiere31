@@ -1,0 +1,115 @@
+*** 2017-08-14 00:00:00.6 idempiere Log (CLogFile) ***
+00:00:00.595 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+00:00:00.602 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+00:00:00.606 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+00:00:00.799 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+00:00:00.799 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+00:00:00.927-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+00:00:03.136 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+00:00:03.312-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+00:00:03.315-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+00:00:03.315-----------> EMail.isValid: From is invalid=null [17]
+00:00:03.315-----------> EMail.isValid: From is invalid=null [17]
+00:00:03.315-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+00:00:03.315 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+00:00:03.316 AdempiereMonitor.init:  [17]
+00:00:05.993-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+00:00:06.222-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/config.xml [17]
+00:00:06.228-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:28/metainfo/zk/config.xml [17]
+00:00:06.234-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/config.xml [17]
+00:00:06.264-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1399961333:31/metainfo/zk/zk.xml [17]
+00:00:06.589-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+00:00:06.609-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+00:00:06.672-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+00:00:06.677-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+00:00:06.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+00:00:06.687-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+00:00:06.700-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+00:00:06.711-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+00:00:06.719-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+00:00:06.976           WebUIServlet.init: iDempiere Web Client started successfully [17]
+00:00:07.947-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-14 00:00:08.164 idempiere Log (CLogFile) ***
+00:00:10.228-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+00:00:44.342-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [67]
+00:00:44.343-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [67]
+00:05:03.910-----------> Msg.getMsg: NOT found: ¿Desea visualizar los documentos procesados? [39]
+00:05:13.264===========> GridTable.open: Count SQL=SELECT COUNT(*) FROM C_Order WHERE ((C_Order.IsSOTrx='Y') AND  ((C_Order_ID IN ()))) AND C_Order.AD_Client_ID IN(0,1000000) AND C_Order.AD_Org_ID IN(0,1000000) AND  (C_Order.C_Order_ID IS NULL OR C_Order.C_Order_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 259 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  [34]
+org.postgresql.util.PSQLException: ERROR: syntax error at or near ")"
+  Position: 80; State=42601; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.open(GridTable.java:3511)
+	at org.compiere.model.GridTable.open(GridTable.java:626)
+	at org.compiere.model.GridTab.query(GridTab.java:726)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:942)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+
+00:09:23.078-----------> Msg.getMsg: NOT found: ¿Desea visualizar los documentos procesados? [37]
+00:09:29.530===========> GridTable.open: Count SQL=SELECT COUNT(*) FROM C_Order WHERE ((C_Order.IsSOTrx='N') AND  ((C_Order_ID IN ()))) AND C_Order.AD_Client_ID IN(0,1000000) AND C_Order.AD_Org_ID IN(0,1000000) AND  (C_Order.C_Order_ID IS NULL OR C_Order.C_Order_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 259 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  [34]
+org.postgresql.util.PSQLException: ERROR: syntax error at or near ")"
+  Position: 80; State=42601; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.open(GridTable.java:3511)
+	at org.compiere.model.GridTable.open(GridTable.java:626)
+	at org.compiere.model.GridTab.query(GridTab.java:726)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:942)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+

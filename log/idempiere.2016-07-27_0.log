@@ -1,0 +1,98 @@
+*** 2016-07-27 14:00:40.025 idempiere Log (CLogFile) ***
+14:00:40.025 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:00:40.057 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+14:00:42.350 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 15:40:48.116 [17]
+14:00:42.431 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:00:42.431 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:00:42.512-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:00:44.023 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:00:44.055-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:00:44.058-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:00:44.058-----------> EMail.isValid: From is invalid=null [17]
+14:00:44.058-----------> EMail.isValid: From is invalid=null [17]
+14:00:44.058-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.1.128) to you @ company.org: Invalid Data (System) [17]
+14:00:44.059 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:00:44.059 AdempiereMonitor.init:  [17]
+14:00:46.938-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [33]
+14:00:46.938-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+14:00:46.939-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+14:00:46.939-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [33]
+14:00:51.275-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:00:51.544-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://183.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://183.fwk1480207683:19/metainfo/zk/config.xml [17]
+14:00:51.544-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://183.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://183.fwk1480207683:28/metainfo/zk/config.xml [17]
+14:00:51.560-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://183.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://183.fwk1480207683:29/metainfo/zk/config.xml [17]
+14:00:51.591-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://183.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://183.fwk1480207683:31/metainfo/zk/zk.xml [17]
+14:00:51.967-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:00:51.998-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:00:52.061-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://183.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+14:00:52.061-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://183.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+14:00:52.076-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://183.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+14:00:52.076-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://183.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+14:00:52.076-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://183.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+14:00:52.092-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://183.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+14:00:52.092-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://183.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+14:00:52.249           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:00:53.395-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:00:54.213 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [32]
+14:00:54.216 Language.getLanguage: Adding Language=es, Country=ES, Locale=es_ES [32]
+14:00:54.304 Language.getLanguage: Adding Language=es, Country=NI, Locale=es_NI [32]
+
+*** 2016-07-27 14:00:54.471 idempiere Log (CLogFile) ***
+14:00:58.292-----------> Node: [192.168.1.128]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+14:01:29.854-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [37]
+14:01:29.854-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [37]
+15:02:55.833-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [32]
+15:02:55.833-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [32]
+15:04:15.212-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.override.process.NIBankTransfer [145]
+java.lang.ClassNotFoundException: ni.hmil.override.process.NIBankTransfer cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+15:04:53.720-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [34]
+15:04:53.720-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [34]

@@ -1,0 +1,108 @@
+*** 2016-07-18 14:20:45.784 idempiere Log (CLogFile) ***
+14:20:45.783 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:20:45.786 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+14:21:05.990-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@868e3cd -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks! [44]
+14:21:05.992-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@868e3cd -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@5d59a8ed
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxsomzvwj7v6|341b168b, dataSourceName->iDempiereDS]-HelperThread-#1
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@29618f7c
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxsomzvwj7v6|341b168b, dataSourceName->iDempiereDS]-HelperThread-#0
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@307cfb59
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxsomzvwj7v6|341b168b, dataSourceName->iDempiereDS]-HelperThread-#2
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@44132b1d
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@46739fd5
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@51027d15
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@7a62173f
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@3f463757
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@1adb5135
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@34b07c59
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxsomzvwj7v6|341b168b, dataSourceName->iDempiereDS]-HelperThread-#2,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxsomzvwj7v6|341b168b, dataSourceName->iDempiereDS]-HelperThread-#0,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyun9h1yxsomzvwj7v6|341b168b, dataSourceName->iDempiereDS]-HelperThread-#1,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+ [44]

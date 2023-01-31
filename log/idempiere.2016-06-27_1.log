@@ -1,0 +1,110 @@
+*** 2016-06-27 10:25:56.95 idempiere Log (CLogFile) ***
+10:25:56.950 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:25:56.950 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+10:25:57.364 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:25:57.364 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:25:57.380-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:25:57.489 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:25:57.489-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:25:57.489-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:25:57.489-----------> EMail.isValid: From is invalid=null [17]
+10:25:57.489-----------> EMail.isValid: From is invalid=null [17]
+10:25:57.489-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.34) to you @ company.org: Invalid Data (System) [17]
+10:25:57.489 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:25:57.489 AdempiereMonitor.init:  [17]
+10:25:58.939-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:25:59.162-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:19/metainfo/zk/config.xml [17]
+10:25:59.162-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:28/metainfo/zk/config.xml [17]
+10:25:59.162-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:29/metainfo/zk/config.xml [17]
+10:25:59.194-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk491298318:31/metainfo/zk/zk.xml [17]
+10:25:59.548-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:25:59.558-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:25:59.621-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+10:25:59.621-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+10:25:59.636-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+10:25:59.636-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+10:25:59.636-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+10:25:59.652-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+10:25:59.652-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+10:25:59.761           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:26:00.689-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-27 10:26:00.904 idempiere Log (CLogFile) ***
+10:26:02.739-----------> Node: [10.0.5.34]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+10:29:13.734===========> MPaymentAllocate.saveError: FillMandatory - Organización [35]
+10:29:13.736-----------> GridTable.saveWarning: FillMandatory - Organización [35]
+10:31:18.610===========> MPaymentAllocate.saveError: Error -  [186]
+10:31:18.616===========> MPaymentAllocate.saveError: Error -  [186]
+10:31:18.617-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [186]
+org.adempiere.exceptions.AdempiereException: Error: : 
+	at org.compiere.model.PO.saveEx(PO.java:2224)
+	at org.compiere.model.MPayment.allocateIt(MPayment.java:2261)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:1965)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+10:32:45.712===========> MPaymentAllocate.saveError: Error -  [150]
+10:32:45.717===========> MPaymentAllocate.saveError: Error -  [150]
+10:32:45.718-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [150]
+org.adempiere.exceptions.AdempiereException: Error: : 
+	at org.compiere.model.PO.saveEx(PO.java:2224)
+	at org.compiere.model.MPayment.allocateIt(MPayment.java:2261)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:1965)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+

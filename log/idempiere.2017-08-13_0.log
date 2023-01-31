@@ -1,0 +1,55 @@
+*** 2017-08-13 00:00:00.013 idempiere Log (CLogFile) ***
+00:00:00.008 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+00:00:00.229-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+00:00:00.231-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+00:00:00.231-----------> EMail.isValid: From is invalid=null [17]
+00:00:00.232-----------> EMail.isValid: From is invalid=null [17]
+00:00:00.232-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+00:00:00.232 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+00:00:00.232 AdempiereMonitor.init:  [17]
+00:00:15.721-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+00:00:16.125-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/config.xml [17]
+00:00:16.130-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:28/metainfo/zk/config.xml [17]
+00:00:16.136-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/config.xml [17]
+00:00:16.160-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk491298318:31/metainfo/zk/zk.xml [17]
+00:00:16.831-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+00:00:16.857-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+00:00:16.930-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+00:00:16.937-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+00:00:16.944-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+00:00:16.949-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+00:00:16.953-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+00:00:16.966-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+00:00:16.975-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+00:00:17.323           WebUIServlet.init: iDempiere Web Client started successfully [17]
+00:00:18.759-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-13 00:00:19.508 idempiere Log (CLogFile) ***
+00:00:23.197-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+00:00:34.962-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [72]
+00:00:34.963-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [72]
+01:40:57.576-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 5031668ms, Master-Confirmation-Timeout: 500000ms. [92]
+12:34:28.553-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 38819103ms, Master-Confirmation-Timeout: 500000ms. [178]

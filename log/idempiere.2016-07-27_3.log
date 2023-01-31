@@ -1,0 +1,81 @@
+*** 2016-07-27 15:08:39.322 idempiere Log (CLogFile) ***
+15:08:39.322 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:08:39.322 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+15:08:39.796 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 15:40:48.116 [17]
+15:08:39.813 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:08:39.813 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:08:39.829-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:08:39.907 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:08:39.907-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:08:39.923-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:08:39.923-----------> EMail.isValid: From is invalid=null [17]
+15:08:39.923-----------> EMail.isValid: From is invalid=null [17]
+15:08:39.923-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.1.128) to you @ company.org: Invalid Data (System) [17]
+15:08:39.923 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:08:39.923 AdempiereMonitor.init:  [17]
+15:08:41.303-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:08:41.501-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://185.fwk1399961333:19/metainfo/zk/config.xml [17]
+15:08:41.517-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://185.fwk1399961333:28/metainfo/zk/config.xml [17]
+15:08:41.517-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://185.fwk1399961333:29/metainfo/zk/config.xml [17]
+15:08:41.532-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk1399961333:31/metainfo/zk/zk.xml [17]
+15:08:41.860-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:08:41.892-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:08:41.954-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+15:08:41.954-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+15:08:41.954-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+15:08:41.970-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+15:08:41.970-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+15:08:41.970-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+15:08:41.985-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+15:08:42.110           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:08:43.048-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-27 15:08:43.25 idempiere Log (CLogFile) ***
+15:08:45.111-----------> Node: [192.168.1.128]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [44]
+15:10:36.569===========> NIBankTransfer.process: Fill mandatory fields:  Organization [131]
+UserError: Fill mandatory fields:  Organization
+	at ni.hmil.override.process.NIBankTransfer.doIt(NIBankTransfer.java:130)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

@@ -1,0 +1,98 @@
+*** 2017-08-13 18:02:14.809 idempiere Log (CLogFile) ***
+18:02:14.808 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+18:02:14.812 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+18:02:15.464 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+18:02:15.468 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+18:02:15.470 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+18:02:15.482 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+18:02:15.482 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+18:02:15.501-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+18:02:15.586 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+18:02:15.788-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:02:15.790-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:02:15.790-----------> EMail.isValid: From is invalid=null [17]
+18:02:15.790-----------> EMail.isValid: From is invalid=null [17]
+18:02:15.790-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+18:02:15.790 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+18:02:15.790 AdempiereMonitor.init:  [17]
+18:02:17.726-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+18:02:17.995-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/config.xml [17]
+18:02:18.004-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:28/metainfo/zk/config.xml [17]
+18:02:18.010-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/config.xml [17]
+18:02:18.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk491298318:31/metainfo/zk/zk.xml [17]
+18:02:18.426-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+18:02:18.449-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+18:02:18.514-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+18:02:18.520-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+18:02:18.528-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+18:02:18.535-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+18:02:18.543-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+18:02:18.556-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+18:02:18.562-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+18:02:18.881           WebUIServlet.init: iDempiere Web Client started successfully [17]
+18:02:19.998-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-13 18:02:20.273 idempiere Log (CLogFile) ***
+18:02:22.686-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+18:04:10.235-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+18:04:10.236-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+18:04:39.317-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [33]
+18:04:39.317-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [33]
+18:22:47.099===========> DB.executeUpdate: UPDATE AD_Process_Para SET SeqNo=?,Updated=?,UpdatedBy=? WHERE AD_Process_Para_ID=1000127 [POSaveAD_Process_Para_ce820186-8773-4113-a151-94310097cb02] [34]
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ad_procpara_procseqno"
+  Detail: Key (ad_process_id, seqno)=(1000049, 40) already exists.; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+18:22:47.167===========> DB.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "ad_procpara_procseqno"
+  Detail: Key (ad_process_id, seqno)=(1000049, 40) already exists. [34]
+18:22:47.168===========> MProcessPara.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_Process_Para_ce820186-8773-4113-a151-94310097cb02] - AD_Process_Para.AD_Process_Para_ID=1000127 [34]
+18:22:47.193===========> MProcessPara.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_Process_Para_ce820186-8773-4113-a151-94310097cb02] - AD_Process_Para.AD_Process_Para_ID=1000127 [34]
+18:22:47.195-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_Process_Para_ce820186-8773-4113-a151-94310097cb02] - AD_Process_Para.AD_Process_Para_ID=1000127 [34]
+18:24:13.744-----------> GridTable.createSelectSql: Failed to parse where clause. whereClause=(AD_Column.AD_Reference_Value_ID=@AD_Reference_ID@) AND  2=3 [38]
+18:24:13.992-----------> GridTable.createSelectSql: Failed to parse where clause. whereClause=(AD_Column.AD_Reference_Value_ID=@AD_Reference_ID@) AND  2=3 [34]

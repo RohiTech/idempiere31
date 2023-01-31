@@ -1,0 +1,138 @@
+*** 2016-12-02 10:47:26.028 idempiere Log (CLogFile) ***
+10:47:26.028 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:47:26.028 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+10:47:26.655 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-11-24 14:40:50.73 [17]
+10:47:26.671 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:47:26.671 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:47:26.702-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:47:26.843 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:47:27.015-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:47:27.018-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:47:27.018-----------> EMail.isValid: From is invalid=null [17]
+10:47:27.018-----------> EMail.isValid: From is invalid=null [17]
+10:47:27.018-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+10:47:27.018 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:47:27.018 AdempiereMonitor.init:  [17]
+10:47:29.210-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:47:29.510-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/config.xml [17]
+10:47:29.517-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:28/metainfo/zk/config.xml [17]
+10:47:29.525-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/config.xml [17]
+10:47:29.556-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1399961333:31/metainfo/zk/zk.xml [17]
+10:47:29.934-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:47:29.960-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:47:30.025-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+10:47:30.029-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+10:47:30.037-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+10:47:30.041-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+10:47:30.043-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+10:47:30.055-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+10:47:30.059-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+10:47:30.319           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:47:31.397-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-12-02 10:47:31.598 idempiere Log (CLogFile) ***
+10:47:32.985-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+10:47:31.719===========> NotificationValidator.initialize: NotificationValidator.initialize() [76]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+10:48:20.396-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+10:48:20.396-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [31]
+10:48:20.396-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+10:48:20.397-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [31]
+10:48:37.590===========> NIAllocateInvoice.initForm:  [37]
+java.lang.NullPointerException
+	at org.adempiere.webui.form.NIAllocateInvoice.resetLayout(NIAllocateInvoice.java:89)
+	at org.adempiere.webui.form.NIAllocateInvoice.getLayout(NIAllocateInvoice.java:120)
+	at org.adempiere.webui.form.WNIAllocateInvoice.dynamicInitialise(WNIAllocateInvoice.java:163)
+	at org.adempiere.webui.form.WNIAllocateInvoice.initForm(WNIAllocateInvoice.java:136)
+	at org.adempiere.webui.form.WNIAllocateInvoice.<init>(WNIAllocateInvoice.java:116)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.adempiere.webui.factory.NIFormFactory.newFormInstance(NIFormFactory.java:21)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+
+10:49:15.336===========> NIAllocateInvoice.initForm:  [35]
+java.lang.NullPointerException
+	at org.adempiere.webui.form.NIAllocateInvoice.resetLayout(NIAllocateInvoice.java:89)
+	at org.adempiere.webui.form.NIAllocateInvoice.getLayout(NIAllocateInvoice.java:120)
+	at org.adempiere.webui.form.WNIAllocateInvoice.dynamicInitialise(WNIAllocateInvoice.java:163)
+	at org.adempiere.webui.form.WNIAllocateInvoice.initForm(WNIAllocateInvoice.java:136)
+	at org.adempiere.webui.form.WNIAllocateInvoice.<init>(WNIAllocateInvoice.java:116)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.adempiere.webui.factory.NIFormFactory.newFormInstance(NIFormFactory.java:21)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+

@@ -1,0 +1,11 @@
+*** 2017-05-05 12:12:06.822 idempiere Log (CLogFile) ***
+12:12:06.821 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+12:12:06.844 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+12:12:08.947 AdempiereActivator.installPackage: ni.idempiere.wts 1.0.0 was installed: 2017-04-28 15:20:46.241 [17]
+12:12:09.130 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+12:12:09.130 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+12:12:09.229-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]

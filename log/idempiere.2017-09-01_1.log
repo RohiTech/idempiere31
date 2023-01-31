@@ -1,0 +1,89 @@
+*** 2017-09-01 22:47:16.61 idempiere Log (CLogFile) ***
+22:47:16.609 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+22:47:16.613 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+22:47:19.121 AdempiereActivator.installPackage: ni.idempiere.procesingdocuments 1.0.0 was installed: 2017-08-18 11:31:17.908 [17]
+22:47:19.123 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+22:47:19.126 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+22:47:19.129 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+22:47:19.464 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+22:47:19.464 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+22:47:19.741-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+22:47:25.188 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+22:47:25.395-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+22:47:25.398-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+22:47:25.399-----------> EMail.isValid: From is invalid=null [17]
+22:47:25.399-----------> EMail.isValid: From is invalid=null [17]
+22:47:25.399-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+22:47:25.399 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+22:47:25.399 AdempiereMonitor.init:  [17]
+22:47:30.203-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+22:47:30.432-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1319287199:19/metainfo/zk/config.xml [17]
+22:47:30.439-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1319287199:28/metainfo/zk/config.xml [17]
+22:47:30.445-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1319287199:29/metainfo/zk/config.xml [17]
+22:47:30.467-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1319287199:31/metainfo/zk/zk.xml [17]
+22:47:30.773-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+22:47:30.797-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+22:47:30.850-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+22:47:30.853-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+22:47:30.858-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+22:47:30.861-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+22:47:30.866-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+22:47:30.880-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+22:47:30.887-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+22:47:31.181           WebUIServlet.init: iDempiere Web Client started successfully [17]
+22:47:32.116-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-09-01 22:47:32.355 idempiere Log (CLogFile) ***
+22:47:34.437-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+22:53:29.912-----------> Doc_InOut.createFacts: No Costs for Cuentosde Oro Coquito: Ali Baba y los Cuarenta Ladrones [155]
+22:53:31.281===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [155]
+22:53:31.555-----------> MWFActivity.run: MWFNode[186-(DocComplete),Action=DocumentAction=CO] [155]
+org.adempiere.exceptions.AdempiereException: Failed when processing document - Cannot Complete the Payment : [Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura] MPayment[1003487-1000021,Receipt=true,PayAmt=25.0,Discount=0.0,WriteOff=0.0,OverUnder=0.0
+	at org.compiere.model.MOrder.createInvoice(MOrder.java:2281)
+	at org.compiere.model.MOrder.completeIt(MOrder.java:1934)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MOrder.processIt(MOrder.java:1203)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+
+*** 2017-09-02 11:06:44.512 idempiere Log (CLogFile) ***

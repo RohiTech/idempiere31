@@ -1,0 +1,198 @@
+*** 2016-09-08 14:26:31.155 idempiere Log (CLogFile) ***
+14:26:31.155 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:26:31.159 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+14:26:32.311 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+14:26:32.367 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:26:32.367 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:26:32.387-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:26:32.564 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:26:32.659-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:26:32.659-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:26:32.663-----------> EMail.isValid: From is invalid=null [17]
+14:26:32.663-----------> EMail.isValid: From is invalid=null [17]
+14:26:32.663-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+14:26:32.663 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:26:32.663 AdempiereMonitor.init:  [17]
+14:26:42.346-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:26:42.691-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://185.fwk1480207683:19/metainfo/zk/config.xml [17]
+14:26:42.697-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://185.fwk1480207683:28/metainfo/zk/config.xml [17]
+14:26:42.703-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://185.fwk1480207683:29/metainfo/zk/config.xml [17]
+14:26:42.729-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk1480207683:31/metainfo/zk/zk.xml [17]
+14:26:43.235-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:26:43.267-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:26:43.354-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+14:26:43.362-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+14:26:43.374-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+14:26:43.382-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+14:26:43.390-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+14:26:43.404-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+14:26:43.418-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+14:26:43.679           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:26:45.190-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:26:45.827 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [33]
+14:26:45.830 Language.getLanguage: Adding Language=es, Country=ES, Locale=es_ES [33]
+14:26:45.912 Language.getLanguage: Adding Language=es, Country=NI, Locale=es_NI [33]
+
+*** 2016-09-08 14:26:46.31 idempiere Log (CLogFile) ***
+14:26:49.295-----------> Node: [172.16.45.186]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+14:29:37.331-----------> ServletHandler.doHandle: /webui/zkau [28]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+14:29:37.340-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@8cd9095{r=1225,c=false,a=IDLE,uri=-} [28]
+14:30:21.177===========> SimplifiedSales.setPartner: com.smj.webui.apps.form.WSimplifiedSales.setPartner ERROR:  [32]
+java.lang.NullPointerException
+	at com.smj.webui.apps.form.WSimplifiedSales.generateOrder(WSimplifiedSales.java:728)
+	at com.smj.webui.apps.form.WSimplifiedSales.setPartner(WSimplifiedSales.java:1908)
+	at com.smj.webui.apps.form.WSimplifiedSales.valueChange(WSimplifiedSales.java:2036)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.access$4(WSearchEditor.java:409)
+	at org.adempiere.webui.editor.WSearchEditor$2.onEvent(WSearchEditor.java:573)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.adempiere.webui.component.Window.onPageDetached(Window.java:84)
+	at org.adempiere.webui.panel.InfoPanel.onPageDetached(InfoPanel.java:2249)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.panel.InfoPanel.dispose(InfoPanel.java:2116)
+	at org.adempiere.webui.panel.InfoPanel.onOk(InfoPanel.java:2027)
+	at org.adempiere.webui.panel.InfoPanel.onEvent(InfoPanel.java:1668)
+
+14:46:32.201===========> Trx.commit: POdel_a970c2cc-ed84-413c-8714-a490ce7fe916 [31]
+org.postgresql.util.PSQLException: ERROR: update o delete en «ad_package_imp_proc» viola la llave foránea «adpackageimpproc_adpackageimp» en la tabla «ad_package_imp»
+  Detail: La llave (ad_package_imp_proc_id)=(1000006) todavía es referida desde la tabla «ad_package_imp».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+14:46:32.219===========> X_AD_Package_Imp_Proc.saveError: DeleteErrorDependent - ERROR: update o delete en «ad_package_imp_proc» viola la llave foránea «adpackageimpproc_adpackageimp» en la tabla «ad_package_imp»
+  Detail: La llave (ad_package_imp_proc_id)=(1000006) todavía es referida desde la tabla «ad_package_imp». [31]
+14:46:32.220-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update o delete en «ad_package_imp_proc» viola la llave foránea «adpackageimpproc_adpackageimp» en la tabla «ad_package_imp»
+  Detail: La llave (ad_package_imp_proc_id)=(1000006) todavía es referida desde la tabla «ad_package_imp». [31]
+14:46:37.544-----------> GridTable.saveWarning: AccessNotDeleteable -  [32]
+14:47:04.805===========> Trx.commit: POdel_356d594a-4917-4ad7-bfc6-51979d56fc79 [31]
+org.postgresql.util.PSQLException: ERROR: update o delete en «ad_package_imp_proc» viola la llave foránea «adpackageimpproc_adpackageimp» en la tabla «ad_package_imp»
+  Detail: La llave (ad_package_imp_proc_id)=(1000006) todavía es referida desde la tabla «ad_package_imp».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+14:47:04.820===========> X_AD_Package_Imp_Proc.saveError: DeleteErrorDependent - ERROR: update o delete en «ad_package_imp_proc» viola la llave foránea «adpackageimpproc_adpackageimp» en la tabla «ad_package_imp»
+  Detail: La llave (ad_package_imp_proc_id)=(1000006) todavía es referida desde la tabla «ad_package_imp». [31]
+14:47:04.827-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update o delete en «ad_package_imp_proc» viola la llave foránea «adpackageimpproc_adpackageimp» en la tabla «ad_package_imp»
+  Detail: La llave (ad_package_imp_proc_id)=(1000006) todavía es referida desde la tabla «ad_package_imp». [31]
+14:47:08.960-----------> GridTable.saveWarning: AccessNotDeleteable -  [33]
+14:48:19.465===========> PackInProcess.process: Error while expanding C:\Users\OBENAV~1\AppData\Local\Temp\2Pack_smartpos3-1_1.0.0.zip
+java.util.zip.ZipException: archive is not a ZIP archive [165]
+java.util.zip.ZipException: archive is not a ZIP archive
+	at org.apache.tools.zip.ZipFile.positionAtEndOfCentralDirectoryRecord(ZipFile.java:771)
+	at org.apache.tools.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:707)
+	at org.apache.tools.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:452)
+	at org.apache.tools.zip.ZipFile.<init>(ZipFile.java:214)
+	at org.apache.tools.ant.taskdefs.Expand.expandFile(Expand.java:168)
+	at org.apache.tools.ant.taskdefs.Expand.execute(Expand.java:132)
+	at org.adempiere.pipo2.Zipper.unpackFile(Zipper.java:100)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:115)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+

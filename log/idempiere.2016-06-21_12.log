@@ -1,0 +1,19 @@
+*** 2016-06-21 13:42:02.055 idempiere Log (CLogFile) ***
+13:42:02.054 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+13:42:02.058 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+13:42:07.920 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+13:42:07.920 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+13:42:19.170-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+13:42:27.493 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+13:42:29.299 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+13:42:35.503 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+13:42:35.516-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:42:35.750-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:42:35.750-----------> EMail.isValid: From is invalid=null [17]
+13:42:35.750-----------> EMail.isValid: From is invalid=null [17]
+13:42:35.751-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.41) to you @ company.org: Invalid Data (System) [17]

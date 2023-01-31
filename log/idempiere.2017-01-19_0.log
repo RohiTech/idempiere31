@@ -1,0 +1,419 @@
+*** 2017-01-19 18:54:59.318 idempiere Log (CLogFile) ***
+18:54:59.318 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+18:54:59.318 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+18:55:03.246 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+18:55:03.636 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+18:55:03.636 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+18:55:04.026-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+18:55:08.417 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+18:55:08.699-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:55:08.714-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:55:08.714-----------> EMail.isValid: From is invalid=null [17]
+18:55:08.714-----------> EMail.isValid: From is invalid=null [17]
+18:55:08.714-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+18:55:08.714 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+18:55:08.714 AdempiereMonitor.init:  [17]
+18:55:14.542-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+18:55:15.038-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/config.xml [17]
+18:55:15.054-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:28/metainfo/zk/config.xml [17]
+18:55:15.054-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/config.xml [17]
+18:55:15.085-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1480207683:31/metainfo/zk/zk.xml [17]
+18:55:15.585-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+18:55:15.604-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+18:55:15.682-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+18:55:15.698-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+18:55:15.698-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+18:55:15.713-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+18:55:15.713-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+18:55:15.713-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+18:55:15.729-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+18:55:16.120           WebUIServlet.init: iDempiere Web Client started successfully [17]
+18:55:17.338-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-01-19 18:55:17.729 idempiere Log (CLogFile) ***
+18:55:20.828-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+18:55:18.229===========> NotificationValidator.initialize: NotificationValidator.initialize() [71]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+18:55:55.612-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+18:55:55.616-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+19:09:09.467-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [29]
+19:09:09.467-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [29]
+19:09:16.288-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+19:09:16.288-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+19:09:17.039-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+19:09:17.055-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+19:11:30.049-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [41]
+19:11:30.049-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [41]
+19:12:12.698-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [41]
+19:12:12.698-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [41]
+19:12:14.567-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (POR) [41]
+19:12:14.577===========> CalloutEngine.start: start: checkPeriodOpen [41]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-01-19 00:00:00.0, Tipo de Documento Base=Requisición de Compra
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$1.onEvent(AbstractADWindowContent.java:555)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleInfo.invoke(DesktopImpl.java:1625)
+
+19:12:57.864===========> MRequisition.saveError: FillMandatory - Organización [211]
+19:12:57.868-----------> GridTable.saveWarning: FillMandatory - Organización [211]
+19:15:22.900-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+19:15:22.900-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+19:15:34.460-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [211]
+19:15:34.460-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [211]
+19:15:38.269-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (POR) [37]
+19:15:38.269===========> CalloutEngine.start: start: checkPeriodOpen [37]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-01-19 00:00:00.0, Tipo de Documento Base=Requisición de Compra
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+19:16:29.939===========> MProductPricing.calculatePL: No PriceList [211]
+19:16:30.131===========> MProductPricing.calculatePL: No PriceList [211]
+19:17:09.744-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (POR) [209]
+19:17:12.741-----------> MWFActivity.run: MWFNode[176-(DocPrepare),Action=DocumentAction=PR] [191]
+java.lang.Exception: PerformWork Error - MWFNode[(DocPrepare)-DocumentAction=PR] - DocStatus=IN
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+19:18:56.312-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (POR) [209]
+19:18:57.797-----------> MWFActivity.run: MWFNode[176-(DocPrepare),Action=DocumentAction=PR] [183]
+java.lang.Exception: PerformWork Error - MWFNode[(DocPrepare)-DocumentAction=PR] - DocStatus=IN
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+19:19:50.580-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (POR) [37]
+19:19:51.905-----------> MWFActivity.run: MWFNode[176-(DocPrepare),Action=DocumentAction=PR] [178]
+java.lang.Exception: PerformWork Error - MWFNode[(DocPrepare)-DocumentAction=PR] - DocStatus=IN
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+19:20:42.767-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:20:42.767-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:22:16.482-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:22:16.482-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:22:17.628-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (SOO) [209]
+19:22:17.633===========> CalloutEngine.start: start: dateAcct [209]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-01-19 00:00:00.0, Tipo de Documento Base=Orden de Ventas
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+
+19:22:22.310-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (SOO) [37]
+19:22:22.310===========> CalloutEngine.start: start: dateAcct [37]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-01-19 00:00:00.0, Tipo de Documento Base=Orden de Ventas
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+
+19:24:06.746-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:24:06.746-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:24:56.071-----------> HRZKFormFactory.newFormInstance: Class not found for Form: org.compiere.apps.form.VMatch [39]
+19:25:09.853-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:25:09.853-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:25:44.209-----------> MMatchInv.saveFinish: afterSave [147]
+java.lang.IllegalStateException: Total matched qty > movement qty. MatchedQty=1700, MovementQty=850, Line=MInOutLine[1000254,M_Product_ID=1000198,QtyEntered=850,MovementQty=850,M_AttributeSetInstance_ID=0]
+	at org.compiere.model.MMatchInv.afterSave(MMatchInv.java:235)
+	at org.compiere.model.PO.saveFinish(PO.java:2256)
+	at org.compiere.model.PO.saveNew(PO.java:2779)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.PO.save(PO.java:2332)
+	at org.compiere.model.MInvoice.completeIt(MInvoice.java:1809)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MInvoice.processIt(MInvoice.java:1391)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+19:25:44.213===========> MMatchInv.saveError: Error - Total matched qty > movement qty. MatchedQty=1700, MovementQty=850, Line=MInOutLine[1000254,M_Product_ID=1000198,QtyEntered=850,MovementQty=850,M_AttributeSetInstance_ID=0] [147]
+19:25:44.295-----------> MWFActivity.run: MWFNode[194-(DocComplete),Action=DocumentAction=CO] [147]
+java.lang.Exception: Total matched qty > movement qty. MatchedQty=1700, MovementQty=850, Line=MInOutLine[1000254,M_Product_ID=1000198,QtyEntered=850,MovementQty=850,M_AttributeSetInstance_ID=0]
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+19:26:07.084-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:26:07.084-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:28:23.758-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+19:28:23.758-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+19:30:25.770-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (API) [39]
+19:30:25.780===========> CalloutEngine.start: start: dateAcct [39]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-01-19 00:00:00.0, Tipo de Documento Base=Factura de CxP
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+
+19:31:06.272-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+19:31:06.272-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+19:31:06.527-----------> MPeriod.isOpen: No Period for 2017-01-19 00:00:00.0 (SOO) [39]
+19:31:06.527===========> CalloutEngine.start: start: dateAcct [39]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-01-19 00:00:00.0, Tipo de Documento Base=Orden de Ventas
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+
+19:31:39.559-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [211]
+19:31:39.559-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [211]
+19:31:53.119-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:31:53.119-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:32:10.224-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+19:32:10.224-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+19:33:22.518-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [211]
+19:33:22.518-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [211]
+19:33:57.334-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+19:33:57.334-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+19:35:38.364-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:35:38.364-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:36:50.261-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+19:36:50.262-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+19:39:57.004-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+19:39:57.004-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+19:41:07.907-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+19:41:07.907-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+19:41:20.372-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:41:20.373-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:42:16.423-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:42:16.423-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:49:47.520-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000004-Export Data to Queue,Action=Process:AD_Process_ID=1000027] [39]
+19:49:47.520-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000003-Turn ActiveMQ OFF,Action=Task:AD_Task_ID=50001] [39]
+19:49:47.531-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000002-Turn ActiveMQ ON,Action=Task:AD_Task_ID=50000] [39]
+19:49:47.531-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000001-Process Imported Orders,Action=Window:AD_Window_ID=281] [39]
+19:49:47.531-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000000-Import Orders from Wanda POS,Action=Process:AD_Process_ID=1000026] [39]
+19:49:51.222-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000004-Export Data to Queue,Action=Process:AD_Process_ID=1000027] [209]
+19:49:51.222-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000003-Turn ActiveMQ OFF,Action=Task:AD_Task_ID=50001] [209]
+19:49:51.224-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000002-Turn ActiveMQ ON,Action=Task:AD_Task_ID=50000] [209]
+19:49:51.224-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000001-Process Imported Orders,Action=Window:AD_Window_ID=281] [209]
+19:49:51.224-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000000-Import Orders from Wanda POS,Action=Process:AD_Process_ID=1000026] [209]
+19:49:51.319-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+19:49:51.319-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+19:50:05.588-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+19:50:05.588-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+19:50:11.180-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000004-Export Data to Queue,Action=Process:AD_Process_ID=1000027] [39]
+19:50:11.181-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000003-Turn ActiveMQ OFF,Action=Task:AD_Task_ID=50001] [39]
+19:50:11.181-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000002-Turn ActiveMQ ON,Action=Task:AD_Task_ID=50000] [39]
+19:50:11.181-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000001-Process Imported Orders,Action=Window:AD_Window_ID=281] [39]
+19:50:11.181-----------> MWorkflow.getNodesInOrder: Added Node w/o transition: MWFNode[1000000-Import Orders from Wanda POS,Action=Process:AD_Process_ID=1000026] [39]
+19:59:13.475-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [211]
+19:59:13.475-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [211]
+20:00:10.218-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+20:00:10.233-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+20:00:23.903-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+20:00:23.903-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+20:01:11.420-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+20:01:11.420-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+20:01:40.322-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+20:01:40.322-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+20:03:49.807-----------> GridTable.dataSave: Error - Open=false [209]
+20:04:30.708-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+20:04:30.708-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+20:06:25.160-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+20:06:25.160-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+20:07:12.080-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+20:07:12.080-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+20:08:46.768-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+20:08:46.768-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]
+20:09:04.343-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+20:09:04.343-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]

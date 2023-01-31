@@ -1,0 +1,429 @@
+*** 2017-04-24 23:40:33.313 idempiere Log (CLogFile) ***
+23:40:33.313 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+23:40:33.328 Ini.loadProperties: E:\mercurialidempiere/idempiereDEMOGuadalupana.properties #34 [17]
+23:40:39.087 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+23:40:39.087 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+23:40:40.467-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+23:40:45.388 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+23:40:45.642-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+23:40:46.088-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+23:40:46.092-----------> EMail.isValid: From is invalid=null [17]
+23:40:46.092-----------> EMail.isValid: From is invalid=null [17]
+23:40:46.093-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+23:40:46.093 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+23:40:46.093 AdempiereMonitor.init:  [17]
+23:41:30.407-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+23:41:30.779-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1217681101:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1217681101:19/metainfo/zk/config.xml [17]
+23:41:30.779-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1217681101:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1217681101:28/metainfo/zk/config.xml [17]
+23:41:30.779-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1217681101:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1217681101:29/metainfo/zk/config.xml [17]
+23:41:30.811-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1217681101:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1217681101:31/metainfo/zk/zk.xml [17]
+23:41:31.715-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+23:41:31.737-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+23:41:31.809-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1217681101:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:18/metainfo/zk/lang-addon.xml [17]
+23:41:31.809-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1217681101:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:19/metainfo/zk/lang-addon.xml [17]
+23:41:31.809-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1217681101:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:22/metainfo/zk/lang-addon.xml [17]
+23:41:31.825-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1217681101:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:23/metainfo/zk/lang-addon.xml [17]
+23:41:31.825-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1217681101:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:24/metainfo/zk/lang-addon.xml [17]
+23:41:31.840-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1217681101:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:29/metainfo/zk/lang-addon.xml [17]
+23:41:31.856-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1217681101:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1217681101:30/metainfo/zk/lang-addon.xml [17]
+23:41:32.673           WebUIServlet.init: iDempiere Web Client started successfully [17]
+23:41:34.021-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+23:41:34.907-----------> LCO_ValidatorWH.initialize:  [48]
+23:41:35.383 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\org.globalqss.idempiere.LCO.withholdings7324185527794443337_2.1.1.zip [42]
+
+*** 2017-04-24 23:41:35.587 idempiere Log (CLogFile) ***
+23:41:38.231-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [51]
+23:45:42.414===========> TableIndexElementHandler.validateTableIndex: ERROR: column am.amcanorder does not exist
+  Position: 427 [42]
+org.postgresql.util.PSQLException: ERROR: column am.amcanorder does not exist
+  Position: 427; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+	at org.postgresql.jdbc2.AbstractJdbc2DatabaseMetaData.getIndexInfo(AbstractJdbc2DatabaseMetaData.java:4230)
+	at com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData.getIndexInfo(NewProxyDatabaseMetaData.java:3328)
+	at org.compiere.process.TableIndexValidate.validateTableIndex(TableIndexValidate.java:69)
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.validateTableIndex(TableIndexElementHandler.java:112)
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:93)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:337)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+
+23:45:50.163===========> PackIn.importXML: importXML: [42]
+org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:337)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+23:45:53.177===========> PackIn.importXML: importXML: [42]
+java.lang.RuntimeException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:337)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+23:45:56.201===========> PipoDictionaryService.merge: importXML: [42]
+java.lang.RuntimeException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:337)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+23:46:09.442===========> Incremental2PackActivator.packIn: Pack in failed. [42]
+java.lang.RuntimeException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:337)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+23:49:37.796===========> PreparedStatementProxy.init: SELECT DISTINCT ProcessedOn FROM HR_Process WHERE AD_Client_ID=? AND ProcessedOn<? AND Processed='Y' AND Posted='N' AND IsActive='Y' [54]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:127)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+23:49:41.776===========> AcctProcessor.postSession: SELECT DISTINCT ProcessedOn FROM HR_Process WHERE AD_Client_ID=? AND ProcessedOn<? AND Processed='Y' AND Posted='N' AND IsActive='Y' [54]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No Database Connection
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:127)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:127)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+23:54:47.488===========> ActiveMQClient.init: null [61]
+javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:35)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:293)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.ImportQueue2AD.doIt(ImportQueue2AD.java:156)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:504)
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:467)
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:132)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:273)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.ImportQueue2AD.doIt(ImportQueue2AD.java:156)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+
+23:57:14.885===========> ActiveMQClient.init: null [72]
+javax.jms.JMSException: Could not connect to broker URL: tcp://172.110.29.53:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:35)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:293)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.ImportQueue2AD.doIt(ImportQueue2AD.java:156)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:504)
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:467)
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:132)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:273)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.ImportQueue2AD.doIt(ImportQueue2AD.java:156)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+
+23:58:31.679===========> PreparedStatementProxy.init: SELECT * FROM AD_Column WHERE AD_Table_ID=? AND IsActive='Y' ORDER BY ColumnName [60]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.MTable.getColumns(MTable.java:247)
+	at org.compiere.model.MTable.getColumn(MTable.java:281)
+	at org.compiere.model.MSequence.getNextID(MSequence.java:191)
+	at org.compiere.util.DB.getNextID(DB.java:1840)
+	at org.compiere.model.PO.saveNew(PO.java:2711)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at org.compiere.server.WorkflowProcessor.doWork(WorkflowProcessor.java:87)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+23:59:00.810===========> MTable.getColumns: SELECT * FROM AD_Column WHERE AD_Table_ID=? AND IsActive='Y' ORDER BY ColumnName [60]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No Database Connection
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.MTable.getColumns(MTable.java:247)
+	at org.compiere.model.MTable.getColumn(MTable.java:281)
+	at org.compiere.model.MSequence.getNextID(MSequence.java:191)
+	at org.compiere.util.DB.getNextID(DB.java:1840)
+	at org.compiere.model.PO.saveNew(PO.java:2711)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at org.compiere.server.WorkflowProcessor.doWork(WorkflowProcessor.java:87)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.MTable.getColumns(MTable.java:247)
+	at org.compiere.model.MTable.getColumn(MTable.java:281)
+	at org.compiere.model.MSequence.getNextID(MSequence.java:191)
+	at org.compiere.util.DB.getNextID(DB.java:1840)
+	at org.compiere.model.PO.saveNew(PO.java:2711)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at org.compiere.server.WorkflowProcessor.doWork(WorkflowProcessor.java:87)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+
+*** 2017-04-25 00:00:53.99 idempiere Log (CLogFile) ***

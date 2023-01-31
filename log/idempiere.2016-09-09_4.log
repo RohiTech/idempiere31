@@ -1,0 +1,141 @@
+*** 2016-09-09 10:24:25.381 idempiere Log (CLogFile) ***
+10:24:25.380 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:24:25.384 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+10:24:25.991 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+10:24:25.995 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:24:25.995 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:24:26.027-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:24:26.111 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:24:26.204-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:24:26.207-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:24:26.207-----------> EMail.isValid: From is invalid=null [17]
+10:24:26.207-----------> EMail.isValid: From is invalid=null [17]
+10:24:26.207-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+10:24:26.207 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:24:26.208 AdempiereMonitor.init:  [17]
+10:24:27.992-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:24:28.230-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://185.fwk491298318:19/metainfo/zk/config.xml [17]
+10:24:28.235-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://185.fwk491298318:28/metainfo/zk/config.xml [17]
+10:24:28.240-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://185.fwk491298318:29/metainfo/zk/config.xml [17]
+10:24:28.265-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk491298318:31/metainfo/zk/zk.xml [17]
+10:24:28.661-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:24:28.686-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:24:28.762-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+10:24:28.770-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+10:24:28.776-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+10:24:28.780-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+10:24:28.784-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+10:24:28.798-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+10:24:28.807-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+10:24:29.008           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:24:30.135-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-09 10:24:30.355 idempiere Log (CLogFile) ***
+10:24:32.592-----------> Node: [172.16.45.186]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+10:28:40.246===========> DB.executeUpdate: INSERT INTO smj_tmpwebsalesline (smj_tmpwebsalesline_ID,smj_tmpwebsales_ID,M_Product_ID,ProductName,ProductValue,C_BPartner_ID,partnername,Price,Qty,M_Warehouse_ID,WarehouseName,QtyEntered,total,C_UOM_ID,UOMName,tax,M_AttributeSetInstance_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,purchaseprice,smj_isworkorder,Line,C_OrderLine_ID,smj_tmpwebsalesline_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [WSS1473438487165_84327cdf-44d8-4dcc-bab2-e24f3a6424ec] [41]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000022, 1000015, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-09 10:28:36.012, 1000000, 2016-09-09 10:28:36.012, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000013, fff408a0-94dd-4334-8639-28dd6b4d6380).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.showInfoProduct(WSimplifiedSales.java:1546)
+	at com.smj.webui.apps.form.WSimplifiedSales.valueChange(WSimplifiedSales.java:2053)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+
+10:28:40.311===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000022, 1000015, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-09 10:28:36.012, 1000000, 2016-09-09 10:28:36.012, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000013, fff408a0-94dd-4334-8639-28dd6b4d6380). [41]
+10:28:40.312-----------> MSMJTmpWebSalesLine.doInsert: [WSS1473438487165_84327cdf-44d8-4dcc-bab2-e24f3a6424ec]Not inserted - smj_tmpwebsalesline [41]
+10:28:40.313===========> MSMJTmpWebSalesLine.saveError: DBExecuteError - DBExecuteError:ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000022, 1000015, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-09 10:28:36.012, 1000000, 2016-09-09 10:28:36.012, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000013, fff408a0-94dd-4334-8639-28dd6b4d6380). [41]
+10:28:40.565-----------> ServletHandler.doHandle: /webui/zkau [40]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+10:28:40.571-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@2b126bf1{r=967,c=false,a=IDLE,uri=-} [40]
+10:35:02.134-----------> ServletHandler.doHandle: /webui/zkau [40]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+10:35:02.137-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@cf42370{r=12329,c=false,a=IDLE,uri=-} [40]

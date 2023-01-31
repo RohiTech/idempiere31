@@ -1,0 +1,337 @@
+*** 2017-02-18 13:19:58.911 idempiere Log (CLogFile) ***
+13:19:58.911 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+13:19:58.942 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+13:20:02.745 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+13:20:02.745 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+13:20:02.979-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+13:20:03.848 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+13:20:04.056-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+13:20:04.056-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+13:20:04.056-----------> EMail.isValid: From is invalid=null [14]
+13:20:04.056-----------> EMail.isValid: From is invalid=null [14]
+13:20:04.056-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+13:20:04.056 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+13:20:04.056 AdempiereMonitor.init:  [14]
+13:20:18.850-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+13:20:19.385-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk333967374:2/metainfo/zk/config.xml
+with bundleresource://179.fwk333967374:19/metainfo/zk/config.xml [14]
+13:20:19.385-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk333967374:11/metainfo/zk/config.xml
+with bundleresource://179.fwk333967374:28/metainfo/zk/config.xml [14]
+13:20:19.401-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk333967374:12/metainfo/zk/config.xml
+with bundleresource://179.fwk333967374:29/metainfo/zk/config.xml [14]
+13:20:19.468-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk333967374:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk333967374:31/metainfo/zk/zk.xml [14]
+13:20:20.191-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+13:20:20.215-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+13:20:20.294-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk333967374:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:18/metainfo/zk/lang-addon.xml [14]
+13:20:20.299-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk333967374:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:19/metainfo/zk/lang-addon.xml [14]
+13:20:20.299-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk333967374:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:22/metainfo/zk/lang-addon.xml [14]
+13:20:20.299-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk333967374:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:23/metainfo/zk/lang-addon.xml [14]
+13:20:20.299-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk333967374:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:24/metainfo/zk/lang-addon.xml [14]
+13:20:20.314-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk333967374:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:29/metainfo/zk/lang-addon.xml [14]
+13:20:20.314-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk333967374:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk333967374:30/metainfo/zk/lang-addon.xml [14]
+13:20:20.688           WebUIServlet.init: iDempiere Web Client started successfully [14]
+13:20:21.831-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+13:20:22.256-----------> LCO_ValidatorWH.initialize:  [37]
+
+*** 2017-02-18 13:20:22.808 idempiere Log (CLogFile) ***
+13:20:28.264-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [47]
+13:20:46.189-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [29]
+13:20:46.189-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [29]
+13:21:19.687===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window_vt w WHERE w.AD_Window_ID=? AND AD_Language='es_NI' [31]
+13:21:19.965===========> CLogger.saveError: AccessTableNoView - (Not found) [31]
+13:44:26.270===========> GridTab.processCallout:  [30]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Error in method invocation: Method getAD_Client_ID( org.adempiere.util.ServerContextPropertiesWrapper ) not found in class'org.adempiere.util.ServerContextPropertiesWrapper' : at Line: 15 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : A_Ctx .getAD_Client_ID ( A_Ctx ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 15
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+13:44:26.358-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Error in method invocation: Method getAD_Client_ID( org.adempiere.util.ServerContextPropertiesWrapper ) not found in class'org.adempiere.util.ServerContextPropertiesWrapper' : at Line: 15 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : A_Ctx .getAD_Client_ID ( A_Ctx ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 15 [30]
+13:46:52.802-----------> Msg.getMsg: NOT found: No se puede realizar compra de productos que aun tiene existecia(644.0) [34]
+14:46:48.431===========> GridTab.processCallout:  [35]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( A_Ctx , sql , "'0010102850034H'" ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.access$4(WSearchEditor.java:409)
+	at org.adempiere.webui.editor.WSearchEditor$2.onEvent(WSearchEditor.java:573)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+
+14:46:48.527-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( A_Ctx , sql , "'0010102850034H'" ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12 [35]
+14:48:05.303===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Error in method invocation: Static method getSQLValueBD( null, java.lang.String, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , "0010803730002K" ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+14:48:05.366-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Error in method invocation: Static method getSQLValueBD( null, java.lang.String, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , "0010803730002K" ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12 [195]
+14:50:50.322===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Method Invocation DB.getSQLValueBD : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , null ) 
+
+Target exception: java.lang.NullPointerException
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:86)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+caused by: java.lang.NullPointerException
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1503)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+	at bsh.Name.invokeMethod(Name.java:868)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:69)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:96)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:41)
+	at bsh.BSHAssignment.eval(BSHAssignment.java:71)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:125)
+	at bsh.BSHBlock.eval(BSHBlock.java:75)
+	at bsh.BSHBlock.eval(BSHBlock.java:41)
+	at bsh.BSHIfStatement.eval(BSHIfStatement.java:42)
+	at bsh.Interpreter.eval(Interpreter.java:659)
+	at bsh.Interpreter.eval(Interpreter.java:750)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:78)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+
+14:50:50.374-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Method Invocation DB.getSQLValueBD : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , null ) 
+
+Target exception: java.lang.NullPointerException
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12 [32]
+14:52:50.429-----------> Msg.getMsg: NOT found: SELECT 	C_BPartner_ID FROM 	C_BPartner  WHERE 	value='0010803730002K' [35]
+14:52:50.440===========> GridTab.processCallout:  [35]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Method Invocation DB.getSQLValueBD : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , null ) 
+
+Target exception: java.lang.NullPointerException
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:86)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+caused by: java.lang.NullPointerException
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1503)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+	at bsh.Name.invokeMethod(Name.java:868)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:69)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:96)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:41)
+	at bsh.BSHAssignment.eval(BSHAssignment.java:71)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:125)
+	at bsh.BSHBlock.eval(BSHBlock.java:75)
+	at bsh.BSHBlock.eval(BSHBlock.java:41)
+	at bsh.BSHIfStatement.eval(BSHIfStatement.java:42)
+	at bsh.Interpreter.eval(Interpreter.java:659)
+	at bsh.Interpreter.eval(Interpreter.java:750)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:78)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+
+14:52:50.483-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Method Invocation DB.getSQLValueBD : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , null ) 
+
+Target exception: java.lang.NullPointerException
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12 [35]
+14:56:30.862-----------> Msg.getMsg: NOT found: SELECT 	C_BPartner_ID FROM 	C_BPartner  WHERE 	value='0010803730002K' [32]
+14:56:30.871===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Method Invocation C_BPartner_ID.compareTo : at Line: 13 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : C_BPartner_ID .compareTo ( id ) 
+
+Target exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 13
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:86)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at java.lang.Integer.compareTo(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:77)
+	at bsh.Name.invokeMethod(Name.java:852)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:69)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:96)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:41)
+	at bsh.BSHBinaryExpression.eval(BSHBinaryExpression.java:46)
+	at bsh.BSHIfStatement.evaluateCondition(BSHIfStatement.java:57)
+	at bsh.BSHIfStatement.eval(BSHIfStatement.java:40)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:125)
+	at bsh.BSHBlock.eval(BSHBlock.java:75)
+	at bsh.BSHBlock.eval(BSHBlock.java:41)
+	at bsh.BSHIfStatement.eval(BSHIfStatement.java:42)
+	at bsh.Interpreter.eval(Interpreter.java:659)
+	at bsh.Interpreter.eval(Interpreter.java:750)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+
+14:56:30.930-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Method Invocation C_BPartner_ID.compareTo : at Line: 13 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : C_BPartner_ID .compareTo ( id ) 
+
+Target exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 13 [32]
+14:57:40.716-----------> Msg.getMsg: NOT found: SELECT 	C_BPartner_ID FROM 	C_BPartner  WHERE 	value='0010803730002K' [34]
+15:04:11.009-----------> Msg.getMsg: NOT found: SELECT 	C_BPartner_ID FROM 	C_BPartner  WHERE 	value='?' [195]
+15:04:11.014===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Error in method invocation: Static method getSQLValueBD( null, java.lang.String, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , new String ( "0010803730002K" ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+15:04:11.050-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : Error in method invocation: Static method getSQLValueBD( null, java.lang.String, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' : DB .getSQLValueBD ( null , sql , new String ( "0010803730002K" ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal;   C_BPartner_ID=A_Tab. . . . '' at line number 12 [195]

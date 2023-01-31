@@ -1,0 +1,158 @@
+*** 2016-07-13 09:32:29.725 idempiere Log (CLogFile) ***
+09:32:29.725 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:32:29.725 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+09:32:30.276 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:32:30.276 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:32:30.323-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:32:30.463 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:32:30.479-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:32:30.479-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:32:30.479-----------> EMail.isValid: From is invalid=null [17]
+09:32:30.479-----------> EMail.isValid: From is invalid=null [17]
+09:32:30.479-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.58) to you @ company.org: Invalid Data (System) [17]
+09:32:30.479 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:32:30.479 AdempiereMonitor.init:  [17]
+09:32:32.339-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:32:32.570-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1319287199:19/metainfo/zk/config.xml [17]
+09:32:32.586-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1319287199:28/metainfo/zk/config.xml [17]
+09:32:32.586-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1319287199:29/metainfo/zk/config.xml [17]
+09:32:32.617-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1319287199:31/metainfo/zk/zk.xml [17]
+09:32:32.933-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:32:32.953-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:32:33.016-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+09:32:33.016-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+09:32:33.031-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+09:32:33.031-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+09:32:33.031-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+09:32:33.047-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+09:32:33.047-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+09:32:33.172           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:32:34.047-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-13 09:32:34.266 idempiere Log (CLogFile) ***
+09:32:35.886-----------> Node: [10.0.5.58]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [47]
+09:41:21.169===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [129]
+09:42:39.305-----------> MBankAccountProcessor.find: find - not found - AD_Client_ID=1000000, C_Currency_ID=0, Amt=0.0 [127]
+09:42:39.310-----------> MBankAccountProcessor.find: find - not found - AD_Client_ID=1000000, C_Currency_ID=0, Amt=0.0 [127]
+09:42:39.310===========> UiEngineImpl.handleError:  [127]
+org.adempiere.exceptions.AdempiereException: java.lang.IllegalArgumentException: Can't find Bank Account
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice(NIAllocateInvoice.java:349)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:259)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+caused by: java.lang.IllegalArgumentException: Can't find Bank Account
+	at org.compiere.model.MPayment.setC_BankAccount_ID(MPayment.java:960)
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice(NIAllocateInvoice.java:248)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:259)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+
+09:46:36.856-----------> MBankAccountProcessor.find: find - not found - AD_Client_ID=1000000, C_Currency_ID=0, Amt=0.0 [35]
+09:46:36.862-----------> MBankAccountProcessor.find: find - not found - AD_Client_ID=1000000, C_Currency_ID=0, Amt=0.0 [35]
+09:46:36.862===========> UiEngineImpl.handleError:  [35]
+org.adempiere.exceptions.AdempiereException: java.lang.IllegalArgumentException: Can't find Bank Account
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice(NIAllocateInvoice.java:349)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:259)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+caused by: java.lang.IllegalArgumentException: Can't find Bank Account
+	at org.compiere.model.MPayment.setC_BankAccount_ID(MPayment.java:960)
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice(NIAllocateInvoice.java:248)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:259)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+

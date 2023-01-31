@@ -1,0 +1,76 @@
+*** 2017-07-13 00:02:48.331 idempiere Log (CLogFile) ***
+00:02:48.331 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+00:02:48.334 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+00:02:49.269 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [14]
+00:02:49.272 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [14]
+00:02:49.284 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+00:02:49.285 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+00:02:49.300-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [14]
+00:02:49.628 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+00:02:49.785-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+00:02:49.788-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+00:02:49.788-----------> EMail.isValid: From is invalid=null [14]
+00:02:49.788-----------> EMail.isValid: From is invalid=null [14]
+00:02:49.788-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+00:02:49.789 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+00:02:49.789 AdempiereMonitor.init:  [14]
+00:02:59.791-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+00:03:00.104-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk365962226:2/metainfo/zk/config.xml
+with bundleresource://181.fwk365962226:19/metainfo/zk/config.xml [14]
+00:03:00.110-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk365962226:11/metainfo/zk/config.xml
+with bundleresource://181.fwk365962226:28/metainfo/zk/config.xml [14]
+00:03:00.114-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk365962226:12/metainfo/zk/config.xml
+with bundleresource://181.fwk365962226:29/metainfo/zk/config.xml [14]
+00:03:00.141-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk365962226:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk365962226:31/metainfo/zk/zk.xml [14]
+00:03:00.489-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+00:03:00.515-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+00:03:00.571-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk365962226:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:18/metainfo/zk/lang-addon.xml [14]
+00:03:00.575-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk365962226:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:19/metainfo/zk/lang-addon.xml [14]
+00:03:00.580-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk365962226:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:22/metainfo/zk/lang-addon.xml [14]
+00:03:00.584-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk365962226:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:23/metainfo/zk/lang-addon.xml [14]
+00:03:00.588-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk365962226:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:24/metainfo/zk/lang-addon.xml [14]
+00:03:00.600-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk365962226:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:29/metainfo/zk/lang-addon.xml [14]
+00:03:00.604-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk365962226:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk365962226:30/metainfo/zk/lang-addon.xml [14]
+00:03:00.847           WebUIServlet.init: iDempiere Web Client started successfully [14]
+00:03:01.911-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2017-07-13 00:03:02.629 idempiere Log (CLogFile) ***
+00:03:04.250-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [40]
+00:16:21.803-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:21.839-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:21.975-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:22.689-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:22.690-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:22.704-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:22.708-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:23.313-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:23.316-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:25.129-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:16:25.135-----------> ComponentsEnvironment.findBundles: Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components [188]
+00:19:04.775-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Terminating forcefully... [69]
+
+*** 2017-07-13 00:19:04.775 idempiere Log (CLogFile) ***

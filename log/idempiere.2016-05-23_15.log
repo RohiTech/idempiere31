@@ -1,0 +1,7 @@
+*** 2016-05-23 13:48:31.796 idempiere Log (CLogFile) ***
+13:48:31.796 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+13:48:31.796 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #32 [1]
+13:48:34.073-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.instance.NodeExtension' It may be empty or does not exist. [47]
+13:48:34.102-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.PortableHook' It may be empty or does not exist. [47]
+13:48:34.102-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.DataSerializerHook' It may be empty or does not exist. [47]
+13:48:34.134-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.SerializerHook' It may be empty or does not exist. [47]

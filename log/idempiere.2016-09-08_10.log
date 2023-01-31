@@ -1,0 +1,61 @@
+*** 2016-09-08 10:18:00.06 idempiere Log (CLogFile) ***
+10:18:00.060 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:18:00.060 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+10:18:00.541 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+10:18:00.557 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:18:00.557 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:18:00.572-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:18:00.651 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:18:00.729-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:18:00.729-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:18:00.729-----------> EMail.isValid: From is invalid=null [17]
+10:18:00.729-----------> EMail.isValid: From is invalid=null [17]
+10:18:00.729-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+10:18:00.729 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:18:00.729 AdempiereMonitor.init:  [17]
+10:18:02.151-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:18:02.374-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://186.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://186.fwk1480207683:19/metainfo/zk/config.xml [17]
+10:18:02.390-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://186.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://186.fwk1480207683:28/metainfo/zk/config.xml [17]
+10:18:02.390-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://186.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://186.fwk1480207683:29/metainfo/zk/config.xml [17]
+10:18:02.405-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://186.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://186.fwk1480207683:31/metainfo/zk/zk.xml [17]
+10:18:02.722-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:18:02.753-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:18:02.815-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://186.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+10:18:02.815-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://186.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+10:18:02.815-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://186.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+10:18:02.815-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://186.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+10:18:02.831-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://186.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+10:18:02.831-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://186.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+10:18:02.847-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://186.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+10:18:03.003           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:18:03.878-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-08 10:18:04.071 idempiere Log (CLogFile) ***
+10:18:05.270-----------> Node: [172.16.45.186]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]

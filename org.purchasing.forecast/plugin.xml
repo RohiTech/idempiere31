@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.adempiere.base.IColumnCallout">
+      <callout
+            class="org.purchasing.component.PluginCallout"
+            columnName="DateOrdered"
+            tableName="C_Order">
+      </callout>
+   </extension>
+   <extension
+         id="org.purchasing.process.GeneratePOForecast2PO"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.purchasing.process.GeneratePOForecast2PO">
+      </process>
+   </extension>
+   <extension
+         id="org.purchasing.process.GenerateSOForecast2POForecast"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.purchasing.process.GenerateSOForecast2POForecast">
+      </process>
+   </extension>
+   <extension
+         id="org.purchasing.process.InfoForecastGeneratePO"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.purchasing.process.InfoForecastGeneratePO">
+      </process>
+   </extension>
+
+</plugin>

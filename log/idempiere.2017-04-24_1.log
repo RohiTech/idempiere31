@@ -1,0 +1,14 @@
+*** 2017-04-24 12:00:56.284 idempiere Log (CLogFile) ***
+12:00:56.284 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+12:00:56.285 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [1]
+12:00:58.529-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.instance.NodeExtension' It may be empty or does not exist. [38]
+12:00:58.542-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.PortableHook' It may be empty or does not exist. [38]
+12:00:58.544-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.DataSerializerHook' It may be empty or does not exist. [38]
+12:00:58.585-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.SerializerHook' It may be empty or does not exist. [38]
+12:00:59.033-----------> Node: [192.168.163.1]:5702 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [38]
+12:00:59.033-----------> Node: [192.168.163.1]:5702 [adempiere.idempiere/localhost] [3.5.3] Config seed port is 5701 and cluster size is 1. Some of the ports seem occupied! [38]
+12:00:59.184-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [1]

@@ -1,0 +1,89 @@
+*** 2016-07-25 15:40:40.467 idempiere Log (CLogFile) ***
+15:40:40.467 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:40:40.467 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+15:40:42.139 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-18 13:51:19.023 [17]
+15:40:43.378 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:40:43.378 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:40:44.064-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:40:45.507 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:40:45.518-----------> EMail.setFrom: osmar.benavidez @ gmail.com: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``osmar.benavidez @ gmail.com'' [17]
+15:40:45.550-----------> EMail.addTo: osmar.benavidez @ gmail.com: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``osmar.benavidez @ gmail.com'' [17]
+15:40:45.550-----------> EMail.isValid: From is invalid=null [17]
+15:40:45.550-----------> EMail.isValid: From is invalid=null [17]
+15:40:45.550-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.47) to osmar.benavidez @ gmail.com: Invalid Data (System) [17]
+15:40:45.550 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:40:45.550 AdempiereMonitor.init:  [17]
+15:40:47.871-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:40:48.120-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://183.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://183.fwk1480207683:19/metainfo/zk/config.xml [17]
+15:40:48.120-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://183.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://183.fwk1480207683:28/metainfo/zk/config.xml [17]
+15:40:48.120-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://183.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://183.fwk1480207683:29/metainfo/zk/config.xml [17]
+15:40:48.151-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://183.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://183.fwk1480207683:31/metainfo/zk/zk.xml [17]
+15:40:48.464-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:40:48.495-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:40:48.557-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://183.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+15:40:48.557-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://183.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+15:40:48.573-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://183.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+15:40:48.573-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://183.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+15:40:48.573-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://183.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+15:40:48.589-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://183.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+15:40:48.589-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://183.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://183.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+15:40:48.698           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:40:49.589-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-25 15:40:49.8 idempiere Log (CLogFile) ***
+15:40:51.861-----------> Node: [10.0.5.47]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+15:41:14.749-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [37]
+15:41:14.765-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [37]
+15:41:17.297-----------> DefaultProcessFactory.newProcessInstance: ni.hmil.process.conta.general.ComputeSaldosHistoricos [41]
+java.lang.ClassNotFoundException: ni.hmil.process.conta.general.ComputeSaldosHistoricos cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.process.ServerProcessCtl.startProcess(ServerProcessCtl.java:408)
+	at org.compiere.process.ServerProcessCtl.run(ServerProcessCtl.java:239)
+	at org.compiere.process.ServerProcessCtl.process(ServerProcessCtl.java:100)
+	at org.compiere.server.Scheduler.runProcess(Scheduler.java:172)
+	at org.compiere.server.Scheduler.doWork(Scheduler.java:118)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+
+15:41:37.455-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [37]
+15:41:37.456-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [37]

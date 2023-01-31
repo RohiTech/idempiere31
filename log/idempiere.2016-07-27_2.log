@@ -1,0 +1,33 @@
+*** 2016-07-27 15:07:26.069 idempiere Log (CLogFile) ***
+15:07:26.069 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:07:26.069 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+15:07:26.601 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 15:40:48.116 [17]
+15:07:26.619 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:07:26.619 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:07:26.635-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:07:26.713 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:07:26.713-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:07:26.713-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:07:26.713-----------> EMail.isValid: From is invalid=null [17]
+15:07:26.713-----------> EMail.isValid: From is invalid=null [17]
+15:07:26.713-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.1.128) to you @ company.org: Invalid Data (System) [17]
+15:07:26.713 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:07:26.713 AdempiereMonitor.init:  [17]
+15:07:28.297-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:07:28.542-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://184.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://184.fwk1319287199:19/metainfo/zk/config.xml [17]
+15:07:28.542-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://184.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://184.fwk1319287199:28/metainfo/zk/config.xml [17]
+15:07:28.557-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://184.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://184.fwk1319287199:29/metainfo/zk/config.xml [17]
+15:07:28.589-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://184.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://184.fwk1319287199:31/metainfo/zk/zk.xml [17]

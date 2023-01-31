@@ -1,0 +1,518 @@
+*** 2017-07-19 20:56:05.396 idempiere Log (CLogFile) ***
+20:56:05.396 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+20:56:05.399 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+20:56:06.119 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+20:56:06.122 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+20:56:06.140 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+20:56:06.140 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+20:56:06.160-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+20:56:06.254 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+20:56:06.455-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+20:56:06.458-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+20:56:06.458-----------> EMail.isValid: From is invalid=null [17]
+20:56:06.458-----------> EMail.isValid: From is invalid=null [17]
+20:56:06.458-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+20:56:06.459 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+20:56:06.459 AdempiereMonitor.init:  [17]
+20:56:08.257-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+20:56:08.532-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://186.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://186.fwk1319287199:19/metainfo/zk/config.xml [17]
+20:56:08.539-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://186.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://186.fwk1319287199:28/metainfo/zk/config.xml [17]
+20:56:08.544-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://186.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://186.fwk1319287199:29/metainfo/zk/config.xml [17]
+20:56:08.584-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://186.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://186.fwk1319287199:31/metainfo/zk/zk.xml [17]
+20:56:08.980-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+20:56:09.008-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+20:56:09.080-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://186.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+20:56:09.087-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://186.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+20:56:09.094-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://186.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+20:56:09.099-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://186.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+20:56:09.105-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://186.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+20:56:09.114-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://186.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+20:56:09.121-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://186.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+20:56:09.472           WebUIServlet.init: iDempiere Web Client started successfully [17]
+20:56:10.716-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-19 20:56:11.075 idempiere Log (CLogFile) ***
+20:56:13.852-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+20:56:52.534-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [40]
+20:56:52.535-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [40]
+20:57:00.042===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+20:57:00.133===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+20:57:00.781===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.842===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.857===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.870===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.881===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.892===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.903===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.914===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.925===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.937===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.952===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.963===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.974===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:00.987===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.000===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.012===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.024===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.035===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.048===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.064===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.077===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.090===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.103===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.116===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.130===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.141===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:57:01.153===========> DesktopImpl.service: [Desktop z_gn10:/index.zul] client error: Failed to mount: adempiere.set is not a function [32]
+20:59:00.424-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+20:59:00.424-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+20:59:02.262===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [33]
+20:59:02.278===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [33]
+20:59:02.750===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.766===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.780===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.792===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.804===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.818===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.832===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.847===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.861===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.875===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.885===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.896===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.907===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.916===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.927===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.943===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.954===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.964===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.979===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:02.990===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.001===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.011===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.021===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.030===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.039===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.047===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+20:59:03.432===========> DesktopImpl.service: [Desktop z_m390:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:06:30.562-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+21:06:30.563-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+21:06:34.150===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:34.172===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:35.466-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+21:06:35.466-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+21:06:35.952===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:06:35.970===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:06:35.982===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:06:35.994===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:06:36.125===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.747===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.788===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.799===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.810===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.821===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.830===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.839===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.848===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.857===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.865===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.874===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.882===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.892===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.902===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.912===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.922===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.931===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.940===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.950===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.961===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.971===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.980===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.990===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:44.999===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.009===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.018===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.028===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.038===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.048===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.059===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.070===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.079===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.089===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.099===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.109===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.118===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.129===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.139===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.148===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.159===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.168===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.177===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.186===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.195===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.204===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.214===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.224===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.232===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.241===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.250===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:45.261===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:06:46.305===========> DesktopImpl.service: [Desktop z_3n00:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:24.965-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+21:13:24.965-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+21:13:29.798===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:29.831===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:31.879-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+21:13:31.879-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+21:13:32.118===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:32.170===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:32.182===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:32.191===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:32.285===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.122===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.141===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.154===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.166===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.179===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.192===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.204===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.216===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.228===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.238===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.249===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.258===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.267===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.276===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.286===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.294===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.303===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.311===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.317===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.327===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.336===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.346===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.356===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.364===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.373===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.380===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.387===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.394===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.402===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.411===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.417===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.424===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.431===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.438===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.444===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.451===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.457===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.465===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.473===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:41.480===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:45.095-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+21:13:45.096-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+21:13:45.480===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:45.493===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:45.504===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:45.513===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:46.515===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.531===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.542===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.554===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.568===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.581===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.595===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.609===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.622===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.636===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.650===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.665===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.678===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.690===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.702===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.716===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.731===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.744===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.756===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.766===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.777===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.848===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.862===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.886===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.898===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.910===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.923===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.936===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.948===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.963===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.973===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.982===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:46.994===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:47.004===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:47.037===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:47.062===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:47.075===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:47.089===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:48.545-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+21:13:48.546-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+21:13:48.921===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:48.932===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:48.940===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:13:49.750===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.772===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.780===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.792===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.803===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.812===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.822===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.830===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.838===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.846===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.858===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.866===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.874===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.880===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.887===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.894===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.899===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.906===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.912===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.918===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.925===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.932===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.938===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.944===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.951===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.957===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:13:49.963===========> DesktopImpl.service: [Desktop z_q0s:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:15:05.194-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+21:15:05.195-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+21:15:05.324===========> GridTable.saveError: ERROR: column "docstatus" does not exist
+  Position: 567 - ERROR: column "docstatus" does not exist
+  Position: 567 [174]
+21:15:05.329===========> UiEngineImpl.handleError:  [37]
+java.lang.IllegalStateException: org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 567
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:942)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.dashboard.DPRecentItems.doOnClick(DPRecentItems.java:202)
+	at org.adempiere.webui.dashboard.DPRecentItems.onEvent(DPRecentItems.java:166)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+caused by: org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 567; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+21:15:15.475===========> DesktopImpl.service: [Desktop z_qiq:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:15:49.411-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+21:15:49.411-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+21:15:49.536===========> GridTable.saveError: ERROR: column "docstatus" does not exist
+  Position: 567 - ERROR: column "docstatus" does not exist
+  Position: 567 [180]
+21:15:49.538===========> UiEngineImpl.handleError:  [39]
+java.lang.IllegalStateException: org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 567
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:942)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.dashboard.DPRecentItems.doOnClick(DPRecentItems.java:202)
+	at org.adempiere.webui.dashboard.DPRecentItems.onEvent(DPRecentItems.java:166)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+caused by: org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 567; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+21:15:50.938===========> DesktopImpl.service: [Desktop z_qiq:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:15:50.996===========> DesktopImpl.service: [Desktop z_qiq:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:15:51.005===========> DesktopImpl.service: [Desktop z_qiq:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:11.573-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [36]
+21:16:11.574-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [36]
+21:16:13.369===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:13.389===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:16.294-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+21:16:16.295-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+21:16:16.639===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:16.654===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:16.667===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:16.677===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+21:16:17.568===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.588===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.596===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.607===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.619===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.630===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.640===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.648===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.658===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.667===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.674===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.680===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.686===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.694===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.702===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.708===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.714===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.722===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.728===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.734===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.740===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.749===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.758===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.764===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.772===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.778===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.785===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.791===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.798===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.805===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.812===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.818===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.825===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.832===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.839===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.846===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.852===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.858===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.866===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.874===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.881===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.887===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.893===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.901===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.910===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.918===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.925===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.932===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.940===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.947===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:17.954===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [36]
+21:16:19.384===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:16:19.471===========> DesktopImpl.service: [Desktop z_aaz:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:14.603-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+21:17:14.604-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+21:17:20.029===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:17:20.055===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:17:20.143===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [37]
+21:17:20.482===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.500===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.511===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.518===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.529===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.537===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.545===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.551===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.559===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.566===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.573===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.580===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.588===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.598===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.607===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.613===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.618===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.625===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.630===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.637===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.644===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.651===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.660===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.667===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.674===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+21:17:20.681===========> DesktopImpl.service: [Desktop z_12t:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]

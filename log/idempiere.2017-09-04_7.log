@@ -1,0 +1,102 @@
+*** 2017-09-04 18:13:50.739 idempiere Log (CLogFile) ***
+18:13:50.739 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+18:13:50.742 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+18:13:51.401 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+18:13:51.403 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+18:13:51.407 AdempiereActivator.installPackage: ni.idempiere.procesingdocuments 1.0.0 was installed: 2017-08-14 01:30:40.036 [17]
+18:13:51.409 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+18:13:51.422 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+18:13:51.422 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+18:13:51.442-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+18:13:51.520 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+18:13:51.740-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:13:51.743-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:13:51.743-----------> EMail.isValid: From is invalid=null [17]
+18:13:51.743-----------> EMail.isValid: From is invalid=null [17]
+18:13:51.743-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+18:13:51.743 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+18:13:51.743 AdempiereMonitor.init:  [17]
+18:13:53.918-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+18:13:54.218-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/config.xml [17]
+18:13:54.226-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:28/metainfo/zk/config.xml [17]
+18:13:54.232-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/config.xml [17]
+18:13:54.269-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1399961333:31/metainfo/zk/zk.xml [17]
+18:13:54.648-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+18:13:54.679-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+18:13:54.746-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+18:13:54.752-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+18:13:54.759-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+18:13:54.765-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+18:13:54.769-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+18:13:54.784-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+18:13:54.794-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+18:13:55.154           WebUIServlet.init: iDempiere Web Client started successfully [17]
+18:13:56.337-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-09-04 18:13:56.584 idempiere Log (CLogFile) ***
+18:13:58.909-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+18:15:27.800-----------> Doc_InOut.createFacts: No Costs for Cuaderno Espiral Cuadriculado 60H Tigu [122]
+18:15:29.812-----------> FactLine.setAmtSource: Source DR Precision 166.0219 -> 166.022 [122]
+18:15:29.820-----------> FactLine.setAmtSource: Source CR Precision 166.0219 -> 166.022 [122]
+18:15:31.840-----------> Doc_InOut.createFacts: No Costs for Tabla C/Clamp T/C Ampo [122]
+18:15:33.882-----------> FactLine.setAmtSource: Source DR Precision 166.0219 -> 166.022 [122]
+18:15:33.890-----------> FactLine.setAmtSource: Source CR Precision 166.0219 -> 166.022 [122]
+18:15:34.020-----------> FactLine.setAmtSource: Source DR Precision 215.5938 -> 215.594 [122]
+18:15:34.027-----------> FactLine.setAmtSource: Source CR Precision 215.5938 -> 215.594 [122]
+18:15:36.149-----------> FactLine.setAmtSource: Source DR Precision 29.3325 -> 29.333 [122]
+18:15:36.156-----------> FactLine.setAmtSource: Source CR Precision 29.3325 -> 29.333 [122]
+18:15:38.149-----------> FactLine.setAmtSource: Source DR Precision 357.2698 -> 357.270 [122]
+18:15:38.154-----------> FactLine.setAmtSource: Source CR Precision 357.2698 -> 357.270 [122]
+18:15:38.319-----------> FactLine.setAmtSource: Source DR Precision 223.5136 -> 223.514 [122]
+18:15:38.325-----------> FactLine.setAmtSource: Source CR Precision 223.5136 -> 223.514 [122]
+18:15:40.344-----------> FactLine.setAmtSource: Source DR Precision 223.5136 -> 223.514 [122]
+18:15:40.350-----------> FactLine.setAmtSource: Source CR Precision 223.5136 -> 223.514 [122]
+18:15:40.519-----------> FactLine.setAmtSource: Source DR Precision 357.2698 -> 357.270 [122]
+18:15:40.527-----------> FactLine.setAmtSource: Source CR Precision 357.2698 -> 357.270 [122]
+18:15:42.341-----------> FactLine.setAmtSource: Source DR Precision 166.0219 -> 166.022 [122]
+18:15:42.346-----------> FactLine.setAmtSource: Source CR Precision 166.0219 -> 166.022 [122]
+18:15:42.448-----------> FactLine.setAmtSource: Source DR Precision 215.5938 -> 215.594 [122]
+18:15:42.453-----------> FactLine.setAmtSource: Source CR Precision 215.5938 -> 215.594 [122]
+18:15:44.780-----------> Doc_InOut.createFacts: No Costs for MiniColor [122]
+18:24:14.155-----------> MWFActivity.run: MWFNode[185-(DocPrepare),Action=DocumentAction=PR] [135]
+org.adempiere.exceptions.DBException: Could not lock record for MOrder[1002443-5809,IsSOTrx=true,C_DocType_ID=1000041, GrandTotal=822.43] caused by ERROR: canceling statement due to user request
+  Where: while locking tuple (374,20) in relation "c_order"
+	at org.compiere.db.DB_PostgreSQL.forUpdate(DB_PostgreSQL.java:1117)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:238)
+	at org.compiere.model.MOrder.processIt(MOrder.java:1203)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+

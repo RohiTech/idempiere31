@@ -1,0 +1,105 @@
+*** 2017-06-16 10:52:15.04 idempiere Log (CLogFile) ***
+10:52:15.039 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:52:15.042 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+10:52:15.649 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:52:15.650 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:52:15.668-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:52:15.763 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:52:15.962-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:52:15.965-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:52:15.965-----------> EMail.isValid: From is invalid=null [17]
+10:52:15.965-----------> EMail.isValid: From is invalid=null [17]
+10:52:15.966-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+10:52:15.966 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:52:15.966 AdempiereMonitor.init:  [17]
+10:52:17.959-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:52:18.242-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+10:52:18.249-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+10:52:18.257-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+10:52:18.300-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+10:52:18.831-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:52:18.869-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:52:18.969-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+10:52:18.977-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+10:52:18.987-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+10:52:18.995-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+10:52:18.999-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+10:52:19.019-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+10:52:19.033-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+10:52:19.428           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:52:20.455-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:52:20.608-----------> LCO_ValidatorWH.initialize:  [71]
+
+*** 2017-06-16 10:52:20.755 idempiere Log (CLogFile) ***
+10:52:23.213-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+10:53:48.448-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [63]
+10:54:17.361-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [51]
+10:54:17.725===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [51]
+10:54:17.879-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [51]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+10:54:18.797===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [51]
+10:54:58.678-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-01 00:00:00.0) [31]
+10:54:58.681===========> CalloutEngine.start: start: dateAcct [31]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-06-01 00:00:00.0, Tipo de Documento Base=Pagos de CxP
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+
+10:54:58.775-----------> Msg.getMsg: NOT found: Periodo Cerrado Fecha=2017-06-01 00:00:00.0, Tipo de Documento Base=Pagos de CxP [31]
+10:55:14.517===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [34]
+10:55:37.237===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [56]
+10:55:45.757===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [56]
+10:55:46.275-----------> Doc_Payment.isConvertible: NOT from C_Currency_ID=100 to 209 - MPayment[1001033-700010,Receipt=false,PayAmt=0,Discount=0,WriteOff=0,OverUnder=0.0 [56]

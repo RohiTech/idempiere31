@@ -1,0 +1,162 @@
+*** 2017-06-25 15:34:08.616 idempiere Log (CLogFile) ***
+15:34:08.616 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:34:08.620 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+15:34:10.408 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\cm.itkamer.wandapos-integration25248253345010671468.zip [17]
+15:34:10.753 PipoDictionaryService.merge: dict file->C:\Users\OBENAV~1\AppData\Local\Temp\AD_Menu\dict\PackOut.xml [17]
+15:34:38.881-----------> WorkflowElementHandler.endElement: Failed to resolve start node reference for workflow element. Workflow=Wanda POS Synchronisation Workflow StartNode=a865816d-2d9c-40c5-8eff-fb096e64b273 [17]
+15:34:43.051 PipoDictionaryService.merge: commit PipoDS_bc331b32-2a4b-4aaf-98e6-a847d11e1ab0 [17]
+15:34:43.308 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+15:34:43.326 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:34:43.327 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:34:43.333-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+15:34:43.380 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:34:43.597-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:34:43.597-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:34:43.597-----------> EMail.isValid: From is invalid=null [17]
+15:34:43.597-----------> EMail.isValid: From is invalid=null [17]
+15:34:43.597-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+15:34:43.597 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:34:43.597 AdempiereMonitor.init:  [17]
+15:34:52.696-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:34:53.254-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://181.fwk1480207683:19/metainfo/zk/config.xml [17]
+15:34:53.254-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://181.fwk1480207683:28/metainfo/zk/config.xml [17]
+15:34:53.254-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://181.fwk1480207683:29/metainfo/zk/config.xml [17]
+15:34:53.346-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk1480207683:31/metainfo/zk/zk.xml [17]
+15:34:53.922-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:34:53.949-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:34:54.033-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+15:34:54.033-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+15:34:54.033-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+15:34:54.049-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+15:34:54.049-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+15:34:54.064-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+15:34:54.064-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+15:34:54.368           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:34:55.738-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-06-25 15:34:56.45 idempiere Log (CLogFile) ***
+15:34:59.833-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+16:24:34.955-----------> Msg.getMsg: NOT found: Do you realy want to erase queue ? [32]
+16:26:01.754-----------> Msg.getMsg: NOT found: Do you realy want to erase queue ? [68]
+16:51:22.944-----------> Msg.getMsg: NOT found: Do you realy want to erase queue ? [35]
+18:55:04.583===========> ActiveMQClient.init: null [143]
+javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:35)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:293)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.Export2Queue.doIt(Export2Queue.java:107)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:504)
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:467)
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:132)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:273)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.Export2Queue.doIt(Export2Queue.java:107)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+
+19:10:27.424===========> ActiveMQClient.init: null [60]
+javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:35)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:293)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.Export2Queue.doIt(Export2Queue.java:107)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:504)
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:467)
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:132)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:58)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:273)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:191)
+	at org.idempiere.process.ActiveMQClient.init(ActiveMQClient.java:46)
+	at org.idempiere.process.Export2Queue.doIt(Export2Queue.java:107)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+

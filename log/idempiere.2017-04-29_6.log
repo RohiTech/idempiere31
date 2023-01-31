@@ -1,0 +1,141 @@
+*** 2017-04-29 11:04:53.463 idempiere Log (CLogFile) ***
+11:04:53.463 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+11:04:53.466 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+11:04:55.222 AdempiereActivator.installPackage: ni.idempiere.wts 1.0.0 was installed: 2017-04-28 15:20:46.241 [17]
+11:04:55.383 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+11:04:55.383 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+11:04:55.481-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+11:04:55.872 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+11:04:56.178-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:04:56.182-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:04:56.182-----------> EMail.isValid: From is invalid=null [17]
+11:04:56.182-----------> EMail.isValid: From is invalid=null [17]
+11:04:56.182-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+11:04:56.182 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+11:04:56.183 AdempiereMonitor.init:  [17]
+11:05:07.638-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:05:08.031-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:19/metainfo/zk/config.xml [17]
+11:05:08.038-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:28/metainfo/zk/config.xml [17]
+11:05:08.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:29/metainfo/zk/config.xml [17]
+11:05:08.157-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk491298318:31/metainfo/zk/zk.xml [17]
+11:05:08.607-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+11:05:08.635-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+11:05:08.712-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+11:05:08.726-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+11:05:08.737-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+11:05:08.744-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+11:05:08.751-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+11:05:08.766-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+11:05:08.775-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+11:05:09.112           WebUIServlet.init: iDempiere Web Client started successfully [17]
+11:05:10.551-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:05:11.064-----------> LCO_ValidatorWH.initialize:  [64]
+
+*** 2017-04-29 11:05:11.639 idempiere Log (CLogFile) ***
+11:05:14.275-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [51]
+11:06:00.123===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [29]
+11:06:32.460===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [31]
+11:08:59.234===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [37]
+11:09:14.246===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [37]
+11:48:02.391===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [195]
+11:48:08.956===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window_vt w WHERE w.AD_Window_ID=? AND AD_Language='es_NI' [198]
+11:48:08.974===========> CLogger.saveError: AccessTableNoView - (Not found) [198]
+11:48:45.375===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [195]
+12:10:36.625===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [195]
+12:15:07.615-----------> MCampaign.delete_Tree: #0 - TreeType=MC [195]
+12:15:07.834===========> Trx.commit: POdel_5f156155-6f31-45e1-b39d-5ce1d1cea7b9 [195]
+org.postgresql.util.PSQLException: ERROR: update or delete on table "c_campaign" violates foreign key constraint "ccampaign_cinvoice" on table "c_invoice"
+  Detail: Key (c_campaign_id)=(1000000) is still referenced from table "c_invoice".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+12:15:07.887===========> MCampaign.saveError: DeleteErrorDependent - ERROR: update or delete on table "c_campaign" violates foreign key constraint "ccampaign_cinvoice" on table "c_invoice"
+  Detail: Key (c_campaign_id)=(1000000) is still referenced from table "c_invoice". [195]
+12:15:07.888-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update or delete on table "c_campaign" violates foreign key constraint "ccampaign_cinvoice" on table "c_invoice"
+  Detail: Key (c_campaign_id)=(1000000) is still referenced from table "c_invoice". [195]
+12:16:26.231-----------> MCampaign.delete_Tree: #0 - TreeType=MC [29]
+12:16:26.235===========> Trx.commit: POdel_9a8bf0ba-35bb-4207-bdc2-c2979f690ac9 [29]
+org.postgresql.util.PSQLException: ERROR: update or delete on table "c_campaign" violates foreign key constraint "ccampaign_cinvoice" on table "c_invoice"
+  Detail: Key (c_campaign_id)=(1000000) is still referenced from table "c_invoice".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+12:16:26.262===========> MCampaign.saveError: DeleteErrorDependent - ERROR: update or delete on table "c_campaign" violates foreign key constraint "ccampaign_cinvoice" on table "c_invoice"
+  Detail: Key (c_campaign_id)=(1000000) is still referenced from table "c_invoice". [29]
+12:16:26.263-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update or delete on table "c_campaign" violates foreign key constraint "ccampaign_cinvoice" on table "c_invoice"
+  Detail: Key (c_campaign_id)=(1000000) is still referenced from table "c_invoice". [29]
+12:17:01.177-----------> GridTable.saveWarning: FillMandatory - Name
+ [195]
+13:42:48.583-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 3387724ms, Master-Confirmation-Timeout: 500000ms. [204]

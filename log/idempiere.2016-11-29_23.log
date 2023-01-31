@@ -1,0 +1,86 @@
+*** 2016-11-29 14:17:00.311 idempiere Log (CLogFile) ***
+14:17:00.310 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:17:00.313 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+14:17:01.058 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-11-24 14:40:50.73 [17]
+14:17:01.093 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:17:01.093 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:17:01.135-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:17:01.454 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:17:01.655-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:17:01.829-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:17:01.829-----------> EMail.isValid: From is invalid=null [17]
+14:17:01.830-----------> EMail.isValid: From is invalid=null [17]
+14:17:01.830-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+14:17:01.830 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:17:01.830 AdempiereMonitor.init:  [17]
+14:17:04.259-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:17:04.586-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/config.xml [17]
+14:17:04.591-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:28/metainfo/zk/config.xml [17]
+14:17:04.595-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/config.xml [17]
+14:17:04.620-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1480207683:31/metainfo/zk/zk.xml [17]
+14:17:05.091-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:17:05.118-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:17:05.189-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+14:17:05.197-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+14:17:05.206-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+14:17:05.210-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+14:17:05.213-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+14:17:05.226-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+14:17:05.232-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+14:17:05.541           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:17:06.714-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-11-29 14:17:07.016 idempiere Log (CLogFile) ***
+14:17:08.452-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [40]
+14:17:07.255===========> NotificationValidator.initialize: NotificationValidator.initialize() [75]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+

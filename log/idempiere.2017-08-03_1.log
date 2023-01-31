@@ -1,0 +1,152 @@
+*** 2017-08-03 09:21:01.988 idempiere Log (CLogFile) ***
+09:21:01.987 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:21:01.991 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+09:21:02.650 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+09:21:02.654 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+09:21:02.657 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-01 23:36:25.849 [17]
+09:21:02.671 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:21:02.671 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:21:02.691-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+09:21:02.907 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:21:03.104-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:21:03.108-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:21:03.109-----------> EMail.isValid: From is invalid=null [17]
+09:21:03.109-----------> EMail.isValid: From is invalid=null [17]
+09:21:03.109-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+09:21:03.109 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:21:03.110 AdempiereMonitor.init:  [17]
+09:21:05.057-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:21:05.383-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:19/metainfo/zk/config.xml [17]
+09:21:05.391-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:28/metainfo/zk/config.xml [17]
+09:21:05.397-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:29/metainfo/zk/config.xml [17]
+09:21:05.432-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1319287199:31/metainfo/zk/zk.xml [17]
+09:21:05.842-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:21:05.876-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:21:05.936-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+09:21:05.941-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+09:21:05.949-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+09:21:05.955-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+09:21:05.960-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+09:21:05.976-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+09:21:05.984-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+09:21:06.291           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:21:07.558-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-03 09:21:07.828 idempiere Log (CLogFile) ***
+09:21:10.382-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [40]
+09:22:02.020-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+09:22:02.021-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+09:22:05.558===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.628===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.661===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.677===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.691===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.706===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.721===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.735===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.749===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.766===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.779===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.791===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.804===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.815===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.824===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.834===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.844===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.856===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.868===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.880===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.895===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.907===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.920===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.930===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.940===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.953===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.965===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.976===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:22:05.986===========> DesktopImpl.service: [Desktop z_bt9:/index.zul] client error: Failed to mount: adempiere.set is not a function [65]
+09:23:06.168===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [63]
+09:23:21.395-----------> MPeriod.isOpen: Aug-17: Not open for ARR (2017-08-03 00:00:00.0) [62]
+09:23:25.933-----------> MPeriod.isOpen: Aug-17: Not open for ARR (2017-08-03 00:00:00.0) [158]
+09:23:25.936===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [158]
+09:23:25.998-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [158]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+09:23:26.024===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [158]
+09:23:44.365===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [33]
+09:23:50.557-----------> MPeriod.isOpen: Aug-17: Not open for ARR (2017-08-03 00:00:00.0) [65]
+09:23:55.801-----------> MPeriod.isOpen: Aug-17: Not open for ARR (2017-08-03 00:00:00.0) [55]
+09:23:55.802-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [55]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+09:24:08.958===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [34]
+09:24:18.536===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [164]
+09:25:06.771===========> NIOverrideModelValidator.doHandleEvent: Payment must have at less one of these concepts: Charge / Prepayment / Invoice [164]
+09:25:23.625===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [164]
+09:25:23.678-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [164]
+java.lang.Exception: Payment must have at less one of these concepts: Charge / Prepayment / Invoice
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+09:25:23.695===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [164]
+09:25:37.661===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+09:25:52.410===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [168]

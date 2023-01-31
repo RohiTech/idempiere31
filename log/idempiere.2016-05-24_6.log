@@ -1,0 +1,88 @@
+*** 2016-05-24 09:53:43.302 idempiere Log (CLogFile) ***
+09:53:43.302 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:53:43.302 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+09:53:43.724 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:53:43.724 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:53:43.740-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:53:43.833 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+09:53:43.833 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+09:53:43.896 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:53:43.911-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:53:43.911-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:53:43.911-----------> EMail.isValid: From is invalid=null [17]
+09:53:43.911-----------> EMail.isValid: From is invalid=null [17]
+09:53:43.911-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+09:53:43.911 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:53:43.911 AdempiereMonitor.init:  [17]
+09:53:45.318-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:53:45.561-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://178.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://178.fwk1319287199:19/metainfo/zk/config.xml [17]
+09:53:45.576-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://178.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://178.fwk1319287199:28/metainfo/zk/config.xml [17]
+09:53:45.576-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://178.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://178.fwk1319287199:29/metainfo/zk/config.xml [17]
+09:53:45.592-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://178.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://178.fwk1319287199:31/metainfo/zk/zk.xml [17]
+09:53:45.951-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:53:45.994-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:53:46.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://178.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+09:53:46.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://178.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+09:53:46.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://178.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+09:53:46.060-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://178.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+09:53:46.060-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://178.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+09:53:46.060-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://178.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+09:53:46.075-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://178.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+09:53:46.169           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:53:47.122-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-05-24 09:53:47.346 idempiere Log (CLogFile) ***
+09:53:49.174-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+09:54:07.291===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, Balance FROM C_Invoice WHERE  [35]
+09:54:32.591===========> UiEngineImpl.handleError:  [39]
+java.lang.ClassCastException: org.compiere.minigrid.IDColumn cannot be cast to java.lang.Boolean
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.tableChanged(WNINSSAllocateInvoice.java:366)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.component.WListbox.setValueAt(WListbox.java:259)
+	at org.adempiere.webui.component.WListbox.tableValueChange(WListbox.java:1045)
+	at org.adempiere.webui.component.WListItemRenderer.fireTableValueChange(WListItemRenderer.java:799)
+	at org.adempiere.webui.component.WListItemRenderer.onEvent(WListItemRenderer.java:676)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+

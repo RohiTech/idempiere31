@@ -1,0 +1,22 @@
+*** 2017-02-04 16:30:45.582 idempiere Log (CLogFile) ***
+16:30:45.582 Setup.<init>: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+16:30:45.947 ConfigurationData.load: E:\mercurialidempiere\idempiereEnv.properties [1]
+16:32:37.662 Config.test: OK: JavaHome=C:\Program Files\Java\jre7 [31]
+16:32:37.662 Config.test: OK: Version=1.7.0_79 [31]
+16:32:37.663 ConfigurationData.testAdempiere: OK: AdempiereHome = E:\mercurialidempiere [31]
+16:32:37.664 KeyStoreMgt.<init>: E:\mercurialidempiere\jettyhome/etc\keystore [31]
+16:32:37.748 ConfigurationData.testAdempiere: OK: KeyStore = E:\mercurialidempiere\jettyhome/etc\keystore [31]
+16:32:37.748 Config.test: OK: AppsServer = localhost/127.0.0.1 [31]
+16:32:38.844 Config.test: OK: Web Port = 8888 [31]
+16:32:40.604 Config.test: OK: SSL Port = 8443 [31]
+16:32:40.605 ConfigPostgreSQL.test: OK: Database Server = localhost/127.0.0.1 [31]
+16:32:40.606 ConfigPostgreSQL.test: OK: Database Port = 5432 [31]
+16:32:40.851===========> ConfigPostgreSQL.testJDBC: org.postgresql.util.PSQLException: El intento de conexión falló. [31]
+16:32:40.858-----------> ConfigPostgreSQL.test: Error connecting: jdbc:postgresql://localhost:5432/template1 - postgres/idempiere$ [31]
+16:32:40.858 ConfigPostgreSQL.test: OK: System Connection = jdbc:postgresql://localhost:5432/template1 [31]
+16:32:40.879===========> ConfigPostgreSQL.testJDBC: org.postgresql.util.PSQLException: El intento de conexión falló. [31]
+16:32:40.879-----------> ConfigurationData.test: Database imported? Cannot connect to User: adempiere/adempiere [31]
+16:32:40.895===========> ConfigurationPanel$1.finished: Error Connexión JDBC 
+(Database imported? Cannot connect to User: adempiere/adempiere) [27]
+
+*** 2017-02-04 16:42:58.989 idempiere Log (CLogFile) ***

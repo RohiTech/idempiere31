@@ -1,0 +1,735 @@
+*** 2016-12-16 10:29:30.838 idempiere Log (CLogFile) ***
+10:29:30.838 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:29:30.841 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+10:29:31.502 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+10:29:31.520 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:29:31.520 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:29:31.544-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:29:31.630 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:29:31.764-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:29:31.766-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:29:31.766-----------> EMail.isValid: From is invalid=null [17]
+10:29:31.766-----------> EMail.isValid: From is invalid=null [17]
+10:29:31.766-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+10:29:31.766 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:29:31.766 AdempiereMonitor.init:  [17]
+10:29:33.673-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:29:33.963-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1319287199:19/metainfo/zk/config.xml [17]
+10:29:33.969-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1319287199:28/metainfo/zk/config.xml [17]
+10:29:33.973-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1319287199:29/metainfo/zk/config.xml [17]
+10:29:33.998-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1319287199:31/metainfo/zk/zk.xml [17]
+10:29:34.382-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:29:34.408-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:29:34.477-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+10:29:34.483-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+10:29:34.488-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+10:29:34.493-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+10:29:34.499-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+10:29:34.513-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+10:29:34.522-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+10:29:34.777           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:29:36.089-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-12-16 10:29:36.382 idempiere Log (CLogFile) ***
+10:29:37.689-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+10:29:36.527===========> NotificationValidator.initialize: NotificationValidator.initialize() [68]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+10:30:16.147-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+10:30:16.147-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+10:30:33.812-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [34]
+10:30:33.813-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [34]
+10:38:17.992-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+10:38:17.992-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+11:04:17.865-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+11:04:17.865-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+11:06:53.711-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+11:06:53.711-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+11:08:26.207-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [182]
+11:08:26.208-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [182]
+11:08:35.176-----------> Msg.getMsg: NOT found: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [182]
+11:08:58.340===========> NIMPayment.saveError: FillMandatory - Organización [197]
+11:08:58.342-----------> GridTable.saveWarning: FillMandatory - Organización [197]
+11:09:03.632===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [198]
+11:09:03.772-----------> NIMPayment.save: Validation failed - javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' : TargetError : at Line: 19 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' : throw new RuntimeException ( "Ya existe documento con #" + nocheque + " para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque." ) ; 
+
+Target exception: java.lang.RuntimeException: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' at line number 19 [198]
+11:09:03.773===========> NIMPayment.saveError: Error - javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' : TargetError : at Line: 19 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' : throw new RuntimeException ( "Ya existe documento con #" + nocheque + " para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque." ) ; 
+
+Target exception: java.lang.RuntimeException: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' at line number 19 [198]
+11:09:03.774-----------> GridTable.saveWarning: Error - javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' : TargetError : at Line: 19 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' : throw new RuntimeException ( "Ya existe documento con #" + nocheque + " para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque." ) ; 
+
+Target exception: java.lang.RuntimeException: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_PO. . . . '' at line number 19 [198]
+11:11:00.746-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [197]
+11:11:00.746-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [197]
+11:11:06.855-----------> Msg.getMsg: NOT found: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [200]
+11:11:20.153===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [37]
+11:11:20.245-----------> NIMPayment.save: Validation failed - Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [37]
+11:11:20.246===========> NIMPayment.saveError: Error - Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [37]
+11:11:20.246-----------> GridTable.saveWarning: Error - Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [37]
+11:12:05.758-----------> Msg.getMsg: NOT found: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [200]
+11:12:26.576===========> GridTab.processCallout:  [37]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 16
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+11:12:26.591-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 16 [37]
+11:12:32.730-----------> Msg.getMsg: NOT found: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [197]
+11:12:39.518===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [197]
+11:12:39.585-----------> NIMPayment.save: Validation failed - Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [197]
+11:12:39.586===========> NIMPayment.saveError: Error - Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [197]
+11:12:39.587-----------> GridTable.saveWarning: Error - Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [197]
+11:13:00.272-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+11:13:00.272-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+11:13:10.618===========> GridTab.processCallout:  [200]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 16
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+11:13:10.731-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 16 [200]
+11:19:13.237-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [197]
+11:19:13.237-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [197]
+11:19:23.230===========> GridTab.processCallout:  [197]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 16
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+11:19:23.251-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 16 [197]
+11:22:09.762-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [197]
+11:22:09.763-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [197]
+11:22:14.279===========> GridTab.processCallout:  [197]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' Encountered "if" at line 15, column 1.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 15
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+11:22:14.290-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' Encountered "if" at line 15, column 1.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 15 [197]
+11:23:02.265-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [202]
+11:23:02.265-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [202]
+11:23:06.936===========> GridTab.processCallout:  [197]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Error in method invocation: Static method info( int, java.lang.String ) not found in class'org.adempiere.webui.window.FDialog' : at Line: 14 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : org .adempiere .webui .window .FDialog .info ( 0 , "--" + nocheque ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 14
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+11:23:06.949-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Error in method invocation: Static method info( int, java.lang.String ) not found in class'org.adempiere.webui.window.FDialog' : at Line: 14 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : org .adempiere .webui .window .FDialog .info ( 0 , "--" + nocheque ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 14 [197]
+11:23:57.909-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+11:23:57.910-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+11:24:07.264-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+11:24:07.264-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+11:24:12.728-----------> Msg.getMsg: NOT found: --299612 [197]
+11:24:18.711-----------> Msg.getMsg: NOT found: --void [202]
+11:24:18.718===========> GridTab.processCallout:  [202]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 17 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 17
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+11:24:18.761-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 17 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : nocheque .compareTo ( new BigDecimal ( - 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 17 [202]
+11:25:47.093-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+11:25:47.093-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+11:25:53.142-----------> Msg.getMsg: NOT found: --299612 [197]
+11:25:58.555-----------> Msg.getMsg: NOT found: --void [197]
+11:29:22.698-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+11:29:22.698-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+11:35:37.894-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [198]
+11:35:37.895-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [198]
+11:36:00.847===========> NIMPayment.set_Value: DocumentNo - Class invalid: class java.math.BigDecimal, Should be class java.lang.String: 299612 [202]
+11:36:00.872===========> NIMPayment.saveError: WrongDataType - DocumentNo - Class invalid: class java.math.BigDecimal, Should be class java.lang.String: 299612 [202]
+11:36:00.873-----------> GridTable.saveWarning: WrongDataType - DocumentNo - Class invalid: class java.math.BigDecimal, Should be class java.lang.String: 299612;No. del Documento [202]
+11:36:00.879-----------> Msg.getMsg: NOT found: WrongDataType [202]
+11:37:29.204-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+11:37:29.204-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+11:37:35.292-----------> Msg.getMsg: NOT found: --299612 [202]
+11:37:46.451===========> NIMPayment.saveError: FillMandatory - Organización [197]
+11:37:46.452-----------> GridTable.saveWarning: FillMandatory - Organización [197]
+11:37:51.498===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [202]
+12:01:38.820-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [198]
+12:01:38.820-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [198]
+12:01:45.170-----------> MPeriod.isOpen: Dec-16: Not open for APP (2016-12-16 00:00:00.0) [200]
+12:01:47.700-----------> MPeriod.isOpen: Dec-16: Not open for APP (2016-12-16 00:00:00.0) [55]
+12:01:47.701===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [55]
+12:01:47.756-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [55]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+12:01:47.782===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [55]
+12:03:09.498-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+12:03:09.499-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+12:03:43.563===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [175]
+12:03:43.758===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [175]
+12:03:43.811===========> DB.executeUpdate: UPDATE C_Payment SET DocumentNo=?, DocStatus=?, IsReceipt=?, Description=?,Updated=?,UpdatedBy=? WHERE C_Payment_ID=1000867 [WFP_6de1bc7a-c930-4a2b-a742-ab9b4867b530] [175]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:03:43.807, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000508, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 0, 0, 0, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1033)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:03:43.880===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:03:43.807, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000508, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 0, 0, 0, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null). [175]
+12:03:43.881===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_6de1bc7a-c930-4a2b-a742-ab9b4867b530] - C_Payment.C_Payment_ID=1000867 [175]
+12:03:43.882===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_6de1bc7a-c930-4a2b-a742-ab9b4867b530] - C_Payment.C_Payment_ID=1000867 [175]
+12:03:43.883-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [175]
+java.lang.Exception: SaveError
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:05:55.772-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [202]
+12:05:55.772-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [202]
+12:06:15.719-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [198]
+12:06:15.719-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [198]
+12:07:38.235-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [202]
+12:07:38.235-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [202]
+12:07:48.310===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [148]
+12:07:48.346===========> DB.executeUpdate: UPDATE C_Payment SET DocumentNo=?, DocStatus=?, IsReceipt=?, Description=?,Updated=?,UpdatedBy=? WHERE C_Payment_ID=1000867 [WFP_96882f14-26e7-49c3-b346-cde4b4a56b06] [148]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:07:48.343, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000508, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 0, 0, 0, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1033)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:07:48.384===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:07:48.343, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000508, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 0, 0, 0, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null). [148]
+12:07:48.385===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_96882f14-26e7-49c3-b346-cde4b4a56b06] - C_Payment.C_Payment_ID=1000867 [148]
+12:07:48.386===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_96882f14-26e7-49c3-b346-cde4b4a56b06] - C_Payment.C_Payment_ID=1000867 [148]
+12:07:48.388-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [148]
+java.lang.Exception: SaveError
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:09:07.572-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [198]
+12:09:07.573-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [198]
+12:09:31.832===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [200]
+12:09:45.535-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [202]
+12:09:45.535-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [202]
+12:10:29.687===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [202]
+12:10:39.134===========> MPaymentAllocate.saveError: FillMandatory - Organización [198]
+12:10:39.134-----------> GridTable.saveWarning: FillMandatory - Organización [198]
+12:10:52.322===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [167]
+12:10:52.370===========> DB.executeUpdate: UPDATE C_Payment SET DocumentNo=?, DocStatus=?, IsReceipt=?, Description=?,Updated=?,UpdatedBy=? WHERE C_Payment_ID=1000867 [WFP_97e64ab8-d183-462e-b58d-4b487ddb8116] [167]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:10:52.367, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1033)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:10:52.388===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:10:52.367, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null). [167]
+12:10:52.390===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_97e64ab8-d183-462e-b58d-4b487ddb8116] - C_Payment.C_Payment_ID=1000867 [167]
+12:10:52.391===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_97e64ab8-d183-462e-b58d-4b487ddb8116] - C_Payment.C_Payment_ID=1000867 [167]
+12:10:52.392-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [167]
+java.lang.Exception: SaveError
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:11:08.568-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [197]
+12:11:08.568-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [197]
+12:11:14.897===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [137]
+12:11:14.962===========> DB.executeUpdate: UPDATE C_Payment SET DocumentNo=?, DocStatus=?, IsReceipt=?, Description=?,Updated=?,UpdatedBy=? WHERE C_Payment_ID=1000867 [WFP_f277f0d2-c8d8-4d21-a4c3-0f8ee0f56662] [137]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:11:14.96, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1033)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:11:14.989===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:11:14.96, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null). [137]
+12:11:14.990===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_f277f0d2-c8d8-4d21-a4c3-0f8ee0f56662] - C_Payment.C_Payment_ID=1000867 [137]
+12:11:14.991===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_f277f0d2-c8d8-4d21-a4c3-0f8ee0f56662] - C_Payment.C_Payment_ID=1000867 [137]
+12:11:14.992-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [137]
+java.lang.Exception: SaveError
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:13:29.965===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [144]
+12:13:30.036===========> DB.executeUpdate: UPDATE C_Payment SET DocumentNo=?, DocStatus=?, IsReceipt=?, Description=?,Updated=?,UpdatedBy=? WHERE C_Payment_ID=1000867 [WFP_266a7c6b-b0e1-485d-9b1d-5cf65691fcc3] [144]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:13:30.033, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1033)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:13:30.053===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:13:30.033, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null). [144]
+12:13:30.054===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_266a7c6b-b0e1-485d-9b1d-5cf65691fcc3] - C_Payment.C_Payment_ID=1000867 [144]
+12:13:30.064===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_266a7c6b-b0e1-485d-9b1d-5cf65691fcc3] - C_Payment.C_Payment_ID=1000867 [144]
+12:13:30.065-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [144]
+java.lang.Exception: SaveError
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:13:46.776-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+12:13:46.776-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+12:16:56.722-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+12:16:56.722-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+12:17:44.005===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [175]
+12:17:44.058-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [175]
+java.lang.Exception: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import org.compiere.mo . . . '' : Method Invocation nocheque.compareTo : at Line: 20 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import org.compiere.mo . . . '' : nocheque .compareTo ( A_PO .get_ID ( ) ) 
+
+Target exception: java.lang.ClassCastException: java.lang.Integer cannot be cast to java.math.BigDecimal
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import org.compiere.mo . . . '' at line number 20
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:17:44.072===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [175]
+12:18:24.381-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+12:18:24.381-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+12:18:59.407-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+12:18:59.408-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]
+12:19:04.902===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [71]
+12:19:25.484===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [71]
+12:19:25.574===========> DB.executeUpdate: UPDATE C_Payment SET DocumentNo=?, DocStatus=?, IsReceipt=?, Description=?,Updated=?,UpdatedBy=? WHERE C_Payment_ID=1000867 [WFP_cc30044c-b15a-4233-937c-b1565703f8e8] [71]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:19:25.572, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1033)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+12:19:25.589===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «documentno» viola la restricción not null
+  Detail: La fila que falla contiene (1000867, 1000000, 1000000, Y, 2016-12-16 11:37:51.489, 0, 2016-12-16 12:19:25.572, 0, null, 2016-12-16 00:00:00, N, 1000009, S, 1000013, 1000415, null, null, null, K, M, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 209, 10507.560000, 0, 214.440000, 0, N, null, null, null, null, X, X, null, N, N, IN, CO, N, N, N, N, N, Y, 0, null, null, N, 0, null, N, null, N, null, null, null, null, null, null, null, 114, A_Type:7, 2016-12-16 00:00:00, null, N, null, null, null, 0, 22852524-d176-4b4e-ae26-fc7496cdc752, null, null, null, null, null, N, null, null). [71]
+12:19:25.590===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_cc30044c-b15a-4233-937c-b1565703f8e8] - C_Payment.C_Payment_ID=1000867 [71]
+12:19:25.591===========> NIMPayment.saveError: SaveError - Update return -1 instead of 1 - [WFP_cc30044c-b15a-4233-937c-b1565703f8e8] - C_Payment.C_Payment_ID=1000867 [71]
+12:19:25.593-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [71]
+java.lang.Exception: SaveError
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:37:33.564-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 11132140ms, Master-Confirmation-Timeout: 500000ms. [101]
+15:37:37.921===========> Configuration.invokeDesktopCleanups: Failed to invoke class org.adempiere.webui.session.SessionContextListener [63]
+java.lang.NullPointerException
+	at org.zkoss.zk.ui.http.ExecutionImpl.getAttribute(ExecutionImpl.java:470)
+	at org.adempiere.webui.adwindow.StatusBar.setStatusLine(StatusBar.java:144)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.updateUI(AbstractADWindowContent.java:3138)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onModalClose(AbstractADWindowContent.java:3101)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onEvent(AbstractADWindowContent.java:1098)
+	at org.adempiere.webui.adwindow.ADWindowContent.onEvent(ADWindowContent.java:194)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.adempiere.webui.component.Window.onPageDetached(Window.java:84)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setParent(AbstractComponent.java:1020)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1680)
+	at org.adempiere.webui.desktop.DefaultDesktop.logout(DefaultDesktop.java:676)
+
+15:40:03.039-----------> Trx.run: Transaction timeout. Name=WFP_292e0866-9dd7-4ce7-a2a3-f622915494bc, timeout(sec)=11792 [139]
+15:40:49.356-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [200]
+15:40:49.356-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [200]

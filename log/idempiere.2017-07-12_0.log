@@ -1,0 +1,104 @@
+*** 2017-07-12 21:54:47.159 idempiere Log (CLogFile) ***
+21:54:47.159 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+21:54:47.190 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+21:54:53.915 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+21:54:53.918 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+21:54:54.421 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+21:54:54.421 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+21:54:54.827-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+21:55:01.772 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+21:55:02.140-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+21:55:02.142-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+21:55:02.142-----------> EMail.isValid: From is invalid=null [17]
+21:55:02.143-----------> EMail.isValid: From is invalid=null [17]
+21:55:02.143-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+21:55:02.143 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+21:55:02.143 AdempiereMonitor.init:  [17]
+21:55:09.415-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+21:55:09.996-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk176207911:2/metainfo/zk/config.xml
+with bundleresource://181.fwk176207911:19/metainfo/zk/config.xml [17]
+21:55:10.001-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk176207911:11/metainfo/zk/config.xml
+with bundleresource://181.fwk176207911:28/metainfo/zk/config.xml [17]
+21:55:10.007-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk176207911:12/metainfo/zk/config.xml
+with bundleresource://181.fwk176207911:29/metainfo/zk/config.xml [17]
+21:55:10.182-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk176207911:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk176207911:31/metainfo/zk/zk.xml [17]
+21:55:10.924-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+21:55:10.958-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+21:55:11.061-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk176207911:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:18/metainfo/zk/lang-addon.xml [17]
+21:55:11.066-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk176207911:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:19/metainfo/zk/lang-addon.xml [17]
+21:55:11.073-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk176207911:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:22/metainfo/zk/lang-addon.xml [17]
+21:55:11.078-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk176207911:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:23/metainfo/zk/lang-addon.xml [17]
+21:55:11.081-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk176207911:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:24/metainfo/zk/lang-addon.xml [17]
+21:55:11.092-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk176207911:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:29/metainfo/zk/lang-addon.xml [17]
+21:55:11.100-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk176207911:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk176207911:30/metainfo/zk/lang-addon.xml [17]
+21:55:11.663           WebUIServlet.init: iDempiere Web Client started successfully [17]
+21:55:12.855-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-12 21:55:13.312 idempiere Log (CLogFile) ***
+21:55:19.814-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+21:57:45.154-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [37]
+21:57:45.155-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [37]
+21:57:55.711-----------> Login.getClients: No Apps Password [33]
+22:11:33.894===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [200]
+22:11:37.363-----------> MPeriod.isOpen: Jul-17: Not open for APP (2017-07-12 22:07:48.0) [162]
+22:11:37.487-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [162]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-07-12 22:07:48.0, Tipo de Documento Base=Pagos de CxP
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at ni.hmil.override.models.NIMPayment.reverse(NIMPayment.java:512)
+	at ni.hmil.override.models.NIMPayment.reverseAccrualIt(NIMPayment.java:466)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+22:12:42.654===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [145]
+22:12:43.354===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [145]
+22:12:46.454===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [145]
+22:12:46.627===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [145]
+22:14:59.042-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [139]
+org.adempiere.exceptions.DBException: Could not lock record for MPayment[1000823-99269,Receipt=false,PayAmt=48273.44,Discount=0.0,WriteOff=0.0,OverUnder=0.0 caused by ERROR: canceling statement due to user request
+	at org.compiere.db.DB_PostgreSQL.forUpdate(DB_PostgreSQL.java:1117)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:238)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+

@@ -1,0 +1,13 @@
+*** 2016-06-15 09:55:42.231 idempiere Log (CLogFile) ***
+09:55:42.231 Setup.<init>: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+09:55:42.383 ConfigurationData.load: E:\mercurialidempiere\idempiereEnv.properties [1]
+09:56:52.534 Config.test: OK: JavaHome=C:\Program Files\Java\jre7 [31]
+09:56:52.535 Config.test: OK: Version=1.7.0_79 [31]
+09:56:52.535 ConfigurationData.testAdempiere: OK: AdempiereHome = E:\mercurialidempiere [31]
+09:56:52.536 KeyStoreMgt.<init>: E:\mercurialidempiere\jettyhome/etc\keystore [31]
+09:56:52.552 ConfigurationData.testAdempiere: OK: KeyStore = E:\mercurialidempiere\jettyhome/etc\keystore [31]
+09:56:52.552 Config.test: OK: AppsServer = localhost/127.0.0.1 [31]
+09:56:52.580-----------> ConfigurationData.testPort: In Use=http://localhost:8888/ [31]
+09:56:52.584-----------> ConfigurationData.test: Not correct: Web Port = 8888 [31]
+09:56:52.585===========> ConfigurationPanel$1.finished: Error Puerto Web 
+(Not correct: Web Port = 8888) [27]

@@ -1,0 +1,652 @@
+*** 2016-12-15 14:34:51.487 idempiere Log (CLogFile) ***
+14:34:51.487 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:34:51.490 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+14:34:52.860 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+14:34:52.928 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:34:52.929 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:34:53.012-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:34:53.179 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:34:53.272-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:34:53.273-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:34:53.273-----------> EMail.isValid: From is invalid=null [17]
+14:34:53.274-----------> EMail.isValid: From is invalid=null [17]
+14:34:53.274-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+14:34:53.274 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:34:53.274 AdempiereMonitor.init:  [17]
+14:35:04.234-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:35:04.618-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/config.xml [17]
+14:35:04.625-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:28/metainfo/zk/config.xml [17]
+14:35:04.630-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/config.xml [17]
+14:35:04.662-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1399961333:31/metainfo/zk/zk.xml [17]
+14:35:05.129-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:35:05.152-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:35:05.196-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+14:35:05.200-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+14:35:05.204-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+14:35:05.208-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+14:35:05.211-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+14:35:05.220-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+14:35:05.226-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+14:35:05.464           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:35:06.660-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-12-15 14:35:07.257 idempiere Log (CLogFile) ***
+14:35:08.546-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+14:35:07.554===========> NotificationValidator.initialize: NotificationValidator.initialize() [40]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+14:35:23.001-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+14:35:23.002-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+14:38:05.852-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [34]
+14:38:05.853-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [34]
+14:38:28.123-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [38]
+14:38:28.124-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [38]
+14:40:26.105-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+14:40:26.106-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+14:41:30.440-----------> GridTable.saveWarning: FillMandatory - Nombre
+ [32]
+14:43:09.765-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+14:43:09.765-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+14:44:13.135-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+14:44:13.135-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+14:49:37.220-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+14:49:37.220-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:18:57.934===========> MRule.saveError: Error - Valor incorrecto de script - formato para script JSR 233 debe ser el motor de datos: El nombre del script en motores datos sportados deben ser algo como "groovy, jython, beanshell" [196]
+15:18:57.936-----------> MRule.save: beforeSave failed - MRule[0-ControlDeNoCheque] [196]
+15:18:57.936-----------> GridTable.saveWarning: Error - Valor incorrecto de script - formato para script JSR 233 debe ser el motor de datos: El nombre del script en motores datos sportados deben ser algo como "groovy, jython, beanshell" [196]
+15:22:39.467-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:22:39.467-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+15:25:38.303-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:25:38.303-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+15:25:46.803===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Undefined argument: A_TrxName  : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( A_TrxName , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:25:46.852-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Undefined argument: A_TrxName  : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( A_TrxName , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12 [195]
+15:27:49.099-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+15:27:49.099-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:27:55.163===========> GridTab.processCallout:  [152]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Undefined argument: A_TrxName  : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( A_TrxName , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:27:55.200-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Undefined argument: A_TrxName  : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( A_TrxName , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12 [152]
+15:29:03.396-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:29:03.398-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+15:29:09.391===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Undefined argument: A_TrxName  : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( A_TrxName , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:29:09.437-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Undefined argument: A_TrxName  : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( A_TrxName , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12 [195]
+15:29:46.734-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+15:29:46.734-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:29:47.694-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [196]
+15:29:47.694-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [196]
+15:30:06.987-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+15:30:06.987-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:30:12.443===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String, [Ljava.lang.Object; ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : DB .getSQLValueBD ( A_Ctx , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:30:12.544-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String, [Ljava.lang.Object; ) not found in class'org.compiere.util.DB' : at Line: 12 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : DB .getSQLValueBD ( A_Ctx , sql , args ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 12 [195]
+15:35:17.130-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [152]
+15:35:17.130-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [152]
+15:35:41.374-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [202]
+15:35:41.374-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [202]
+15:37:09.290-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [202]
+15:37:09.290-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [202]
+15:37:17.038===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String, null ) not found in class'org.compiere.util.DB' : at Line: 11 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : DB .getSQLValueBD ( A_Ctx , sql , null ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 11
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:37:17.106-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String, null ) not found in class'org.compiere.util.DB' : at Line: 11 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : DB .getSQLValueBD ( A_Ctx , sql , null ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 11 [195]
+15:39:14.642-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+15:39:14.642-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:39:21.927-----------> GridField.defaultFromSQLExpression: (BeginningBalance) - Default SQL variable parse failed: @SQL=SELECT COALESCE(MIN(CurrentBalance),0) FROM C_BankAccount WHERE C_BankAccount_ID=@C_BankAccount_ID@ [199]
+15:39:22.189-----------> MPeriod.isOpen: Dec-16: Not open for CMB (2016-12-15 00:00:00.0) [199]
+15:39:22.192===========> CalloutEngine.start: start: dateAcct [199]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2016-12-15 00:00:00.0, Tipo de Documento Base=Extracto Bancario
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:282)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+15:39:30.110-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [196]
+15:39:30.111-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [196]
+15:39:34.326===========> GridTab.processCallout:  [196]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 11 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : DB .getSQLValueBD ( A_Ctx , sql ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 11
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:39:34.371-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Typed variable declaration : Error in method invocation: Static method getSQLValueBD( org.adempiere.util.ServerContextPropertiesWrapper, java.lang.String ) not found in class'org.compiere.util.DB' : at Line: 11 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : DB .getSQLValueBD ( A_Ctx , sql ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 11 [196]
+15:45:10.004-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:45:10.005-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+15:45:16.148===========> DB.getSQLValueBD: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [195]
+org.postgresql.util.PSQLException: ERROR: no existe la columna ba.currentnext
+  Hint: Perhaps you meant to reference the column "bad.currentnext".
+  Position: 8; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.util.DB.getSQLValueBDEx(DB.java:1440)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1484)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:2203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+15:45:16.203===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Undefined argument: nocheque  : at Line: 13 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( "documentno" , nocheque ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 13
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:45:16.225-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Undefined argument: nocheque  : at Line: 13 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : ( "documentno" , nocheque ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 13 [195]
+15:50:42.540-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+15:50:42.541-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:50:49.337===========> DB.getSQLValueBD: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [32]
+org.postgresql.util.PSQLException: ERROR: no existe la columna ba.currentnext
+  Hint: Perhaps you meant to reference the column "bad.currentnext".
+  Position: 8; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.util.DB.getSQLValueBDEx(DB.java:1440)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1484)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:2203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+15:50:49.398===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Undefined argument: nocheque  : at Line: 13 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : ( "documentno" , nocheque ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 13
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:50:49.429-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Undefined argument: nocheque  : at Line: 13 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : ( "documentno" , nocheque ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 13 [32]
+15:53:26.989-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+15:53:26.989-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+15:53:33.023===========> DB.getSQLValueBD: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [195]
+org.postgresql.util.PSQLException: ERROR: no existe la columna ba.currentnext
+  Hint: Perhaps you meant to reference the column "bad.currentnext".
+  Position: 8; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.util.DB.getSQLValueBDEx(DB.java:1440)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1484)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:2203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+15:53:33.121-----------> Msg.getMsg: NOT found: void [195]
+15:53:38.607-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [196]
+15:53:38.607-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [196]
+15:54:38.481-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:54:38.481-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+15:54:43.072===========> DB.getSQLValueBD: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [195]
+org.postgresql.util.PSQLException: ERROR: no existe la columna ba.currentnext
+  Hint: Perhaps you meant to reference the column "bad.currentnext".
+  Position: 8; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.util.DB.getSQLValueBDEx(DB.java:1440)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1484)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:2203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+15:54:43.124-----------> Msg.getMsg: NOT found: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [195]
+15:54:43.136-----------> Msg.getMsg: NOT found: void [195]
+15:55:49.151-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:55:49.152-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+15:55:54.007===========> DB.getSQLValueBD: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [195]
+org.postgresql.util.PSQLException: ERROR: no existe la columna ba.currentnext
+  Hint: Perhaps you meant to reference the column "bad.currentnext".
+  Position: 8; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.util.DB.getSQLValueBDEx(DB.java:1440)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1484)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:2203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+15:55:54.076-----------> Msg.getMsg: NOT found: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [195]
+15:55:54.080-----------> Msg.getMsg: NOT found: 1000013 [195]
+15:55:54.089-----------> Msg.getMsg: NOT found: void [195]
+15:56:09.135===========> DB.getSQLValueBD: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [196]
+org.postgresql.util.PSQLException: ERROR: no existe la columna ba.currentnext
+  Hint: Perhaps you meant to reference the column "bad.currentnext".
+  Position: 8; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.util.DB.getSQLValueBDEx(DB.java:1440)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:1484)
+	at org.compiere.util.DB.getSQLValueBD(DB.java:2203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+15:56:09.198-----------> Msg.getMsg: NOT found: 	SELECT 	ba.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [196]
+15:56:09.202-----------> Msg.getMsg: NOT found: 1000013 [196]
+15:56:09.211-----------> Msg.getMsg: NOT found: void [196]
+15:57:22.360-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [196]
+15:57:22.361-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [196]
+15:57:28.262-----------> Msg.getMsg: NOT found: 	SELECT 	bad.currentnext FROM 	C_BankAccount ba 	inner join C_BankAccountDoc bad on ba.C_BankAccount_ID=bad.C_BankAccount_ID WHERE ba.C_BankAccount_ID=?  and bad.paymentrule='S' [196]
+15:57:28.266-----------> Msg.getMsg: NOT found: 1000013 [196]
+15:57:28.270-----------> Msg.getMsg: NOT found: 3024 [196]
+15:58:26.549-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [196]
+15:58:26.550-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [196]
+15:58:32.804===========> GridTab.processCallout:  [196]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' Encountered "nocheque" at line 10, column 29.
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 10
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:58:32.860-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' Encountered "nocheque" at line 10, column 29.
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 10 [196]
+15:59:22.704-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+15:59:22.704-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+16:06:03.253-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+16:06:03.253-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+16:28:38.250-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [196]
+16:28:38.251-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [196]
+16:28:47.544===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Unknown class: BigDecimal : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : new BigDecimal ( - 1 ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 16
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+16:28:47.603-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : Unknown class: BigDecimal : at Line: 16 : in file: inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' : new BigDecimal ( - 1 ) 
+ in inline evaluation of: ``import org.compiere.util.DB;  C_BankAccount_ID=A_Tab.getValue("C_BankAccount_ID" . . . '' at line number 16 [195]
+16:31:03.513-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [195]
+16:31:03.514-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [195]
+16:31:09.391===========> GridTab.processCallout:  [195]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Error in method invocation: Static method warnig( int, java.lang.String ) not found in class'org.adempiere.webui.window.FDialog' : at Line: 17 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : org .adempiere .webui .window .FDialog .warnig ( 0 , "Ya existe documento con #" + nocheque + " para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque." ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 17
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+16:31:09.495-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : Error in method invocation: Static method warnig( int, java.lang.String ) not found in class'org.adempiere.webui.window.FDialog' : at Line: 17 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' : org .adempiere .webui .window .FDialog .warnig ( 0 , "Ya existe documento con #" + nocheque + " para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque." ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; C_BankAccount_ID=A_Tab . . . '' at line number 17 [195]
+16:34:47.372-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [199]
+16:34:47.373-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [199]
+16:34:54.697-----------> Msg.getMsg: NOT found: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [199]
+16:35:22.996-----------> Msg.getMsg: NOT found: Ya existe documento con #-1 para la cuenta de banco seleccionada, favor procese este para poder generar nuevo cheque. [199]
+16:48:22.053-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [199]
+16:48:22.054-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [199]
+16:55:19.091-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+16:55:19.091-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]

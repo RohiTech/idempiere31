@@ -1,0 +1,347 @@
+*** 2017-07-12 22:16:47.847 idempiere Log (CLogFile) ***
+22:16:47.847 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+22:16:47.849 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+22:16:49.229 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [14]
+22:16:49.232 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [14]
+22:16:49.245 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+22:16:49.246 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+22:16:49.265-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [14]
+22:16:49.638 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+22:16:49.832-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+22:16:49.834-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+22:16:49.835-----------> EMail.isValid: From is invalid=null [14]
+22:16:49.835-----------> EMail.isValid: From is invalid=null [14]
+22:16:49.835-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+22:16:49.835 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+22:16:49.835 AdempiereMonitor.init:  [14]
+22:17:03.593-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+22:17:04.050-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk333967374:2/metainfo/zk/config.xml
+with bundleresource://181.fwk333967374:19/metainfo/zk/config.xml [14]
+22:17:04.056-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk333967374:11/metainfo/zk/config.xml
+with bundleresource://181.fwk333967374:28/metainfo/zk/config.xml [14]
+22:17:04.061-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk333967374:12/metainfo/zk/config.xml
+with bundleresource://181.fwk333967374:29/metainfo/zk/config.xml [14]
+22:17:04.087-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk333967374:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk333967374:31/metainfo/zk/zk.xml [14]
+22:17:04.500-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+22:17:04.533-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+22:17:04.606-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk333967374:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:18/metainfo/zk/lang-addon.xml [14]
+22:17:04.612-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk333967374:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:19/metainfo/zk/lang-addon.xml [14]
+22:17:04.618-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk333967374:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:22/metainfo/zk/lang-addon.xml [14]
+22:17:04.623-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk333967374:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:23/metainfo/zk/lang-addon.xml [14]
+22:17:04.627-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk333967374:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:24/metainfo/zk/lang-addon.xml [14]
+22:17:04.638-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk333967374:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:29/metainfo/zk/lang-addon.xml [14]
+22:17:04.644-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk333967374:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:30/metainfo/zk/lang-addon.xml [14]
+22:17:04.954           WebUIServlet.init: iDempiere Web Client started successfully [14]
+22:17:06.298-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2017-07-12 22:17:08.265 idempiere Log (CLogFile) ***
+22:17:09.597-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [40]
+22:18:23.301===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [120]
+22:18:24.686===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [154]
+22:18:25.004===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [154]
+22:18:25.483===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [154]
+22:18:25.527===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [154]
+22:22:04.198-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [56]
+org.adempiere.exceptions.DBException: Could not lock record for MPayment[1000004-99215,Receipt=false,PayAmt=5000,Discount=0,WriteOff=0,OverUnder=0 caused by ERROR: canceling statement due to user request
+	at org.compiere.db.DB_PostgreSQL.forUpdate(DB_PostgreSQL.java:1117)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:238)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+22:24:02.473===========> DB.executeUpdate: UPDATE C_Payment SET DocStatus='VO', DocAction='--'WHERE C_Payment.C_Payment_ID=1000004 [null] [154]
+org.postgresql.util.PSQLException: ERROR: canceling statement due to user request
+  Where: while updating tuple (33,2) in relation "c_payment"; State=57014; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor55.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at bsh.Reflect.invokeMethod(Reflect.java:131)
+	at bsh.Reflect.invokeStaticMethod(Reflect.java:95)
+
+22:24:02.536===========> DB.saveError: DatabaseOperationTimeout - ERROR: canceling statement due to user request
+  Where: while updating tuple (33,2) in relation "c_payment" [154]
+22:24:02.542===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [154]
+22:24:21.185===========> PreparedStatementProxy.init: SELECT COUNT(1) FROM AD_Note WHERE AD_Client_ID=? AND AD_User_ID IN (0,?) AND Processed='N' AND AD_BroadcastMessage_ID IS NULL [193]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getNoticeCount(DPActivitiesModel.java:55)
+
+22:24:21.187===========> DB.getSQLValue: SELECT COUNT(1) FROM AD_Note WHERE AD_Client_ID=? AND AD_User_ID IN (0,?) AND Processed='N' AND AD_BroadcastMessage_ID IS NULL [193]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No hay conexión con la base de datos
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getNoticeCount(DPActivitiesModel.java:55)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:126)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getNoticeCount(DPActivitiesModel.java:55)
+
+22:24:21.190===========> PreparedStatementProxy.init: SELECT COUNT(1) FROM R_Request WHERE (SalesRep_ID=? OR AD_Role_ID=?) AND Processed='N' AND (DateNextAction IS NULL OR TRUNC(DateNextAction) <= TRUNC(statement_timestamp())) AND (R_Status_ID IS NULL OR R_Status_ID IN (SELECT R_Status_ID FROM R_Status WHERE IsClosed='N')) AND AD_Client_ID=0 AND AD_Org_ID=0 AND (R_Request_ID IS NULL OR R_Request_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 417 AND AD_User_ID <> 0 AND IsActive = 'Y' )) [193]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getRequestCount(DPActivitiesModel.java:70)
+
+22:24:21.192===========> DB.getSQLValue: SELECT COUNT(1) FROM R_Request WHERE (SalesRep_ID=? OR AD_Role_ID=?) AND Processed='N' AND (DateNextAction IS NULL OR TRUNC(DateNextAction) <= TRUNC(SysDate)) AND (R_Status_ID IS NULL OR R_Status_ID IN (SELECT R_Status_ID FROM R_Status WHERE IsClosed='N')) AND AD_Client_ID=0 AND AD_Org_ID=0 AND  (R_Request_ID IS NULL OR R_Request_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 417 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  [193]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No hay conexión con la base de datos
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getRequestCount(DPActivitiesModel.java:70)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:127)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.util.DB.getSQLValueEx(DB.java:1276)
+	at org.compiere.util.DB.getSQLValue(DB.java:1321)
+	at org.compiere.util.DB.getSQLValue(DB.java:2187)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getRequestCount(DPActivitiesModel.java:70)
+
+22:24:21.196===========> PreparedStatementProxy.init: SELECT count(*) FROM AD_WF_Activity a WHERE a.Processed='N' AND a.WFState='OS' AND ( a.AD_User_ID=? OR EXISTS (SELECT * FROM AD_WF_Responsible r WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='H' AND COALESCE(r.AD_User_ID,0)=0 AND COALESCE(r.AD_Role_ID,0)=0 AND (a.AD_User_ID=? OR a.AD_User_ID IS NULL)) OR EXISTS (SELECT * FROM AD_WF_Responsible r WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='H' AND r.AD_User_ID=?) OR EXISTS (SELECT * FROM AD_WF_Responsible r INNER JOIN AD_User_Roles ur ON (r.AD_Role_ID=ur.AD_Role_ID) WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='R' AND ur.AD_User_ID=?)) AND a.AD_Client_ID=? AND a.AD_Client_ID=0 AND a.AD_Org_ID=0 AND (a.AD_WF_Activity_ID IS NULL OR a.AD_WF_Activity_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 644 AND AD_User_ID <> 0 AND IsActive = 'Y' )) [193]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getWorkflowCount(DPActivitiesModel.java:105)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:128)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+
+22:24:21.198===========> DPActivitiesModel.getWorkflowCount: SELECT count(*) FROM AD_WF_Activity a WHERE a.Processed='N' AND a.WFState='OS' AND ( a.AD_User_ID=? OR EXISTS (SELECT * FROM AD_WF_Responsible r WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='H' AND COALESCE(r.AD_User_ID,0)=0 AND COALESCE(r.AD_Role_ID,0)=0 AND (a.AD_User_ID=? OR a.AD_User_ID IS NULL)) OR EXISTS (SELECT * FROM AD_WF_Responsible r WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='H' AND r.AD_User_ID=?) OR EXISTS (SELECT * FROM AD_WF_Responsible r INNER JOIN AD_User_Roles ur ON (r.AD_Role_ID=ur.AD_Role_ID) WHERE a.AD_WF_Responsible_ID=r.AD_WF_Responsible_ID AND r.ResponsibleType='R' AND ur.AD_User_ID=?)) AND a.AD_Client_ID=? AND a.AD_Client_ID=0 AND a.AD_Org_ID=0 AND  (a.AD_WF_Activity_ID IS NULL OR a.AD_WF_Activity_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 644 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  [193]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No hay conexión con la base de datos
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getWorkflowCount(DPActivitiesModel.java:105)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:128)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.adempiere.webui.dashboard.DPActivitiesModel.getWorkflowCount(DPActivitiesModel.java:105)
+	at org.adempiere.webui.dashboard.DPActivities.refresh(DPActivities.java:128)
+	at org.adempiere.webui.dashboard.DashboardRunnable.refreshDashboard(DashboardRunnable.java:131)
+	at org.adempiere.webui.dashboard.DashboardRunnable.run(DashboardRunnable.java:92)
+	at org.adempiere.webui.desktop.DashboardController$3.onEvent(DashboardController.java:461)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+
+22:25:07.549===========> PreparedStatementProxy.init: SELECT AD_Tab_ID,Name,Description,Help,AD_Window_ID,SeqNo,IsSingleRow,AD_Table_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,HasTree,IsInfoTab,IsTranslationTab,IsReadOnly,AD_Column_ID,WhereClause,OrderByClause,CommitWarning,AD_Process_ID,Processing,AD_Image_ID,ImportFields,TabLevel,IsSortTab,AD_ColumnSortYesNo_ID,AD_ColumnSortOrder_ID,EntityType,Included_Tab_ID,ReadOnlyLogic,DisplayLogic,IsInsertRecord,IsAdvancedTab,Parent_Column_ID,AD_Tab_UU,AD_CtxHelp_ID,TreeDisplayedOn FROM AD_Tab WHERE AD_Tab_ID=? [30]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.PO.load(PO.java:1327)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Tab.<init>(X_AD_Tab.java:38)
+	at org.compiere.model.MTab.<init>(MTab.java:55)
+
+22:25:07.551===========> MTab.load: AD_Tab_ID=53068, SQL=SELECT AD_Tab_ID,Name,Description,Help,AD_Window_ID,SeqNo,IsSingleRow,AD_Table_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,HasTree,IsInfoTab,IsTranslationTab,IsReadOnly,AD_Column_ID,WhereClause,OrderByClause,CommitWarning,AD_Process_ID,Processing,AD_Image_ID,ImportFields,TabLevel,IsSortTab,AD_ColumnSortYesNo_ID,AD_ColumnSortOrder_ID,EntityType,Included_Tab_ID,ReadOnlyLogic,DisplayLogic,IsInsertRecord,IsAdvancedTab,Parent_Column_ID,AD_Tab_UU,AD_CtxHelp_ID,TreeDisplayedOn FROM AD_Tab WHERE AD_Tab_ID=? [30]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No hay conexión con la base de datos
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.PO.load(PO.java:1327)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Tab.<init>(X_AD_Tab.java:38)
+	at org.compiere.model.MTab.<init>(MTab.java:55)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.PO.load(PO.java:1327)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Tab.<init>(X_AD_Tab.java:38)
+	at org.compiere.model.MTab.<init>(MTab.java:55)
+
+22:25:07.653===========> UiEngineImpl.handleError:  [30]
+java.lang.IllegalArgumentException: ColumnName=Name, AD_Language=es_NI, ID.length=1, ID=0
+	at org.compiere.model.PO.get_Translation(PO.java:1906)
+	at org.compiere.model.PO.get_Translation(PO.java:1885)
+	at org.compiere.model.PO.get_Translation(PO.java:1953)
+	at org.adempiere.webui.panel.HelpController.renderCtxHelp(HelpController.java:237)
+	at org.adempiere.webui.desktop.DefaultDesktop.updateHelpContext(DefaultDesktop.java:811)
+	at org.adempiere.webui.adwindow.ADWindowContent.onEvent(ADWindowContent.java:191)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:348)
+	at org.adempiere.webui.part.WindowContainer$3.onEvent(WindowContainer.java:218)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+

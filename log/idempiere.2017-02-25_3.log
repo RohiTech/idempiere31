@@ -1,0 +1,101 @@
+*** 2017-02-25 16:53:43.56 idempiere Log (CLogFile) ***
+16:53:43.560 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:53:43.560 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+16:53:44.062 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:53:44.062 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:53:44.078-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:53:44.178 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:53:44.375-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:53:44.390-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:53:44.390-----------> EMail.isValid: From is invalid=null [17]
+16:53:44.390-----------> EMail.isValid: From is invalid=null [17]
+16:53:44.390-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+16:53:44.390 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:53:44.390 AdempiereMonitor.init:  [17]
+16:53:45.918-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:53:46.157-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+16:53:46.159-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+16:53:46.159-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+16:53:46.190-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+16:53:46.548-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:53:46.564-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:53:46.603-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+16:53:46.619-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+16:53:46.619-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+16:53:46.619-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+16:53:46.635-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+16:53:46.650-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+16:53:46.650-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+16:53:46.977           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:53:47.973-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:53:48.087-----------> LCO_ValidatorWH.initialize:  [69]
+
+*** 2017-02-25 16:53:48.263 idempiere Log (CLogFile) ***
+16:53:50.602-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+17:01:16.911===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [52]
+17:01:17.089===========> AcctProcessor.postSession: NI_Requisition [52]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+17:01:17.339===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [52]
+17:01:17.417===========> AcctProcessor.postSession: NI_Requisition [52]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

@@ -1,0 +1,148 @@
+*** 2017-04-25 00:00:54.055 idempiere Log (CLogFile) ***
+00:00:53.990-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@6f246025 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks! [44]
+00:00:54.057-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@6f246025 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@6200502f
+			on thread: C3P0PooledConnectionPoolManager[identityToken->1b608d59n19eerucq9v438|4808c808, dataSourceName->iDempiereDS]-HelperThread-#1
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@2906fed
+			on thread: C3P0PooledConnectionPoolManager[identityToken->1b608d59n19eerucq9v438|4808c808, dataSourceName->iDempiereDS]-HelperThread-#0
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@b71e347
+			on thread: C3P0PooledConnectionPoolManager[identityToken->1b608d59n19eerucq9v438|4808c808, dataSourceName->iDempiereDS]-HelperThread-#2
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@58a431eb
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@3c968c4
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@1bfd1dcd
+		com.mchange.v2.c3p0.stmt.GooGooStatementCache$1StmtAcquireTask@6ee03d2
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->1b608d59n19eerucq9v438|4808c808, dataSourceName->iDempiereDS]-HelperThread-#0,5,main]
+		java.net.SocketInputStream.socketRead0(Native Method)
+		java.net.SocketInputStream.read(Unknown Source)
+		java.net.SocketInputStream.read(Unknown Source)
+		org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+		org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+		org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+		org.postgresql.core.PGStream.ReceiveChar(PGStream.java:282)
+		org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1718)
+		org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+		com.mchange.v2.c3p0.impl.NewProxyStatement.executeQuery(NewProxyStatement.java:327)
+		com.mchange.v2.c3p0.impl.DefaultConnectionTester.activeCheckConnection(DefaultConnectionTester.java:262)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.testPooledConnection(C3P0PooledConnectionPool.java:509)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:451)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:443)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.refurbishIdleResource(C3P0PooledConnectionPool.java:433)
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask.run(BasicResourcePool.java:2196)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->1b608d59n19eerucq9v438|4808c808, dataSourceName->iDempiereDS]-HelperThread-#1,5,main]
+		java.net.SocketInputStream.socketRead0(Native Method)
+		java.net.SocketInputStream.read(Unknown Source)
+		java.net.SocketInputStream.read(Unknown Source)
+		org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+		org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+		org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+		org.postgresql.core.PGStream.ReceiveChar(PGStream.java:282)
+		org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1718)
+		org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+		com.mchange.v2.c3p0.impl.NewProxyStatement.executeQuery(NewProxyStatement.java:327)
+		com.mchange.v2.c3p0.impl.DefaultConnectionTester.activeCheckConnection(DefaultConnectionTester.java:262)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.testPooledConnection(C3P0PooledConnectionPool.java:509)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:451)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:443)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.refurbishIdleResource(C3P0PooledConnectionPool.java:433)
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask.run(BasicResourcePool.java:2196)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->1b608d59n19eerucq9v438|4808c808, dataSourceName->iDempiereDS]-HelperThread-#2,5,main]
+		java.net.SocketInputStream.socketRead0(Native Method)
+		java.net.SocketInputStream.read(Unknown Source)
+		java.net.SocketInputStream.read(Unknown Source)
+		org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+		org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+		org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+		org.postgresql.core.PGStream.ReceiveChar(PGStream.java:282)
+		org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1718)
+		org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+		com.mchange.v2.c3p0.impl.NewProxyStatement.executeQuery(NewProxyStatement.java:327)
+		com.mchange.v2.c3p0.impl.DefaultConnectionTester.activeCheckConnection(DefaultConnectionTester.java:262)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.testPooledConnection(C3P0PooledConnectionPool.java:509)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:451)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:443)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.refurbishIdleResource(C3P0PooledConnectionPool.java:433)
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask.run(BasicResourcePool.java:2196)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+ [44]
+00:10:27.563===========> PreparedStatementProxy.init: SELECT DISTINCT ProcessedOn FROM C_Payment WHERE AD_Client_ID=? AND ProcessedOn<? AND Processed='Y' AND Posted='N' AND IsActive='Y' [59]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:127)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+00:10:49.501===========> AcctProcessor.postSession: SELECT DISTINCT ProcessedOn FROM C_Payment WHERE AD_Client_ID=? AND ProcessedOn<? AND Processed='Y' AND Posted='N' AND IsActive='Y' [59]
+org.adempiere.exceptions.DBException: java.lang.IllegalStateException: DB.getConnectionRO - No Database Connection
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:73)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:127)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+caused by: java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:127)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+00:11:53.509===========> ImportQueue2AD.process: Byte no válido 2 de la secuencia UTF-8 de 4 bytes [128]
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Byte no válido 2 de la secuencia UTF-8 de 4 bytes
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipChar(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.idempiere.process.ImportQueue2AD.parseXMLString(ImportQueue2AD.java:43)
+	at org.idempiere.process.ImportQueue2AD.doIt(ImportQueue2AD.java:165)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+

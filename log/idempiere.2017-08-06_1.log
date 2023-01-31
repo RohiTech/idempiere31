@@ -1,0 +1,76 @@
+*** 2017-08-06 19:46:42.76 idempiere Log (CLogFile) ***
+19:46:42.760 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+19:46:42.763 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+19:46:43.412 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-01 23:36:25.849 [17]
+19:46:43.417 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+19:46:43.419 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+19:46:43.432 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+19:46:43.432 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+19:46:43.452-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+19:46:43.840 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+19:46:44.056-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:46:44.058-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:46:44.058-----------> EMail.isValid: From is invalid=null [17]
+19:46:44.059-----------> EMail.isValid: From is invalid=null [17]
+19:46:44.059-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+19:46:44.059 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+19:46:44.059 AdempiereMonitor.init:  [17]
+19:46:46.001-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:46:46.347-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk146410964:2/metainfo/zk/config.xml
+with bundleresource://187.fwk146410964:19/metainfo/zk/config.xml [17]
+19:46:46.358-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk146410964:11/metainfo/zk/config.xml
+with bundleresource://187.fwk146410964:28/metainfo/zk/config.xml [17]
+19:46:46.369-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk146410964:12/metainfo/zk/config.xml
+with bundleresource://187.fwk146410964:29/metainfo/zk/config.xml [17]
+19:46:46.403-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk146410964:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk146410964:31/metainfo/zk/zk.xml [17]
+19:46:46.864-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+19:46:46.895-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+19:46:46.962-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk146410964:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:18/metainfo/zk/lang-addon.xml [17]
+19:46:46.969-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk146410964:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:19/metainfo/zk/lang-addon.xml [17]
+19:46:46.973-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk146410964:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:22/metainfo/zk/lang-addon.xml [17]
+19:46:46.977-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk146410964:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:23/metainfo/zk/lang-addon.xml [17]
+19:46:46.981-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk146410964:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:24/metainfo/zk/lang-addon.xml [17]
+19:46:46.993-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk146410964:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:29/metainfo/zk/lang-addon.xml [17]
+19:46:47.002-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk146410964:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk146410964:30/metainfo/zk/lang-addon.xml [17]
+19:46:47.341           WebUIServlet.init: iDempiere Web Client started successfully [17]
+19:46:48.471-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-06 19:46:48.796 idempiere Log (CLogFile) ***
+19:46:51.134-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+19:48:19.092-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+19:48:19.093-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+19:48:54.555-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+19:48:54.556-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+20:25:57.519-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+20:25:57.520-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+20:26:18.718-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+20:26:18.718-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]
+21:57:01.598-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 2651659ms, Master-Confirmation-Timeout: 500000ms. [89]
+22:11:30.911-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [34]
+22:11:30.912-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [34]
+22:11:38.202-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [34]
+22:11:38.202-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [34]

@@ -1,0 +1,137 @@
+*** 2016-12-12 11:21:24.429 idempiere Log (CLogFile) ***
+11:21:24.428 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+11:21:24.432 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+11:21:25.020 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-11-24 14:40:50.73 [17]
+11:21:25.089 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+11:21:25.089 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+11:21:25.126-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+11:21:25.267 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+11:21:25.383-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:21:25.389-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:21:25.389-----------> EMail.isValid: From is invalid=null [17]
+11:21:25.390-----------> EMail.isValid: From is invalid=null [17]
+11:21:25.390-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+11:21:25.390 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+11:21:25.390 AdempiereMonitor.init:  [17]
+11:21:27.515-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:21:27.743-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk47108597:2/metainfo/zk/config.xml
+with bundleresource://188.fwk47108597:19/metainfo/zk/config.xml [17]
+11:21:27.749-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk47108597:11/metainfo/zk/config.xml
+with bundleresource://188.fwk47108597:28/metainfo/zk/config.xml [17]
+11:21:27.753-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk47108597:12/metainfo/zk/config.xml
+with bundleresource://188.fwk47108597:29/metainfo/zk/config.xml [17]
+11:21:27.774-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk47108597:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk47108597:31/metainfo/zk/zk.xml [17]
+11:21:28.120-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+11:21:28.144-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+11:21:28.202-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk47108597:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:18/metainfo/zk/lang-addon.xml [17]
+11:21:28.205-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk47108597:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:19/metainfo/zk/lang-addon.xml [17]
+11:21:28.208-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk47108597:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:22/metainfo/zk/lang-addon.xml [17]
+11:21:28.211-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk47108597:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:23/metainfo/zk/lang-addon.xml [17]
+11:21:28.215-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk47108597:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:24/metainfo/zk/lang-addon.xml [17]
+11:21:28.227-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk47108597:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:29/metainfo/zk/lang-addon.xml [17]
+11:21:28.234-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk47108597:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk47108597:30/metainfo/zk/lang-addon.xml [17]
+11:21:28.471           WebUIServlet.init: iDempiere Web Client started successfully [17]
+11:21:29.450-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-12-12 11:21:29.662 idempiere Log (CLogFile) ***
+11:21:30.839-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+11:21:29.793===========> NotificationValidator.initialize: NotificationValidator.initialize() [76]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+11:22:04.221===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [38]
+11:22:13.334-----------> Msg.getMsg: NOT found: # Referencia [35]
+11:22:25.271===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, Numero_PK_Cobro, Numero_Factura, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [37]
+11:24:05.271===========> UiEngineImpl.handleError:  [39]
+org.adempiere.exceptions.AdempiereException: org.adempiere.exceptions.AdempiereException: NoCurrencyConversion
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice2(NIAllocateInvoice.java:689)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:340)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+caused by: org.adempiere.exceptions.AdempiereException: NoCurrencyConversion
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice2(NIAllocateInvoice.java:637)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:340)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+

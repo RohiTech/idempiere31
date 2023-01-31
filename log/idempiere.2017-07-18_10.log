@@ -1,0 +1,93 @@
+*** 2017-07-18 01:36:46.942 idempiere Log (CLogFile) ***
+01:36:46.941 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+01:36:46.945 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+01:36:47.491 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+01:36:47.494 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+01:36:47.505 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+01:36:47.506 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+01:36:47.520-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+01:36:47.601 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+01:36:47.779-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+01:36:47.782-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+01:36:47.782-----------> EMail.isValid: From is invalid=null [17]
+01:36:47.782-----------> EMail.isValid: From is invalid=null [17]
+01:36:47.782-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+01:36:47.783 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+01:36:47.783 AdempiereMonitor.init:  [17]
+01:36:49.324-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+01:36:49.580-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://184.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://184.fwk1480207683:19/metainfo/zk/config.xml [17]
+01:36:49.587-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://184.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://184.fwk1480207683:28/metainfo/zk/config.xml [17]
+01:36:49.592-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://184.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://184.fwk1480207683:29/metainfo/zk/config.xml [17]
+01:36:49.620-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://184.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://184.fwk1480207683:31/metainfo/zk/zk.xml [17]
+01:36:49.973-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+01:36:49.996-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+01:36:50.056-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://184.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+01:36:50.061-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://184.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+01:36:50.067-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://184.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+01:36:50.072-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://184.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+01:36:50.079-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://184.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+01:36:50.088-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://184.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+01:36:50.092-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://184.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://184.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+01:36:50.355           WebUIServlet.init: iDempiere Web Client started successfully [17]
+01:36:51.313-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-18 01:36:51.536 idempiere Log (CLogFile) ***
+01:36:53.875-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+01:37:21.672-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+01:37:21.673-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+01:37:27.513===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [30]
+01:37:27.567===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [30]
+01:37:27.928===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:27.968===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:27.984===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:27.998===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.015===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.030===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.044===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.055===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.066===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.076===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.088===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.099===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.110===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.122===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.166===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.188===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.204===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.218===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.234===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.272===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.288===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.299===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.311===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.325===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.340===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:28.358===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+01:37:32.707===========> DesktopImpl.service: [Desktop z_gg1:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]

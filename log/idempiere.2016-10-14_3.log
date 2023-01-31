@@ -1,0 +1,135 @@
+*** 2016-10-14 09:31:02.725 idempiere Log (CLogFile) ***
+09:31:02.725 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:31:02.725 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+09:31:03.327 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+09:31:03.343 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:31:03.343 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:31:03.358-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:31:03.452 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:31:03.468-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:31:03.483-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:31:03.483-----------> EMail.isValid: From is invalid=null [17]
+09:31:03.483-----------> EMail.isValid: From is invalid=null [17]
+09:31:03.483-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+09:31:03.483 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:31:03.483 AdempiereMonitor.init:  [17]
+09:31:05.093-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:31:05.386-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:19/metainfo/zk/config.xml [17]
+09:31:05.389-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:28/metainfo/zk/config.xml [17]
+09:31:05.389-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:29/metainfo/zk/config.xml [17]
+09:31:05.421-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1319287199:31/metainfo/zk/zk.xml [17]
+09:31:05.801-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:31:05.816-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:31:05.895-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+09:31:05.895-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+09:31:05.910-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+09:31:05.910-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+09:31:05.910-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+09:31:05.929-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+09:31:05.937-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+09:31:06.061           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:31:07.186-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-10-14 09:31:07.459 idempiere Log (CLogFile) ***
+09:31:09.642-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+09:33:39.675-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+09:33:39.675-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+09:33:41.919-----------> ServletHandler.doHandle: /webui/ [28]
+org.zkoss.zk.ui.UiException: Page not found: /theme/snprdtheme/preference.zul
+	at org.zkoss.zk.ui.http.ExecutionImpl.getPageDefinition(ExecutionImpl.java:379)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents0(AbstractExecution.java:279)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents(AbstractExecution.java:271)
+	at org.zkoss.zul.Include.afterCompose(Include.java:488)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:878)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:826)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:735)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:797)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:757)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:699)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:442)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:356)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:217)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:136)
+	at org.adempiere.webui.session.WebUIServlet.doGet(WebUIServlet.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.adempiere.webui.session.WebUIServlet.service(WebUIServlet.java:108)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+
+09:34:32.480-----------> ServletHandler.doHandle: /webui/ [34]
+org.zkoss.zk.ui.UiException: Page not found: /theme/snprdtheme/preference.zul
+	at org.zkoss.zk.ui.http.ExecutionImpl.getPageDefinition(ExecutionImpl.java:379)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents0(AbstractExecution.java:279)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents(AbstractExecution.java:271)
+	at org.zkoss.zul.Include.afterCompose(Include.java:488)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:878)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:826)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:735)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:797)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:757)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:699)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:442)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:356)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:217)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:136)
+	at org.adempiere.webui.session.WebUIServlet.doGet(WebUIServlet.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.adempiere.webui.session.WebUIServlet.service(WebUIServlet.java:108)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+
+09:34:33.454-----------> ServletHandler.doHandle: /webui/ [28]
+org.zkoss.zk.ui.UiException: Page not found: /theme/snprdtheme/preference.zul
+	at org.zkoss.zk.ui.http.ExecutionImpl.getPageDefinition(ExecutionImpl.java:379)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents0(AbstractExecution.java:279)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents(AbstractExecution.java:271)
+	at org.zkoss.zul.Include.afterCompose(Include.java:488)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:878)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:826)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:735)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:797)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:757)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:699)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:442)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:356)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:217)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:136)
+	at org.adempiere.webui.session.WebUIServlet.doGet(WebUIServlet.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.adempiere.webui.session.WebUIServlet.service(WebUIServlet.java:108)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+

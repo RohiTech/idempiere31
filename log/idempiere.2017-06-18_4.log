@@ -1,0 +1,280 @@
+*** 2017-06-18 19:21:03.824 idempiere Log (CLogFile) ***
+19:21:03.823 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+19:21:03.827 Ini.loadProperties: E:\mercurialidempiere/idempiereDEMO.properties #33 [17]
+19:21:09.637 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-18 10:07:05.297 [17]
+19:21:10.916 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+19:21:10.917 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+19:21:12.833-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+19:21:18.399 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+19:21:18.676-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:21:19.213-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:21:19.213-----------> EMail.isValid: From is invalid=null [17]
+19:21:19.213-----------> EMail.isValid: From is invalid=null [17]
+19:21:19.213-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+19:21:19.213 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+19:21:19.214 AdempiereMonitor.init:  [17]
+19:21:59.803-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:22:00.052-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk176207911:2/metainfo/zk/config.xml
+with bundleresource://182.fwk176207911:19/metainfo/zk/config.xml [17]
+19:22:00.060-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk176207911:11/metainfo/zk/config.xml
+with bundleresource://182.fwk176207911:28/metainfo/zk/config.xml [17]
+19:22:00.068-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk176207911:12/metainfo/zk/config.xml
+with bundleresource://182.fwk176207911:29/metainfo/zk/config.xml [17]
+19:22:00.093-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk176207911:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk176207911:31/metainfo/zk/zk.xml [17]
+19:22:00.970-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+19:22:01.009-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+19:22:01.095-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk176207911:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:18/metainfo/zk/lang-addon.xml [17]
+19:22:01.106-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk176207911:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:19/metainfo/zk/lang-addon.xml [17]
+19:22:01.117-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk176207911:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:22/metainfo/zk/lang-addon.xml [17]
+19:22:01.124-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk176207911:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:23/metainfo/zk/lang-addon.xml [17]
+19:22:01.129-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk176207911:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:24/metainfo/zk/lang-addon.xml [17]
+19:22:01.141-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk176207911:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:29/metainfo/zk/lang-addon.xml [17]
+19:22:01.146-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk176207911:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk176207911:30/metainfo/zk/lang-addon.xml [17]
+19:22:01.911           WebUIServlet.init: iDempiere Web Client started successfully [17]
+19:22:03.181-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:22:03.315-----------> LCO_ValidatorWH.initialize:  [48]
+
+*** 2017-06-18 19:22:03.544 idempiere Log (CLogFile) ***
+19:22:06.583-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+19:26:24.334===========> TableIndexElementHandler.validateTableIndex: ERROR: column am.amcanorder does not exist
+  Position: 427 [41]
+org.postgresql.util.PSQLException: ERROR: column am.amcanorder does not exist
+  Position: 427; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+	at org.postgresql.jdbc2.AbstractJdbc2DatabaseMetaData.getIndexInfo(AbstractJdbc2DatabaseMetaData.java:4230)
+	at com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData.getIndexInfo(NewProxyDatabaseMetaData.java:3328)
+	at org.compiere.process.TableIndexValidate.validateTableIndex(TableIndexValidate.java:69)
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.validateTableIndex(TableIndexElementHandler.java:112)
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:93)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:334)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+
+19:26:32.469===========> PackIn.importXML: importXML: [41]
+org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:334)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+19:26:35.426===========> PackIn.importXML: importXML: [41]
+java.lang.RuntimeException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:334)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+19:26:38.729===========> PipoDictionaryService.merge: importXML: [41]
+java.lang.RuntimeException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:334)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+19:26:51.335===========> Incremental2PackActivator.packIn: Pack in failed. [41]
+java.lang.RuntimeException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.pipo2.exception.DatabaseAccessException: Failed to validate AD_TableIndex for lco_invoicewithholding_uu_idx
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:99)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:334)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+
+19:39:16.259===========> PreparedStatementProxy.init: SELECT PA_DashboardContent_ID,ColumnNo FROM PA_DashboardContent WHERE PA_DashboardContent_ID NOT IN ( SELECT PA_DashboardContent_ID FROM PA_DashboardContent_Access WHERE AD_Client_ID IN (0, ?)) AND IsShowInLogin='Y' AND IsActive='Y' AND AD_Client_ID IN (0, ?) UNION ALL SELECT ct.PA_DashboardContent_ID,ct.ColumnNo FROM PA_DashboardContent ct INNER JOIN PA_DashboardContent_Access cta on (ct.PA_DashboardContent_ID = cta.PA_DashboardContent_ID) WHERE cta.IsActive='Y' AND ct.IsActive='Y' AND COALESCE(cta.AD_Role_ID, ?) = ? AND COALESCE(cta.AD_User_ID, ?) = ? AND cta.AD_Client_ID in (0,?) AND ct.PA_DashboardContent_ID NOT IN (SELECT PA_DashboardContent_ID FROM PA_DashboardContent_Access WHERE IsActive='N' AND ct.AD_Client_ID in (0,?) AND COALESCE(ct.AD_Role_ID, ?) = ? AND COALESCE(ct.AD_User_ID, ?) = ?) ORDER BY ColumnNo [69]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.model.MDashboardContentAccess.get(MDashboardContentAccess.java:109)
+	at org.adempiere.webui.desktop.DashboardController.render(DashboardController.java:139)
+	at org.adempiere.webui.desktop.DefaultDesktop.renderHomeTab(DefaultDesktop.java:488)
+	at org.adempiere.webui.desktop.DefaultDesktop$7$1.updateUI(DefaultDesktop.java:324)
+	at org.adempiere.webui.util.ServerPushTemplate$1.onEvent(ServerPushTemplate.java:55)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleInfo.invoke(DesktopImpl.java:1625)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleInfo.access$1200(DesktopImpl.java:1614)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleListener.onEvent(DesktopImpl.java:1643)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+
+19:39:35.783-----------> DashboardController.render: Failed to create dashboard content [69]
+org.adempiere.exceptions.AdempiereException: java.lang.IllegalStateException: DB.getConnectionRO - No hay conexión con la base de datos
+	at org.compiere.model.MDashboardContentAccess.get(MDashboardContentAccess.java:124)
+	at org.adempiere.webui.desktop.DashboardController.render(DashboardController.java:139)
+	at org.adempiere.webui.desktop.DefaultDesktop.renderHomeTab(DefaultDesktop.java:488)
+	at org.adempiere.webui.desktop.DefaultDesktop$7$1.updateUI(DefaultDesktop.java:324)
+	at org.adempiere.webui.util.ServerPushTemplate$1.onEvent(ServerPushTemplate.java:55)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleInfo.invoke(DesktopImpl.java:1625)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleInfo.access$1200(DesktopImpl.java:1614)
+	at org.zkoss.zk.ui.impl.DesktopImpl$ScheduleListener.onEvent(DesktopImpl.java:1643)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:512)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:356)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:217)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:136)
+	at org.adempiere.webui.session.WebUIServlet.doGet(WebUIServlet.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+

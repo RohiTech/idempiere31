@@ -1,0 +1,385 @@
+*** 2017-02-18 10:31:17.245 idempiere Log (CLogFile) ***
+10:31:17.245 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+10:31:17.247 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+10:31:17.797 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+10:31:17.797 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+10:31:17.812-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+10:31:17.920 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+10:31:18.105-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+10:31:18.122-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+10:31:18.122-----------> EMail.isValid: From is invalid=null [14]
+10:31:18.122-----------> EMail.isValid: From is invalid=null [14]
+10:31:18.122-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+10:31:18.122 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+10:31:18.122 AdempiereMonitor.init:  [14]
+10:31:21.973-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+10:31:22.496-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1177962617:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1177962617:19/metainfo/zk/config.xml [14]
+10:31:22.502-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1177962617:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1177962617:28/metainfo/zk/config.xml [14]
+10:31:22.506-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1177962617:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1177962617:29/metainfo/zk/config.xml [14]
+10:31:22.598-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1177962617:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1177962617:31/metainfo/zk/zk.xml [14]
+10:31:23.415-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+10:31:23.437-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+10:31:23.537-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1177962617:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:18/metainfo/zk/lang-addon.xml [14]
+10:31:23.537-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1177962617:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:19/metainfo/zk/lang-addon.xml [14]
+10:31:23.537-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1177962617:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:22/metainfo/zk/lang-addon.xml [14]
+10:31:23.537-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1177962617:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:23/metainfo/zk/lang-addon.xml [14]
+10:31:23.553-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1177962617:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:24/metainfo/zk/lang-addon.xml [14]
+10:31:23.568-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1177962617:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:29/metainfo/zk/lang-addon.xml [14]
+10:31:23.568-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1177962617:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1177962617:30/metainfo/zk/lang-addon.xml [14]
+10:31:24.000           WebUIServlet.init: iDempiere Web Client started successfully [14]
+10:31:25.100-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+10:31:25.316-----------> LCO_ValidatorWH.initialize:  [66]
+
+*** 2017-02-18 10:31:25.648 idempiere Log (CLogFile) ***
+10:31:30.815-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [45]
+10:31:48.967-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [31]
+10:31:48.967-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [31]
+11:58:59.530-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 4115489ms, Master-Confirmation-Timeout: 500000ms. [150]
+11:59:52.849-----------> MRole.saveWarning: AccessTableNoView - Required=3(Datos de Grupo Empresarial y Organización) != UserLevel=S   [32]
+11:59:52.849===========> GridWindowVO.createTabs: No Tabs - AD_Window_ID=1000021 - SELECT * FROM AD_Tab_vt WHERE AD_Window_ID=? AND AD_Language='es_NI' ORDER BY SeqNo [32]
+11:59:53.195===========> UiEngineImpl.handleError:  [32]
+org.adempiere.webui.exception.ApplicationException: No se puede ver esta información con su rol actual(No Window Model Info)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: No se puede ver esta información con su rol actual(No Window Model Info)
+	at org.adempiere.webui.adwindow.ADWindow.<init>(ADWindow.java:97)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:158)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+caused by: org.adempiere.webui.exception.ApplicationException: No se puede ver esta información con su rol actual(No Window Model Info)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initComponents(AbstractADWindowContent.java:256)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.<init>(AbstractADWindowContent.java:207)
+	at org.adempiere.webui.adwindow.ADWindowContent.<init>(ADWindowContent.java:72)
+	at org.adempiere.webui.adwindow.ADWindow.init(ADWindow.java:103)
+	at org.adempiere.webui.adwindow.ADWindow.<init>(ADWindow.java:94)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:158)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+
+12:28:45.276===========> GridTab.processCallout:  [31]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered "\"\t\t\twh.name almacen, \"" at line 11, column 17.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 11
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.doOnClick(ADWindowToolbar.java:413)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.onEvent(ADWindowToolbar.java:377)
+
+12:28:50.595===========> GridTab.processCallout:  [29]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered "\"\t\t\twh.name almacen, \"" at line 11, column 17.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 11
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+12:28:50.610-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered "\"\t\t\twh.name almacen, \"" at line 11, column 17.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 11 [29]
+12:29:36.305-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [32]
+12:29:36.309-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [32]
+12:30:14.517===========> GridTab.processCallout:  [224]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered ")" at line 35, column 66.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.setActiveTab0(AbstractADWindowContent.java:1274)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$10(AbstractADWindowContent.java:1198)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$16.onCallback(AbstractADWindowContent.java:1149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$16.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.setActiveTab(AbstractADWindowContent.java:1162)
+
+12:30:31.113===========> GridTab.processCallout:  [225]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered ")" at line 35, column 66.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+12:30:31.160-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered ")" at line 35, column 66.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35 [225]
+12:31:41.771===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: existencia : at Line: 35 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : existencia .compareTo ( BigDecimal .ZERO ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+12:31:41.866-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: existencia : at Line: 35 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : existencia .compareTo ( BigDecimal .ZERO ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35 [32]
+12:35:21.045===========> GridTab.processCallout:  [223]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: existencia : at Line: 35 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : existencia .compareTo ( BigDecimal .ZERO ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+12:35:21.185-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: existencia : at Line: 35 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : existencia .compareTo ( BigDecimal .ZERO ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35 [223]
+12:36:03.070===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: existencia : at Line: 35 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : existencia .compareTo ( BigDecimal .ZERO ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.actionText(WSearchEditor.java:380)
+	at org.adempiere.webui.editor.WSearchEditor.onEvent(WSearchEditor.java:242)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+
+12:36:03.106-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: existencia : at Line: 35 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' : existencia .compareTo ( BigDecimal .ZERO ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 35 [32]
+12:41:46.464-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID=? GROUP BY p.name   M_Product_ID=1000008 [59]
+12:42:52.274-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID=? GROUP BY p.name   M_Product_ID=1000006 [223]
+12:43:06.644-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID=? GROUP BY p.name   M_Product_ID=1000006 [223]
+12:45:59.333===========> GridTab.processCallout:  [59]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered "\"GROUP BY p.name \"" at line 16, column 17.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 16
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.setActiveTab0(AbstractADWindowContent.java:1274)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$10(AbstractADWindowContent.java:1198)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$16.onCallback(AbstractADWindowContent.java:1149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$16.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.setActiveTab(AbstractADWindowContent.java:1162)
+
+12:46:19.562===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered "\"GROUP BY p.name \"" at line 16, column 17.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 16
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:81)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.access$4(WSearchEditor.java:409)
+	at org.adempiere.webui.editor.WSearchEditor$2.onEvent(WSearchEditor.java:573)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+
+12:46:19.562-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: In file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' Encountered "\"GROUP BY p.name \"" at line 16, column 17.
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import java.sql.Prepar . . . '' at line number 16 [32]
+12:47:09.769-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID= 1000006 GROUP BY p.name   M_Product_ID=1000006 [224]
+12:47:09.778-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID= 1000006 GROUP BY p.name   M_Product_ID=1000006 [224]
+12:47:09.778-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID= 1000006 GROUP BY p.name   M_Product_ID=1000006 [224]
+12:47:09.778-----------> Msg.getMsg: NOT found: No se puede realizar compra de productos que aun tiene existecia void [224]
+12:49:14.332-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID= 1000006 GROUP BY p.name   M_Product_ID=1000006 [223]
+12:49:14.340-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID= 1000006 GROUP BY p.name   M_Product_ID=1000006 [223]
+12:49:14.340-----------> Msg.getMsg: NOT found: SELECT 	p.name producto,			COALESCE(SUM(QtyOnHand), 0) existencia FROM 	M_STORAGE s 		inner join M_Product p on s.M_Product_ID=p.M_Product_ID WHERE 	s.AD_Client_ID=1000000 AND s.M_Product_ID= 1000006 GROUP BY p.name  paso [223]
+12:49:14.344-----------> Msg.getMsg: NOT found: ex void [223]
+12:51:09.680-----------> Msg.getMsg: NOT found: No se puede realizar compra de productos que aun tiene existecia(644.0) [224]

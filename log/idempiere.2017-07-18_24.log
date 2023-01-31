@@ -1,0 +1,86 @@
+*** 2017-07-18 17:53:12.42 idempiere Log (CLogFile) ***
+17:53:12.419 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+17:53:12.422 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+17:53:12.979 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+17:53:12.983 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+17:53:12.995 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+17:53:12.995 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+17:53:13.011-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+17:53:13.081 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+17:53:13.247-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+17:53:13.249-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+17:53:13.249-----------> EMail.isValid: From is invalid=null [17]
+17:53:13.249-----------> EMail.isValid: From is invalid=null [17]
+17:53:13.249-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+17:53:13.249 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+17:53:13.249 AdempiereMonitor.init:  [17]
+17:53:14.891-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+17:53:15.137-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://185.fwk491298318:19/metainfo/zk/config.xml [17]
+17:53:15.142-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://185.fwk491298318:28/metainfo/zk/config.xml [17]
+17:53:15.147-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://185.fwk491298318:29/metainfo/zk/config.xml [17]
+17:53:15.173-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk491298318:31/metainfo/zk/zk.xml [17]
+17:53:15.526-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+17:53:15.547-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+17:53:15.616-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+17:53:15.621-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+17:53:15.629-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+17:53:15.634-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+17:53:15.637-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+17:53:15.649-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+17:53:15.655-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+17:53:15.937           WebUIServlet.init: iDempiere Web Client started successfully [17]
+17:53:17.265-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-18 17:53:17.536 idempiere Log (CLogFile) ***
+17:53:19.996-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+17:54:39.168===========> WDocActionDialog.<init>:  [29]
+java.lang.NullPointerException
+	at org.adempiere.webui.panel.WDocActionDialog.fillBoxOptions(WDocActionDialog.java:103)
+	at org.adempiere.webui.panel.WDocActionDialog.zkInit(WDocActionDialog.java:99)
+	at org.adempiere.webui.panel.WDocActionDialog.<init>(WDocActionDialog.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at ni.idempiere.docaction.factory.CustomDialogFactory.newFormInstance(CustomDialogFactory.java:22)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+

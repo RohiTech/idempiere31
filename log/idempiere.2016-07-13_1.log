@@ -1,0 +1,112 @@
+*** 2016-07-13 09:11:10.105 idempiere Log (CLogFile) ***
+09:11:10.105 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:11:10.108 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+09:11:10.746 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:11:10.746 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:11:10.785-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:11:10.917 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:11:10.917-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:11:10.936-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:11:10.936-----------> EMail.isValid: From is invalid=null [17]
+09:11:10.936-----------> EMail.isValid: From is invalid=null [17]
+09:11:10.936-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.58) to you @ company.org: Invalid Data (System) [17]
+09:11:10.937 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:11:10.937 AdempiereMonitor.init:  [17]
+09:11:12.835-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:11:13.102-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1399961333:19/metainfo/zk/config.xml [17]
+09:11:13.109-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1399961333:28/metainfo/zk/config.xml [17]
+09:11:13.115-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1399961333:29/metainfo/zk/config.xml [17]
+09:11:13.140-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1399961333:31/metainfo/zk/zk.xml [17]
+09:11:13.470-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:11:13.492-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:11:13.553-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+09:11:13.557-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+09:11:13.561-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+09:11:13.564-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+09:11:13.568-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+09:11:13.581-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+09:11:13.591-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+09:11:13.707           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:11:14.679-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-13 09:11:14.881 idempiere Log (CLogFile) ***
+09:11:16.742-----------> Node: [10.0.5.58]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+09:12:48.205===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [34]
+09:13:39.704===========> UiEngineImpl.handleError:  [33]
+java.lang.StackOverflowError
+	at org.zkoss.zul.Listbox$Children.<init>(Listbox.java:464)
+	at org.zkoss.zul.Listbox.getChildren(Listbox.java:461)
+	at org.zkoss.zul.Listbox$1.get(Listbox.java:377)
+	at org.zkoss.zul.Listbox$1.get(Listbox.java:371)
+	at org.zkoss.zul.Listbox.getItemAtIndex(Listbox.java:880)
+	at org.adempiere.webui.component.Listbox.getItemAtIndex(Listbox.java:94)
+	at org.adempiere.webui.component.Listbox.getItemAtIndex(Listbox.java:1)
+	at org.zkoss.zul.Listbox.setSelectedIndex(Listbox.java:917)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:492)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+
+09:14:23.379===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [123]
+09:18:01.571===========> UiEngineImpl.handleError:  [39]
+java.lang.StackOverflowError
+	at java.util.AbstractSequentialList.get(Unknown Source)
+	at org.zkoss.zul.Listbox$1.get(Listbox.java:377)
+	at org.zkoss.zul.Listbox$1.get(Listbox.java:371)
+	at org.zkoss.zul.Listbox.getItemAtIndex(Listbox.java:880)
+	at org.adempiere.webui.component.Listbox.getItemAtIndex(Listbox.java:94)
+	at org.adempiere.webui.component.Listbox.getItemAtIndex(Listbox.java:1)
+	at org.zkoss.zul.Listbox.setSelectedIndex(Listbox.java:917)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:492)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+	at org.adempiere.webui.form.WNIAllocateInvoice.tableChanged(WNIAllocateInvoice.java:515)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+

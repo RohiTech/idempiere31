@@ -1,0 +1,78 @@
+*** 2016-06-05 20:28:26.917 idempiere Log (CLogFile) ***
+20:28:26.917 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+20:28:26.917 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+20:28:27.370 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+20:28:27.370 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+20:28:27.386-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+20:28:27.495 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+20:28:27.495 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+20:28:27.558 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+20:28:27.620-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+20:28:27.620-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+20:28:27.620-----------> EMail.isValid: From is invalid=null [17]
+20:28:27.620-----------> EMail.isValid: From is invalid=null [17]
+20:28:27.620-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:127.0.0.1) to you @ company.org: Invalid Data (System) [17]
+20:28:27.620 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+20:28:27.620 AdempiereMonitor.init:  [17]
+20:28:29.152-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+20:28:29.388-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/config.xml [17]
+20:28:29.388-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:28/metainfo/zk/config.xml [17]
+20:28:29.388-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/config.xml [17]
+20:28:29.419-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1399961333:31/metainfo/zk/zk.xml [17]
+20:28:29.778-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+20:28:29.794-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+20:28:29.856-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+20:28:29.856-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+20:28:29.856-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+20:28:29.872-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+20:28:29.872-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+20:28:29.872-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+20:28:29.888-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+20:28:30.060           WebUIServlet.init: iDempiere Web Client started successfully [17]
+20:28:30.935-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-05 20:28:31.137 idempiere Log (CLogFile) ***
+20:28:32.871-----------> Node: [127.0.0.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+20:28:59.289===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=AD_Attachment - AccessSqlParser[AD_Attachment=WHERE|0] - #1 AD_Attachment=WHERE
+ = SELECT AD_Attachment_ID, Title, Textmsg FROM AD_Attachment WHERE  [40]
+20:29:02.173===========> MAttachment.load: (rs) - 0: AD_Attachment.AD_Attachment_ID (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.239===========> MAttachment.load: (rs) - 1: AD_Attachment.AD_Client_ID (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.290===========> MAttachment.load: (rs) - 2: AD_Attachment.AD_Org_ID (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.353===========> MAttachment.load: (rs) - 3: AD_Attachment.IsActive (class java.lang.Boolean) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.406===========> MAttachment.load: (rs) - 4: AD_Attachment.Created (class java.sql.Timestamp) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.457===========> MAttachment.load: (rs) - 5: AD_Attachment.CreatedBy (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.519===========> MAttachment.load: (rs) - 6: AD_Attachment.Updated (class java.sql.Timestamp) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.572===========> MAttachment.load: (rs) - 7: AD_Attachment.UpdatedBy (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.620===========> MAttachment.load: (rs) - 8: AD_Attachment.AD_Table_ID (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.673===========> MAttachment.load: (rs) - 9: AD_Attachment.Record_ID (class java.lang.Integer) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.754===========> MAttachment.load: (rs) - 10: AD_Attachment.BinaryData (class [B) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.804===========> MAttachment.load: (rs) - 11: AD_Attachment.Title (class java.lang.String) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.863===========> MAttachment.load: (rs) - 12: AD_Attachment.TextMsg (class java.lang.String) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]
+20:29:02.905===========> MAttachment.load: (rs) - 13: AD_Attachment.AD_Attachment_UU (class java.lang.String) - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next. [40]

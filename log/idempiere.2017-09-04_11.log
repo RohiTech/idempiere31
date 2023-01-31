@@ -1,0 +1,242 @@
+*** 2017-09-04 19:58:20.787 idempiere Log (CLogFile) ***
+19:58:20.787 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+19:58:20.789 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+19:58:21.308 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+19:58:21.310 AdempiereActivator.installPackage: ni.idempiere.procesingdocuments 1.0.0 was installed: 2017-08-14 01:30:40.036 [17]
+19:58:21.312 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [17]
+19:58:21.316 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [17]
+19:58:21.327 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+19:58:21.327 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+19:58:21.345-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+19:58:21.415 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+19:58:21.598-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:58:21.600-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:58:21.600-----------> EMail.isValid: From is invalid=null [17]
+19:58:21.600-----------> EMail.isValid: From is invalid=null [17]
+19:58:21.600-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+19:58:21.601 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+19:58:21.601 AdempiereMonitor.init:  [17]
+19:58:23.272-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:58:23.513-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/config.xml [17]
+19:58:23.519-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:28/metainfo/zk/config.xml [17]
+19:58:23.524-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/config.xml [17]
+19:58:23.552-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk491298318:31/metainfo/zk/zk.xml [17]
+19:58:23.929-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+19:58:23.951-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+19:58:24.020-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+19:58:24.025-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+19:58:24.029-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+19:58:24.033-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+19:58:24.037-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+19:58:24.048-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+19:58:24.055-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+19:58:24.334           WebUIServlet.init: iDempiere Web Client started successfully [17]
+19:58:25.426-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-09-04 19:58:25.676 idempiere Log (CLogFile) ***
+19:58:27.848-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+20:00:26.642===========> Doc_InOut.post:  [34]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:01:41.051===========> Doc_InOut.post:  [34]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:03:36.469===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:08:38.805===========> Doc_InOut.post:  [38]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:18:03.546===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:19:44.654===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:21:05.977===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:23:44.753===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:25:28.490===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:31:43.789===========> Doc_InOut.post:  [39]
+org.adempiere.exceptions.AverageCostingNegativeQtyException: Product=Cuaderno Espiral Cuadriculado 60H Tigu, Current Qty=0.0, New Current Qty=-1.0, CostElement=Promedio OC, Schema=Nemusa UN/35 Córdoba
+	at org.compiere.model.MCost.setCurrentQty(MCost.java:1700)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:1211)
+	at org.compiere.model.MCostDetail.process(MCostDetail.java:863)
+	at org.compiere.model.MCostDetail.createShipment(MCostDetail.java:259)
+	at org.compiere.acct.Doc_InOut.createFacts(Doc_InOut.java:269)
+	at org.compiere.acct.Doc.postLogic(Doc.java:643)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+
+20:34:59.393-----------> FactLine.setAmtSource: Source DR Precision 270.149999999917 -> 270.150 [32]
+20:34:59.397-----------> FactLine.setAmtSource: Source CR Precision 270.149999999917 -> 270.150 [32]
+20:34:59.434-----------> FactLine.setAmtSource: Source DR Precision 117.2988 -> 117.299 [32]
+20:34:59.437-----------> FactLine.setAmtSource: Source CR Precision 117.2988 -> 117.299 [32]
+20:36:38.036-----------> FactLine.setAmtSource: Source DR Precision 249.553197 -> 249.553 [34]
+20:36:38.041-----------> FactLine.setAmtSource: Source CR Precision 249.553197 -> 249.553 [34]
+20:36:38.114-----------> FactLine.setAmtSource: Source DR Precision 249.553197 -> 249.553 [34]
+20:36:38.117-----------> FactLine.setAmtSource: Source CR Precision 249.553197 -> 249.553 [34]
+20:36:38.160-----------> FactLine.setAmtSource: Source DR Precision 176.01857928 -> 176.019 [34]
+20:36:38.163-----------> FactLine.setAmtSource: Source CR Precision 176.01857928 -> 176.019 [34]
+20:36:38.192-----------> FactLine.setAmtSource: Source DR Precision 100.290474 -> 100.290 [34]
+20:36:38.194-----------> FactLine.setAmtSource: Source CR Precision 100.290474 -> 100.290 [34]
+20:43:49.226-----------> AbstractADWindowContent.onNewCallback: Insert Record disabled for Tab [39]
+20:45:48.627-----------> MPeriod.isOpen: Sep-17: Not open for SOO (2017-09-04 00:00:00.0) [38]
+20:45:48.630===========> CalloutEngine.start: start: dateAcct [38]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-09-04 00:00:00.0, Tipo de Documento Base=Orden de Ventas
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+

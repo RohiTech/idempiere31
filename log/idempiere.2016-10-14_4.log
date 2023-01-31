@@ -1,0 +1,518 @@
+*** 2016-10-14 09:34:49.281 idempiere Log (CLogFile) ***
+09:34:49.281 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:34:49.297 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+09:34:49.959 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+09:34:49.974 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:34:49.974 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:34:50.006-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:34:50.099 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:34:50.106-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:34:50.121-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:34:50.121-----------> EMail.isValid: From is invalid=null [17]
+09:34:50.121-----------> EMail.isValid: From is invalid=null [17]
+09:34:50.121-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+09:34:50.121 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:34:50.121 AdempiereMonitor.init:  [17]
+09:34:51.747-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:34:52.038-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/config.xml [17]
+09:34:52.054-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:28/metainfo/zk/config.xml [17]
+09:34:52.054-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/config.xml [17]
+09:34:52.101-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1399961333:31/metainfo/zk/zk.xml [17]
+09:34:52.491-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:34:52.507-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:34:52.585-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+09:34:52.601-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+09:34:52.601-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+09:34:52.616-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+09:34:52.616-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+09:34:52.632-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+09:34:52.632-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+09:34:52.757           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:34:53.885-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-10-14 09:34:54.154 idempiere Log (CLogFile) ***
+09:34:56.341-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+09:35:35.522-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+09:35:35.522-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+09:35:36.146-----------> GridField.defaultFromSQLExpression: (BeginningBalance) - Default SQL variable parse failed: @SQL=SELECT COALESCE(MIN(CurrentBalance),0) FROM C_BankAccount WHERE C_BankAccount_ID=@C_BankAccount_ID@ [35]
+09:39:52.669-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:07.424-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:26.292-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:30.554-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:36.770-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:39.253-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:44.098-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:46.846-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:48.834-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:51.465-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:53.742-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:57.339-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:40:59.563-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:06.405-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:09.721-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:11.621-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:15.065-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:50.368-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:51.937-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:41:55.611-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:42:37.715-----------> Fact.isAcctBalanced: NO - Diff=-0.01 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [41]
+09:43:42.301===========> Doc_BankStatement.post:  [41]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceAccounting(Fact.java:579)
+	at org.compiere.acct.Doc.postLogic(Doc.java:690)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+09:44:02.004-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.014-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.020-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.027-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.034-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.039-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.045-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.051-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.055-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.061-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.068-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.074-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.079-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.084-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.091-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.095-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.101-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.107-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.112-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:02.141-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+09:44:52.910-----------> Fact.isAcctBalanced: NO - Diff=-0.01 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [41]
+09:44:53.759===========> Doc_BankStatement.post:  [41]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceAccounting(Fact.java:579)
+	at org.compiere.acct.Doc.postLogic(Doc.java:690)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+09:47:53.876-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.885-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.893-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.897-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.905-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.909-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.909-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.925-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.925-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.940-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.940-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.940-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.957-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.961-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.969-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.969-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.977-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.981-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.985-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+09:47:53.993-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:03:29.506-----------> Fact.isAcctBalanced: NO - Diff=-0.01 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [30]
+10:03:29.513===========> Doc_BankStatement.post:  [30]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceAccounting(Fact.java:579)
+	at org.compiere.acct.Doc.postLogic(Doc.java:690)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:12:02.447-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.459-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.459-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.459-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.475-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.475-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.491-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.491-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.491-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.491-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.506-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.506-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.506-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.522-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.522-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.522-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.539-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.543-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.547-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.551-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [30]
+10:12:02.567-----------> Fact.isSourceBalanced: NO - Diff=0.01 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [30]
+10:12:02.567===========> Doc_BankStatement.post:  [30]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceSource(Fact.java:312)
+	at org.compiere.acct.Doc.postLogic(Doc.java:674)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:12:50.355-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.363-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.367-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.371-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.371-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.371-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.371-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.387-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.387-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.387-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.387-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.403-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.403-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.403-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.403-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.418-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.418-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.418-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.418-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.434-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:12:50.450-----------> Fact.isSourceBalanced: NO - Diff=0.1 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [36]
+10:12:50.450===========> Doc_BankStatement.post:  [36]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceSource(Fact.java:312)
+	at org.compiere.acct.Doc.postLogic(Doc.java:674)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:14:18.830-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.838-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.838-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.838-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.854-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.854-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.854-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.869-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.869-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.869-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.869-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.889-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.893-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.897-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.901-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.905-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.913-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.917-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.917-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.925-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [36]
+10:14:18.949-----------> Fact.isSourceBalanced: NO - Diff=0.1 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [36]
+10:14:18.953===========> Doc_BankStatement.post:  [36]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceSource(Fact.java:312)
+	at org.compiere.acct.Doc.postLogic(Doc.java:674)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:14:43.698-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.702-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.710-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.714-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.718-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.726-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.726-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.726-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.726-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.742-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.742-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.742-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.742-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.757-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.757-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.757-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.773-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.773-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.773-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.789-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:14:43.813-----------> Fact.isSourceBalanced: NO - Diff=0.1 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [41]
+10:14:43.813===========> Doc_BankStatement.post:  [41]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceSource(Fact.java:312)
+	at org.compiere.acct.Doc.postLogic(Doc.java:674)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:15:22.697-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.707-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.711-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.715-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.719-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.723-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.731-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.735-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.739-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.743-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.743-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.743-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.759-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.759-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.759-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.774-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.774-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.774-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.794-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:15:22.798-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:18:46.760-----------> Fact.isSourceBalanced: NO - Diff=0.1 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [41]
+10:18:50.744===========> Doc_BankStatement.post:  [41]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceSource(Fact.java:312)
+	at org.compiere.acct.Doc.postLogic(Doc.java:674)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:23:10.046-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.054-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.054-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.054-----------> FactLine.setAmtSource: Source DR Precision 20.001 -> 20.00 [41]
+10:23:10.070-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.074-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.078-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.086-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.090-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.094-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.098-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.102-----------> FactLine.setAmtSource: Source DR Precision 20.001 -> 20.00 [41]
+10:23:10.102-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.106-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.110-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.114-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.122-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.127-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.127-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.127-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.127-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:10.142-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [41]
+10:23:29.610-----------> Fact.isAcctBalanced: NO - Diff=-0.01 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [41]
+10:23:29.625===========> Doc_BankStatement.post:  [41]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceAccounting(Fact.java:579)
+	at org.compiere.acct.Doc.postLogic(Doc.java:690)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:24:10.776-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:26:22.362-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:26:59.262-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:26:59.274-----------> FactLine.setAmtSource: Source DR Precision 20.001 -> 20.00 [163]
+10:27:29.045-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:27:33.128-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:27:50.531-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:28:13.244-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:28:15.761-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:28:41.260-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:29:08.330-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:29:08.337-----------> FactLine.setAmtSource: Source DR Precision 20.001 -> 20.00 [163]
+10:29:38.843-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:29:38.860-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:29:50.175-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:02.417-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:02.422-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:14.041-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:18.798-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:18.803-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:24.977-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:30:28.906-----------> FactLine.set_Value: Description - Value too long - truncated to length=255 [163]
+10:31:03.143-----------> Fact.isAcctBalanced: NO - Diff=-0.01 - Fact[X_C_BankStatement[1000056],AcctSchema[1000000-SINAPRED UN/35 Cordoba],PostType=A] [163]
+10:31:06.546===========> Doc_BankStatement.post:  [163]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.balanceAccounting(Fact.java:579)
+	at org.compiere.acct.Doc.postLogic(Doc.java:690)
+	at org.compiere.acct.Doc.post(Doc.java:529)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+

@@ -1,0 +1,102 @@
+*** 2016-12-13 10:16:44.527 idempiere Log (CLogFile) ***
+10:16:44.527 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:16:44.530 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+10:16:45.232 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-11-24 14:40:50.73 [17]
+10:16:45.255 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:16:45.255 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:16:45.294-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:16:45.441 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:16:45.580-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:16:45.588-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:16:45.588-----------> EMail.isValid: From is invalid=null [17]
+10:16:45.588-----------> EMail.isValid: From is invalid=null [17]
+10:16:45.588-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+10:16:45.588 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:16:45.588 AdempiereMonitor.init:  [17]
+10:16:48.181-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:16:48.425-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/config.xml [17]
+10:16:48.430-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:28/metainfo/zk/config.xml [17]
+10:16:48.434-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/config.xml [17]
+10:16:48.458-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1480207683:31/metainfo/zk/zk.xml [17]
+10:16:48.929-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:16:48.960-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:16:49.035-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+10:16:49.039-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+10:16:49.044-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+10:16:49.047-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+10:16:49.052-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+10:16:49.067-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+10:16:49.072-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+10:16:49.329           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:16:50.519-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-12-13 10:16:50.764 idempiere Log (CLogFile) ***
+10:16:52.100-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+10:16:50.919===========> NotificationValidator.initialize: NotificationValidator.initialize() [75]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+10:20:10.307===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [32]
+10:20:20.173===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window w WHERE w.AD_Window_ID=? AND w.IsActive='Y' [33]
+10:20:20.284===========> CLogger.saveError: AccessTableNoView - (Not found) [33]
+10:22:39.772===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window w WHERE w.AD_Window_ID=? AND w.IsActive='Y' [33]
+10:22:39.879===========> CLogger.saveError: AccessTableNoView - (Not found) [33]
+10:23:18.806===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window w WHERE w.AD_Window_ID=? AND w.IsActive='Y' [32]
+10:23:19.162===========> CLogger.saveError: AccessTableNoView - (Not found) [32]
+10:25:47.910===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window w WHERE w.AD_Window_ID=? AND w.IsActive='Y' [32]
+10:25:48.003===========> CLogger.saveError: AccessTableNoView - (Not found) [32]
+10:27:24.569-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [39]
+10:27:24.570-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [39]
+10:28:20.231-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+10:28:20.231-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+10:29:10.350===========> GridWindowVO.create: No Window - AD_Window_ID=123, AD_Role_ID=MRole[0,System Administrator,UserLevel=S  ,AD_Client_ID=0,AD_Org_ID=0] - SELECT Name,Description,Help,WindowType, AD_Color_ID,AD_Image_ID,WinHeight,WinWidth, IsSOTrx, AD_Window_UU FROM AD_Window w WHERE w.AD_Window_ID=? AND w.IsActive='Y' [33]
+10:29:10.433===========> CLogger.saveError: AccessTableNoView - (Not found) [33]

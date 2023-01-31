@@ -1,0 +1,119 @@
+*** 2017-04-28 11:31:17.369 idempiere Log (CLogFile) ***
+11:31:17.368 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+11:31:17.373 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+11:31:18.056 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+11:31:18.057 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+11:31:18.075-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+11:31:18.184 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+11:31:18.402-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:31:18.404-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:31:18.405-----------> EMail.isValid: From is invalid=null [17]
+11:31:18.405-----------> EMail.isValid: From is invalid=null [17]
+11:31:18.405-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+11:31:18.405 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+11:31:18.405 AdempiereMonitor.init:  [17]
+11:31:20.211-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:31:20.478-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+11:31:20.486-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+11:31:20.492-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+11:31:20.529-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+11:31:20.954-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+11:31:20.981-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+11:31:21.034-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+11:31:21.037-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+11:31:21.042-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+11:31:21.045-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+11:31:21.049-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+11:31:21.064-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+11:31:21.073-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+11:31:21.387           WebUIServlet.init: iDempiere Web Client started successfully [17]
+11:31:22.533-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:31:22.649-----------> LCO_ValidatorWH.initialize:  [69]
+
+*** 2017-04-28 11:31:22.821 idempiere Log (CLogFile) ***
+11:31:25.396-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+11:32:52.344===========> NICreateLineFormSO.getServiceOrder: 	SELECT  C_Campaign_ID, 			Value  	FROM 	C_Campaign 	WHERE	AD_Client_ID=1000000 AND IsActive='Y' AND (DocStatus='CO') 	ORDER BY created DESC [36]
+org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 94; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.adempiere.webui.form.NICreateLineFormSO.getServiceOrder(NICreateLineFormSO.java:125)
+	at org.adempiere.webui.form.WNICreateLineFormSO.dynamicInitialise(WNICreateLineFormSO.java:161)
+	at org.adempiere.webui.form.WNICreateLineFormSO.initForm(WNICreateLineFormSO.java:126)
+	at org.adempiere.webui.form.WNICreateLineFormSO.<init>(WNICreateLineFormSO.java:101)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+
+11:32:52.547===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [36]
+11:34:19.283===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [36]
+11:36:29.765===========> NICreateLineFormSO.getServiceOrder: 	SELECT  C_Campaign_ID, 			Value  	FROM 	C_Campaign 	WHERE	AD_Client_ID=1000000 AND IsActive='Y' AND (DocStatus='CO') 	ORDER BY created DESC [34]
+org.postgresql.util.PSQLException: ERROR: column "docstatus" does not exist
+  Position: 94; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.adempiere.webui.form.NICreateLineFormSO.getServiceOrder(NICreateLineFormSO.java:125)
+	at org.adempiere.webui.form.WNICreateLineFormSO.dynamicInitialise(WNICreateLineFormSO.java:161)
+	at org.adempiere.webui.form.WNICreateLineFormSO.initForm(WNICreateLineFormSO.java:126)
+	at org.adempiere.webui.form.WNICreateLineFormSO.<init>(WNICreateLineFormSO.java:101)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+
+11:36:29.853===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [34]
+11:36:31.896===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [34]

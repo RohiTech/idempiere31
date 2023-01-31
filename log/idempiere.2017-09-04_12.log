@@ -1,0 +1,160 @@
+*** 2017-09-04 20:58:46.585 idempiere Log (CLogFile) ***
+20:58:46.584 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+20:58:46.587 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+20:58:47.118 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [14]
+20:58:47.120 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [14]
+20:58:47.123 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [14]
+20:58:47.125 AdempiereActivator.installPackage: ni.idempiere.procesingdocuments 1.0.0 was installed: 2017-08-14 01:30:40.036 [14]
+20:58:47.135 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+20:58:47.135 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+20:58:47.149-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [14]
+20:58:47.210 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+20:58:47.370-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+20:58:47.371-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+20:58:47.372-----------> EMail.isValid: From is invalid=null [14]
+20:58:47.372-----------> EMail.isValid: From is invalid=null [14]
+20:58:47.372-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+20:58:47.372 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+20:58:47.372 AdempiereMonitor.init:  [14]
+20:58:48.932-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+20:58:49.164-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk333967374:2/metainfo/zk/config.xml
+with bundleresource://188.fwk333967374:19/metainfo/zk/config.xml [14]
+20:58:49.170-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk333967374:11/metainfo/zk/config.xml
+with bundleresource://188.fwk333967374:28/metainfo/zk/config.xml [14]
+20:58:49.175-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk333967374:12/metainfo/zk/config.xml
+with bundleresource://188.fwk333967374:29/metainfo/zk/config.xml [14]
+20:58:49.200-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk333967374:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk333967374:31/metainfo/zk/zk.xml [14]
+20:58:49.512-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+20:58:49.533-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+20:58:49.585-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk333967374:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:18/metainfo/zk/lang-addon.xml [14]
+20:58:49.589-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk333967374:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:19/metainfo/zk/lang-addon.xml [14]
+20:58:49.594-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk333967374:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:22/metainfo/zk/lang-addon.xml [14]
+20:58:49.597-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk333967374:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:23/metainfo/zk/lang-addon.xml [14]
+20:58:49.599-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk333967374:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:24/metainfo/zk/lang-addon.xml [14]
+20:58:49.609-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk333967374:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:29/metainfo/zk/lang-addon.xml [14]
+20:58:49.617-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk333967374:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk333967374:30/metainfo/zk/lang-addon.xml [14]
+20:58:49.919           WebUIServlet.init: iDempiere Web Client started successfully [14]
+20:58:50.930-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2017-09-04 20:58:51.115 idempiere Log (CLogFile) ***
+20:58:53.030-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [38]
+21:00:12.308-----------> FactLine.setAmtSource: Source DR Precision 301.559999999044 -> 301.560 [149]
+21:00:12.315-----------> FactLine.setAmtSource: Source CR Precision 301.559999999044 -> 301.560 [149]
+21:00:12.943===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [149]
+21:00:12.988-----------> MWFActivity.run: MWFNode[186-(DocComplete),Action=DocumentAction=CO] [149]
+org.adempiere.exceptions.AdempiereException: Failed when processing document - Cannot Complete the Payment : [Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura] MPayment[1003612-1000003,Receipt=true,PayAmt=750.56,Discount=0.0,WriteOff=0.0,OverUnder=0.0
+	at org.compiere.model.MOrder.createInvoice(MOrder.java:2281)
+	at org.compiere.model.MOrder.completeIt(MOrder.java:1934)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MOrder.processIt(MOrder.java:1203)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+21:01:07.453-----------> FactLine.setAmtSource: Source DR Precision 301.559999999044 -> 301.560 [181]
+21:01:07.459-----------> FactLine.setAmtSource: Source CR Precision 301.559999999044 -> 301.560 [181]
+21:01:07.760===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [181]
+21:01:07.780-----------> MWFActivity.run: MWFNode[186-(DocComplete),Action=DocumentAction=CO] [181]
+org.adempiere.exceptions.AdempiereException: Failed when processing document - Cannot Complete the Payment : [Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura] MPayment[1003613-1000003,Receipt=true,PayAmt=750.56,Discount=0.0,WriteOff=0.0,OverUnder=0.0
+	at org.compiere.model.MOrder.createInvoice(MOrder.java:2281)
+	at org.compiere.model.MOrder.completeIt(MOrder.java:1934)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MOrder.processIt(MOrder.java:1203)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+21:01:16.435-----------> FactLine.setAmtSource: Source DR Precision 301.559999999044 -> 301.560 [184]
+21:01:16.440-----------> FactLine.setAmtSource: Source CR Precision 301.559999999044 -> 301.560 [184]
+21:01:16.716===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [184]
+21:01:16.755-----------> MWFActivity.run: MWFNode[186-(DocComplete),Action=DocumentAction=CO] [184]
+org.adempiere.exceptions.AdempiereException: Failed when processing document - Cannot Complete the Payment : [Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura] MPayment[1003614-1000003,Receipt=true,PayAmt=750.56,Discount=0.0,WriteOff=0.0,OverUnder=0.0
+	at org.compiere.model.MOrder.createInvoice(MOrder.java:2281)
+	at org.compiere.model.MOrder.completeIt(MOrder.java:1934)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MOrder.processIt(MOrder.java:1203)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+21:03:00.643-----------> FactLine.setAmtSource: Source DR Precision 301.559999999044 -> 301.560 [55]
+21:03:00.649-----------> FactLine.setAmtSource: Source CR Precision 301.559999999044 -> 301.560 [55]
+21:03:00.874===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [55]
+21:03:00.915-----------> MWFActivity.run: MWFNode[186-(DocComplete),Action=DocumentAction=CO] [55]
+org.adempiere.exceptions.AdempiereException: Failed when processing document - Cannot Complete the Payment : [Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura] MPayment[1003615-1000003,Receipt=true,PayAmt=750.56,Discount=0.0,WriteOff=0.0,OverUnder=0.0
+	at org.compiere.model.MOrder.createInvoice(MOrder.java:2281)
+	at org.compiere.model.MOrder.completeIt(MOrder.java:1934)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MOrder.processIt(MOrder.java:1203)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+

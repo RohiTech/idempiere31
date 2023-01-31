@@ -1,0 +1,272 @@
+*** 2016-06-05 19:33:09.852 idempiere Log (CLogFile) ***
+19:33:09.852 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+19:33:09.852 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+19:33:10.274 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+19:33:10.274 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+19:33:10.290-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+19:33:10.353 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+19:33:10.368 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+19:33:10.415 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+19:33:10.462-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:33:10.462-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:33:10.462-----------> EMail.isValid: From is invalid=null [17]
+19:33:10.462-----------> EMail.isValid: From is invalid=null [17]
+19:33:10.462-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:127.0.0.1) to you @ company.org: Invalid Data (System) [17]
+19:33:10.462 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+19:33:10.462 AdempiereMonitor.init:  [17]
+19:33:11.712-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:33:11.949-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/config.xml [17]
+19:33:11.949-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:28/metainfo/zk/config.xml [17]
+19:33:11.965-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/config.xml [17]
+19:33:11.980-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1399961333:31/metainfo/zk/zk.xml [17]
+19:33:12.324-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+19:33:12.340-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+19:33:12.402-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+19:33:12.402-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+19:33:12.402-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+19:33:12.402-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+19:33:12.418-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+19:33:12.418-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+19:33:12.418-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+19:33:12.590           WebUIServlet.init: iDempiere Web Client started successfully [17]
+19:33:13.496-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-05 19:33:13.696 idempiere Log (CLogFile) ***
+19:33:15.574-----------> Node: [127.0.0.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+19:33:46.552===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=AD_Attachment - AccessSqlParser[AD_Attachment=WHERE|0] - #1 AD_Attachment=WHERE
+ = SELECT AD_Attachment_ID, Title, Textmsg FROM AD_Attachment WHERE  [34]
+19:35:39.283===========> AuUploader.handleError: Failed to upload [40]
+org.apache.commons.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (6340628) exceeds the configured maximum (5242880)
+	at org.apache.commons.fileupload.FileUploadBase$FileItemIteratorImpl.<init>(FileUploadBase.java:937)
+	at org.apache.commons.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:331)
+	at org.apache.commons.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:351)
+	at org.apache.commons.fileupload.servlet.ServletFileUpload.parseRequest(ServletFileUpload.java:126)
+	at org.zkoss.zk.au.http.AuUploader.parseRequest(AuUploader.java:369)
+	at org.zkoss.zk.au.http.AuUploader.service(AuUploader.java:147)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:459)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+19:36:11.299===========> CustomerDoc.getAttachmentData:  [30]
+org.postgresql.util.PSQLException: Bad value for type timestamp/date/time: {1}; State=22007; ErrorCode=0
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:272)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+caused by: java.lang.NumberFormatException: Trailing junk on timestamp: 'presentacion idempiere erp'
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:266)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+
+19:36:12.311===========> CustomerDoc.getAttachmentData:  [35]
+org.postgresql.util.PSQLException: Bad value for type timestamp/date/time: {1}; State=22007; ErrorCode=0
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:272)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+caused by: java.lang.NumberFormatException: Trailing junk on timestamp: 'presentacion idempiere erp'
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:266)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+
+19:36:13.050===========> CustomerDoc.getAttachmentData:  [34]
+org.postgresql.util.PSQLException: Bad value for type timestamp/date/time: {1}; State=22007; ErrorCode=0
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:272)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+caused by: java.lang.NumberFormatException: Trailing junk on timestamp: 'presentacion idempiere erp'
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:266)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+
+19:39:28.281===========> CustomerDoc.getAttachmentData:  [35]
+org.postgresql.util.PSQLException: Bad value for type timestamp/date/time: {1}; State=22007; ErrorCode=0
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:272)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+caused by: java.lang.NumberFormatException: Trailing junk on timestamp: 'presentacion idempiere erp'
+	at org.postgresql.jdbc2.TimestampUtils.parseBackendTimestamp(TimestampUtils.java:266)
+	at org.postgresql.jdbc2.TimestampUtils.toTimestamp(TimestampUtils.java:303)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:573)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getTimestamp(AbstractJdbc2ResultSet.java:2547)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getTimestamp(NewProxyResultSet.java:2030)
+	at org.adempiere.webui.form.CustomerDoc.readData(CustomerDoc.java:95)
+	at org.adempiere.webui.form.CustomerDoc.getAttachmentData(CustomerDoc.java:56)
+	at org.adempiere.webui.form.WCustomerDoc.loadBPartnerInfo(WCustomerDoc.java:289)
+	at org.adempiere.webui.form.WCustomerDoc.renderItem(WCustomerDoc.java:277)
+	at org.adempiere.webui.form.WCustomerDoc.onEvent(WCustomerDoc.java:252)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+

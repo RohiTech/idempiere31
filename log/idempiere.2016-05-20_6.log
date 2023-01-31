@@ -1,0 +1,69 @@
+*** 2016-05-20 10:29:07.809 idempiere Log (CLogFile) ***
+10:29:07.809 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:29:07.809 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+10:29:08.364 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:29:08.364 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:29:08.391-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:29:08.511 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+10:29:08.514 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+10:29:08.587 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:29:08.606-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:29:08.609-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:29:08.609-----------> EMail.isValid: From is invalid=null [17]
+10:29:08.610-----------> EMail.isValid: From is invalid=null [17]
+10:29:08.610-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+10:29:08.610 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:29:08.611 AdempiereMonitor.init:  [17]
+10:29:10.333-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:29:10.579-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://178.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://178.fwk491298318:19/metainfo/zk/config.xml [17]
+10:29:10.595-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://178.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://178.fwk491298318:28/metainfo/zk/config.xml [17]
+10:29:10.595-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://178.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://178.fwk491298318:29/metainfo/zk/config.xml [17]
+10:29:10.626-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://178.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://178.fwk491298318:31/metainfo/zk/zk.xml [17]
+10:29:10.993-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:29:11.000-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:29:11.075-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://178.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+10:29:11.079-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://178.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+10:29:11.085-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://178.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+10:29:11.090-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://178.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+10:29:11.096-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://178.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+10:29:11.102-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://178.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+10:29:11.102-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://178.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://178.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+10:29:11.229           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:29:12.375-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-05-20 10:29:12.631 idempiere Log (CLogFile) ***
+10:29:14.985-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+10:29:32.670===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, Balance FROM C_Invoice WHERE  [35]
+10:29:55.730===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=i - AccessSqlParser[|0]
+ = SELECT	i.C_Invoice_ID 		,i.documentNo FROM	C_Invoice i 		LEFT JOIN C_AllocationLine al ON i.C_Invoice_ID=al.C_Invoice_ID AND al.C_Payment_ID IS NOT NULL  WHERE 	i.AD_Client_ID=?  		AND i.C_DocTypetarget_ID=1000005 		AND i.DocStatus IN('CL','CO')   		AND i.C_BPartner_ID=?  GROUP BY i.C_Invoice_ID 		,i.documentno 		,i.dateinvoiced 		,i.grandtotal HAVING (i.grandtotal - ABS(SUM(CASE WHEN al.amount IS NULL THEN 0 ELSE al.amount END)))>0  [38]
+10:31:07.061-----------> Msg.getMsg: NOT found: DateInvoiced [38]
+10:31:07.061-----------> Msg.getMsg: NOT found: GrandTotal [38]
+10:31:07.062-----------> Msg.getMsg: NOT found: Balance [38]

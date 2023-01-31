@@ -1,0 +1,263 @@
+*** 2017-03-11 12:56:16.509 idempiere Log (CLogFile) ***
+12:56:16.508 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+12:56:16.526 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+12:56:21.037 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+12:56:21.038 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+12:56:21.249-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+12:56:25.520 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+12:56:25.779-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+12:56:25.783-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+12:56:25.783-----------> EMail.isValid: From is invalid=null [17]
+12:56:25.784-----------> EMail.isValid: From is invalid=null [17]
+12:56:25.784-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+12:56:25.784 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+12:56:25.784 AdempiereMonitor.init:  [17]
+12:56:32.966-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+12:56:33.711-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+12:56:33.716-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+12:56:33.719-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+12:56:33.766-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+12:56:34.525-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+12:56:34.554-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+12:56:34.639-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+12:56:34.642-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+12:56:34.649-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+12:56:34.653-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+12:56:34.658-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+12:56:34.675-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+12:56:34.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+12:56:35.350           WebUIServlet.init: iDempiere Web Client started successfully [17]
+12:56:36.551-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+12:56:36.831-----------> LCO_ValidatorWH.initialize:  [69]
+
+*** 2017-03-11 12:56:37.074 idempiere Log (CLogFile) ***
+12:56:43.470-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+12:56:54.248-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+12:56:54.250-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+12:57:12.475===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [48]
+12:57:13.296===========> AcctProcessor.postSession: NI_Requisition [48]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+12:57:13.392===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [48]
+12:57:13.569===========> AcctProcessor.postSession: NI_Requisition [48]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:07:13.729===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [170]
+13:07:13.793===========> AcctProcessor.postSession: NI_Requisition [170]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:07:13.862===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [170]
+13:07:13.875===========> AcctProcessor.postSession: NI_Requisition [170]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:17:13.993===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [138]
+13:17:14.039===========> AcctProcessor.postSession: NI_Requisition [138]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:17:14.079===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [138]
+13:17:14.087===========> AcctProcessor.postSession: NI_Requisition [138]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:27:14.195===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [158]
+13:27:14.223===========> AcctProcessor.postSession: NI_Requisition [158]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:27:14.308===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [158]
+13:27:14.318===========> AcctProcessor.postSession: NI_Requisition [158]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:37:14.430===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [137]
+13:37:14.485===========> AcctProcessor.postSession: NI_Requisition [137]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:37:14.542===========> DefaultDocumentFactory.getDocument: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier) [137]
+13:37:14.553===========> AcctProcessor.postSession: NI_Requisition [137]
+UserError: Doc Class invalid: org.compiere.acct.Doc_NIRequisition (java.lang.ClassNotFoundException: org.compiere.acct.Doc_NIRequisition cannot be found by org.adempiere.base_3.1.0.qualifier)
+	at org.adempiere.base.DefaultDocumentFactory.getDocument(DefaultDocumentFactory.java:141)
+	at org.compiere.acct.DocManager.getDocument(DocManager.java:196)
+	at org.compiere.acct.Doc.get(Doc.java:223)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:295)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

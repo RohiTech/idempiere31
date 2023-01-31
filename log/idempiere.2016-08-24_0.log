@@ -1,0 +1,602 @@
+*** 2016-08-24 09:54:11.425 idempiere Log (CLogFile) ***
+09:54:11.425 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:54:11.441 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+09:54:14.645 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 15:40:48.116 [17]
+09:54:14.926 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:54:14.926 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:54:15.150-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:54:19.029 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:54:19.143-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:54:19.143-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:54:19.143-----------> EMail.isValid: From is invalid=null [17]
+09:54:19.143-----------> EMail.isValid: From is invalid=null [17]
+09:54:19.143-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:172.16.45.209) to you @ company.org: Invalid Data (System) [17]
+09:54:19.143 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:54:19.143 AdempiereMonitor.init:  [17]
+09:54:28.655-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:54:29.166-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://185.fwk1480207683:19/metainfo/zk/config.xml [17]
+09:54:29.166-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://185.fwk1480207683:28/metainfo/zk/config.xml [17]
+09:54:29.166-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://185.fwk1480207683:29/metainfo/zk/config.xml [17]
+09:54:29.229-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk1480207683:31/metainfo/zk/zk.xml [17]
+09:54:29.970-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:54:29.992-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:54:30.070-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+09:54:30.086-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+09:54:30.086-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+09:54:30.086-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+09:54:30.103-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+09:54:30.127-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+09:54:30.139-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+09:54:30.449           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:54:31.663-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-08-24 09:54:32.386 idempiere Log (CLogFile) ***
+09:54:38.159-----------> Node: [172.16.45.209]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+09:54:42.419-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [31]
+09:54:42.419-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [31]
+09:58:15.870-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [37]
+09:58:15.870-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [37]
+09:58:53.774-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+09:58:53.774-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+09:58:58.587===========> Trx.commit: POdel_d44ca2c6-db7e-43b4-a787-f24fe07aa666 [31]
+org.postgresql.util.PSQLException: ERROR: update o delete en «ad_window» viola la llave foránea «adwindow_admenu» en la tabla «ad_menu»
+  Detail: La llave (ad_window_id)=(1000018) todavía es referida desde la tabla «ad_menu».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+09:58:58.769===========> MWindow.saveError: DeleteErrorDependent - ERROR: update o delete en «ad_window» viola la llave foránea «adwindow_admenu» en la tabla «ad_menu»
+  Detail: La llave (ad_window_id)=(1000018) todavía es referida desde la tabla «ad_menu». [31]
+09:58:58.773-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update o delete en «ad_window» viola la llave foránea «adwindow_admenu» en la tabla «ad_menu»
+  Detail: La llave (ad_window_id)=(1000018) todavía es referida desde la tabla «ad_menu». [31]
+09:59:06.069-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [170]
+09:59:06.069-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [170]
+10:01:18.785-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [38]
+10:01:18.785-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [38]
+10:04:01.446-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [38]
+10:04:01.446-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [38]
+10:04:58.446-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [38]
+10:04:58.446-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [38]
+10:05:47.275-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+10:05:47.275-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+10:07:00.529-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [38]
+10:07:00.529-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [38]
+10:08:10.104-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [170]
+10:08:10.104-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [170]
+10:09:00.164-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [169]
+10:09:00.164-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [169]
+10:10:00.416-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [38]
+10:10:00.416-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [38]
+10:10:27.800-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+10:10:27.800-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+10:10:46.637-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [211]
+10:10:46.637-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [211]
+10:12:05.392-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [210]
+10:12:05.392-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [210]
+10:12:23.783-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [210]
+10:12:23.783-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [210]
+10:13:10.533-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [169]
+10:13:10.533-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [169]
+10:13:51.716-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+10:13:51.716-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+10:15:28.632-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+10:15:28.632-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+10:54:37.313-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [211]
+10:54:37.313-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [211]
+10:55:25.336-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [210]
+10:55:25.336-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [210]
+10:56:48.117-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+10:56:48.118-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+10:57:12.083-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [31]
+10:57:12.083-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [31]
+11:00:55.052-----------> GridTable.saveWarning: FillMandatory - Table
+ [31]
+11:06:26.809-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [169]
+11:06:26.809-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [169]
+11:06:52.580-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [169]
+11:06:52.580-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [169]
+11:07:33.763-----------> Msg.getMsg: NOT found: Current record was changed by another user, please ReQuery [211]
+11:08:19.422-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [169]
+11:08:19.422-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [169]
+11:10:11.104-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [214]
+11:10:11.104-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [214]
+11:10:52.252-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [210]
+11:10:52.252-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [210]
+11:11:29.808-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [210]
+11:11:29.808-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [210]
+11:12:07.607-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [213]
+11:12:07.607-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [213]
+11:16:06.911-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [210]
+11:16:06.911-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [210]
+11:27:55.398-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [169]
+11:27:55.398-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [169]
+11:28:08.984-----------> MRule.save: beforeSave - MRule[0-null] [211]
+java.lang.NullPointerException
+	at org.compiere.model.MRule.getEngineName(MRule.java:206)
+	at org.compiere.model.MRule.beforeSave(MRule.java:170)
+	at org.compiere.model.PO.save(PO.java:2066)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataSave(ADTabpanel.java:1628)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.dataSave(CompositeADTabbox.java:864)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave0(AbstractADWindowContent.java:2187)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSaveCallback(AbstractADWindowContent.java:2180)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$19(AbstractADWindowContent.java:2149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:2123)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2131)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2081)
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.doOnClick(ADWindowToolbar.java:413)
+
+11:28:08.985-----------> GridTable.saveWarning: Error -  [211]
+11:28:19.196===========> MRule.saveError: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [211]
+11:28:19.196-----------> MRule.save: beforeSave failed - MRule[0-fdgd] [211]
+11:28:19.203-----------> GridTable.saveWarning: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [211]
+11:28:23.906===========> MRule.saveError: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [211]
+11:28:23.907-----------> MRule.save: beforeSave failed - MRule[0-fdgd] [211]
+11:28:23.907-----------> GridTable.saveWarning: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [211]
+11:28:47.004===========> MRule.saveError: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [216]
+11:28:47.005-----------> MRule.save: beforeSave failed - MRule[0-fdgd] [216]
+11:28:47.005-----------> GridTable.saveWarning: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [216]
+11:29:06.429===========> MRule.saveError: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [216]
+11:29:06.429-----------> MRule.save: beforeSave failed - MRule[0-fdgd] [216]
+11:29:06.435-----------> GridTable.saveWarning: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [216]
+11:29:20.713===========> MRule.saveError: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [210]
+11:29:20.713-----------> MRule.save: beforeSave failed - MRule[0-fdgd] [210]
+11:29:20.718-----------> GridTable.saveWarning: Error - Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell [210]
+12:23:15.399-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [228]
+12:23:15.399-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [228]
+12:23:50.833-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [226]
+12:23:50.833-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [226]
+12:25:18.047-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [226]
+12:25:18.047-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [226]
+12:26:04.889-----------> GridTable.saveWarning: FillMandatory - Name
+ [233]
+12:28:05.148-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [228]
+12:28:05.148-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [228]
+12:31:08.577-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [228]
+12:31:08.577-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [228]
+12:34:33.299-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [236]
+12:34:33.299-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [236]
+12:35:40.076-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [236]
+12:35:40.076-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [236]
+12:36:44.445-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [228]
+12:36:44.445-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [228]
+12:57:49.596-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [258]
+12:57:49.596-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [258]
+12:58:17.742-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [258]
+12:58:17.742-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [258]
+13:01:09.974-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [257]
+13:01:09.975-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [257]
+13:09:48.588===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_ddf1641e-eb53-467c-84ed-2d2a28348c53] [264]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000000, 2016-08-24 13:09:48.542, 0, DACL, Y, 10, 2016-08-24 13:09:48.542, 0, 1000001, aa0d0d8e-3424-4a07-8ea2-b2b340017433).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:09:48.713===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000000, 2016-08-24 13:09:48.542, 0, DACL, Y, 10, 2016-08-24 13:09:48.542, 0, 1000001, aa0d0d8e-3424-4a07-8ea2-b2b340017433). [264]
+13:09:48.714-----------> GenericPO.doInsert: [POSaveNI_Notification_T_ddf1641e-eb53-467c-84ed-2d2a28348c53]Not inserted - NI_Notification_Trigguer [264]
+13:09:48.715===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000000, 2016-08-24 13:09:48.542, 0, DACL, Y, 10, 2016-08-24 13:09:48.542, 0, 1000001, aa0d0d8e-3424-4a07-8ea2-b2b340017433). [264]
+13:09:48.716-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check» [264]
+13:09:48.716-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000000, 2016-08-24 13:09:48.542, 0, DACL, Y, 10, 2016-08-24 13:09:48.542, 0, 1000001, aa0d0d8e-3424-4a07-8ea2-b2b340017433). [264]
+13:13:59.959===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_0a99253f-38d1-430c-84f6-3c742309c24a] [264]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000001, 2016-08-24 13:13:59.927, 0, DACL, Y, 10, 2016-08-24 13:13:59.927, 0, 1000001, 6ae6f29d-fa70-4240-99b7-814fb91743dc).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:13:59.974===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000001, 2016-08-24 13:13:59.927, 0, DACL, Y, 10, 2016-08-24 13:13:59.927, 0, 1000001, 6ae6f29d-fa70-4240-99b7-814fb91743dc). [264]
+13:13:59.986-----------> GenericPO.doInsert: [POSaveNI_Notification_T_0a99253f-38d1-430c-84f6-3c742309c24a]Not inserted - NI_Notification_Trigguer [264]
+13:13:59.986===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000001, 2016-08-24 13:13:59.927, 0, DACL, Y, 10, 2016-08-24 13:13:59.927, 0, 1000001, 6ae6f29d-fa70-4240-99b7-814fb91743dc). [264]
+13:13:59.987-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check» [264]
+13:13:59.988-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 259, 1000001, 2016-08-24 13:13:59.927, 0, DACL, Y, 10, 2016-08-24 13:13:59.927, 0, 1000001, 6ae6f29d-fa70-4240-99b7-814fb91743dc). [264]
+13:14:14.057-----------> DefaultProcessFactory.newProcessInstance: org.adempiere.webui.process.CacheReset [60]
+java.lang.ClassNotFoundException: org.adempiere.webui.process.CacheReset cannot be found by org.adempiere.base_3.1.0.qualifier
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.adempiere.base.DefaultProcessFactory.newProcessInstance(DefaultProcessFactory.java:64)
+	at org.adempiere.base.Core.getProcess(Core.java:127)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:159)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+13:14:21.621-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [257]
+13:14:21.621-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [257]
+13:14:33.316===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_6aa2daa7-27a4-4e96-90fe-d8ff8239c5a0] [264]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000002, 2016-08-24 13:14:33.3, 0, DACL, Y, 0, 2016-08-24 13:14:33.3, 0, 1000001, 2c6bd1be-921b-46d9-a7e0-dfd6d63efee6).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:14:33.363===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000002, 2016-08-24 13:14:33.3, 0, DACL, Y, 0, 2016-08-24 13:14:33.3, 0, 1000001, 2c6bd1be-921b-46d9-a7e0-dfd6d63efee6). [264]
+13:14:33.377-----------> GenericPO.doInsert: [POSaveNI_Notification_T_6aa2daa7-27a4-4e96-90fe-d8ff8239c5a0]Not inserted - NI_Notification_Trigguer [264]
+13:14:33.378===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000002, 2016-08-24 13:14:33.3, 0, DACL, Y, 0, 2016-08-24 13:14:33.3, 0, 1000001, 2c6bd1be-921b-46d9-a7e0-dfd6d63efee6). [264]
+13:14:33.378-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check» [264]
+13:14:33.378-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000002, 2016-08-24 13:14:33.3, 0, DACL, Y, 0, 2016-08-24 13:14:33.3, 0, 1000001, 2c6bd1be-921b-46d9-a7e0-dfd6d63efee6). [264]
+13:17:36.905===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_401254ab-b4a8-4ff7-bf0a-65ee644ec09f] [265]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000003, 2016-08-24 13:17:36.897, 0, DACL, Y, 0, 2016-08-24 13:17:36.897, 0, 1000001, b017f487-fcfe-4d4b-9f6e-d888e0d8289a).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:17:36.949===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000003, 2016-08-24 13:17:36.897, 0, DACL, Y, 0, 2016-08-24 13:17:36.897, 0, 1000001, b017f487-fcfe-4d4b-9f6e-d888e0d8289a). [265]
+13:17:36.953-----------> GenericPO.doInsert: [POSaveNI_Notification_T_401254ab-b4a8-4ff7-bf0a-65ee644ec09f]Not inserted - NI_Notification_Trigguer [265]
+13:17:36.953===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000003, 2016-08-24 13:17:36.897, 0, DACL, Y, 0, 2016-08-24 13:17:36.897, 0, 1000001, b017f487-fcfe-4d4b-9f6e-d888e0d8289a). [265]
+13:17:36.954-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check» [265]
+13:17:36.955-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53123, 1000003, 2016-08-24 13:17:36.897, 0, DACL, Y, 0, 2016-08-24 13:17:36.897, 0, 1000001, b017f487-fcfe-4d4b-9f6e-d888e0d8289a). [265]
+13:17:51.387-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [265]
+13:17:51.387-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [265]
+13:18:05.741===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_dcdded3d-3d61-4814-9c54-503cf2f77673] [264]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000004, 2016-08-24 13:18:05.726, 0, DAPO, Y, 0, 2016-08-24 13:18:05.726, 0, 1000001, 7a86e86c-c242-4f09-9155-3ba01a17f8a3).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:18:05.773===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000004, 2016-08-24 13:18:05.726, 0, DAPO, Y, 0, 2016-08-24 13:18:05.726, 0, 1000001, 7a86e86c-c242-4f09-9155-3ba01a17f8a3). [264]
+13:18:05.781-----------> GenericPO.doInsert: [POSaveNI_Notification_T_dcdded3d-3d61-4814-9c54-503cf2f77673]Not inserted - NI_Notification_Trigguer [264]
+13:18:05.782===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000004, 2016-08-24 13:18:05.726, 0, DAPO, Y, 0, 2016-08-24 13:18:05.726, 0, 1000001, 7a86e86c-c242-4f09-9155-3ba01a17f8a3). [264]
+13:18:05.782-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check» [264]
+13:18:05.782-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000004, 2016-08-24 13:18:05.726, 0, DAPO, Y, 0, 2016-08-24 13:18:05.726, 0, 1000001, 7a86e86c-c242-4f09-9155-3ba01a17f8a3). [264]
+13:32:40.387-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [265]
+13:32:40.387-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [265]
+13:33:21.666-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [264]
+13:33:21.666-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [264]
+13:34:06.023-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.label [257]
+13:34:06.023-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.action.toolbarbtn.tooltip [257]
+13:34:18.306===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_c3a6ccba-466b-411e-a342-dd7bb7881547] [264]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000005, 2016-08-24 13:34:18.275, 0, DACL, Y, 0, 2016-08-24 13:34:18.275, 0, 1000001, 73b441aa-90d9-498b-861b-a768e4bc8529).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:34:18.306===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000005, 2016-08-24 13:34:18.275, 0, DACL, Y, 0, 2016-08-24 13:34:18.275, 0, 1000001, 73b441aa-90d9-498b-861b-a768e4bc8529). [264]
+13:34:18.319-----------> GenericPO.doInsert: [POSaveNI_Notification_T_c3a6ccba-466b-411e-a342-dd7bb7881547]Not inserted - NI_Notification_Trigguer [264]
+13:34:18.320===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000005, 2016-08-24 13:34:18.275, 0, DACL, Y, 0, 2016-08-24 13:34:18.275, 0, 1000001, 73b441aa-90d9-498b-861b-a768e4bc8529). [264]
+13:34:18.321-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check» [264]
+13:34:18.321-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_process_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000005, 2016-08-24 13:34:18.275, 0, DACL, Y, 0, 2016-08-24 13:34:18.275, 0, 1000001, 73b441aa-90d9-498b-861b-a768e4bc8529). [264]
+13:44:17.373===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Process_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,EventModelValidator,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_2a615eef-8ac3-48ed-ad05-304774051c83] [274]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 53137, 1000006, 2016-08-24 13:44:17.326, 0, DAPO, Y, 0, 2016-08-24 13:44:17.326, 0, 1000001, 8f0ca380-91e4-4845-8b37-c6f36152df5e).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:44:17.388===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 53137, 1000006, 2016-08-24 13:44:17.326, 0, DAPO, Y, 0, 2016-08-24 13:44:17.326, 0, 1000001, 8f0ca380-91e4-4845-8b37-c6f36152df5e). [274]
+13:44:17.394-----------> GenericPO.doInsert: [POSaveNI_Notification_T_2a615eef-8ac3-48ed-ad05-304774051c83]Not inserted - NI_Notification_Trigguer [274]
+13:44:17.394===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 53137, 1000006, 2016-08-24 13:44:17.326, 0, DAPO, Y, 0, 2016-08-24 13:44:17.326, 0, 1000001, 8f0ca380-91e4-4845-8b37-c6f36152df5e). [274]
+13:44:17.395-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check» [274]
+13:44:17.396-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 53137, 1000006, 2016-08-24 13:44:17.326, 0, DAPO, Y, 0, 2016-08-24 13:44:17.326, 0, 1000001, 8f0ca380-91e4-4845-8b37-c6f36152df5e). [274]
+13:44:43.224===========> DB.executeUpdate: UPDATE NI_Notification_Trigguer SET AD_Table_ID=?,Updated=?,UpdatedBy=? WHERE NI_Notification_Trigguer_ID=1000007 [POSaveNI_Notification_T_3eb21fb3-9624-4470-a48c-3d83edf9d9c8] [264]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 53123, 1000007, 2016-08-24 13:44:36.246, 0, null, Y, 0, 2016-08-24 13:44:43.22, 0, 1000001, 15ee4255-882d-4fc0-af09-865dedc879b7).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:44:43.248===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 53123, 1000007, 2016-08-24 13:44:36.246, 0, null, Y, 0, 2016-08-24 13:44:43.22, 0, 1000001, 15ee4255-882d-4fc0-af09-865dedc879b7). [264]
+13:44:43.249===========> GenericPO.saveError: SaveError - Update return -1 instead of 1 - [POSaveNI_Notification_T_3eb21fb3-9624-4470-a48c-3d83edf9d9c8] - NI_Notification_Trigguer.NI_Notification_Trigguer_ID=1000007 [264]
+13:44:43.250===========> GenericPO.saveError: SaveError - Update return -1 instead of 1 - [POSaveNI_Notification_T_3eb21fb3-9624-4470-a48c-3d83edf9d9c8] - NI_Notification_Trigguer.NI_Notification_Trigguer_ID=1000007 [264]
+13:44:43.254-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveNI_Notification_T_3eb21fb3-9624-4470-a48c-3d83edf9d9c8] - NI_Notification_Trigguer.NI_Notification_Trigguer_ID=1000007 [264]
+13:52:04.122-----------> Msg.getMsg: NOT found: Current record was changed by another user, please ReQuery [275]
+13:52:17.893===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_299d4fb7-4e9f-4fca-a9ad-1c46e52bbb78] [276]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000008, 2016-08-24 13:52:17.893, 0, null, Y, 0, 2016-08-24 13:52:17.893, 0, 1000001, f7fc6e3d-26b4-469d-95e9-be7a964f4e81).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:52:17.925===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000008, 2016-08-24 13:52:17.893, 0, null, Y, 0, 2016-08-24 13:52:17.893, 0, 1000001, f7fc6e3d-26b4-469d-95e9-be7a964f4e81). [276]
+13:52:17.926-----------> GenericPO.doInsert: [POSaveNI_Notification_T_299d4fb7-4e9f-4fca-a9ad-1c46e52bbb78]Not inserted - NI_Notification_Trigguer [276]
+13:52:17.927===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000008, 2016-08-24 13:52:17.893, 0, null, Y, 0, 2016-08-24 13:52:17.893, 0, 1000001, f7fc6e3d-26b4-469d-95e9-be7a964f4e81). [276]
+13:52:17.928-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check» [276]
+13:52:17.929-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 53137, 1000008, 2016-08-24 13:52:17.893, 0, null, Y, 0, 2016-08-24 13:52:17.893, 0, 1000001, f7fc6e3d-26b4-469d-95e9-be7a964f4e81). [276]
+13:53:55.556===========> DB.executeUpdate: INSERT INTO NI_Notification_Trigguer (AD_Client_ID,AD_Org_ID,AD_Process_ID,AD_Table_ID,NI_Notification_Trigguer_ID,Created,CreatedBy,IsActive,SeqNo,Updated,UpdatedBy,NI_NotificationMessage_ID,NI_Notification_Trigguer_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveNI_Notification_T_2178729a-b1b3-4aa3-8b06-1346ba4af2dd] [276]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 539, 1000010, 2016-08-24 13:53:55.522, 0, null, Y, 0, 2016-08-24 13:53:55.522, 0, 1000001, 0468fd4d-59c8-43af-8ab1-5bdf42121b55).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:53:55.568===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 539, 1000010, 2016-08-24 13:53:55.522, 0, null, Y, 0, 2016-08-24 13:53:55.522, 0, 1000001, 0468fd4d-59c8-43af-8ab1-5bdf42121b55). [276]
+13:53:55.570-----------> GenericPO.doInsert: [POSaveNI_Notification_T_2178729a-b1b3-4aa3-8b06-1346ba4af2dd]Not inserted - NI_Notification_Trigguer [276]
+13:53:55.570===========> GenericPO.saveError: DBExecuteError - DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 539, 1000010, 2016-08-24 13:53:55.522, 0, null, Y, 0, 2016-08-24 13:53:55.522, 0, 1000001, 0468fd4d-59c8-43af-8ab1-5bdf42121b55). [276]
+13:53:55.571-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check» [276]
+13:53:55.572-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_processtable_check»
+  Detail: La fila que falla contiene (1000000, 0, 53103, 539, 1000010, 2016-08-24 13:53:55.522, 0, null, Y, 0, 2016-08-24 13:53:55.522, 0, 1000001, 0468fd4d-59c8-43af-8ab1-5bdf42121b55). [276]
+13:54:08.989===========> DB.executeUpdate: UPDATE NI_Notification_Trigguer SET EventModelValidator=?,Updated=?,UpdatedBy=? WHERE NI_Notification_Trigguer_ID=1000011 [POSaveNI_Notification_T_5887e806-1970-42bc-a521-fceac16e4a57] [275]
+org.postgresql.util.PSQLException: ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 539, 1000011, 2016-08-24 13:54:03.735, 0, null, Y, 0, 2016-08-24 13:54:08.989, 0, 1000001, 039b1159-2efc-4247-8387-30bd4d63b02f).; State=23514; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+13:54:09.024===========> DB.saveError: DBExecuteError - ERROR: el nuevo registro para la relación «ni_notification_trigguer» viola la restricción «check» «ninotificationtrigguer_tableevent_check»
+  Detail: La fila que falla contiene (1000000, 0, null, 539, 1000011, 2016-08-24 13:54:03.735, 0, null, Y, 0, 2016-08-24 13:54:08.989, 0, 1000001, 039b1159-2efc-4247-8387-30bd4d63b02f). [275]
+13:54:09.028===========> GenericPO.saveError: SaveError - Update return -1 instead of 1 - [POSaveNI_Notification_T_5887e806-1970-42bc-a521-fceac16e4a57] - NI_Notification_Trigguer.NI_Notification_Trigguer_ID=1000011 [275]
+13:54:09.029===========> GenericPO.saveError: SaveError - Update return -1 instead of 1 - [POSaveNI_Notification_T_5887e806-1970-42bc-a521-fceac16e4a57] - NI_Notification_Trigguer.NI_Notification_Trigguer_ID=1000011 [275]
+13:54:09.029-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveNI_Notification_T_5887e806-1970-42bc-a521-fceac16e4a57] - NI_Notification_Trigguer.NI_Notification_Trigguer_ID=1000011 [275]

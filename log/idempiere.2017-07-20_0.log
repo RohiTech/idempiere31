@@ -1,0 +1,3 @@
+*** 2017-07-20 00:06:23.917 idempiere Log (CLogFile) ***
+00:06:22.523-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 3474037ms, Master-Confirmation-Timeout: 500000ms. [88]
+00:06:23.504-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 3475019ms, Master-Confirmation-Timeout: 500000ms. [198]

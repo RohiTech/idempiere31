@@ -1,0 +1,73 @@
+*** 2017-08-22 08:34:46.608 idempiere Log (CLogFile) ***
+08:34:46.607 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+08:34:46.610 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+08:34:50.444 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-08-13 23:43:42.216 [17]
+08:34:50.812 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\ni.idempiere.procesingdocuments5662337229288856181.zip [17]
+08:34:51.037 PipoDictionaryService.merge: dict file->C:\Users\OBENAV~1\AppData\Local\Temp\2Pack\dict\PackOut.xml [17]
+08:35:03.243 PipoDictionaryService.merge: commit PipoDS_2c6e8265-65f4-4810-89c1-aec9d42f06c2 [17]
+08:35:03.819 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-07-25 04:24:07.139 [17]
+08:35:03.821 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-02 00:55:24.5 [17]
+08:35:03.846 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+08:35:03.846 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+08:35:03.978-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+08:35:06.187 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+08:35:06.380-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+08:35:06.383-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+08:35:06.383-----------> EMail.isValid: From is invalid=null [17]
+08:35:06.383-----------> EMail.isValid: From is invalid=null [17]
+08:35:06.383-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+08:35:06.384 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+08:35:06.384 AdempiereMonitor.init:  [17]
+08:35:09.831-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+08:35:10.380-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/config.xml [17]
+08:35:10.385-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:28/metainfo/zk/config.xml [17]
+08:35:10.389-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/config.xml [17]
+08:35:10.478-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk491298318:31/metainfo/zk/zk.xml [17]
+08:35:10.986-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+08:35:11.024-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+08:35:11.143-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+08:35:11.148-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+08:35:11.157-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+08:35:11.162-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+08:35:11.167-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+08:35:11.190-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+08:35:11.200-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+08:35:11.653           WebUIServlet.init: iDempiere Web Client started successfully [17]
+08:35:13.075-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+08:35:13.146 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [33]
+08:35:13.149 Language.getLanguage: Adding Language=es, Country=ES, Locale=es_ES [33]
+08:35:13.553 Language.getLanguage: Adding Language=es, Country=NI, Locale=es_NI [33]
+
+*** 2017-08-22 08:35:13.896 idempiere Log (CLogFile) ***
+08:35:20.289-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+08:49:31.110===========> MProductPricing.calculatePL: No PriceList [75]
+08:49:31.610===========> MProductPricing.calculatePL: No PriceList [75]
+08:49:31.724===========> MProductPricing.calculatePL: No PriceList [75]
+09:08:09.597-----------> ClusterService: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 472260ms, Master-Confirmation-Timeout: 500000ms. [131]

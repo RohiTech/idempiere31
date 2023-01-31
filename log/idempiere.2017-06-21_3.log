@@ -1,0 +1,71 @@
+*** 2017-06-21 12:39:53.753 idempiere Log (CLogFile) ***
+12:39:53.753 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+12:39:53.756 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+12:39:54.382 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+12:39:54.398 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+12:39:54.398 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+12:39:54.414-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+12:39:54.487 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+12:39:54.666-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+12:39:54.668-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+12:39:54.668-----------> EMail.isValid: From is invalid=null [17]
+12:39:54.668-----------> EMail.isValid: From is invalid=null [17]
+12:39:54.669-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+12:39:54.669 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+12:39:54.669 AdempiereMonitor.init:  [17]
+12:39:56.231-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+12:39:56.451-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk47108597:2/metainfo/zk/config.xml
+with bundleresource://182.fwk47108597:19/metainfo/zk/config.xml [17]
+12:39:56.455-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk47108597:11/metainfo/zk/config.xml
+with bundleresource://182.fwk47108597:28/metainfo/zk/config.xml [17]
+12:39:56.458-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk47108597:12/metainfo/zk/config.xml
+with bundleresource://182.fwk47108597:29/metainfo/zk/config.xml [17]
+12:39:56.489-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk47108597:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk47108597:31/metainfo/zk/zk.xml [17]
+12:39:56.852-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+12:39:56.878-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+12:39:56.936-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk47108597:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:18/metainfo/zk/lang-addon.xml [17]
+12:39:56.940-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk47108597:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:19/metainfo/zk/lang-addon.xml [17]
+12:39:56.947-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk47108597:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:22/metainfo/zk/lang-addon.xml [17]
+12:39:56.950-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk47108597:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:23/metainfo/zk/lang-addon.xml [17]
+12:39:56.953-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk47108597:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:24/metainfo/zk/lang-addon.xml [17]
+12:39:56.962-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk47108597:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:29/metainfo/zk/lang-addon.xml [17]
+12:39:56.966-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk47108597:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk47108597:30/metainfo/zk/lang-addon.xml [17]
+12:39:57.237           WebUIServlet.init: iDempiere Web Client started successfully [17]
+12:39:58.321-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+12:39:58.437-----------> LCO_ValidatorWH.initialize:  [70]
+
+*** 2017-06-21 12:39:58.642 idempiere Log (CLogFile) ***
+12:40:01.219-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+14:21:29.524-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 6083327ms, Master-Confirmation-Timeout: 500000ms. [100]
+14:37:47.745-----------> GridTable.saveWarning: FillMandatory - Moneda
+ [31]
+14:37:53.310-----------> NIMPayment.set_Value: TenderType - Value too long - truncated to length=1 [30]
+14:37:53.314===========> NIMPayment.saveError: Validate - TenderType Invalid value - -1 - Reference_ID=214 - K - T - D - A - X - C [30]
+14:37:53.315-----------> GridTable.saveWarning: Validate - TenderType Invalid value - -1 - Reference_ID=214 - K - T - D - A - X - C;Tipo de Pago [30]
+14:37:53.319-----------> Msg.getMsg: NOT found: Validate [30]
+14:38:01.450===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [30]
+14:40:26.220===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [155]

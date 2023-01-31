@@ -1,0 +1,11 @@
+*** 2016-11-30 10:28:30.235 idempiere Log (CLogFile) ***
+10:28:30.234 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:28:30.238 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+10:28:41.853 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-11-24 14:40:50.73 [17]
+10:28:42.065 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:28:42.065 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:28:46.501-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]

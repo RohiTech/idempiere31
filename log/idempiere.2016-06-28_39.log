@@ -1,0 +1,287 @@
+*** 2016-06-28 16:50:31.24 idempiere Log (CLogFile) ***
+16:50:31.240 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:50:31.240 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+16:50:31.969 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:50:31.969 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:50:32.723-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:50:33.118 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:50:33.118-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:50:33.134-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:50:33.134-----------> EMail.isValid: From is invalid=null [17]
+16:50:33.134-----------> EMail.isValid: From is invalid=null [17]
+16:50:33.134-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.41) to you @ company.org: Invalid Data (System) [17]
+16:50:33.134 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:50:33.134 AdempiereMonitor.init:  [17]
+16:50:35.389-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:50:35.641-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1480207683:19/metainfo/zk/config.xml [17]
+16:50:35.661-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1480207683:28/metainfo/zk/config.xml [17]
+16:50:35.669-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1480207683:29/metainfo/zk/config.xml [17]
+16:50:35.689-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1480207683:31/metainfo/zk/zk.xml [17]
+16:50:36.093-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:50:36.124-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:50:36.191-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+16:50:36.191-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+16:50:36.214-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+16:50:36.215-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+16:50:36.215-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+16:50:36.231-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+16:50:36.231-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+16:50:36.380           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:50:37.499-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-28 16:50:37.745 idempiere Log (CLogFile) ***
+16:50:39.782-----------> Node: [10.0.5.41]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+16:50:49.516-----------> PackInHandler.dumpUnresolvedElements: AD_Field_Trl [Help=, Name=Payroll Process, Description=, AD_Language=es_EC, IsActive=true, IsTranslated=false] [50]
+16:50:49.516-----------> PackInHandler.dumpUnresolvedElements: AD_Field [AD_Client_ID=0, AD_Org_ID=0, MandatoryLogic=, ReadOnlyLogic=, IsToolbarButton=, IsAlwaysUpdateable=, IsUpdateable=, ColumnSpan=1, EntityType=U, IsCentrallyMaintained=true, IsDisplayed=false, AD_Column_ID=7de173e7-91df-4cef-a089-b577030da571, SeqNo=230, AD_Tab_ID=53113, IsSameLine=false, IsHeading=false, Help=, IsFieldOnly=false, IsReadOnly=false, ObscureType=, Name=Payroll Process, IsMandatory=, AD_Val_Rule_ID=, Included_Tab_ID=, IsDisplayedGrid=true, SeqNoGrid=230, IsAllowCopy=, AD_Field_UU=431165e4-4513-4c56-bdd1-31df2dc74148, SortNo=0, IsEncrypted=false, IsActive=true, DisplayLength=0, DisplayLogic=, DefaultValue=, Description=, XPosition=1, NumLines=1, IsQuickEntry=false, IsAdvancedField=false, IsDefaultFocus=false, AD_FieldGroup_ID=, AD_Reference_ID=, AD_Reference_Value_ID=] unresolved [AD_Column_ID] [50]
+16:50:49.520===========> PackIn.importXML: importXML: [50]
+org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:50:49.917===========> PackIn.importXML: importXML: [50]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:50:50.321===========> PipoDictionaryService.merge: importXML: [50]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:50:50.664===========> Trx.commit: PipoDS_6ace93fe-e0fe-449e-8027-61b3c3cee4b5 [50]
+org.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «ad_element» viola la llave foránea «entityt_adelement»
+  Detail: La llave (entitytype)=(IGI) no está presente en la tabla «ad_entitytype».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.util.Trx.commit(Trx.java:399)
+	at org.compiere.util.Trx.close(Trx.java:451)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:117)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+16:50:51.047===========> Trx.saveError: DeleteErrorDependent - ERROR: inserción o actualización en la tabla «ad_element» viola la llave foránea «entityt_adelement»
+  Detail: La llave (entitytype)=(IGI) no está presente en la tabla «ad_entitytype». [50]
+16:50:51.905===========> Incremental2PackActivator.packIn: Pack in failed. [50]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+16:54:04.898===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [40]
+17:01:05.057===========> UiEngineImpl.handleError:  [124]
+org.adempiere.exceptions.AdempiereException: org.adempiere.exceptions.AdempiereException: No se encotro ninguna linea que procesar.
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice(NIAllocateInvoice.java:348)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:260)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+caused by: org.adempiere.exceptions.AdempiereException: No se encotro ninguna linea que procesar.
+	at org.adempiere.webui.form.NIAllocateInvoice.procesedInvoice(NIAllocateInvoice.java:338)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:260)
+	at org.adempiere.webui.form.WNIAllocateInvoice$1.onCallback(WNIAllocateInvoice.java:1)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:318)
+	at org.adempiere.webui.window.FDialog$1.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+
+17:01:51.657===========> AccessSqlParser.getTableInfo: Could not remove ON C_InvoiceLine il, M_InOutLine iol ON il.M_InOutLine_ID=iol.M_InOutLine_ID, C_Invoice i ON i.C_Invoice_ID=il.C_Invoice_ID [29]
+17:01:51.870===========> AccessSqlParser.getTableInfo: Could not remove ON M_RMA rma, AD_Org org ON rma.AD_Org_ID=org.AD_Org_ID, C_DocType dt ON rma.C_DocType_ID=dt.C_DocType_ID, C_BPartner bp ON rma.C_BPartner_ID=bp.C_BPartner_ID, M_InOut io ON rma.InOut_ID=io.M_InOut_ID [29]
+17:02:10.974===========> AccessSqlParser.getTableInfo: Could not remove ON M_RMA r, M_RMALine rl ON r.M_RMA_ID=rl.M_RMA_ID [123]
+17:02:11.096===========> AccessSqlParser.getTableInfo: Could not remove ON M_RMA rma, AD_Org org ON rma.AD_Org_ID=org.AD_Org_ID, C_DocType dt ON rma.C_DocType_ID=dt.C_DocType_ID, C_BPartner bp ON rma.C_BPartner_ID=bp.C_BPartner_ID, M_InOut io ON rma.InOut_ID=io.M_InOut_ID [123]
+17:02:17.026===========> AccessSqlParser.getTableInfo: Could not remove ON M_RMA r, M_RMALine rl ON r.M_RMA_ID=rl.M_RMA_ID [37]
+17:02:17.239===========> AccessSqlParser.getTableInfo: Could not remove ON M_RMA rma, AD_Org org ON rma.AD_Org_ID=org.AD_Org_ID, C_DocType dt ON rma.C_DocType_ID=dt.C_DocType_ID, C_BPartner bp ON rma.C_BPartner_ID=bp.C_BPartner_ID, M_InOut io ON rma.InOut_ID=io.M_InOut_ID [37]
+17:02:22.651===========> PaySelect.<init>:  [123]
+java.lang.NullPointerException
+	at org.adempiere.webui.apps.form.WPaySelect.loadBankInfo(WPaySelect.java:274)
+	at org.adempiere.webui.apps.form.WPaySelect.<init>(WPaySelect.java:136)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.adempiere.webui.factory.DefaultFormFactory.newFormInstance(DefaultFormFactory.java:89)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+

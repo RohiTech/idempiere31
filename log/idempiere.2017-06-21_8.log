@@ -1,0 +1,133 @@
+*** 2017-06-21 20:03:29.197 idempiere Log (CLogFile) ***
+20:03:29.197 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+20:03:29.200 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+20:03:29.931 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+20:03:29.948 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+20:03:29.949 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+20:03:29.968-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+20:03:30.065 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+20:03:30.333-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+20:03:30.335-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+20:03:30.336-----------> EMail.isValid: From is invalid=null [17]
+20:03:30.336-----------> EMail.isValid: From is invalid=null [17]
+20:03:30.336-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+20:03:30.336 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+20:03:30.337 AdempiereMonitor.init:  [17]
+20:03:32.331-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+20:03:32.632-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/config.xml [17]
+20:03:32.639-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:28/metainfo/zk/config.xml [17]
+20:03:32.643-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/config.xml [17]
+20:03:32.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk1399961333:31/metainfo/zk/zk.xml [17]
+20:03:33.154-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+20:03:33.185-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+20:03:33.284-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+20:03:33.291-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+20:03:33.297-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+20:03:33.301-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+20:03:33.306-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+20:03:33.323-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+20:03:33.334-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+20:03:33.704           WebUIServlet.init: iDempiere Web Client started successfully [17]
+20:03:35.023-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-06-21 20:03:35.351 idempiere Log (CLogFile) ***
+20:03:38.637-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+20:07:09.856===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [32]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.createLine(Fact.java:148)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:693)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:260)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.acct.Doc.post(Doc.java:546)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+
+20:08:08.478===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [34]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.createLine(Fact.java:148)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:693)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:260)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.acct.Doc.post(Doc.java:546)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+
+20:10:50.847===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [34]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.createLine(Fact.java:148)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:693)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:260)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.acct.Doc.post(Doc.java:546)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+

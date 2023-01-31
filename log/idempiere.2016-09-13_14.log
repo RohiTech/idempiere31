@@ -1,0 +1,114 @@
+*** 2016-09-13 16:57:25.168 idempiere Log (CLogFile) ***
+16:57:25.168 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:57:25.170 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+16:57:25.648 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+16:57:25.659 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:57:25.659 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:57:25.677-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:57:25.744 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:57:25.820-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:57:25.822-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:57:25.822-----------> EMail.isValid: From is invalid=null [17]
+16:57:25.822-----------> EMail.isValid: From is invalid=null [17]
+16:57:25.822-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+16:57:25.822 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:57:25.822 AdempiereMonitor.init:  [17]
+16:57:27.199-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:57:27.440-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://186.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://186.fwk1480207683:19/metainfo/zk/config.xml [17]
+16:57:27.445-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://186.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://186.fwk1480207683:28/metainfo/zk/config.xml [17]
+16:57:27.449-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://186.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://186.fwk1480207683:29/metainfo/zk/config.xml [17]
+16:57:27.471-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://186.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://186.fwk1480207683:31/metainfo/zk/zk.xml [17]
+16:57:27.797-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:57:27.819-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:57:27.865-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://186.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+16:57:27.868-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://186.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+16:57:27.872-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://186.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+16:57:27.875-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://186.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+16:57:27.878-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://186.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+16:57:27.888-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://186.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+16:57:27.893-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://186.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://186.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+16:57:28.087           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:57:29.011-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-13 16:57:29.222 idempiere Log (CLogFile) ***
+16:57:30.433-----------> Node: [172.16.45.239]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+16:59:19.949-----------> MOrderLine.save: beforeSave - MOrderLine[0, Line=10, Ordered=15, Delivered=0, Invoiced=0, Reserved=0, LineNet=22500] [35]
+org.adempiere.exceptions.ProductNotOnPriceListException: Producto no esta en lista de precios - No. Línea:10, Producto:Estándar, Lista de Precios:LdP_Compra C$, Fecha:13/09/2016
+	at org.compiere.model.MOrderLine.beforeSave(MOrderLine.java:888)
+	at org.compiere.model.PO.save(PO.java:2066)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataSave(ADTabpanel.java:1628)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.dataSave(CompositeADTabbox.java:864)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave0(AbstractADWindowContent.java:2187)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSaveCallback(AbstractADWindowContent.java:2180)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$19(AbstractADWindowContent.java:2149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:2123)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2131)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2081)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.doOnClick(ADWindowToolbar.java:413)
+
+16:59:19.958-----------> GridTable.saveWarning: Error - Producto no esta en lista de precios - No. Línea:10, Producto:Estándar, Lista de Precios:LdP_Compra C$, Fecha:13/09/2016 [35]
+16:59:41.915-----------> MOrderLine.save: beforeSave - MOrderLine[0, Line=10, Ordered=15, Delivered=0, Invoiced=0, Reserved=0, LineNet=22500] [35]
+org.adempiere.exceptions.ProductNotOnPriceListException: Producto no esta en lista de precios - No. Línea:10, Producto:Estándar, Lista de Precios:LdP_Compra C$, Fecha:13/09/2016
+	at org.compiere.model.MOrderLine.beforeSave(MOrderLine.java:888)
+	at org.compiere.model.PO.save(PO.java:2066)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataSave(ADTabpanel.java:1628)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.dataSave(CompositeADTabbox.java:864)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave0(AbstractADWindowContent.java:2187)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSaveCallback(AbstractADWindowContent.java:2180)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$19(AbstractADWindowContent.java:2149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:2123)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2131)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1179)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.setActiveTab(AbstractADWindowContent.java:1162)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onEvent(AbstractADWindowContent.java:1067)
+	at org.adempiere.webui.adwindow.ADWindowContent.onEvent(ADWindowContent.java:194)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$4.onEvent(CompositeADTabbox.java:293)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+16:59:41.917-----------> GridTable.saveWarning: Error - Producto no esta en lista de precios - No. Línea:10, Producto:Estándar, Lista de Precios:LdP_Compra C$, Fecha:13/09/2016 [35]
+17:02:35.885===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+17:03:15.142===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [183]
+17:03:34.252===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [183]

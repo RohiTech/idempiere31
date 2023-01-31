@@ -1,0 +1,282 @@
+*** 2017-06-16 16:40:16.056 idempiere Log (CLogFile) ***
+16:40:16.055 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:40:16.060 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+16:40:16.665 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-16 11:29:07.854 [17]
+16:40:16.676 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:40:16.676 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:40:16.691-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:40:16.771 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:40:16.957-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:40:16.959-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:40:16.967-----------> EMail.isValid: From is invalid=null [17]
+16:40:16.967-----------> EMail.isValid: From is invalid=null [17]
+16:40:16.967-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+16:40:16.967 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:40:16.967 AdempiereMonitor.init:  [17]
+16:40:18.529-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:40:18.771-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:19/metainfo/zk/config.xml [17]
+16:40:18.776-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:28/metainfo/zk/config.xml [17]
+16:40:18.779-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://182.fwk491298318:29/metainfo/zk/config.xml [17]
+16:40:18.799-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk491298318:31/metainfo/zk/zk.xml [17]
+16:40:19.132-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:40:19.155-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:40:19.213-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+16:40:19.218-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+16:40:19.225-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+16:40:19.230-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+16:40:19.234-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+16:40:19.248-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+16:40:19.256-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+16:40:19.535           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:40:20.496-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:40:20.601-----------> LCO_ValidatorWH.initialize:  [69]
+
+*** 2017-06-16 16:40:20.757 idempiere Log (CLogFile) ***
+16:40:22.649-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+16:45:56.155===========> GridTab.processCallout:  [37]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+16:45:56.344-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5 [37]
+16:46:01.015-----------> GridTable.saveWarning: FillMandatory - Tercero
+ [37]
+16:46:09.819===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+16:47:21.790-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [35]
+16:47:24.903-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [51]
+16:47:24.905===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [51]
+16:47:24.957-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [51]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+16:47:24.974===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [51]
+16:47:41.833===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [62]
+16:47:44.807===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [182]
+16:47:46.398===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [182]
+16:48:12.907===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [62]
+16:48:29.206===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+16:48:42.373===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+16:48:49.887===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+16:49:08.542===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+16:50:02.684===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [189]
+16:56:22.465===========> GridTab.processCallout:  [35]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+16:56:22.549-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5 [35]
+16:56:33.599===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+16:56:52.136===========> MPaymentAllocate.saveError: FillMandatory - Organización [37]
+16:56:52.137-----------> GridTable.saveWarning: FillMandatory - Organización [37]
+16:57:18.601-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [62]
+16:57:20.372-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [47]
+16:57:20.374===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [47]
+16:57:20.420-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [47]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+16:57:20.443===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [47]
+16:57:29.095===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [37]
+16:57:32.637===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [157]
+16:57:33.169===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [157]
+16:57:55.600===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+16:58:31.568-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 16:45:33.0) [158]
+16:58:38.834-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [158]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-06-16 16:45:33.0, Tipo de Documento Base=Pagos de CxP
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at ni.hmil.override.models.NIMPayment.reverse(NIMPayment.java:509)
+	at ni.hmil.override.models.NIMPayment.reverseAccrualIt(NIMPayment.java:463)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+16:59:54.792-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 16:45:33.0) [155]
+17:00:08.459-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [155]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-06-16 16:45:33.0, Tipo de Documento Base=Pagos de CxP
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at ni.hmil.override.models.NIMPayment.reverse(NIMPayment.java:509)
+	at ni.hmil.override.models.NIMPayment.reverseAccrualIt(NIMPayment.java:463)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+17:01:42.663-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 16:45:33.0) [131]
+17:01:56.539-----------> MWFActivity.run: MWFNode[200-(DocAuto),Action=DocumentAction=--] [131]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-06-16 16:45:33.0, Tipo de Documento Base=Pagos de CxP
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at ni.hmil.override.models.NIMPayment.reverse(NIMPayment.java:509)
+	at ni.hmil.override.models.NIMPayment.reverseAccrualIt(NIMPayment.java:463)
+	at org.compiere.process.DocumentEngine.reverseAccrualIt(DocumentEngine.java:609)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:355)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+17:02:28.347===========> GridTab.processCallout:  [32]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+17:02:28.396-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5 [32]
+17:02:45.850===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [62]
+17:03:22.670-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [35]
+17:03:23.991-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [169]
+17:03:23.993===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [169]
+17:03:24.011-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [169]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+17:03:24.027===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [169]
+17:04:16.871===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [139]
+17:05:03.221===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [139]
+17:05:06.968===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [139]
+17:05:17.519===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [139]
+17:05:37.031===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [139]

@@ -1,0 +1,104 @@
+*** 2017-08-05 00:29:21.395 idempiere Log (CLogFile) ***
+00:29:21.395 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+00:29:21.397 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+00:29:22.057 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-01 23:36:25.849 [17]
+00:29:22.063 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+00:29:22.066 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+00:29:22.082 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+00:29:22.082 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+00:29:22.103-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+00:29:22.195 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+00:29:22.411-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+00:29:22.413-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+00:29:22.414-----------> EMail.isValid: From is invalid=null [17]
+00:29:22.414-----------> EMail.isValid: From is invalid=null [17]
+00:29:22.414-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+00:29:22.414 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+00:29:22.415 AdempiereMonitor.init:  [17]
+00:29:33.172-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+00:29:33.468-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:19/metainfo/zk/config.xml [17]
+00:29:33.474-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:28/metainfo/zk/config.xml [17]
+00:29:33.479-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1319287199:29/metainfo/zk/config.xml [17]
+00:29:33.500-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1319287199:31/metainfo/zk/zk.xml [17]
+00:29:33.882-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+00:29:33.905-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+00:29:33.956-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+00:29:33.959-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+00:29:33.963-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+00:29:33.967-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+00:29:33.970-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+00:29:33.981-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+00:29:33.990-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+00:29:34.326           WebUIServlet.init: iDempiere Web Client started successfully [17]
+00:29:35.477-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-05 00:29:35.985 idempiere Log (CLogFile) ***
+00:29:38.177-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+00:29:55.090-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+00:29:55.091-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+00:31:26.986-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [132]
+00:31:26.987-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [132]
+00:34:22.533-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [132]
+00:34:22.534-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [132]
+00:44:38.788-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+00:44:38.790-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]
+00:44:40.424-----------> MPeriod.isOpen: No Period for 2017-08-05 00:00:00.0 (ARR) [33]
+00:44:40.427===========> CalloutEngine.start: start: dateAcct [33]
+org.adempiere.exceptions.PeriodClosedException: Periodo Cerrado Fecha=2017-08-05 00:00:00.0, Tipo de Documento Base=Cobros de CxC
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:798)
+	at org.compiere.model.MPeriod.testPeriodOpen(MPeriod.java:831)
+	at org.compiere.model.CalloutEngine.checkPeriodOpen(CalloutEngine.java:280)
+	at org.compiere.model.CalloutEngine.dateAcct(CalloutEngine.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.model.CalloutEngine.start(CalloutEngine.java:109)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2935)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+
+00:45:45.174-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+00:45:45.175-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+00:53:59.648-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [32]
+00:53:59.648-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [32]
+01:37:22.067-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [131]
+01:37:22.070-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [131]
+01:39:46.211-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+01:39:46.212-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]

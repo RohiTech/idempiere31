@@ -1,0 +1,218 @@
+*** 2017-06-21 19:30:59.141 idempiere Log (CLogFile) ***
+19:30:59.141 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+19:30:59.145 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+19:30:59.918 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+19:30:59.936 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+19:30:59.936 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+19:30:59.962-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+19:31:00.076 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+19:31:00.333-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:31:00.335-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:31:00.335-----------> EMail.isValid: From is invalid=null [17]
+19:31:00.335-----------> EMail.isValid: From is invalid=null [17]
+19:31:00.336-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+19:31:00.336 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+19:31:00.336 AdempiereMonitor.init:  [17]
+19:31:02.502-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:31:02.801-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/config.xml [17]
+19:31:02.812-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:28/metainfo/zk/config.xml [17]
+19:31:02.818-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/config.xml [17]
+19:31:02.851-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk1399961333:31/metainfo/zk/zk.xml [17]
+19:31:03.338-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+19:31:03.378-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+19:31:03.468-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+19:31:03.475-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+19:31:03.483-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+19:31:03.489-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+19:31:03.495-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+19:31:03.509-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+19:31:03.518-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+19:31:03.880           WebUIServlet.init: iDempiere Web Client started successfully [17]
+19:31:05.153-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-06-21 19:31:05.469 idempiere Log (CLogFile) ***
+19:31:08.431-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+19:31:58.476-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [33]
+19:31:58.477-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [33]
+19:34:52.423-----------> GridTable.saveWarning: FillMandatory - Total del Pago
+ [39]
+19:35:13.768===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [35]
+19:36:19.450-----------> GridTable.saveWarning: FillMandatory - Moneda
+ [39]
+19:36:27.409===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [37]
+19:38:17.848===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [143]
+19:40:29.355===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [143]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.createLine(Fact.java:148)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:693)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:260)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.acct.Doc.post(Doc.java:546)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.compiere.process.DocumentEngine.postImmediate(DocumentEngine.java:1312)
+	at org.compiere.process.DocumentEngine.postIt(DocumentEngine.java:511)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:339)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MAllocationHdr.processIt(MAllocationHdr.java:360)
+	at org.compiere.model.MPayment.allocateIt(MPayment.java:2265)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:1965)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+19:40:33.129===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [143]
+19:45:37.775===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [35]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.createLine(Fact.java:148)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:693)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:260)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.acct.Doc.post(Doc.java:546)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+
+19:51:13.927===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [35]
+java.lang.NullPointerException
+	at org.compiere.acct.FactLine.convert(FactLine.java:713)
+	at org.compiere.acct.Fact.createLine(Fact.java:148)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:693)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:260)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.acct.Doc.post(Doc.java:546)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:246)
+	at org.compiere.acct.Doc.postImmediate(Doc.java:238)
+	at org.adempiere.webui.apps.AEnv.postImmediate(AEnv.java:345)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2866)
+
+19:51:16.419-----------> AbstractComponent.service: No page is available in [Desktop z_s0k:/index.zul] because desktop was destroyed.
+It is usually caused by invalidating the native session directly. If it is required, please set Attributes.RENEW_NATIVE_SESSION first. [35]
+19:51:16.424===========> UiEngineImpl.handleError:  [35]
+java.lang.NullPointerException
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.dataStatusChanged(AbstractADWindowContent.java:1400)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.fireDataStatusIEvent(GridTable.java:3376)
+	at org.compiere.model.GridTable.dataRefreshAll(GridTable.java:2983)
+	at org.compiere.model.GridTab.dataRefreshAll(GridTab.java:930)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.doOnRefresh(AbstractADWindowContent.java:1731)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onRefresh(AbstractADWindowContent.java:1721)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:2869)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$44.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+
+19:51:16.465-----------> AbstractComponent.service: No page is available in [Desktop z_s0k:/index.zul] because desktop was destroyed.
+It is usually caused by invalidating the native session directly. If it is required, please set Attributes.RENEW_NATIVE_SESSION first. [35]
+19:51:16.469-----------> AbstractComponent.service: No page is available in [Desktop z_s0k:/index.zul] because desktop was destroyed.
+It is usually caused by invalidating the native session directly. If it is required, please set Attributes.RENEW_NATIVE_SESSION first. [35]
+19:51:16.471===========> UiEngineImpl.handleError:  [35]
+java.lang.NullPointerException
+	at org.zkoss.zk.ui.http.ExecutionImpl.getAttribute(ExecutionImpl.java:470)
+	at org.adempiere.webui.adwindow.DetailPane.setStatusMessage(DetailPane.java:490)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.setDetailPaneStatusMessage(CompositeADTabbox.java:869)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.dataStatusChanged(AbstractADWindowContent.java:1489)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2609)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:942)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.onActivateDetail(CompositeADTabbox.java:894)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.access$7(CompositeADTabbox.java:884)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$5.onEvent(CompositeADTabbox.java:326)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+

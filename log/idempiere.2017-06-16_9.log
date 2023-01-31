@@ -1,0 +1,135 @@
+*** 2017-06-16 15:30:22.02 idempiere Log (CLogFile) ***
+15:30:22.020 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:30:22.024 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+15:30:22.752 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-16 11:29:07.854 [17]
+15:30:22.770 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:30:22.771 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:30:22.795-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:30:22.906 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:30:23.127-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:30:23.130-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:30:23.130-----------> EMail.isValid: From is invalid=null [17]
+15:30:23.130-----------> EMail.isValid: From is invalid=null [17]
+15:30:23.130-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+15:30:23.130 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:30:23.131 AdempiereMonitor.init:  [17]
+15:30:24.944-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:30:25.208-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/config.xml [17]
+15:30:25.213-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:28/metainfo/zk/config.xml [17]
+15:30:25.217-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/config.xml [17]
+15:30:25.241-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1480207683:31/metainfo/zk/zk.xml [17]
+15:30:25.666-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:30:25.691-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:30:25.751-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+15:30:25.756-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+15:30:25.762-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+15:30:25.768-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+15:30:25.775-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+15:30:25.792-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+15:30:25.801-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+15:30:26.146           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:30:27.271-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:30:27.383-----------> LCO_ValidatorWH.initialize:  [71]
+
+*** 2017-06-16 15:30:27.597 idempiere Log (CLogFile) ***
+15:30:30.174-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+15:31:02.963===========> GridTab.processCallout:  [68]
+javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5
+	at bsh.engine.BshScriptEngine.evalSource(BshScriptEngine.java:92)
+	at bsh.engine.BshScriptEngine.eval(BshScriptEngine.java:46)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2887)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+
+15:31:03.092-----------> Msg.getMsg: NOT found: Callout Invalid: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : Attempt to resolve method: getReversal_ID() on undefined variable or class name: A_PO : at Line: 5 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' : A_PO .getReversal_ID ( ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; TenderType=A_Tab.getVa . . . '' at line number 5 [68]
+15:31:18.533===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [37]
+15:31:25.318-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [37]
+15:31:26.862-----------> MPeriod.isOpen: jun-17: Not open for APP (2017-06-16 00:00:00.0) [156]
+15:31:26.864===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [156]
+15:31:26.935-----------> MWFActivity.run: MWFNode[201-(DocPrepare),Action=DocumentAction=PR] [156]
+java.lang.Exception: @PeriodClosed@
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+	at org.adempiere.util.ProcessUtil.startWorkFlow(ProcessUtil.java:313)
+	at org.compiere.apps.AbstractProcessCtl.startWorkflow(AbstractProcessCtl.java:391)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:209)
+
+15:31:26.958===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [156]
+15:31:36.716===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [68]
+15:31:39.826===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [58]
+15:31:43.906===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [58]
+15:31:43.963===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [58]
+15:31:44.014-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [58]
+java.lang.Exception: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:31:44.034===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [58]
+15:32:15.918===========> MPaymentAllocate.saveError: FillMandatory - Organización [34]
+15:32:15.919-----------> GridTable.saveWarning: FillMandatory - Organización [34]
+15:32:29.922===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [181]
+15:32:30.837===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [181]
+15:32:54.468===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [33]
+15:33:21.411===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [160]
+15:33:29.304===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [160]

@@ -1,0 +1,206 @@
+*** 2016-06-16 15:46:05.254 idempiere Log (CLogFile) ***
+15:46:05.254 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:46:05.258 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+15:46:05.700 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:46:05.700 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:46:05.724-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:46:05.842 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+15:46:05.857 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+15:46:05.920 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:46:05.936-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:46:05.936-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:46:05.936-----------> EMail.isValid: From is invalid=null [17]
+15:46:05.936-----------> EMail.isValid: From is invalid=null [17]
+15:46:05.936-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+15:46:05.936 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:46:05.936 AdempiereMonitor.init:  [17]
+15:46:07.664-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:46:07.962-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1480207683:19/metainfo/zk/config.xml [17]
+15:46:07.966-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1480207683:28/metainfo/zk/config.xml [17]
+15:46:07.974-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1480207683:29/metainfo/zk/config.xml [17]
+15:46:08.003-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1480207683:31/metainfo/zk/zk.xml [17]
+15:46:08.389-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:46:08.425-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:46:08.504-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+15:46:08.508-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+15:46:08.508-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+15:46:08.508-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+15:46:08.508-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+15:46:08.523-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+15:46:08.539-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+15:46:08.641           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:46:09.730-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-16 15:46:09.952 idempiere Log (CLogFile) ***
+15:46:12.064-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+15:46:52.700===========> GridTab.processCallout: NoCurrencyConversion [31]
+15:49:19.162===========> GridTab.processCallout: NoCurrencyConversion [35]
+15:49:29.439===========> MPaymentAllocate.saveError: FillMandatory - Organization [31]
+15:49:29.440-----------> GridTable.saveWarning: FillMandatory - Organization [31]
+15:50:17.483===========> MPaymentAllocate.saveError: Error - Invoice Amt(36400.485000) <> Totals(36410.535000000000000710542735760100185871124267578125) [38]
+15:50:17.483-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000021] [38]
+15:50:17.511-----------> MPaymentAllocate.save: Validation failed - javax.script.ScriptException: Sourced file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : Method Invocation A_PO.saveEx : at Line: 1 : in file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : A_PO .saveEx ( ) 
+
+Target exception: org.adempiere.exceptions.AdempiereException: Error: : Invoice Amt(36400.485000) <> Totals(36410.535000000000000710542735760100185871124267578125)
+ in inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' at line number 1 [38]
+15:50:17.511===========> MPaymentAllocate.saveError: Error - javax.script.ScriptException: Sourced file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : Method Invocation A_PO.saveEx : at Line: 1 : in file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : A_PO .saveEx ( ) 
+
+Target exception: org.adempiere.exceptions.AdempiereException: Error: : Invoice Amt(36400.485000) <> Totals(36410.535000000000000710542735760100185871124267578125)
+ in inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' at line number 1 [38]
+15:50:17.511-----------> GridTable.saveWarning: Error - javax.script.ScriptException: Sourced file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : Method Invocation A_PO.saveEx : at Line: 1 : in file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : A_PO .saveEx ( ) 
+
+Target exception: org.adempiere.exceptions.AdempiereException: Error: : Invoice Amt(36400.485000) <> Totals(36410.535000000000000710542735760100185871124267578125)
+ in inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' at line number 1 [38]
+15:51:37.791===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [37]
+15:51:55.139===========> GridTab.processCallout: start [31]
+java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at ni.hmil.override.callout.NICalloutPayment.amounts(NICalloutPayment.java:331)
+	at ni.hmil.override.callout.NICalloutPayment.start(NICalloutPayment.java:42)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WNumberEditor.onEvent(WNumberEditor.java:187)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+
+15:51:55.155-----------> Msg.getMsg: NOT found: Callout Invalid: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer [31]
+15:52:06.908===========> GridTab.processCallout: start [33]
+java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at ni.hmil.override.callout.NICalloutPayment.amounts(NICalloutPayment.java:331)
+	at ni.hmil.override.callout.NICalloutPayment.start(NICalloutPayment.java:42)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WNumberEditor.onEvent(WNumberEditor.java:187)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+
+15:52:06.932-----------> Msg.getMsg: NOT found: Callout Invalid: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer [33]
+15:52:36.945===========> GridTab.processCallout: start [37]
+java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at ni.hmil.override.callout.NICalloutPayment.amounts(NICalloutPayment.java:331)
+	at ni.hmil.override.callout.NICalloutPayment.start(NICalloutPayment.java:42)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WNumberEditor.onEvent(WNumberEditor.java:187)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+
+15:52:36.960-----------> Msg.getMsg: NOT found: Callout Invalid: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer [37]
+15:53:05.515===========> GridTab.processCallout: start [33]
+java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at ni.hmil.override.callout.NICalloutPayment.amounts(NICalloutPayment.java:331)
+	at ni.hmil.override.callout.NICalloutPayment.start(NICalloutPayment.java:42)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:97)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WNumberEditor.onEvent(WNumberEditor.java:187)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+
+15:53:05.535-----------> Msg.getMsg: NOT found: Callout Invalid: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer [33]
+15:56:26.624===========> GridTab.processCallout: start [33]
+java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at ni.hmil.override.callout.NICalloutPayment.amounts(NICalloutPayment.java:331)
+	at ni.hmil.override.callout.NICalloutPayment.start(NICalloutPayment.java:42)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WNumberEditor.onEvent(WNumberEditor.java:187)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+
+15:56:26.648-----------> Msg.getMsg: NOT found: Callout Invalid: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer [33]

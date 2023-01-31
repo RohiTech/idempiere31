@@ -1,0 +1,136 @@
+*** 2016-10-07 16:59:06.976 idempiere Log (CLogFile) ***
+16:59:06.976 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:59:06.979 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+16:59:07.585 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+16:59:07.598 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:59:07.599 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:59:07.622-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:59:07.705 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:59:07.718-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:59:07.720-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:59:07.721-----------> EMail.isValid: From is invalid=null [17]
+16:59:07.721-----------> EMail.isValid: From is invalid=null [17]
+16:59:07.721-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:172.16.9.71) to you @ company.org: Invalid Data (System) [17]
+16:59:07.721 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:59:07.722 AdempiereMonitor.init:  [17]
+16:59:09.347-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:59:09.608-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/config.xml [17]
+16:59:09.614-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:28/metainfo/zk/config.xml [17]
+16:59:09.618-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/config.xml [17]
+16:59:09.650-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1399961333:31/metainfo/zk/zk.xml [17]
+16:59:10.035-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:59:10.059-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:59:10.111-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+16:59:10.115-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+16:59:10.120-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+16:59:10.124-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+16:59:10.128-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+16:59:10.142-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+16:59:10.157-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+16:59:10.288           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:59:11.419-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-10-07 16:59:11.657 idempiere Log (CLogFile) ***
+16:59:13.734-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+16:59:36.368-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [63]
+16:59:36.369-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [63]
+17:01:42.867===========> Query.list: SELECT Updated,CreatedBy,IsTableBased,IsActive,IsStandardHeaderFooter,AD_PrintFont_ID,AD_Table_ID,IsForm,HeaderMargin,UpdatedBy,AD_PrintColor_ID,Created,Name,CreateCopy,FooterMargin,AD_Client_ID,AD_PrintPaper_ID,AD_Org_ID,Description,AD_PrintFormat_ID,AD_ReportView_ID,AD_PrintTableFormat_ID,PrinterName,IsDefault,JasperProcess_ID,Classname,Args,AD_PrintFormat_UU,AD_Window_ID FROM AD_PrintFormat WHERE (AD_Table_ID=? AND IsTableBased='Y' AND (AD_Window_ID=? OR AD_Window_ID IS NULL) AND (GL_Category_ID=1000007)  AND AD_Client_ID IN(0,1000000) AND AD_Org_ID IN(0,1000000) AND  (AD_PrintFormat_ID IS NULL OR AD_PrintFormat_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 493 AND AD_User_ID <> 0 AND IsActive = 'Y' )) ) AND AD_Client_ID=? ORDER BY  AD_Client_ID DESC, IsDefault DESC, Name [63]
+org.postgresql.util.PSQLException: ERROR: no existe la columna «gl_category_id»
+  Position: 492; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.Query.createResultSet(Query.java:785)
+	at org.compiere.model.Query.list(Query.java:273)
+	at ni.idempiere.model.NIMPrintFormat.getAccessiblePrintFormats(NIMPrintFormat.java:65)
+	at ni.idempiere.toolbar.eventlistener.NIReportAction.getPrintFormats(NIReportAction.java:482)
+	at ni.idempiere.toolbar.eventlistener.NIReportAction.<init>(NIReportAction.java:93)
+	at ni.idempiere.toolbar.button.action.ToolbarAction.execute(ToolbarAction.java:15)
+	at org.adempiere.webui.adwindow.ToolbarCustomButton.onEvent(ToolbarCustomButton.java:50)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+
+17:01:58.164===========> UiEngineImpl.handleError:  [63]
+org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: no existe la columna «gl_category_id»
+  Position: 492
+	at org.compiere.model.Query.list(Query.java:283)
+	at ni.idempiere.model.NIMPrintFormat.getAccessiblePrintFormats(NIMPrintFormat.java:65)
+	at ni.idempiere.toolbar.eventlistener.NIReportAction.getPrintFormats(NIReportAction.java:482)
+	at ni.idempiere.toolbar.eventlistener.NIReportAction.<init>(NIReportAction.java:93)
+	at ni.idempiere.toolbar.button.action.ToolbarAction.execute(ToolbarAction.java:15)
+	at org.adempiere.webui.adwindow.ToolbarCustomButton.onEvent(ToolbarCustomButton.java:50)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+caused by: org.postgresql.util.PSQLException: ERROR: no existe la columna «gl_category_id»
+  Position: 492; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.Query.createResultSet(Query.java:785)
+	at org.compiere.model.Query.list(Query.java:273)
+	at ni.idempiere.model.NIMPrintFormat.getAccessiblePrintFormats(NIMPrintFormat.java:65)
+	at ni.idempiere.toolbar.eventlistener.NIReportAction.getPrintFormats(NIReportAction.java:482)
+	at ni.idempiere.toolbar.eventlistener.NIReportAction.<init>(NIReportAction.java:93)
+	at ni.idempiere.toolbar.button.action.ToolbarAction.execute(ToolbarAction.java:15)
+	at org.adempiere.webui.adwindow.ToolbarCustomButton.onEvent(ToolbarCustomButton.java:50)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+

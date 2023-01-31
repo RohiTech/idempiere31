@@ -1,0 +1,90 @@
+*** 2017-08-13 23:43:40.98 idempiere Log (CLogFile) ***
+23:43:40.979 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+23:43:40.982 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+23:43:41.923 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-07-25 04:24:07.139 [17]
+23:43:42.025 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\cm.itkamer.wandapos-integration24358338234186245207.zip [17]
+23:43:42.140 PipoDictionaryService.merge: dict file->C:\Users\OBENAV~1\AppData\Local\Temp\AD_Menu\dict\PackOut.xml [17]
+23:43:58.005-----------> WorkflowElementHandler.endElement: Failed to resolve start node reference for workflow element. Workflow=Wanda POS Synchronisation Workflow StartNode=a865816d-2d9c-40c5-8eff-fb096e64b273 [17]
+23:44:00.587 PipoDictionaryService.merge: commit PipoDS_88839f29-7456-4d77-9cc4-f76608f02686 [17]
+23:44:00.661 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-02 00:55:24.5 [17]
+23:44:00.670 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+23:44:00.671 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+23:44:00.677-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+23:44:00.730 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+23:44:00.879-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+23:44:00.880-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+23:44:00.880-----------> EMail.isValid: From is invalid=null [17]
+23:44:00.880-----------> EMail.isValid: From is invalid=null [17]
+23:44:00.881-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+23:44:00.881 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+23:44:00.881 AdempiereMonitor.init:  [17]
+23:44:11.068-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+23:44:11.554-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/config.xml [17]
+23:44:11.558-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:28/metainfo/zk/config.xml [17]
+23:44:11.561-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/config.xml [17]
+23:44:11.581-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1480207683:31/metainfo/zk/zk.xml [17]
+23:44:11.933-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+23:44:11.961-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+23:44:12.030-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+23:44:12.035-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+23:44:12.046-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+23:44:12.051-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+23:44:12.057-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+23:44:12.070-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+23:44:12.082-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+23:44:12.372           WebUIServlet.init: iDempiere Web Client started successfully [17]
+23:44:13.896-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-13 23:44:14.646 idempiere Log (CLogFile) ***
+23:44:16.467-----------> Node: [192.168.163.1]:5701 [adempiere.culturaprod/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+23:46:42.508-----------> ServletHandler.doHandle: /webui/index.zul [38]
+org.zkoss.zk.ui.UiException: Page not found: /theme/demo/preference.zul
+	at org.zkoss.zk.ui.http.ExecutionImpl.getPageDefinition(ExecutionImpl.java:379)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents0(AbstractExecution.java:279)
+	at org.zkoss.zk.ui.impl.AbstractExecution.createComponents(AbstractExecution.java:271)
+	at org.zkoss.zul.Include.afterCompose(Include.java:488)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:878)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:826)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:735)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:797)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:757)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate(UiEngineImpl.java:699)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage0(UiEngineImpl.java:442)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execNewPage(UiEngineImpl.java:356)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.process(DHtmlLayoutServlet.java:217)
+	at org.zkoss.zk.ui.http.DHtmlLayoutServlet.doGet(DHtmlLayoutServlet.java:136)
+	at org.adempiere.webui.session.WebUIServlet.doGet(WebUIServlet.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.adempiere.webui.session.WebUIServlet.service(WebUIServlet.java:108)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+

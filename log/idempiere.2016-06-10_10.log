@@ -1,0 +1,77 @@
+*** 2016-06-10 16:34:03.901 idempiere Log (CLogFile) ***
+16:34:03.901 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+16:34:03.904 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+16:34:04.345 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+16:34:04.345 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+16:34:04.363-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+16:34:04.489 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+16:34:04.493 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+16:34:04.565 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+16:34:04.566-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:34:04.566-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+16:34:04.566-----------> EMail.isValid: From is invalid=null [17]
+16:34:04.566-----------> EMail.isValid: From is invalid=null [17]
+16:34:04.566-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+16:34:04.566 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+16:34:04.566 AdempiereMonitor.init:  [17]
+16:34:06.242-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+16:34:06.511-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:19/metainfo/zk/config.xml [17]
+16:34:06.526-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:28/metainfo/zk/config.xml [17]
+16:34:06.531-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:29/metainfo/zk/config.xml [17]
+16:34:06.546-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk491298318:31/metainfo/zk/zk.xml [17]
+16:34:06.979-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+16:34:07.004-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+16:34:07.084-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+16:34:07.088-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+16:34:07.093-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+16:34:07.097-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+16:34:07.101-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+16:34:07.116-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+16:34:07.126-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+16:34:07.227           WebUIServlet.init: iDempiere Web Client started successfully [17]
+16:34:08.531-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-10 16:34:08.792 idempiere Log (CLogFile) ***
+16:34:11.169-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+16:49:35.297===========> PreparedStatementProxy.init: SELECT * FROM R_Request WHERE AD_Client_ID=? AND SalesRep_ID=0 AND Processed='N' [57]
+java.lang.IllegalStateException: DB.getConnectionRO - @NoDBConnection@
+	at org.compiere.util.DB.createConnection(DB.java:470)
+	at org.idempiere.db.util.AutoCommitConnectionBroker.getConnection(AutoCommitConnectionBroker.java:48)
+	at org.compiere.db.PreparedStatementProxy.init(PreparedStatementProxy.java:64)
+	at org.compiere.db.PreparedStatementProxy.<init>(PreparedStatementProxy.java:45)
+	at org.compiere.db.ProxyFactory.newCPreparedStatement(ProxyFactory.java:56)
+	at org.compiere.util.DB.prepareStatement(DB.java:773)
+	at org.compiere.util.DB.prepareStatement(DB.java:742)
+	at org.compiere.server.RequestProcessor.findSalesRep(RequestProcessor.java:571)
+	at org.compiere.server.RequestProcessor.doWork(RequestProcessor.java:74)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+

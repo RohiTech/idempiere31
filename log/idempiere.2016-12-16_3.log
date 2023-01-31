@@ -1,0 +1,168 @@
+*** 2016-12-16 15:41:46.173 idempiere Log (CLogFile) ***
+15:41:46.172 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:41:46.175 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+15:41:46.785 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+15:41:46.804 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:41:46.804 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:41:46.825-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:41:46.975 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:41:47.096-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:41:47.099-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:41:47.100-----------> EMail.isValid: From is invalid=null [17]
+15:41:47.100-----------> EMail.isValid: From is invalid=null [17]
+15:41:47.100-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+15:41:47.100 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:41:47.100 AdempiereMonitor.init:  [17]
+15:41:48.771-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:41:48.988-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/config.xml [17]
+15:41:48.994-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:28/metainfo/zk/config.xml [17]
+15:41:48.999-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/config.xml [17]
+15:41:49.021-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk1399961333:31/metainfo/zk/zk.xml [17]
+15:41:49.371-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:41:49.402-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:41:49.475-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+15:41:49.480-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+15:41:49.484-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+15:41:49.488-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+15:41:49.492-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+15:41:49.508-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+15:41:49.515-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+15:41:49.729           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:41:50.712-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-12-16 15:41:50.933 idempiere Log (CLogFile) ***
+15:41:52.129-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+15:41:51.048===========> NotificationValidator.initialize: NotificationValidator.initialize() [69]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+15:43:51.019-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [38]
+15:43:51.019-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [38]
+15:44:30.016-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [38]
+15:44:30.017-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [38]
+15:45:14.389===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [132]
+15:45:14.514-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [132]
+java.lang.Exception: javax.script.ScriptException: Sourced file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import org.compiere.mo . . . '' : Attempt to resolve method: compareTo() on undefined variable or class name: nocheque : at Line: 17 : in file: inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import org.compiere.mo . . . '' : nocheque .compareTo ( new BigDecimal ( 1 ) ) 
+ in inline evaluation of: ``import org.compiere.util.DB; import java.math.BigDecimal; import org.compiere.mo . . . '' at line number 17
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:45:14.531===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [132]
+15:52:48.846-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+15:52:48.846-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+15:53:13.141===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [57]
+15:53:23.024===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [57]
+15:53:23.068-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [57]
+java.lang.Exception:  2) UPDATE C_BankAccountDoc SET currentnext='299613' FROM ( 	SELECT bad.C_BankAccountDoc_ID 	FROM 	C_BankAccount ba  		INNER JOIN C_BankAccountDoc bad ON ba.C_BankAccount_ID=bad.C_BankAccount_ID  	WHERE ba.C_BankAccount_ID=1000013  AND bad.paymentrule='S' )sc WHERE C_BankAccountDoc.C_BankAccountDoc_ID=sc.C_BankAccountDoc_ID
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:53:23.087===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [57]
+16:06:02.549===========> Trx.commit: POdel_f3586879-de59-4dfd-89d9-27314b41d53e [35]
+org.postgresql.util.PSQLException: ERROR: update o delete en «ad_rule» viola la llave foránea «adrule_adtablescriptvalidator» en la tabla «ad_table_scriptvalidator»
+  Detail: La llave (ad_rule_id)=(1000004) todavía es referida desde la tabla «ad_table_scriptvalidator».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+16:06:02.563===========> MRule.saveError: DeleteErrorDependent - ERROR: update o delete en «ad_rule» viola la llave foránea «adrule_adtablescriptvalidator» en la tabla «ad_table_scriptvalidator»
+  Detail: La llave (ad_rule_id)=(1000004) todavía es referida desde la tabla «ad_table_scriptvalidator». [35]
+16:06:02.565-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update o delete en «ad_rule» viola la llave foránea «adrule_adtablescriptvalidator» en la tabla «ad_table_scriptvalidator»
+  Detail: La llave (ad_rule_id)=(1000004) todavía es referida desde la tabla «ad_table_scriptvalidator». [35]
+16:06:10.525-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+16:06:10.526-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+16:07:53.400-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+16:07:53.400-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]
+16:07:55.950-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [38]
+16:07:55.951-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [38]
+16:08:10.836===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [150]
+16:09:19.565===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [150]
+16:09:40.772-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [37]
+16:09:40.773-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [37]
+16:12:12.010-----------> Msg.getMsg: NOT found: --299613 [35]

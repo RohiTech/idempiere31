@@ -1,0 +1,293 @@
+*** 2016-09-08 13:27:18.678 idempiere Log (CLogFile) ***
+13:27:18.678 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+13:27:18.690 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+13:27:19.483 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+13:27:19.489 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+13:27:19.499 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+13:27:19.569-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+13:27:19.689 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+13:27:19.780-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:27:19.783-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:27:19.783-----------> EMail.isValid: From is invalid=null [17]
+13:27:19.783-----------> EMail.isValid: From is invalid=null [17]
+13:27:19.783-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+13:27:19.783 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+13:27:19.783 AdempiereMonitor.init:  [17]
+13:27:30.032-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+13:27:30.397-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk176207911:2/metainfo/zk/config.xml
+with bundleresource://185.fwk176207911:19/metainfo/zk/config.xml [17]
+13:27:30.397-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk176207911:11/metainfo/zk/config.xml
+with bundleresource://185.fwk176207911:28/metainfo/zk/config.xml [17]
+13:27:30.413-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk176207911:12/metainfo/zk/config.xml
+with bundleresource://185.fwk176207911:29/metainfo/zk/config.xml [17]
+13:27:30.446-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk176207911:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk176207911:31/metainfo/zk/zk.xml [17]
+13:27:30.756-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+13:27:30.793-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+13:27:30.841-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk176207911:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:18/metainfo/zk/lang-addon.xml [17]
+13:27:30.857-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk176207911:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:19/metainfo/zk/lang-addon.xml [17]
+13:27:30.857-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk176207911:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:22/metainfo/zk/lang-addon.xml [17]
+13:27:30.857-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk176207911:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:23/metainfo/zk/lang-addon.xml [17]
+13:27:30.872-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk176207911:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:24/metainfo/zk/lang-addon.xml [17]
+13:27:30.872-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk176207911:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:29/metainfo/zk/lang-addon.xml [17]
+13:27:30.888-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk176207911:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk176207911:30/metainfo/zk/lang-addon.xml [17]
+13:27:31.093           WebUIServlet.init: iDempiere Web Client started successfully [17]
+13:27:32.295-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-08 13:27:32.792 idempiere Log (CLogFile) ***
+13:27:34.637-----------> Node: [172.16.45.186]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+13:28:25.131-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+13:28:25.131-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+13:28:49.502-----------> Msg.translate: NOT found: SMJLabelInfo [30]
+13:28:49.556-----------> Msg.translate: NOT found: SMJLabelInsuranceDiscount [30]
+13:28:49.572-----------> Msg.translate: NOT found: SMJ_LabelNew [30]
+13:28:49.574-----------> Msg.translate: NOT found: SMJ_LabelOpenTickets [30]
+13:29:32.450-----------> Msg.translate: NOT found: SMJLabelInfo [30]
+13:29:32.462-----------> Msg.translate: NOT found: SMJMSGNoSalesRep [30]
+13:29:34.622-----------> Msg.translate: NOT found: SMJTTPartner [30]
+13:29:34.623-----------> Msg.translate: NOT found: SMJTTPartner [30]
+13:29:34.626-----------> Msg.translate: NOT found: SMJLabelPlan [30]
+13:29:34.629-----------> Msg.translate: NOT found: SMJTTProduct [30]
+13:29:34.630-----------> Msg.translate: NOT found: SMJTTProduct [30]
+13:29:34.636-----------> Msg.translate: NOT found: SMJLabelSalesDate [30]
+13:29:34.638-----------> Msg.translate: NOT found: SMJLabelDeleteProduct [30]
+13:29:34.640-----------> Msg.translate: NOT found: SMJLabelSend [30]
+13:29:34.642-----------> Msg.translate: NOT found: SMJLabelDiscounts [30]
+13:29:34.644-----------> Msg.translate: NOT found: SMJLabelExit [30]
+13:29:34.646-----------> Msg.translate: NOT found: SMJLabelDeleteTicket [30]
+13:29:34.647-----------> Msg.translate: NOT found: SMJLabelPreTicket [30]
+13:29:34.649-----------> Msg.translate: NOT found: SMJLabelPay [30]
+13:29:34.651-----------> Msg.translate: NOT found: SMJLabelGenerateOnlyShipment [30]
+13:29:34.653-----------> Msg.translate: NOT found: SMJLabelResetTickets [30]
+13:29:34.660===========> SimplifiedSales.<init>: WSimplifiedSales constructor error [30]
+java.lang.NullPointerException
+	at com.smj.webui.apps.form.WSimplifiedSales.isAdminRole(WSimplifiedSales.java:2712)
+	at com.smj.webui.apps.form.WSimplifiedSales.zkInit(WSimplifiedSales.java:583)
+	at com.smj.webui.apps.form.WSimplifiedSales.<init>(WSimplifiedSales.java:160)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.smj.webui.factory.PosFormFactory.newFormInstance(PosFormFactory.java:32)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+13:31:27.595-----------> Msg.translate: NOT found: SMJLabelInsuranceDiscount [31]
+13:31:27.597-----------> Msg.translate: NOT found: SMJ_LabelNew [31]
+13:31:27.598-----------> Msg.translate: NOT found: SMJ_LabelOpenTickets [31]
+13:31:31.529-----------> Msg.translate: NOT found: SMJMSGNoSalesRep [31]
+13:31:31.530-----------> Msg.translate: NOT found: SMJTTPartner [31]
+13:31:31.531-----------> Msg.translate: NOT found: SMJTTPartner [31]
+13:31:31.531-----------> Msg.translate: NOT found: SMJLabelPlan [31]
+13:31:31.532-----------> Msg.translate: NOT found: SMJTTProduct [31]
+13:31:31.532-----------> Msg.translate: NOT found: SMJTTProduct [31]
+13:31:31.533-----------> Msg.translate: NOT found: SMJLabelSalesDate [31]
+13:31:31.533-----------> Msg.translate: NOT found: SMJLabelDeleteProduct [31]
+13:31:31.534-----------> Msg.translate: NOT found: SMJLabelSend [31]
+13:31:31.535-----------> Msg.translate: NOT found: SMJLabelDiscounts [31]
+13:31:31.536-----------> Msg.translate: NOT found: SMJLabelExit [31]
+13:31:31.537-----------> Msg.translate: NOT found: SMJLabelDeleteTicket [31]
+13:31:31.537-----------> Msg.translate: NOT found: SMJLabelPreTicket [31]
+13:31:31.538-----------> Msg.translate: NOT found: SMJLabelPay [31]
+13:31:31.539-----------> Msg.translate: NOT found: SMJLabelGenerateOnlyShipment [31]
+13:31:31.539-----------> Msg.translate: NOT found: SMJLabelResetTickets [31]
+13:31:31.542===========> SimplifiedSales.<init>: WSimplifiedSales constructor error [31]
+java.lang.NullPointerException
+	at com.smj.webui.apps.form.WSimplifiedSales.isAdminRole(WSimplifiedSales.java:2712)
+	at com.smj.webui.apps.form.WSimplifiedSales.zkInit(WSimplifiedSales.java:583)
+	at com.smj.webui.apps.form.WSimplifiedSales.<init>(WSimplifiedSales.java:160)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.smj.webui.factory.PosFormFactory.newFormInstance(PosFormFactory.java:32)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+13:32:06.516-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+13:32:06.522-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@1260afde{r=4911,c=false,a=IDLE,uri=-} [37]
+13:38:14.676-----------> Msg.translate: NOT found: SMJLabelNotificationTitle [38]
+13:38:15.256-----------> ServletHandler.doHandle: /webui/zkau [27]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+13:38:15.258-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@797eb97d{r=2047,c=false,a=IDLE,uri=-} [27]
+13:38:28.102-----------> Msg.translate: NOT found: SMJMSGSelectBpartner [27]
+13:38:52.219===========> SimplifiedSales.setPartner: com.smj.webui.apps.form.WSimplifiedSales.setPartner ERROR:  [27]
+java.lang.NullPointerException
+	at com.smj.webui.apps.form.WSimplifiedSales.generateOrder(WSimplifiedSales.java:728)
+	at com.smj.webui.apps.form.WSimplifiedSales.setPartner(WSimplifiedSales.java:1908)
+	at com.smj.webui.apps.form.WSimplifiedSales.valueChange(WSimplifiedSales.java:2036)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.access$4(WSearchEditor.java:409)
+	at org.adempiere.webui.editor.WSearchEditor$2.onEvent(WSearchEditor.java:573)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.adempiere.webui.component.Window.onPageDetached(Window.java:84)
+	at org.adempiere.webui.panel.InfoPanel.onPageDetached(InfoPanel.java:2249)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.panel.InfoPanel.dispose(InfoPanel.java:2116)
+	at org.adempiere.webui.panel.InfoPanel.onOk(InfoPanel.java:2027)
+	at org.adempiere.webui.panel.InfoPanel.onEvent(InfoPanel.java:1668)
+
+13:38:52.306-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+13:38:52.309-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@45457ba3{r=372,c=false,a=IDLE,uri=-} [37]
+14:05:44.149-----------> AbstractADWindowContent.onNewCallback: Insert Record disabled for Tab [27]
+14:06:35.184-----------> Msg.translate: NOT found: SMJLabelInfo [31]
+14:06:35.197-----------> Msg.translate: NOT found: SMJLabelRMAType [31]
+14:06:35.197-----------> Msg.translate: NOT found: SMJLabelAffectsInventory [31]
+14:06:35.197-----------> Msg.translate: NOT found: SMJLabelProcess [31]
+14:06:35.197-----------> Msg.translate: NOT found: SMJLabelCheckAll [31]
+14:06:35.197-----------> Msg.translate: NOT found: SMJLabelUncheckAll [31]
+14:06:35.197===========> MLookupFactory.getLookup_Table: No Table Reference Table ID=-1 [31]
+14:06:35.213===========> MLookupFactory.getLookupInfo: No SQL - C_Invoice_ID [31]
+14:06:35.213===========> WSimplifiedReturns.<init>: WSimplifiedSales constructor error [31]
+java.lang.Exception: MLookup.create - no LookupInfo
+	at org.compiere.model.MLookupFactory.get(MLookupFactory.java:83)
+	at com.smj.webui.apps.form.WSimplifiedReturns.initComponents(WSimplifiedReturns.java:172)
+	at com.smj.webui.apps.form.WSimplifiedReturns.<init>(WSimplifiedReturns.java:88)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.smj.webui.factory.PosFormFactory.newFormInstance(PosFormFactory.java:32)
+	at org.adempiere.webui.Extensions.getForm(Extensions.java:46)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:154)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+14:06:43.084-----------> Msg.translate: NOT found: SMJLabelInfo [27]
+14:06:43.094-----------> Msg.translate: NOT found: SMJLabelValue [27]
+14:06:43.095-----------> Msg.translate: NOT found: SMJLabelMovementType [27]
+14:06:43.095-----------> Msg.translate: NOT found: SMJLabelDescription [27]
+14:06:43.095-----------> Msg.translate: NOT found: SMJLabelProcess [27]
+14:06:43.095-----------> Msg.translate: NOT found: SMJLabelCashIn [27]
+14:06:43.095-----------> Msg.translate: NOT found: SMJLabelCashOut [27]
+14:06:58.552-----------> Msg.translate: NOT found: SMJ-MSJMustBeGreaterThanZero [38]

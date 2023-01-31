@@ -1,0 +1,111 @@
+*** 2017-08-03 09:26:50.731 idempiere Log (CLogFile) ***
+09:26:50.730 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:26:50.737 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+09:26:51.447 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-01 23:36:25.849 [17]
+09:26:51.450 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+09:26:51.452 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+09:26:51.469 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:26:51.469 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:26:51.489-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+09:26:51.577 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:26:51.772-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:26:51.774-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:26:51.774-----------> EMail.isValid: From is invalid=null [17]
+09:26:51.774-----------> EMail.isValid: From is invalid=null [17]
+09:26:51.774-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+09:26:51.775 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:26:51.775 AdempiereMonitor.init:  [17]
+09:26:53.750-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:26:54.034-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://187.fwk491298318:19/metainfo/zk/config.xml [17]
+09:26:54.042-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://187.fwk491298318:28/metainfo/zk/config.xml [17]
+09:26:54.047-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://187.fwk491298318:29/metainfo/zk/config.xml [17]
+09:26:54.090-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk491298318:31/metainfo/zk/zk.xml [17]
+09:26:54.534-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:26:54.561-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:26:54.615-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+09:26:54.619-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+09:26:54.624-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+09:26:54.628-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+09:26:54.632-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+09:26:54.652-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+09:26:54.663-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+09:26:54.967           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:26:56.140-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-03 09:26:56.405 idempiere Log (CLogFile) ***
+09:26:59.074-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+09:27:27.894-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+09:27:27.895-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]
+09:27:33.450===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+09:27:33.525===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+09:27:33.592===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [35]
+09:27:36.982===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+09:27:37.048===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+09:27:37.111===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+09:27:37.187===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [39]
+09:27:40.159===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [30]
+09:27:40.200===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [30]
+09:27:40.496===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.526===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.556===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.573===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.588===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.601===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.621===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.636===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:40.655===========> DesktopImpl.service: [Desktop z__ab:/index.zul] client error: Failed to mount: adempiere.set is not a function [38]
+09:27:41.038===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [71]
+09:29:23.501===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [71]
+11:31:50.801-----------> Trx.run: Transaction timeout. Name=WFP_af7e163a-a46e-438a-a0f7-08e923af9d72, timeout(sec)=7450 [143]
+11:36:28.934===========> Configuration.invokeDesktopCleanups: Failed to invoke class org.adempiere.webui.session.SessionContextListener [34]
+java.lang.NullPointerException
+	at org.zkoss.zk.ui.http.ExecutionImpl.getAttribute(ExecutionImpl.java:470)
+	at org.adempiere.webui.adwindow.StatusBar.setStatusLine(StatusBar.java:144)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.updateUI(AbstractADWindowContent.java:3138)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onModalClose(AbstractADWindowContent.java:3101)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onEvent(AbstractADWindowContent.java:1098)
+	at org.adempiere.webui.adwindow.ADWindowContent.onEvent(ADWindowContent.java:194)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.adempiere.webui.component.Window.onPageDetached(Window.java:84)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setParent(AbstractComponent.java:1020)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1680)
+	at org.adempiere.webui.desktop.DefaultDesktop.logout(DefaultDesktop.java:676)
+
+14:19:17.539-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 6526597ms, Master-Confirmation-Timeout: 500000ms. [91]

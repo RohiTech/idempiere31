@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BusinessTeam
+Bundle-SymbolicName: org.egsgroup.businessTeam
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: com.egs.theme.businessteam41
+Fragment-Host: org.adempiere.ui.zk
+Export-Package: org.adempiere.webui.editor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Jetty-WarFragmentFolderPath: /

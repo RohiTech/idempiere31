@@ -1,0 +1,410 @@
+*** 2017-02-01 14:05:42.773 idempiere Log (CLogFile) ***
+14:05:42.773 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:05:42.773 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+14:05:44.796 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\ni.idempiere.importcurrencyrate8837740507887125839.zip [17]
+14:05:44.847 PipoDictionaryService.merge: dict file->C:\Users\OBENAV~1\AppData\Local\Temp\ni.idempiere.importcurrencyrate\dict\PackOut.xml [17]
+14:05:51.941 PipoDictionaryService.merge: commit PipoDS_51c13a50-ca61-4443-8c49-6cf1c0825ac4 [17]
+14:05:52.406 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\POSIntegration6350362890792397502.zip [17]
+14:05:52.516 PipoDictionaryService.merge: dict file->C:\Users\OBENAV~1\AppData\Local\Temp\2Pack\dict\PackOut.xml [17]
+14:06:21.399 PipoDictionaryService.merge: commit PipoDS_12314f20-b1aa-4d25-8525-04c951c91b60 [17]
+14:06:21.654 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:06:21.654 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:06:21.654-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:06:22.126 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:06:22.267-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:06:22.267-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:06:22.267-----------> EMail.isValid: From is invalid=null [17]
+14:06:22.267-----------> EMail.isValid: From is invalid=null [17]
+14:06:22.267-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+14:06:22.267 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:06:22.267 AdempiereMonitor.init:  [17]
+14:06:24.251-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:06:24.442-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://187.fwk491298318:19/metainfo/zk/config.xml [17]
+14:06:24.442-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://187.fwk491298318:28/metainfo/zk/config.xml [17]
+14:06:24.458-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://187.fwk491298318:29/metainfo/zk/config.xml [17]
+14:06:24.473-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk491298318:31/metainfo/zk/zk.xml [17]
+14:06:24.770-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:06:24.786-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:06:24.848-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+14:06:24.848-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+14:06:24.848-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+14:06:24.848-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+14:06:24.848-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+14:06:24.864-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+14:06:24.864-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+14:06:25.130           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:06:26.034-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-02-01 14:06:26.245 idempiere Log (CLogFile) ***
+14:06:27.375-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+14:06:27.576-----------> PackInHandler.dumpUnresolvedElements: AD_Menu_Trl [Name=Notificaciones, Description=, AD_Language=es_NI, IsActive=Y, IsTranslated=N] [50]
+14:06:27.576-----------> PackInHandler.dumpUnresolvedElements: AD_Menu [Parent_ID=158, SeqNo=3, AD_Client_ID=0, AD_Org_ID=0, Name=Notifications, Description=, Action=W, AD_Window_ID=8f315c93-59f3-48b3-8196-2cfcef9b0b06, AD_Workflow_ID=, AD_Task_ID=, IsActive=Y, IsSummary=N, AD_Process_ID=, IsSOTrx=N, AD_Form_ID=, IsReadOnly=N, EntityType=U, IsCentrallyMaintained=Y, AD_Menu_UU=5019f6b3-f851-4a0c-b634-3ec4d69264d1, AD_InfoWindow_ID=] unresolved [AD_Window_ID] [50]
+14:06:26.344===========> NotificationValidator.initialize: NotificationValidator.initialize() [48]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «ni_notification_trigguer»
+  Position: 81; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.NotificationValidator.initialize(NotificationValidator.java:45)
+	at org.adempiere.base.event.AbstractEventHandler.bindEventManager(AbstractEventHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+
+14:06:27.576===========> PackIn.importXML: importXML: [50]
+org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+14:06:27.686===========> PackIn.importXML: importXML: [50]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+14:06:27.717===========> PipoDictionaryService.merge: importXML: [50]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+14:06:27.748===========> AdempiereActivator.packIn: Pack in failed. [50]
+java.lang.RuntimeException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: Unresolved elements
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:183)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:104)
+	at org.adempiere.plugin.utils.AdempiereActivator.packIn(AdempiereActivator.java:109)
+	at org.adempiere.plugin.utils.AdempiereActivator.installPackage(AdempiereActivator.java:85)
+	at org.adempiere.plugin.utils.AdempiereActivator.access$4(AdempiereActivator.java:54)
+	at org.adempiere.plugin.utils.AdempiereActivator$1.run(AdempiereActivator.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+14:06:49.914-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [32]
+14:06:49.914-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [32]
+14:07:14.071-----------> Doc_InOut.createFacts: No Costs for Plum Tree [49]
+14:07:34.505-----------> Doc_InOut.createFacts: No Costs for Plum Tree [49]
+14:07:45.784-----------> Doc_InOut.createFacts: Resubmit - No Costs for Plum Tree (required order line) [49]
+14:07:46.268-----------> FactLine.updateReverseLine: Not Found (try later) ,C_AcctSchema_ID=101, AD_Table_ID=319,Record_ID=102,Line_ID=102, Account_ID=587 [49]
+14:07:50.515===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [49]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «lco_invoicewithholding»
+  Position: 136; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:647)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:261)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+
+14:07:50.571-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [49]
+14:07:50.571-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción ] which will not be reported to listeners! [49]
+org.postgresql.util.PSQLException: ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at org.compiere.acct.Doc.unlock(Doc.java:790)
+	at org.compiere.acct.Doc.postCommit(Doc.java:739)
+	at org.compiere.acct.Doc.post(Doc.java:554)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+14:07:50.571===========> DB.executeUpdate: UPDATE C_AllocationHdr SET Processing='N' WHERE C_AllocationHdr_ID=100 [Post_49192976-78c1-4ec3-ad91-a425ee267432] [49]
+org.postgresql.util.PSQLException: ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at org.compiere.acct.Doc.unlock(Doc.java:790)
+	at org.compiere.acct.Doc.postCommit(Doc.java:739)
+	at org.compiere.acct.Doc.post(Doc.java:554)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+14:07:50.618===========> DB.saveError: DBExecuteError - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción [49]
+14:07:51.161===========> LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment: SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax  FROM LCO_InvoiceWithholding i, C_Tax t  WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' AND i.Processed = 'Y' AND i.C_AllocationLine_ID = ? AND i.C_Tax_ID = t.C_Tax_ID GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax [49]
+org.postgresql.util.PSQLException: ERROR: no existe la relación «lco_invoicewithholding»
+  Position: 136; State=42P01; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at ni.idempiere.model.LCO_ValidatorWH.accountingForInvoiceWithholdingOnPayment(LCO_ValidatorWH.java:647)
+	at ni.idempiere.model.LCO_ValidatorWH.doHandleEvent(LCO_ValidatorWH.java:261)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+
+14:07:51.193-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [49]
+14:07:51.193-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción ] which will not be reported to listeners! [49]
+org.postgresql.util.PSQLException: ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at org.compiere.acct.Doc.unlock(Doc.java:790)
+	at org.compiere.acct.Doc.postCommit(Doc.java:739)
+	at org.compiere.acct.Doc.post(Doc.java:554)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+14:07:51.193===========> DB.executeUpdate: UPDATE C_AllocationHdr SET Processing='N' WHERE C_AllocationHdr_ID=101 [Post_7e900490-8a17-4fb2-9042-c15d9ebdb083] [49]
+org.postgresql.util.PSQLException: ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción; State=25P02; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:897)
+	at org.compiere.util.DB.executeUpdate(DB.java:884)
+	at org.compiere.acct.Doc.unlock(Doc.java:790)
+	at org.compiere.acct.Doc.postCommit(Doc.java:739)
+	at org.compiere.acct.Doc.post(Doc.java:554)
+	at org.compiere.acct.DocManager.postDocument(DocManager.java:299)
+	at org.compiere.server.AcctProcessor.postSession(AcctProcessor.java:194)
+	at org.compiere.server.AcctProcessor.doWork(AcctProcessor.java:79)
+	at org.compiere.server.AdempiereServer.doRun(AdempiereServer.java:211)
+	at org.compiere.server.AdempiereServer.run(AdempiereServer.java:190)
+	at org.compiere.server.AdempiereServerMgr$ServerWrapper.run(AdempiereServerMgr.java:504)
+
+14:07:51.193===========> DB.saveError: DBExecuteError - ERROR: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción [49]
+14:08:03.972-----------> Doc_InOut.createFacts: No Costs for Plum Tree [49]
+14:08:04.143-----------> Doc_InOut.createFacts: Resubmit - No Costs for Oak Tree (required order line) [49]
+14:08:04.253-----------> FactLine.updateReverseLine: Not Found (try later) ,C_AcctSchema_ID=101, AD_Table_ID=319,Record_ID=104,Line_ID=106, Account_ID=587 [49]
+14:08:07.997-----------> Doc_Order.isConvertible: NOT from C_Currency_ID=102 to 100 - MOrder[108-60000,IsSOTrx=true,C_DocType_ID=133, GrandTotal=228.85] [49]
+14:08:08.149-----------> Doc_Invoice.isConvertible: NOT from C_Currency_ID=102 to 100 - MInvoice[109-100000,GrandTotal=228.85 (#1)] [49]
+14:08:08.419-----------> Fact.isSegmentBalanced: (OO) NO - Fact[X_M_Movement[100],AcctSchema[101-GardenWorld US/A/US Dollar],PostType=A], Balance=-247.00 [49]
+14:08:19.101-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+14:08:19.101-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+14:08:26.155===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: Database Version Error 
+
+The program assumes Database version 2015-10-31, but Database has Version 2016-10-31. 
+This is likely to cause hard to fix errors. 
+Please stop and migrate the database immediately.
+	at org.adempiere.webui.panel.LoginPanel.validateLogin(LoginPanel.java:625)
+	at org.adempiere.webui.window.LoginWindow.onEvent(LoginWindow.java:162)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+

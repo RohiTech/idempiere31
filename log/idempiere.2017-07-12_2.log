@@ -1,0 +1,87 @@
+*** 2017-07-12 22:26:17.579 idempiere Log (CLogFile) ***
+22:26:17.579 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+22:26:17.582 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+22:26:18.172 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [14]
+22:26:18.174 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [14]
+22:26:18.188 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+22:26:18.188 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+22:26:18.206-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [14]
+22:26:18.287 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+22:26:18.472-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+22:26:18.474-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+22:26:18.475-----------> EMail.isValid: From is invalid=null [14]
+22:26:18.475-----------> EMail.isValid: From is invalid=null [14]
+22:26:18.475-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+22:26:18.475 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+22:26:18.475 AdempiereMonitor.init:  [14]
+22:26:20.270-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+22:26:20.526-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk333967374:2/metainfo/zk/config.xml
+with bundleresource://181.fwk333967374:19/metainfo/zk/config.xml [14]
+22:26:20.535-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk333967374:11/metainfo/zk/config.xml
+with bundleresource://181.fwk333967374:28/metainfo/zk/config.xml [14]
+22:26:20.540-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk333967374:12/metainfo/zk/config.xml
+with bundleresource://181.fwk333967374:29/metainfo/zk/config.xml [14]
+22:26:20.573-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk333967374:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk333967374:31/metainfo/zk/zk.xml [14]
+22:26:20.957-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+22:26:20.982-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+22:26:21.048-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk333967374:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:18/metainfo/zk/lang-addon.xml [14]
+22:26:21.051-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk333967374:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:19/metainfo/zk/lang-addon.xml [14]
+22:26:21.056-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk333967374:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:22/metainfo/zk/lang-addon.xml [14]
+22:26:21.061-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk333967374:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:23/metainfo/zk/lang-addon.xml [14]
+22:26:21.065-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk333967374:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:24/metainfo/zk/lang-addon.xml [14]
+22:26:21.077-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk333967374:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:29/metainfo/zk/lang-addon.xml [14]
+22:26:21.085-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk333967374:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk333967374:30/metainfo/zk/lang-addon.xml [14]
+22:26:21.406           WebUIServlet.init: iDempiere Web Client started successfully [14]
+22:26:22.713-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2017-07-12 22:26:22.922 idempiere Log (CLogFile) ***
+22:26:25.064-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [46]
+22:28:24.705===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+22:28:26.169===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [48]
+22:28:26.315===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [48]
+22:28:26.750===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [48]
+22:28:26.921===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [48]
+22:28:27.547===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [48]
+22:30:22.418===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+22:30:23.098===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [129]
+22:30:23.146===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [129]
+22:30:23.421===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [129]
+22:30:23.478===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [129]
+22:30:23.828===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [129]
+22:38:32.872===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+22:38:34.038===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+22:38:34.157===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+22:38:34.471===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+22:38:34.788===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+22:38:36.619===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+23:11:32.129===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+23:11:32.805===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [39]
+23:11:32.891===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [39]
+23:11:33.076===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [39]
+23:11:34.465===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [39]
+23:11:34.735===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [39]
+23:53:28.471-----------> Msg.getMsg: NOT found: Valor de preferencia Lógica de Solo Lectura [32]

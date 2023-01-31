@@ -1,0 +1,218 @@
+*** 2016-06-27 11:34:09.106 idempiere Log (CLogFile) ***
+11:34:09.106 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+11:34:09.109 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+11:34:09.580 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+11:34:09.581 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+11:34:09.599-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+11:34:09.685 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+11:34:09.695-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:34:09.699-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+11:34:09.699-----------> EMail.isValid: From is invalid=null [17]
+11:34:09.699-----------> EMail.isValid: From is invalid=null [17]
+11:34:09.699-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.34) to you @ company.org: Invalid Data (System) [17]
+11:34:09.699 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+11:34:09.699 AdempiereMonitor.init:  [17]
+11:34:11.215-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+11:34:11.477-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk176207911:2/metainfo/zk/config.xml
+with bundleresource://179.fwk176207911:19/metainfo/zk/config.xml [17]
+11:34:11.483-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk176207911:11/metainfo/zk/config.xml
+with bundleresource://179.fwk176207911:28/metainfo/zk/config.xml [17]
+11:34:11.490-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk176207911:12/metainfo/zk/config.xml
+with bundleresource://179.fwk176207911:29/metainfo/zk/config.xml [17]
+11:34:11.518-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk176207911:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk176207911:31/metainfo/zk/zk.xml [17]
+11:34:11.875-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+11:34:11.896-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+11:34:11.958-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk176207911:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:18/metainfo/zk/lang-addon.xml [17]
+11:34:11.962-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk176207911:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:19/metainfo/zk/lang-addon.xml [17]
+11:34:11.967-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk176207911:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:22/metainfo/zk/lang-addon.xml [17]
+11:34:11.971-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk176207911:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:23/metainfo/zk/lang-addon.xml [17]
+11:34:11.975-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk176207911:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:24/metainfo/zk/lang-addon.xml [17]
+11:34:11.987-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk176207911:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:29/metainfo/zk/lang-addon.xml [17]
+11:34:11.995-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk176207911:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk176207911:30/metainfo/zk/lang-addon.xml [17]
+11:34:12.097           WebUIServlet.init: iDempiere Web Client started successfully [17]
+11:34:13.082-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-27 11:34:13.288 idempiere Log (CLogFile) ***
+11:34:15.149-----------> Node: [10.0.5.34]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+11:41:52.354===========> GridTab.processCallout: start [40]
+java.lang.NumberFormatException: For input string: "null"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at ni.idempiere.model.NICalloutPayment.convertDocument(NICalloutPayment.java:921)
+	at ni.idempiere.model.NICalloutPayment.setCurrency(NICalloutPayment.java:914)
+	at ni.idempiere.model.NICalloutPayment.start(NICalloutPayment.java:45)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.dataNew(GridTab.java:1193)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1833)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$20.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.saveAndNavigate(AbstractADWindowContent.java:1191)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNewCallback(AbstractADWindowContent.java:1828)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$11(AbstractADWindowContent.java:1818)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1809)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$19.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onNew(AbstractADWindowContent.java:1815)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+11:47:29.031-----------> AbstractADWindowContent.onNewCallback: Insert Record disabled for Tab [40]
+11:48:20.730===========> GridTab.processCallout: start [32]
+java.lang.NumberFormatException: For input string: "null"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at ni.idempiere.model.NICalloutPayment.convertDocument(NICalloutPayment.java:921)
+	at ni.idempiere.model.NICalloutPayment.setCurrency(NICalloutPayment.java:914)
+	at ni.idempiere.model.NICalloutPayment.start(NICalloutPayment.java:45)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+
+11:48:20.750-----------> Msg.getMsg: NOT found: Callout Invalid: java.lang.NumberFormatException: For input string: "null" [32]
+11:48:57.213===========> MPaymentAllocate.saveError: FillMandatory - Organización [126]
+11:48:57.213-----------> GridTable.saveWarning: FillMandatory - Organización [126]
+13:41:59.577-----------> ClusterService: [10.0.5.34]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 5807641ms, Master-Confirmation-Timeout: 500000ms. [221]
+13:42:28.121-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@34b7ded9 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks! [44]
+13:42:28.155-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@34b7ded9 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4a11622f
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyua9h14rlj6qrlt5az|786de56e, dataSourceName->iDempiereDS]-HelperThread-#1
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@37a437b0
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyua9h14rlj6qrlt5az|786de56e, dataSourceName->iDempiereDS]-HelperThread-#0
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@3b4521a6
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyua9h14rlj6qrlt5az|786de56e, dataSourceName->iDempiereDS]-HelperThread-#2
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@7e442059
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2aa7f3d2
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@787875de
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2c827f9c
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2b87f198
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@6a06487b
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4280b99e
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyua9h14rlj6qrlt5az|786de56e, dataSourceName->iDempiereDS]-HelperThread-#1,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyua9h14rlj6qrlt5az|786de56e, dataSourceName->iDempiereDS]-HelperThread-#0,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyua9h14rlj6qrlt5az|786de56e, dataSourceName->iDempiereDS]-HelperThread-#2,5,main]
+		java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		java.net.PlainSocketImpl.connect(Unknown Source)
+		java.net.SocksSocketImpl.connect(Unknown Source)
+		java.net.Socket.connect(Unknown Source)
+		org.postgresql.core.PGStream.<init>(PGStream.java:61)
+		org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:129)
+		org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+		org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:149)
+		org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+		org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+		org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+		org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+		org.postgresql.Driver.makeConnection(Driver.java:414)
+		org.postgresql.Driver.connect(Driver.java:282)
+		com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+		com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+		com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+		com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+ [44]

@@ -1,0 +1,108 @@
+*** 2017-07-17 19:31:50.615 idempiere Log (CLogFile) ***
+19:31:50.615 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+19:31:50.619 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+19:31:51.243 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+19:31:51.253 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+19:31:51.254 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+19:31:51.254 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+19:31:51.286-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+19:31:51.386 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+19:31:51.598-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:31:51.601-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+19:31:51.601-----------> EMail.isValid: From is invalid=null [17]
+19:31:51.602-----------> EMail.isValid: From is invalid=null [17]
+19:31:51.602-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+19:31:51.602 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+19:31:51.602 AdempiereMonitor.init:  [17]
+19:31:53.646-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+19:31:53.926-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/config.xml [17]
+19:31:53.926-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://181.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:28/metainfo/zk/config.xml [17]
+19:31:53.941-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/config.xml [17]
+19:31:53.973-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://181.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://181.fwk1399961333:31/metainfo/zk/zk.xml [17]
+19:31:54.352-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+19:31:54.368-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+19:31:54.451-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://181.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+19:31:54.459-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://181.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+19:31:54.463-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://181.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+19:31:54.467-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://181.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+19:31:54.475-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://181.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+19:31:54.487-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://181.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+19:31:54.491-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://181.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://181.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+19:31:54.815           WebUIServlet.init: iDempiere Web Client started successfully [17]
+19:31:56.227-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-17 19:31:56.517 idempiere Log (CLogFile) ***
+19:31:59.464-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+19:34:47.010===========> ADWindowToolbar.doOnClick: Could not invoke Toolbar listener method: onReport() [40]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.doOnClick(ADWindowToolbar.java:413)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.onEvent(ADWindowToolbar.java:377)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+caused by: java.lang.NullPointerException
+	at org.adempiere.webui.LayoutUtils.openPopupWindow(LayoutUtils.java:112)
+	at org.adempiere.webui.panel.action.ReportAction.show(ReportAction.java:204)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onReport0(AbstractADWindowContent.java:2521)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$24(AbstractADWindowContent.java:2518)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$40.onCallback(AbstractADWindowContent.java:2511)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$40.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$28.onCallback(AbstractADWindowContent.java:2112)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$28.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave0(AbstractADWindowContent.java:2258)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSaveCallback(AbstractADWindowContent.java:2155)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$19(AbstractADWindowContent.java:2149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:2123)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2131)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onReport(AbstractADWindowContent.java:2515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+

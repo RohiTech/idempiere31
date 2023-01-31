@@ -1,0 +1,100 @@
+*** 2016-06-16 09:27:14.803 idempiere Log (CLogFile) ***
+09:27:14.803 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:27:14.803 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+09:27:15.257 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:27:15.257 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:27:15.272-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:27:15.409 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+09:27:15.413 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+09:27:15.501 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:27:15.517-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:27:15.521-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:27:15.521-----------> EMail.isValid: From is invalid=null [17]
+09:27:15.521-----------> EMail.isValid: From is invalid=null [17]
+09:27:15.525-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+09:27:15.525 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:27:15.525 AdempiereMonitor.init:  [17]
+09:27:17.314-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:27:17.582-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/config.xml [17]
+09:27:17.582-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:28/metainfo/zk/config.xml [17]
+09:27:17.597-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/config.xml [17]
+09:27:17.613-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1399961333:31/metainfo/zk/zk.xml [17]
+09:27:18.019-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:27:18.051-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:27:18.133-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+09:27:18.141-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+09:27:18.149-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+09:27:18.161-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+09:27:18.169-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+09:27:18.181-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+09:27:18.189-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+09:27:18.287           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:27:19.433-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-16 09:27:19.674 idempiere Log (CLogFile) ***
+09:27:21.818-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+09:27:59.312-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [35]
+09:27:59.312-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [35]
+09:31:03.658===========> GridTab.processCallout: NoCurrencyConversion [35]
+09:31:32.866===========> MPaymentAllocate.saveError: FillMandatory - Organización [35]
+09:31:32.871-----------> GridTable.saveWarning: FillMandatory - Organización [35]
+09:35:54.193===========> GridTab.processCallout: NoCurrencyConversion [188]
+09:36:15.449===========> MPaymentAllocate.saveError: FillMandatory - Organización [35]
+09:36:15.449-----------> GridTable.saveWarning: FillMandatory - Organización [35]
+09:37:44.218===========> GridTab.processCallout: NoCurrencyConversion [35]
+09:37:54.867===========> GridTab.processCallout: NoCurrencyConversion [40]
+09:38:03.849===========> MPaymentAllocate.saveError: FillMandatory - Organización [199]
+09:38:03.849-----------> GridTable.saveWarning: FillMandatory - Organización [199]
+09:43:59.389===========> GridTab.processCallout: NoCurrencyConversion [204]
+09:44:07.963===========> MPaymentAllocate.saveError: FillMandatory - Organización [204]
+09:44:07.963-----------> GridTable.saveWarning: FillMandatory - Organización [204]
+09:45:29.102===========> GridTab.processCallout: NoCurrencyConversion [187]
+09:47:04.479===========> MPaymentAllocate.saveError: Error - Monto de Factura(4320.030000) <> Totales(4319.400000) [209]
+09:47:04.479-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000013] [209]
+09:47:04.483-----------> GridTable.saveWarning: Error - Monto de Factura(4320.030000) <> Totales(4319.400000) [209]
+09:47:11.185===========> MPaymentAllocate.saveError: Error - Monto de Factura(4320.030000) <> Totales(4319.400000) [204]
+09:47:11.185-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000013] [204]
+09:47:11.198-----------> GridTable.saveWarning: Error - Monto de Factura(4320.030000) <> Totales(4319.400000) [204]
+09:47:36.678===========> MPaymentAllocate.saveError: Error - Monto de Factura(4320.030000) <> Totales(8320.030000) [206]
+09:47:36.678-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000013] [206]
+09:47:36.691-----------> GridTable.saveWarning: Error - Monto de Factura(4320.030000) <> Totales(8320.030000) [206]
+09:48:22.082-----------> GridTable.saveWarning: FillMandatory - Totales con sobre/sub pago
+ [187]
+09:48:32.137===========> MPaymentAllocate.saveError: Error - Monto de Factura(4320.030000) <> Totales(4420.030000) [206]
+09:48:32.137-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000013] [206]
+09:48:32.140-----------> GridTable.saveWarning: Error - Monto de Factura(4320.030000) <> Totales(4420.030000) [206]
+09:48:46.960-----------> GridTable.saveWarning: FillMandatory - Total Descuento
+ [206]
+09:49:07.993===========> MPaymentAllocate.saveError: Error - Monto de Factura(4320.030000) <> Totales(4243.630000) [204]
+09:49:07.993-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000013] [204]
+09:49:08.006-----------> GridTable.saveWarning: Error - Monto de Factura(4320.030000) <> Totales(4243.630000) [204]
+09:49:33.449===========> MPaymentAllocate.saveError: Error - Monto de Factura(4320.030000) <> Totales(4233.630000) [210]
+09:49:33.449-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000013] [210]
+09:49:33.462-----------> GridTable.saveWarning: Error - Monto de Factura(4320.030000) <> Totales(4233.630000) [210]

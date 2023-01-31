@@ -1,0 +1,198 @@
+*** 2017-05-03 22:23:09.873 idempiere Log (CLogFile) ***
+22:23:09.873 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+22:23:09.873 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+22:23:10.545 AdempiereActivator.installPackage: ni.idempiere.wts 1.0.0 was installed: 2017-04-28 15:20:46.241 [17]
+22:23:10.566 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+22:23:10.566 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+22:23:10.598-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+22:23:10.698 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+22:23:10.923-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+22:23:10.923-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+22:23:10.923-----------> EMail.isValid: From is invalid=null [17]
+22:23:10.923-----------> EMail.isValid: From is invalid=null [17]
+22:23:10.923-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+22:23:10.923 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+22:23:10.923 AdempiereMonitor.init:  [17]
+22:23:12.725-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+22:23:13.047-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://182.fwk1319287199:19/metainfo/zk/config.xml [17]
+22:23:13.062-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://182.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://182.fwk1319287199:28/metainfo/zk/config.xml [17]
+22:23:13.062-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://182.fwk1319287199:29/metainfo/zk/config.xml [17]
+22:23:13.078-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://182.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://182.fwk1319287199:31/metainfo/zk/zk.xml [17]
+22:23:13.471-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+22:23:13.503-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+22:23:13.586-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://182.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+22:23:13.586-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://182.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+22:23:13.586-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://182.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+22:23:13.602-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://182.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+22:23:13.602-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://182.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+22:23:13.617-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://182.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+22:23:13.617-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://182.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://182.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+22:23:13.968           WebUIServlet.init: iDempiere Web Client started successfully [17]
+22:23:15.254-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+22:23:15.370-----------> LCO_ValidatorWH.initialize:  [70]
+
+*** 2017-05-03 22:23:15.582 idempiere Log (CLogFile) ***
+22:23:18.614-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+22:24:39.746===========> DB.executeUpdate: INSERT INTO C_Project (C_Project_ID,AD_Org_ID,AD_Client_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,IsSummary,Value,C_Currency_ID,C_BPartner_ID,IsCommitment,CommittedAmt,DateContract,DateFinish,GenerateTo,Processed,SalesRep_ID,M_PriceList_Version_ID,PlannedAmt,PlannedQty,PlannedMarginAmt,C_Campaign_ID,C_PaymentTerm_ID,C_BPartner_Location_ID,InvoicedAmt,CopyFrom,InvoicedQty,ProjectBalanceAmt,CommittedQty,IsCommitCeiling,ProjectCategory,Processing,ProjInvoiceRule,ProjectLineLevel,C_Project_UU,DocStatus,DocAction) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,trunc(cast(? as TIMESTAMP)),trunc(cast(? as TIMESTAMP)),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveC_Project_a850f257-2d59-4258-a4ed-884a39434524] [34]
+org.postgresql.util.PSQLException: ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000021, 1000000, 1000000, Y, 2017-05-03 22:24:39.451, 0, 2017-05-03 22:24:39.451, 0, 1000001, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, 7708c641-be87-40d8-a9cd-0c5f3e085ac1, null, null, DR, CO).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:24:39.895===========> DB.saveError: DBExecuteError - ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000021, 1000000, 1000000, Y, 2017-05-03 22:24:39.451, 0, 2017-05-03 22:24:39.451, 0, 1000001, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, 7708c641-be87-40d8-a9cd-0c5f3e085ac1, null, null, DR, CO). [34]
+22:24:39.896-----------> MProject.doInsert: [POSaveC_Project_a850f257-2d59-4258-a4ed-884a39434524]Not inserted - C_Project [34]
+22:24:39.896===========> MProject.saveError: DBExecuteError - DBExecuteError:ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000021, 1000000, 1000000, Y, 2017-05-03 22:24:39.451, 0, 2017-05-03 22:24:39.451, 0, 1000001, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, 7708c641-be87-40d8-a9cd-0c5f3e085ac1, null, null, DR, CO). [34]
+22:24:39.896-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: null value in column "name" violates not-null constraint [34]
+22:24:39.896-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000021, 1000000, 1000000, Y, 2017-05-03 22:24:39.451, 0, 2017-05-03 22:24:39.451, 0, 1000001, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, 7708c641-be87-40d8-a9cd-0c5f3e085ac1, null, null, DR, CO). [34]
+22:24:48.177===========> DB.executeUpdate: INSERT INTO C_Project (C_Project_ID,AD_Org_ID,AD_Client_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,IsSummary,Value,C_Currency_ID,C_BPartner_ID,IsCommitment,CommittedAmt,DateContract,DateFinish,GenerateTo,Processed,SalesRep_ID,M_PriceList_Version_ID,PlannedAmt,PlannedQty,PlannedMarginAmt,C_Campaign_ID,C_PaymentTerm_ID,C_BPartner_Location_ID,InvoicedAmt,CopyFrom,InvoicedQty,ProjectBalanceAmt,CommittedQty,IsCommitCeiling,ProjectCategory,Processing,ProjInvoiceRule,ProjectLineLevel,C_Project_UU,DocStatus,DocAction) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,trunc(cast(? as TIMESTAMP)),trunc(cast(? as TIMESTAMP)),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveC_Project_bceb06f2-5aa9-44b4-b24e-75d1d6f5eb07] [38]
+org.postgresql.util.PSQLException: ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000022, 1000000, 1000000, Y, 2017-05-03 22:24:48.125, 0, 2017-05-03 22:24:48.125, 0, 454112, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, fbe3c968-515b-4477-989b-d31b044c9b1b, null, null, DR, CO).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:24:48.208===========> DB.saveError: DBExecuteError - ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000022, 1000000, 1000000, Y, 2017-05-03 22:24:48.125, 0, 2017-05-03 22:24:48.125, 0, 454112, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, fbe3c968-515b-4477-989b-d31b044c9b1b, null, null, DR, CO). [38]
+22:24:48.212-----------> MProject.doInsert: [POSaveC_Project_bceb06f2-5aa9-44b4-b24e-75d1d6f5eb07]Not inserted - C_Project [38]
+22:24:48.212===========> MProject.saveError: DBExecuteError - DBExecuteError:ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000022, 1000000, 1000000, Y, 2017-05-03 22:24:48.125, 0, 2017-05-03 22:24:48.125, 0, 454112, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, fbe3c968-515b-4477-989b-d31b044c9b1b, null, null, DR, CO). [38]
+22:24:48.214-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:ERROR: null value in column "name" violates not-null constraint [38]
+22:24:48.214-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:ERROR: null value in column "name" violates not-null constraint
+  Detail: Failing row contains (1000022, 1000000, 1000000, Y, 2017-05-03 22:24:48.125, 0, 2017-05-03 22:24:48.125, 0, 454112, null, null, null, N, null, 1000499, 1000412, null, 1000000, 209, 1000002, 1000000, N, 0, 0, 0, 0, 2017-05-05 00:00:00, 2017-05-26 00:00:00, N, N, 0, N, null, 0, 0, 0, 0, null, N, null, N, N, null, -, P, fbe3c968-515b-4477-989b-d31b044c9b1b, null, null, DR, CO). [38]
+22:43:51.313===========> DB.executeUpdate: INSERT INTO C_Project (C_Project_ID,AD_Org_ID,AD_Client_ID,IsActive,Created,CreatedBy,Updated,Name,UpdatedBy,IsSummary,Value,C_Currency_ID,IsCommitment,CommittedAmt,GenerateTo,Processed,SalesRep_ID,PlannedAmt,PlannedQty,PlannedMarginAmt,C_Campaign_ID,C_PaymentTerm_ID,AD_User_ID,InvoicedAmt,CopyFrom,InvoicedQty,ProjectBalanceAmt,CommittedQty,IsCommitCeiling,ProjectCategory,Processing,ProjInvoiceRule,ProjectLineLevel,C_Project_UU,DocStatus,DocAction) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveC_Project_9a10543e-a208-48dc-bb5f-063713b12e3c] [205]
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists.; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:43:51.328===========> DB.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [205]
+22:43:51.342-----------> MProject.doInsert: [POSaveC_Project_9a10543e-a208-48dc-bb5f-063713b12e3c]Not inserted - C_Project [205]
+22:43:51.483===========> MProject.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [205]
+22:43:51.483-----------> GridTable.saveWarning: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [205]
+22:44:11.171===========> DB.executeUpdate: INSERT INTO C_Project (C_Project_ID,AD_Org_ID,AD_Client_ID,IsActive,Created,CreatedBy,Updated,Name,UpdatedBy,IsSummary,Value,C_Currency_ID,C_BPartner_ID,IsCommitment,CommittedAmt,GenerateTo,Processed,SalesRep_ID,M_PriceList_Version_ID,PlannedAmt,PlannedQty,PlannedMarginAmt,C_Campaign_ID,C_PaymentTerm_ID,C_BPartner_Location_ID,InvoicedAmt,CopyFrom,InvoicedQty,ProjectBalanceAmt,CommittedQty,IsCommitCeiling,ProjectCategory,Processing,ProjInvoiceRule,ProjectLineLevel,C_Project_UU,DocStatus,DocAction) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveC_Project_be8e8c4c-d526-4c5e-b481-185f82a576cd] [201]
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists.; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:44:11.187===========> DB.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [201]
+22:44:11.187-----------> MProject.doInsert: [POSaveC_Project_be8e8c4c-d526-4c5e-b481-185f82a576cd]Not inserted - C_Project [201]
+22:44:11.197===========> MProject.saveError: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [201]
+22:44:11.197-----------> GridTable.saveWarning: SaveErrorNotUnique - ERROR: duplicate key value violates unique constraint "c_project_value"
+  Detail: Key (ad_client_id, value)=(1000000, 1000001) already exists. [201]
+22:46:29.433-----------> MCampaign.delete: Record processed [38]
+22:46:29.433-----------> GridTable.saveWarning: Processed - Processed [38]
+22:46:29.441-----------> Msg.getMsg: NOT found: Processed [38]
+22:46:29.456-----------> Msg.getMsg: NOT found: Processed [38]
+22:46:59.176-----------> GridTable.saveWarning: AccessNotDeleteable -  [38]
+22:53:29.348-----------> GridTable.saveWarning: AccessNotDeleteable -  [205]
+23:00:06.819===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [205]
+23:00:13.603===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Project - AccessSqlParser[C_Project=WHERE|0] - #1 C_Project=WHERE
+ = SELECT C_Project_ID, Value, DateContract, C_BPartner_ID, Name FROM C_Project WHERE  [38]

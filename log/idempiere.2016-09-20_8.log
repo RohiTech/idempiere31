@@ -1,0 +1,173 @@
+*** 2016-09-20 14:50:59.063 idempiere Log (CLogFile) ***
+14:50:59.062 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:50:59.066 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+14:50:59.771 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+14:50:59.792 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:50:59.792 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:50:59.819-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:50:59.920 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:51:00.016-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:51:00.018-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:51:00.019-----------> EMail.isValid: From is invalid=null [17]
+14:51:00.019-----------> EMail.isValid: From is invalid=null [17]
+14:51:00.019-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+14:51:00.019 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:51:00.019 AdempiereMonitor.init:  [17]
+14:51:01.858-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:51:02.172-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk47108597:2/metainfo/zk/config.xml
+with bundleresource://187.fwk47108597:19/metainfo/zk/config.xml [17]
+14:51:02.184-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk47108597:11/metainfo/zk/config.xml
+with bundleresource://187.fwk47108597:28/metainfo/zk/config.xml [17]
+14:51:02.188-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk47108597:12/metainfo/zk/config.xml
+with bundleresource://187.fwk47108597:29/metainfo/zk/config.xml [17]
+14:51:02.236-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk47108597:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk47108597:31/metainfo/zk/zk.xml [17]
+14:51:02.692-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:51:02.720-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:51:02.796-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk47108597:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:18/metainfo/zk/lang-addon.xml [17]
+14:51:02.800-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk47108597:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:19/metainfo/zk/lang-addon.xml [17]
+14:51:02.808-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk47108597:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:22/metainfo/zk/lang-addon.xml [17]
+14:51:02.812-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk47108597:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:23/metainfo/zk/lang-addon.xml [17]
+14:51:02.816-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk47108597:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:24/metainfo/zk/lang-addon.xml [17]
+14:51:02.832-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk47108597:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:29/metainfo/zk/lang-addon.xml [17]
+14:51:02.840-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk47108597:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk47108597:30/metainfo/zk/lang-addon.xml [17]
+14:51:03.081           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:51:04.360-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-20 14:51:04.651 idempiere Log (CLogFile) ***
+14:51:07.338-----------> Node: [172.16.45.171]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [43]
+14:51:34.252===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [50]
+14:52:11.898===========> EmailNotification.doIt: linea 200 [50]
+java.lang.NullPointerException
+	at ni.idempiere.util.Mail.setBcc(Mail.java:138)
+	at org.compiere.model.EmailNotification.doIt(EmailNotification.java:251)
+	at ni.idempiere.model.NotificationValidator.doHandleEvent(NotificationValidator.java:67)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:2076)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+14:52:11.948===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [50]
+14:53:08.409===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [38]
+14:53:11.833===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+14:56:56.210===========> EmailNotification.doIt: linea 200 [151]
+java.lang.NullPointerException
+	at ni.idempiere.util.Mail.setBcc(Mail.java:138)
+	at org.compiere.model.EmailNotification.doIt(EmailNotification.java:251)
+	at ni.idempiere.model.NotificationValidator.doHandleEvent(NotificationValidator.java:67)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:2076)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+14:56:56.229===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [151]
+14:57:20.009===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+14:57:29.088===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [144]
+14:58:57.358===========> EmailNotification.doIt: linea 200 [144]
+java.lang.NullPointerException
+	at ni.idempiere.util.Mail.setBcc(Mail.java:138)
+	at org.compiere.model.EmailNotification.doIt(EmailNotification.java:251)
+	at ni.idempiere.model.NotificationValidator.doHandleEvent(NotificationValidator.java:67)
+	at org.adempiere.base.event.AbstractEventHandler.handleEvent(AbstractEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.adempiere.base.event.EventManager.sendEvent(EventManager.java:103)
+	at org.compiere.model.ModelValidationEngine.fireDocValidate(ModelValidationEngine.java:568)
+	at org.compiere.model.MPayment.completeIt(MPayment.java:2076)
+	at org.compiere.process.DocumentEngine.completeIt(DocumentEngine.java:494)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:311)
+	at org.compiere.process.DocumentEngine.processIt(DocumentEngine.java:275)
+	at org.compiere.model.MPayment.processIt(MPayment.java:1759)
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1009)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+14:59:02.102===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [144]
+15:00:36.264===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [37]
+15:00:41.938===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [56]

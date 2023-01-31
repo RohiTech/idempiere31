@@ -1,0 +1,9 @@
+*** 2017-04-24 21:28:30.155 idempiere Log (CLogFile) ***
+21:28:30.142 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+21:28:30.155 Ini.loadProperties: E:\mercurialidempiere/idempiereDEMO.properties #33 [1]
+21:28:32.492-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.instance.NodeExtension' It may be empty or does not exist. [38]
+21:28:32.502-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.PortableHook' It may be empty or does not exist. [38]
+21:28:32.502-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.DataSerializerHook' It may be empty or does not exist. [38]
+21:28:32.533-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.SerializerHook' It may be empty or does not exist. [38]
+21:28:33.020-----------> Node: [192.168.163.1]:5702 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [38]
+21:28:33.020-----------> Node: [192.168.163.1]:5702 [adempiere.idempiere/localhost] [3.5.3] Config seed port is 5701 and cluster size is 1. Some of the ports seem occupied! [38]

@@ -1,0 +1,667 @@
+*** 2016-09-08 22:35:33.642 idempiere Log (CLogFile) ***
+22:35:33.642 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+22:35:33.658 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+22:35:34.233 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+22:35:34.246 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+22:35:34.246 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+22:35:34.277-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+22:35:34.355 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+22:35:34.449-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+22:35:34.449-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+22:35:34.449-----------> EMail.isValid: From is invalid=null [17]
+22:35:34.449-----------> EMail.isValid: From is invalid=null [17]
+22:35:34.449-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+22:35:34.449 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+22:35:34.449 AdempiereMonitor.init:  [17]
+22:35:36.180-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+22:35:36.435-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://185.fwk1319287199:19/metainfo/zk/config.xml [17]
+22:35:36.435-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://185.fwk1319287199:28/metainfo/zk/config.xml [17]
+22:35:36.451-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://185.fwk1319287199:29/metainfo/zk/config.xml [17]
+22:35:36.466-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk1319287199:31/metainfo/zk/zk.xml [17]
+22:35:36.873-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+22:35:36.888-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+22:35:36.966-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+22:35:36.966-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+22:35:36.966-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+22:35:36.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+22:35:36.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+22:35:36.998-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+22:35:37.013-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+22:35:37.232           WebUIServlet.init: iDempiere Web Client started successfully [17]
+22:35:38.293-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-08 22:35:38.525 idempiere Log (CLogFile) ***
+22:35:40.619-----------> Node: [192.168.1.5]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+22:36:37.364-----------> ServletHandler.doHandle: /webui/zkau [33]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:36:37.373-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@60c8dddc{r=103,c=false,a=IDLE,uri=-} [33]
+22:36:47.435-----------> MProduct.get_Value: Column not found - smjdiscount_allowed [33]
+22:36:47.795===========> DB.executeUpdate: INSERT INTO smj_tmpwebsalesline (smj_tmpwebsalesline_ID,smj_tmpwebsales_ID,M_Product_ID,ProductName,ProductValue,C_BPartner_ID,partnername,Price,Qty,M_Warehouse_ID,WarehouseName,QtyEntered,total,C_UOM_ID,UOMName,tax,M_AttributeSetInstance_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,purchaseprice,smj_isworkorder,Line,C_OrderLine_ID,smj_tmpwebsalesline_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [WSS1473395784481_15df59b1-4f44-413d-812d-91e2afc757c9] [33]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000012, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.showInfoProduct(WSimplifiedSales.java:1546)
+	at com.smj.webui.apps.form.WSimplifiedSales.valueChange(WSimplifiedSales.java:2053)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+
+22:36:47.863===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000012, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018). [33]
+22:36:47.863-----------> MSMJTmpWebSalesLine.doInsert: [WSS1473395784481_15df59b1-4f44-413d-812d-91e2afc757c9]Not inserted - smj_tmpwebsalesline [33]
+22:36:47.863===========> MSMJTmpWebSalesLine.saveError: DBExecuteError - DBExecuteError:ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000012, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018). [33]
+22:36:56.349-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [32]
+22:36:56.349-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000013, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 253.0, 1000000, Estándar, null, 253, 253.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018). ] which will not be reported to listeners! [32]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000013, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 253.0, 1000000, Estándar, null, 253, 253.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.tableChanged(WSimplifiedSales.java:2257)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+
+22:36:56.352===========> DB.executeUpdate: INSERT INTO smj_tmpwebsalesline (smj_tmpwebsalesline_ID,smj_tmpwebsales_ID,M_Product_ID,ProductName,ProductValue,C_BPartner_ID,partnername,Price,Qty,M_Warehouse_ID,WarehouseName,QtyEntered,total,C_UOM_ID,UOMName,tax,M_AttributeSetInstance_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,purchaseprice,smj_isworkorder,Line,C_OrderLine_ID,smj_tmpwebsalesline_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [WSS1473395784481_15df59b1-4f44-413d-812d-91e2afc757c9] [32]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000013, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 253.0, 1000000, Estándar, null, 253, 253.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.tableChanged(WSimplifiedSales.java:2257)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+
+22:36:56.364===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000013, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 253.0, 1000000, Estándar, null, 253, 253.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018). [32]
+22:36:56.364-----------> MSMJTmpWebSalesLine.doInsert: [WSS1473395784481_15df59b1-4f44-413d-812d-91e2afc757c9]Not inserted - smj_tmpwebsalesline [32]
+22:36:56.364===========> MSMJTmpWebSalesLine.saveError: DBExecuteError - DBExecuteError:ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000013, 1000011, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 253.0, 1000000, Estándar, null, 253, 253.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:36:47.435, 1000000, 2016-09-08 22:36:47.435, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000006, 195b5f9f-907b-4057-9151-3c1534302018). [32]
+22:37:19.998-----------> Msg.translate: NOT found: SMJ_LabelAvailablePoints [32]
+22:37:20.004-----------> Msg.translate: NOT found: SMJ_LabelTotalPoints [32]
+22:37:20.008-----------> Msg.translate: NOT found: SMJ_LabelPointsReceived [32]
+22:37:20.012-----------> LayoutRegion.setFlex: The flex attribute is deprecated, use setHflex and setVflex on child component instead. [32]
+22:38:44.768-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too large: 1179497 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:38:44.772-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@58bb80a8{r=1082,c=false,a=IDLE,uri=-} [37]
+22:39:00.064-----------> ServletHandler.doHandle: /webui/zkau [32]
+java.lang.IllegalStateException: Form too large: 1179497 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:39:00.067-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@64144f82{r=1,c=false,a=IDLE,uri=-} [32]
+22:40:14.234-----------> ServletHandler.doHandle: /webui/zkau [39]
+java.lang.IllegalStateException: Form too large: 1044528 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:40:14.238-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@4d4106c{r=1,c=false,a=IDLE,uri=-} [39]
+22:40:14.611-----------> ServletHandler.doHandle: /webui/zkau [33]
+java.lang.IllegalStateException: Form too large: 1044528 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:40:14.615-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@5a32402b{r=3,c=false,a=IDLE,uri=-} [33]
+22:43:12.927-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:43:12.930-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@2d053844{r=2,c=false,a=IDLE,uri=-} [37]
+22:43:17.159-----------> ServletHandler.doHandle: /webui/zkau [139]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:43:17.161-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@51d78393{r=13,c=false,a=IDLE,uri=-} [139]
+22:43:23.285-----------> ServletHandler.doHandle: /webui/zkau [141]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:43:23.287-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@77bb8fd2{r=2,c=false,a=IDLE,uri=-} [141]
+22:50:28.767-----------> ServletHandler.doHandle: /webui/zkau [32]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:50:31.264-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:50:31.516-----------> ServletHandler.doHandle: /webui/zkau [32]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:53:09.272-----------> ServletHandler.doHandle: /webui/zkau [32]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:53:09.273-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@3dfa80a8{r=9245,c=false,a=IDLE,uri=-} [32]
+22:53:20.855-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:53:20.858-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@34d34f3d{r=98,c=false,a=IDLE,uri=-} [37]
+22:53:37.561-----------> MProduct.get_Value: Column not found - smjdiscount_allowed [37]
+22:53:41.652===========> DB.executeUpdate: INSERT INTO smj_tmpwebsalesline (smj_tmpwebsalesline_ID,smj_tmpwebsales_ID,M_Product_ID,ProductName,ProductValue,C_BPartner_ID,partnername,Price,Qty,M_Warehouse_ID,WarehouseName,QtyEntered,total,C_UOM_ID,UOMName,tax,M_AttributeSetInstance_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,purchaseprice,smj_isworkorder,Line,C_OrderLine_ID,smj_tmpwebsalesline_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [WSS1473396779806_75a72b6f-69ef-4a92-ba5f-60a969c322d4] [37]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000014, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.showInfoProduct(WSimplifiedSales.java:1546)
+	at com.smj.webui.apps.form.WSimplifiedSales.valueChange(WSimplifiedSales.java:2053)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+
+22:53:41.668===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000014, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d). [37]
+22:53:41.669-----------> MSMJTmpWebSalesLine.doInsert: [WSS1473396779806_75a72b6f-69ef-4a92-ba5f-60a969c322d4]Not inserted - smj_tmpwebsalesline [37]
+22:53:41.670===========> MSMJTmpWebSalesLine.saveError: DBExecuteError - DBExecuteError:ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000014, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 1, 1000000, Estándar, null, 1.0, 1.00000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d). [37]
+22:53:41.945-----------> ServletHandler.doHandle: /webui/zkau [139]
+java.lang.IllegalStateException: Form too large: 262469 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:53:41.947-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@59fc3ccf{r=489,c=false,a=IDLE,uri=-} [139]
+22:53:51.663-----------> NewPooledConnection.log: [c3p0] A PooledConnection that has already signalled a Connection error is still in use! [139]
+22:53:51.663-----------> NewPooledConnection.log: [c3p0] Another error has occurred [ org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000015, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 2.0, 1000000, Estándar, null, 2, 2.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d). ] which will not be reported to listeners! [139]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000015, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 2.0, 1000000, Estándar, null, 2, 2.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.tableChanged(WSimplifiedSales.java:2257)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+
+22:53:51.665===========> DB.executeUpdate: INSERT INTO smj_tmpwebsalesline (smj_tmpwebsalesline_ID,smj_tmpwebsales_ID,M_Product_ID,ProductName,ProductValue,C_BPartner_ID,partnername,Price,Qty,M_Warehouse_ID,WarehouseName,QtyEntered,total,C_UOM_ID,UOMName,tax,M_AttributeSetInstance_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,purchaseprice,smj_isworkorder,Line,C_OrderLine_ID,smj_tmpwebsalesline_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [WSS1473396779806_75a72b6f-69ef-4a92-ba5f-60a969c322d4] [139]
+org.postgresql.util.PSQLException: ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000015, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 2.0, 1000000, Estándar, null, 2, 2.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d).; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at com.smj.model.MSMJTmpWebSalesLine.save(MSMJTmpWebSalesLine.java:77)
+	at com.smj.webui.apps.form.WSimplifiedSales.tableChanged(WSimplifiedSales.java:2257)
+	at org.adempiere.webui.component.ListModelTable.fireTableChange(ListModelTable.java:324)
+	at org.adempiere.webui.component.ListModelTable.setDataAt(ListModelTable.java:223)
+
+22:53:51.715===========> DB.saveError: DBExecuteError - ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000015, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 2.0, 1000000, Estándar, null, 2, 2.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d). [139]
+22:53:51.716-----------> MSMJTmpWebSalesLine.doInsert: [WSS1473396779806_75a72b6f-69ef-4a92-ba5f-60a969c322d4]Not inserted - smj_tmpwebsalesline [139]
+22:53:51.716===========> MSMJTmpWebSalesLine.saveError: DBExecuteError - DBExecuteError:ERROR: el valor null para la columna «smj_iswarranty» viola la restricción not null
+  Detail: La fila que falla contiene (1000015, 1000021, 1000000, Estándar, Estándar, 1000381, VENTAS MOSTRADOR POS, 1.00, 2.0, 1000000, Estándar, null, 2, 2.0000, 100, Unidad, 0.0, 0, null, 1000000, 1000000, Y, 2016-09-08 22:53:37.561, 1000000, 2016-09-08 22:53:37.561, 1000000, 1, null, null, null, F, 10, null, null, null, null, 1000007, 7c0038a3-de01-49c8-8a16-57bfcb49552d). [139]
+22:53:57.352-----------> ServletHandler.doHandle: /webui/zkau [32]
+java.lang.IllegalStateException: Form too many keys
+	at org.eclipse.jetty.util.UrlEncoded.decodeUtf8To(UrlEncoded.java:526)
+	at org.eclipse.jetty.util.UrlEncoded.decodeTo(UrlEncoded.java:641)
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:370)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+
+22:53:57.354-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@3658d0b3{r=546,c=false,a=IDLE,uri=-} [32]
+22:54:19.255-----------> Msg.translate: NOT found: SMJ_LabelAvailablePoints [141]
+22:54:19.255-----------> Msg.translate: NOT found: SMJ_LabelTotalPoints [141]
+22:54:19.256-----------> Msg.translate: NOT found: SMJ_LabelPointsReceived [141]
+22:54:19.257-----------> LayoutRegion.setFlex: The flex attribute is deprecated, use setHflex and setVflex on child component instead. [141]
+22:55:46.932-----------> ServletHandler.doHandle: /webui/zkau [32]
+java.lang.IllegalStateException: Form too large: 2534624 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:55:46.934-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@6c8ecc08{r=191,c=false,a=IDLE,uri=-} [32]
+22:59:08.742-----------> ServletHandler.doHandle: /webui/zkau [37]
+java.lang.IllegalStateException: Form too large: 2534624 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+22:59:08.743-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@783fb8d0{r=1,c=false,a=IDLE,uri=-} [37]

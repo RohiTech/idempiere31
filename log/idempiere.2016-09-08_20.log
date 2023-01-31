@@ -1,0 +1,111 @@
+*** 2016-09-08 17:07:58.352 idempiere Log (CLogFile) ***
+17:07:58.352 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+17:07:58.352 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+17:07:58.931 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2016-07-14 16:34:48.698 [17]
+17:07:58.945 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+17:07:58.945 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+17:07:58.965-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+17:07:59.055 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+17:07:59.155-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+17:07:59.155-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+17:07:59.155-----------> EMail.isValid: From is invalid=null [17]
+17:07:59.155-----------> EMail.isValid: From is invalid=null [17]
+17:07:59.155-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.163.1) to you @ company.org: Invalid Data (System) [17]
+17:07:59.155 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+17:07:59.155 AdempiereMonitor.init:  [17]
+17:08:00.956-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+17:08:01.256-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://185.fwk1399961333:19/metainfo/zk/config.xml [17]
+17:08:01.256-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://185.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://185.fwk1399961333:28/metainfo/zk/config.xml [17]
+17:08:01.266-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://185.fwk1399961333:29/metainfo/zk/config.xml [17]
+17:08:01.286-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://185.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://185.fwk1399961333:31/metainfo/zk/zk.xml [17]
+17:08:01.681-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+17:08:01.711-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+17:08:01.791-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://185.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+17:08:01.791-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://185.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+17:08:01.801-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://185.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+17:08:01.801-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://185.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+17:08:01.811-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://185.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+17:08:01.821-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://185.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+17:08:01.831-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://185.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://185.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+17:08:02.041           WebUIServlet.init: iDempiere Web Client started successfully [17]
+17:08:03.220-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-09-08 17:08:03.475 idempiere Log (CLogFile) ***
+17:08:05.852-----------> Node: [172.16.45.186]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [44]
+17:13:34.098-----------> ServletHandler.doHandle: /webui/zkau [28]
+java.lang.IllegalStateException: Form too large: 617107 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+17:13:34.104-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@1ca1b5af{r=82,c=false,a=IDLE,uri=-} [28]
+17:14:40.696-----------> ServletHandler.doHandle: /webui/zkau [35]
+java.lang.IllegalStateException: Form too large: 617107 > 200000
+	at org.eclipse.jetty.server.Request.extractFormParameters(Request.java:364)
+	at org.eclipse.jetty.server.Request.extractContentParameters(Request.java:302)
+	at org.eclipse.jetty.server.Request.extractParameters(Request.java:256)
+	at org.eclipse.jetty.server.Request.getParameter(Request.java:825)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet$3.getDesktopId(DHtmlUpdateServlet.java:748)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:531)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+
+17:14:40.699-----------> HttpParser.parseNext: badMessage: java.lang.IllegalStateException: too much data after closed for HttpChannelOverHttp@7b5968b2{r=1,c=false,a=IDLE,uri=-} [35]

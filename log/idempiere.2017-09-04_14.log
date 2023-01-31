@@ -1,0 +1,72 @@
+*** 2017-09-04 21:06:10.479 idempiere Log (CLogFile) ***
+21:06:10.479 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+21:06:10.483 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+21:06:11.056 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-07 00:33:04.411 [14]
+21:06:11.058 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-07-10 23:50:08.486 [14]
+21:06:11.061 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [14]
+21:06:11.063 AdempiereActivator.installPackage: ni.idempiere.procesingdocuments 1.0.0 was installed: 2017-08-14 01:30:40.036 [14]
+21:06:11.073 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+21:06:11.073 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+21:06:11.088-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [14]
+21:06:11.148 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+21:06:11.304-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+21:06:11.306-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+21:06:11.306-----------> EMail.isValid: From is invalid=null [14]
+21:06:11.306-----------> EMail.isValid: From is invalid=null [14]
+21:06:11.306-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+21:06:11.307 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+21:06:11.307 AdempiereMonitor.init:  [14]
+21:06:12.890-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+21:06:13.110-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk365962226:2/metainfo/zk/config.xml
+with bundleresource://188.fwk365962226:19/metainfo/zk/config.xml [14]
+21:06:13.116-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://188.fwk365962226:11/metainfo/zk/config.xml
+with bundleresource://188.fwk365962226:28/metainfo/zk/config.xml [14]
+21:06:13.120-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk365962226:12/metainfo/zk/config.xml
+with bundleresource://188.fwk365962226:29/metainfo/zk/config.xml [14]
+21:06:13.141-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://188.fwk365962226:14/metainfo/zk/zk.xml
+with bundleresource://188.fwk365962226:31/metainfo/zk/zk.xml [14]
+21:06:13.424-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+21:06:13.446-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+21:06:13.502-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://188.fwk365962226:1/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:18/metainfo/zk/lang-addon.xml [14]
+21:06:13.506-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://188.fwk365962226:2/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:19/metainfo/zk/lang-addon.xml [14]
+21:06:13.509-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://188.fwk365962226:5/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:22/metainfo/zk/lang-addon.xml [14]
+21:06:13.511-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://188.fwk365962226:6/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:23/metainfo/zk/lang-addon.xml [14]
+21:06:13.513-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://188.fwk365962226:7/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:24/metainfo/zk/lang-addon.xml [14]
+21:06:13.522-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://188.fwk365962226:12/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:29/metainfo/zk/lang-addon.xml [14]
+21:06:13.529-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://188.fwk365962226:13/metainfo/zk/lang-addon.xml
+with bundleresource://188.fwk365962226:30/metainfo/zk/lang-addon.xml [14]
+21:06:13.775           WebUIServlet.init: iDempiere Web Client started successfully [14]
+21:06:14.750-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2017-09-04 21:06:14.962 idempiere Log (CLogFile) ***
+21:06:16.918-----------> Node: [192.168.163.1]:5701 [adempiere.nemusa/localhost] [3.5.3] No join method is enabled! Starting standalone. [39]
+21:06:39.177-----------> FactLine.setAmtSource: Source DR Precision 301.559999999044 -> 301.560 [39]
+21:06:39.183-----------> FactLine.setAmtSource: Source CR Precision 301.559999999044 -> 301.560 [39]
+21:06:39.806-----------> MAllocationLine.get_Value: Column not found - C_Project_ID [39]
+21:06:39.808-----------> MAllocationLine.get_Value: Column not found - C_Campaign_ID [39]
+21:06:39.938-----------> MAllocationHdr.get_Value: Column not found - C_Project_ID [39]
+21:06:39.938-----------> MAllocationHdr.get_Value: Column not found - C_Campaign_ID [39]
+21:06:39.939-----------> MAllocationLine.get_Value: Column not found - C_Campaign_ID [39]
+21:06:39.939-----------> MAllocationLine.get_Value: Column not found - C_Project_ID [39]

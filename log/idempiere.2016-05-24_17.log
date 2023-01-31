@@ -1,0 +1,103 @@
+*** 2016-05-24 10:32:59.267 idempiere Log (CLogFile) ***
+10:32:59.266 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+10:32:59.268 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [1]
+10:33:01.988-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.instance.NodeExtension' It may be empty or does not exist. [48]
+10:33:02.010-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.PortableHook' It may be empty or does not exist. [48]
+10:33:02.015-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.DataSerializerHook' It may be empty or does not exist. [48]
+10:33:02.057-----------> ServiceLoader: Service loader could not load 'META-INF/services/com.hazelcast.SerializerHook' It may be empty or does not exist. [48]
+10:33:02.924-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+10:33:03.239-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [1]
+13:13:55.577-----------> ClusterService: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 4993659ms, Master-Confirmation-Timeout: 500000ms. [87]
+13:14:16.296-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@1f157fe7 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks! [51]
+13:14:16.314-----------> ThreadPoolAsynchronousRunner.log: com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@1f157fe7 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@602adfd8
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyuj9g1r5jyxy1v5bbic|557ceec4, dataSourceName->iDempiereDS]-HelperThread-#0
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@66aed522
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyuj9g1r5jyxy1v5bbic|557ceec4, dataSourceName->iDempiereDS]-HelperThread-#1
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@57121ef6
+			on thread: C3P0PooledConnectionPoolManager[identityToken->2rvyuj9g1r5jyxy1v5bbic|557ceec4, dataSourceName->iDempiereDS]-HelperThread-#2
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@1ece0f3b
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@6a49fa49
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@5bddb341
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@2abdf18e
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@1c3db78e
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@17ddda1e
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@661af3cf
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@737ccf67
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@714ae6d
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@5ec779bc
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@7a095640
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@7afdc257
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyuj9g1r5jyxy1v5bbic|557ceec4, dataSourceName->iDempiereDS]-HelperThread-#1,5,main]
+		java.net.SocketInputStream.socketRead0(Native Method)
+		java.net.SocketInputStream.read(Unknown Source)
+		java.net.SocketInputStream.read(Unknown Source)
+		org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+		org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+		org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+		org.postgresql.core.PGStream.ReceiveChar(PGStream.java:282)
+		org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1718)
+		org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+		com.mchange.v2.c3p0.impl.NewProxyStatement.executeQuery(NewProxyStatement.java:327)
+		com.mchange.v2.c3p0.impl.DefaultConnectionTester.activeCheckConnection(DefaultConnectionTester.java:262)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.testPooledConnection(C3P0PooledConnectionPool.java:509)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:451)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:443)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.refurbishIdleResource(C3P0PooledConnectionPool.java:433)
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask.run(BasicResourcePool.java:2196)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyuj9g1r5jyxy1v5bbic|557ceec4, dataSourceName->iDempiereDS]-HelperThread-#0,5,main]
+		java.net.SocketInputStream.socketRead0(Native Method)
+		java.net.SocketInputStream.read(Unknown Source)
+		java.net.SocketInputStream.read(Unknown Source)
+		org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+		org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+		org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+		org.postgresql.core.PGStream.ReceiveChar(PGStream.java:282)
+		org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1718)
+		org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+		com.mchange.v2.c3p0.impl.NewProxyStatement.executeQuery(NewProxyStatement.java:327)
+		com.mchange.v2.c3p0.impl.DefaultConnectionTester.activeCheckConnection(DefaultConnectionTester.java:262)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.testPooledConnection(C3P0PooledConnectionPool.java:509)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:451)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:443)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.refurbishIdleResource(C3P0PooledConnectionPool.java:433)
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask.run(BasicResourcePool.java:2196)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->2rvyuj9g1r5jyxy1v5bbic|557ceec4, dataSourceName->iDempiereDS]-HelperThread-#2,5,main]
+		java.net.SocketInputStream.socketRead0(Native Method)
+		java.net.SocketInputStream.read(Unknown Source)
+		java.net.SocketInputStream.read(Unknown Source)
+		org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+		org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+		org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+		org.postgresql.core.PGStream.ReceiveChar(PGStream.java:282)
+		org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1718)
+		org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+		org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+		com.mchange.v2.c3p0.impl.NewProxyStatement.executeQuery(NewProxyStatement.java:327)
+		com.mchange.v2.c3p0.impl.DefaultConnectionTester.activeCheckConnection(DefaultConnectionTester.java:262)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.testPooledConnection(C3P0PooledConnectionPool.java:509)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:451)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:443)
+		com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.refurbishIdleResource(C3P0PooledConnectionPool.java:433)
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask.run(BasicResourcePool.java:2196)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+ [51]

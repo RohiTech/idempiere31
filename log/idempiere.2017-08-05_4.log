@@ -1,0 +1,112 @@
+*** 2017-08-05 14:57:20.312 idempiere Log (CLogFile) ***
+14:57:20.312 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:57:20.338 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+14:57:22.901 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+14:57:22.905 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-01 23:36:25.849 [17]
+14:57:22.908 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+14:57:22.991 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:57:22.991 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:57:23.207-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+14:57:23.386 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:57:23.607-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:57:23.609-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:57:23.610-----------> EMail.isValid: From is invalid=null [17]
+14:57:23.610-----------> EMail.isValid: From is invalid=null [17]
+14:57:23.610-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+14:57:23.610 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:57:23.610 AdempiereMonitor.init:  [17]
+14:57:40.641-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:57:46.659-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/config.xml [17]
+14:57:46.666-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:28/metainfo/zk/config.xml [17]
+14:57:46.672-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/config.xml [17]
+14:57:46.731-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1399961333:31/metainfo/zk/zk.xml [17]
+14:57:47.736-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:57:47.773-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:57:47.865-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+14:57:47.871-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+14:57:47.878-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+14:57:47.883-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+14:57:47.887-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+14:57:47.903-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+14:57:47.912-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+14:57:48.460           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:57:50.188-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-08-05 14:57:50.949 idempiere Log (CLogFile) ***
+14:58:03.603-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+14:58:11.776-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+14:58:11.777-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+15:02:06.308-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [34]
+15:02:06.308-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [34]
+15:07:26.907-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [38]
+15:07:26.908-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [38]
+15:08:29.116===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [33]
+15:08:42.430===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [178]
+15:08:42.575===========> NIOverrideModelValidator.doHandleEvent: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura [178]
+15:08:42.622===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [178]
+15:08:42.641-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [178]
+java.lang.Exception: Pago y Recaudo debe tener al menos uno de estos conceptos: Cargo / Pasivo / Factura
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:08:42.688===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [178]
+15:08:59.846===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [68]
+15:09:11.981===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [63]
+15:09:12.036===========> NIOverrideModelValidator.doHandleEvent: !!!Error al completar este Documento!!!. El monto de este debe ser mayor a cero. [63]
+15:09:12.053===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [63]
+15:09:12.085-----------> MWFActivity.run: MWFNode[202-(DocComplete),Action=DocumentAction=CO] [63]
+java.lang.Exception: !!!Error al completar este Documento!!!. El monto de este debe ser mayor a cero.
+	at org.compiere.wf.MWFActivity.performWork(MWFActivity.java:1047)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:874)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startNext(MWFProcess.java:373)
+	at org.compiere.wf.MWFProcess.checkActivities(MWFProcess.java:283)
+	at org.compiere.wf.MWFActivity.setWFState(MWFActivity.java:277)
+	at org.compiere.wf.MWFActivity.run(MWFActivity.java:891)
+	at org.compiere.wf.MWFProcess.startWork(MWFProcess.java:505)
+	at org.compiere.wf.MWorkflow.start(MWorkflow.java:687)
+
+15:09:12.101===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [63]
+15:20:18.228-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [38]
+15:20:18.229-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [38]
+15:20:37.562===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [177]

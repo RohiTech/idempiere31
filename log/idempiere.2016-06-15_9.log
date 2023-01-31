@@ -1,0 +1,95 @@
+*** 2016-06-15 15:42:34.057 idempiere Log (CLogFile) ***
+15:42:34.057 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+15:42:34.057 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+15:42:34.448 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+15:42:34.448 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+15:42:34.464-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+15:42:34.589 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+15:42:34.589 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+15:42:34.667 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+15:42:34.667-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:42:34.667-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+15:42:34.667-----------> EMail.isValid: From is invalid=null [17]
+15:42:34.683-----------> EMail.isValid: From is invalid=null [17]
+15:42:34.683-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+15:42:34.683 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+15:42:34.683 AdempiereMonitor.init:  [17]
+15:42:36.104-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+15:42:36.346-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/config.xml [17]
+15:42:36.346-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:28/metainfo/zk/config.xml [17]
+15:42:36.346-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/config.xml [17]
+15:42:36.377-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1399961333:31/metainfo/zk/zk.xml [17]
+15:42:36.752-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+15:42:36.783-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+15:42:36.846-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+15:42:36.846-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+15:42:36.861-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+15:42:36.861-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+15:42:36.861-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+15:42:36.877-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+15:42:36.877-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+15:42:36.971           WebUIServlet.init: iDempiere Web Client started successfully [17]
+15:42:37.892-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-15 15:42:38.12 idempiere Log (CLogFile) ***
+15:42:39.933-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+15:46:32.426===========> MPaymentAllocate.saveError: Error - Invoice Amt(123334.264511) <> Totals(123334.264510) [34]
+15:46:32.428-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000006] [34]
+15:46:32.429===========> GridTab.processCallout: start [34]
+org.adempiere.exceptions.AdempiereException: Error: : Invoice Amt(123334.264511) <> Totals(123334.264510)
+	at org.compiere.model.PO.saveEx(PO.java:2224)
+	at ni.hmil.override.callout.NICalloutPayment.convertDocument(NICalloutPayment.java:940)
+	at ni.hmil.override.callout.NICalloutPayment.amounts(NICalloutPayment.java:333)
+	at ni.hmil.override.callout.NICalloutPayment.start(NICalloutPayment.java:44)
+	at org.compiere.model.GridTab.processCallout(GridTab.java:2971)
+	at org.compiere.model.GridTab.processFieldChange(GridTab.java:2749)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataStatusChanged(ADTabpanel.java:1240)
+	at org.compiere.model.GridTab.fireDataStatusChanged(GridTab.java:2362)
+	at org.compiere.model.GridTab.dataStatusChanged(GridTab.java:2330)
+	at org.compiere.model.GridTable.fireDataStatusChanged(GridTable.java:3348)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1325)
+	at org.compiere.model.GridTable.setValueAt(GridTable.java:1250)
+	at org.adempiere.webui.util.GridTabDataBinder.valueChange(GridTabDataBinder.java:126)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WTableDirEditor.onEvent(WTableDirEditor.java:406)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+
+15:46:32.485-----------> Msg.getMsg: NOT found: Callout Invalid: org.adempiere.exceptions.AdempiereException: Error: : Invoice Amt(123334.264511) <> Totals(123334.264510) [34]
+15:49:41.674===========> GridTab.processCallout: NoCurrencyConversion [39]
+15:49:52.818===========> MPaymentAllocate.saveError: FillMandatory - Organization [39]
+15:49:52.818-----------> GridTable.saveWarning: FillMandatory - Organization [39]
+15:50:06.074===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [35]
+15:51:19.682-----------> GridTable.saveWarning: FillMandatory - Discount Amount
+ [35]

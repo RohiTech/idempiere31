@@ -1,0 +1,87 @@
+*** 2016-06-28 09:34:18.764 idempiere Log (CLogFile) ***
+09:34:18.764 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+09:34:18.764 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+09:34:19.309 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+09:34:19.309 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+09:34:19.340-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+09:34:19.481 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+09:34:19.481-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:34:19.497-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+09:34:19.497-----------> EMail.isValid: From is invalid=null [17]
+09:34:19.497-----------> EMail.isValid: From is invalid=null [17]
+09:34:19.497-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.41) to you @ company.org: Invalid Data (System) [17]
+09:34:19.497 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+09:34:19.497 AdempiereMonitor.init:  [17]
+09:34:21.291-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+09:34:21.513-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk47108597:2/metainfo/zk/config.xml
+with bundleresource://179.fwk47108597:19/metainfo/zk/config.xml [17]
+09:34:21.513-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk47108597:11/metainfo/zk/config.xml
+with bundleresource://179.fwk47108597:28/metainfo/zk/config.xml [17]
+09:34:21.529-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk47108597:12/metainfo/zk/config.xml
+with bundleresource://179.fwk47108597:29/metainfo/zk/config.xml [17]
+09:34:21.560-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk47108597:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk47108597:31/metainfo/zk/zk.xml [17]
+09:34:21.904-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+09:34:21.920-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+09:34:21.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk47108597:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:18/metainfo/zk/lang-addon.xml [17]
+09:34:21.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk47108597:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:19/metainfo/zk/lang-addon.xml [17]
+09:34:21.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk47108597:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:22/metainfo/zk/lang-addon.xml [17]
+09:34:21.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk47108597:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:23/metainfo/zk/lang-addon.xml [17]
+09:34:21.982-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk47108597:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:24/metainfo/zk/lang-addon.xml [17]
+09:34:21.998-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk47108597:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:29/metainfo/zk/lang-addon.xml [17]
+09:34:21.998-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk47108597:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk47108597:30/metainfo/zk/lang-addon.xml [17]
+09:34:22.138           WebUIServlet.init: iDempiere Web Client started successfully [17]
+09:34:23.040-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-28 09:34:23.236 idempiere Log (CLogFile) ***
+09:34:25.097-----------> Node: [10.0.5.41]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [50]
+09:34:27.061===========> Trx.commit: PipoDS_17cb790c-feb1-4412-aced-71e0ee89ee9f [51]
+org.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «ad_column» viola la llave foránea «entityt_adcolumn»
+  Detail: La llave (entitytype)=(IGI) no está presente en la tabla «ad_entitytype».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.util.Trx.commit(Trx.java:399)
+	at org.adempiere.pipo.srv.PipoDictionaryService.merge(PipoDictionaryService.java:108)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:198)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.packIn(Incremental2PackActivator.java:166)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.installPackage(Incremental2PackActivator.java:120)
+	at org.adempiere.plugin.utils.Incremental2PackActivator.access$4(Incremental2PackActivator.java:89)
+	at org.adempiere.plugin.utils.Incremental2PackActivator$2.run(Incremental2PackActivator.java:259)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+09:34:27.269===========> Trx.saveError: DeleteErrorDependent - ERROR: inserción o actualización en la tabla «ad_column» viola la llave foránea «entityt_adcolumn»
+  Detail: La llave (entitytype)=(IGI) no está presente en la tabla «ad_entitytype». [51]

@@ -1,0 +1,570 @@
+*** 2017-07-21 13:26:06.681 idempiere Log (CLogFile) ***
+13:26:06.680 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+13:26:06.705 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [17]
+13:26:08.829 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [17]
+13:26:08.832 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [17]
+13:26:08.834 AdempiereActivator.installPackage: ni.hmil.override.codebase 1.0.0 was installed: 2017-06-19 23:52:10.981 [17]
+13:26:08.961 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+13:26:08.961 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+13:26:09.151-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [17]
+13:26:10.644 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+13:26:10.964-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:26:10.966-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+13:26:10.966-----------> EMail.isValid: From is invalid=null [17]
+13:26:10.967-----------> EMail.isValid: From is invalid=null [17]
+13:26:10.967-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+13:26:10.968 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+13:26:10.968 AdempiereMonitor.init:  [17]
+13:26:20.785-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+13:26:21.161-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/config.xml [17]
+13:26:21.169-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:28/metainfo/zk/config.xml [17]
+13:26:21.176-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/config.xml [17]
+13:26:21.229-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk1399961333:31/metainfo/zk/zk.xml [17]
+13:26:21.852-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+13:26:21.877-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+13:26:21.951-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+13:26:21.959-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+13:26:21.963-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+13:26:21.971-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+13:26:21.975-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+13:26:21.986-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+13:26:21.994-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+13:26:22.396           WebUIServlet.init: iDempiere Web Client started successfully [17]
+13:26:23.672-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2017-07-21 13:26:24.269 idempiere Log (CLogFile) ***
+13:26:28.574-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [42]
+13:27:05.788-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+13:27:05.789-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]
+13:27:07.150===========> GridFieldVO.loadLookupInfo: No LookupInfo for NI_GrupoDificultad_ID [33]
+java.lang.NullPointerException
+	at org.compiere.model.MLookupFactory.getLookup_TableDir(MLookupFactory.java:788)
+	at org.compiere.model.MLookupFactory.getLookupInfo(MLookupFactory.java:226)
+	at org.compiere.model.GridFieldVO.loadLookupInfo(GridFieldVO.java:711)
+	at org.compiere.model.GridFieldVO.initFinish(GridFieldVO.java:700)
+	at org.compiere.model.GridFieldVO.create(GridFieldVO.java:312)
+	at org.compiere.model.GridTabVO.createFields(GridTabVO.java:305)
+	at org.compiere.model.GridTabVO.getFields(GridTabVO.java:499)
+	at org.compiere.model.GridTab.loadFields(GridTab.java:362)
+	at org.compiere.model.GridTab.loadTab(GridTab.java:308)
+	at org.compiere.model.GridTab.initTab(GridTab.java:299)
+	at org.compiere.model.GridWindow.initTab(GridWindow.java:195)
+
+13:27:11.655===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [33]
+13:27:11.672===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [33]
+13:27:11.736===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [33]
+13:27:12.280===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.294===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.306===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.319===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.331===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.343===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.356===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.370===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.384===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.401===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.417===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.430===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.446===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.463===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.482===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.512===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.531===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.545===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.560===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.574===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:12.589===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:14.943===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [123]
+13:27:24.177-----------> DefaultFormFactory.newFormInstance: Web UI form not implemented for the swing form org.adempiere.webui.panel.WDocActionDialog [28]
+13:27:24.181===========> UiEngineImpl.handleError:  [28]
+org.adempiere.webui.exception.ApplicationException: Failed to open org.adempiere.webui.panel.WDocActionDialog
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: Failed to open org.adempiere.webui.panel.WDocActionDialog
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:163)
+	at org.adempiere.webui.panel.ADForm.openForm(ADForm.java:136)
+	at org.adempiere.webui.desktop.TabbedDesktop.openForm(TabbedDesktop.java:88)
+	at org.adempiere.webui.desktop.DefaultDesktop.openForm(DefaultDesktop.java:846)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:77)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+
+13:27:31.009===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:31.050===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:31.066===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:31.078===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:27:39.830-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [122]
+13:27:39.831-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [122]
+13:27:40.299===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:40.317===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:40.331===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:40.655===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.704===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.713===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.724===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.733===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.743===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.753===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.763===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.805===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.816===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.827===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.840===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:40.850===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [29]
+13:27:45.345===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:45.382===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:45.393===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:45.403===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:27:47.025===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [123]
+13:27:47.034===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [123]
+13:27:47.042===========> DesktopImpl.service: [Desktop z__wt:/index.zul] client error: Failed to mount: adempiere.set is not a function [123]
+13:30:27.234-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [33]
+13:30:27.235-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [33]
+13:30:28.756===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:28.767===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:29.190===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.201===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.212===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.222===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.231===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.240===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.249===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.257===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.267===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.276===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.285===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.294===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.303===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.314===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.324===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.334===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.342===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:29.351===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [34]
+13:30:35.365===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:35.419===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:35.429===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:35.439===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:35.450===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:35.459===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:35.471===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:51.830===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:30:51.857===========> DesktopImpl.service: [Desktop z_5970:/index.zul] client error: Failed to mount: adempiere.set is not a function [28]
+13:31:28.578===========> PackIn.importXML: importXML: [63]
+org.adempiere.exceptions.AdempiereException: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:451)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+caused by: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1117)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+caused by: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1108)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+
+13:31:28.590===========> PackIn.importXML: importXML: [63]
+java.lang.RuntimeException: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:451)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+caused by: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1117)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+caused by: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1108)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+
+13:31:28.603===========> PackInProcess.doIt: importXML: [63]
+java.lang.RuntimeException: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:188)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+caused by: org.adempiere.exceptions.AdempiereException: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:451)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+caused by: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1117)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+caused by: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1108)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+
+13:31:28.623===========> PackInProcess.process: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric. [63]
+org.adempiere.exceptions.AdempiereException: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:451)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+caused by: org.adempiere.exceptions.DBException: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1117)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:173)
+	at org.adempiere.pipo2.PackIn.importXML(PackIn.java:136)
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:143)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+caused by: org.postgresql.util.PSQLException: ERROR: foreign key constraint "ccatalogo_niipostprinting" cannot be implemented
+  Detail: Key columns "c_catalogo_id" and "c_catalogo_id" are of incompatible types: character varying and numeric.; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1108)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1169)
+	at org.compiere.util.DB.executeUpdateEx(DB.java:1160)
+	at org.adempiere.pipo2.PackInHandler.processDeferFKElements(PackInHandler.java:446)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:311)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+
+14:06:23.609-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 545643ms, Master-Confirmation-Timeout: 500000ms. [88]
+14:08:24.073===========> PackInProcess.process: Could not delete folder C:\Users\OBENAV~1\AppData\Local\Temp\\packin0, please check permissions [158]
+SystemError: Could not delete folder C:\Users\OBENAV~1\AppData\Local\Temp\\packin0, please check permissions
+	at org.adempiere.pipo2.PackInProcess.doIt(PackInProcess.java:92)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+14:08:42.093-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Terminating forcefully... [71]
+
+*** 2017-07-21 14:08:42.108 idempiere Log (CLogFile) ***

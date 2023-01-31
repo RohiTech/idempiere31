@@ -1,0 +1,304 @@
+*** 2016-07-07 10:18:44.583 idempiere Log (CLogFile) ***
+10:18:44.582 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:18:44.584 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+10:18:45.064 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:18:45.064 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:18:45.080-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:18:45.155 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:18:45.166-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:18:45.167-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:18:45.167-----------> EMail.isValid: From is invalid=null [17]
+10:18:45.168-----------> EMail.isValid: From is invalid=null [17]
+10:18:45.168-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:172.16.67.23) to you @ company.org: Invalid Data (System) [17]
+10:18:45.168 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:18:45.168 AdempiereMonitor.init:  [17]
+10:18:46.590-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:18:46.826-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://180.fwk1480207683:2/metainfo/zk/config.xml
+with bundleresource://180.fwk1480207683:19/metainfo/zk/config.xml [17]
+10:18:46.832-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://180.fwk1480207683:11/metainfo/zk/config.xml
+with bundleresource://180.fwk1480207683:28/metainfo/zk/config.xml [17]
+10:18:46.838-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://180.fwk1480207683:12/metainfo/zk/config.xml
+with bundleresource://180.fwk1480207683:29/metainfo/zk/config.xml [17]
+10:18:46.862-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://180.fwk1480207683:14/metainfo/zk/zk.xml
+with bundleresource://180.fwk1480207683:31/metainfo/zk/zk.xml [17]
+10:18:47.217-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:18:47.239-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:18:47.304-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://180.fwk1480207683:1/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:18/metainfo/zk/lang-addon.xml [17]
+10:18:47.309-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://180.fwk1480207683:2/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:19/metainfo/zk/lang-addon.xml [17]
+10:18:47.313-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://180.fwk1480207683:5/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:22/metainfo/zk/lang-addon.xml [17]
+10:18:47.316-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://180.fwk1480207683:6/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:23/metainfo/zk/lang-addon.xml [17]
+10:18:47.320-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://180.fwk1480207683:7/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:24/metainfo/zk/lang-addon.xml [17]
+10:18:47.334-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://180.fwk1480207683:12/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:29/metainfo/zk/lang-addon.xml [17]
+10:18:47.341-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://180.fwk1480207683:13/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk1480207683:30/metainfo/zk/lang-addon.xml [17]
+10:18:47.473           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:18:48.416-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-07 10:18:48.629 idempiere Log (CLogFile) ***
+10:18:50.786-----------> Node: [172.16.67.23]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [47]
+10:20:53.904===========> Evaluator.evaluateLogicTuple: Logic tuple does not comply with format '@context@=value' where operand could be one of '=!^><' => @C_Invoice_ID@ [108]
+10:20:59.324===========> ReportStarter.getRemoteFile: I/O error when trying to download (sub)report from server hmil-idp-apdev.hmil.com.ni [40]
+10:20:59.371===========> ReportStarter.startProcess0: No report file found for given type, falling back to http://hmil-idp-apdev.hmil.com.ni:8888/rep_facturacredito_cxc.jrxml [40]
+10:20:59.376===========> ReportStarter.getRemoteFile: I/O error when trying to download (sub)report from server hmil-idp-apdev.hmil.com.ni [40]
+10:20:59.391===========> ReportStarter.startProcess0: Can not find report file at path - http://hmil-idp-apdev.hmil.com.ni:8888/rep_facturacredito_cxc.jrxml [40]
+10:30:21.287===========> Evaluator.evaluateLogicTuple: Logic tuple does not comply with format '@context@=value' where operand could be one of '=!^><' => @C_Invoice_ID@ [107]
+10:39:56.320===========> DB.executeUpdate: UPDATE AD_PrintFormat SET GL_Category_ID=?,Updated=?,UpdatedBy=? WHERE AD_PrintFormat_ID=1000031 [POSaveAD_PrintFormat_bc32e023-bd16-4ffc-a5b2-620e676f447e] [198]
+org.postgresql.util.PSQLException: ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:39:56.413===========> DB.saveError: DBExecuteError - ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42 [198]
+10:39:56.421===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_bc32e023-bd16-4ffc-a5b2-620e676f447e] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [198]
+10:39:56.424===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_bc32e023-bd16-4ffc-a5b2-620e676f447e] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [198]
+10:39:56.427-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_bc32e023-bd16-4ffc-a5b2-620e676f447e] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [198]
+10:40:35.185===========> DB.executeUpdate: UPDATE AD_PrintFormat SET GL_Category_ID=?,Updated=?,UpdatedBy=? WHERE AD_PrintFormat_ID=1000031 [POSaveAD_PrintFormat_55634b39-4748-47b4-ae9d-a35b51b622d5] [205]
+org.postgresql.util.PSQLException: ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:40:35.199===========> DB.saveError: DBExecuteError - ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42 [205]
+10:40:35.200===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_55634b39-4748-47b4-ae9d-a35b51b622d5] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [205]
+10:40:35.201===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_55634b39-4748-47b4-ae9d-a35b51b622d5] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [205]
+10:40:35.201-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_55634b39-4748-47b4-ae9d-a35b51b622d5] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [205]
+10:41:08.190===========> DB.executeUpdate: UPDATE AD_PrintFormat SET GL_Category_ID=?,Updated=?,UpdatedBy=? WHERE AD_PrintFormat_ID=1000031 [POSaveAD_PrintFormat_0babafc9-e518-4ef8-862f-9e14e1f1ff00] [205]
+org.postgresql.util.PSQLException: ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:41:08.205===========> DB.saveError: DBExecuteError - ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42 [205]
+10:41:08.206===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_0babafc9-e518-4ef8-862f-9e14e1f1ff00] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [205]
+10:41:08.209===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_0babafc9-e518-4ef8-862f-9e14e1f1ff00] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [205]
+10:41:08.210-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_0babafc9-e518-4ef8-862f-9e14e1f1ff00] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [205]
+10:42:06.195===========> DB.executeUpdate: UPDATE AD_PrintFormat SET Classname=?, GL_Category_ID=?,Updated=?,UpdatedBy=? WHERE AD_PrintFormat_ID=1000031 [POSaveAD_PrintFormat_ddcaba73-9b62-47f1-8267-74503a778f08] [206]
+org.postgresql.util.PSQLException: ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 56; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:42:06.211===========> DB.saveError: DBExecuteError - ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 56 [206]
+10:42:06.219===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_ddcaba73-9b62-47f1-8267-74503a778f08] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [206]
+10:42:06.219===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_ddcaba73-9b62-47f1-8267-74503a778f08] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [206]
+10:42:06.219-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_ddcaba73-9b62-47f1-8267-74503a778f08] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [206]
+10:44:10.347===========> DB.executeUpdate: UPDATE AD_PrintFormat SET GL_Category_ID=?,Updated=?,UpdatedBy=? WHERE AD_PrintFormat_ID=1000031 [POSaveAD_PrintFormat_21c9efbe-670e-466e-9726-ec6d99e9c253] [33]
+org.postgresql.util.PSQLException: ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:44:10.363===========> DB.saveError: DBExecuteError - ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 42 [33]
+10:44:10.370===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_21c9efbe-670e-466e-9726-ec6d99e9c253] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [33]
+10:44:10.372===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_21c9efbe-670e-466e-9726-ec6d99e9c253] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [33]
+10:44:10.373-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_21c9efbe-670e-466e-9726-ec6d99e9c253] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [33]
+10:44:22.242===========> DB.executeUpdate: UPDATE AD_PrintFormat SET Classname=?, GL_Category_ID=?,Updated=?,UpdatedBy=? WHERE AD_PrintFormat_ID=1000031 [POSaveAD_PrintFormat_482c2724-3461-4bca-ac30-f573b78f7eb1] [33]
+org.postgresql.util.PSQLException: ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 56; State=42804; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:44:22.243===========> DB.saveError: DBExecuteError - ERROR: la columna «gl_category_id» es de tipo numeric pero la expresión es de tipo character varying
+  Hint: Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+  Position: 56 [33]
+10:44:22.255===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_482c2724-3461-4bca-ac30-f573b78f7eb1] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [33]
+10:44:22.256===========> MPrintFormat.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_482c2724-3461-4bca-ac30-f573b78f7eb1] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [33]
+10:44:22.256-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_PrintFormat_482c2724-3461-4bca-ac30-f573b78f7eb1] - AD_PrintFormat.AD_PrintFormat_ID=1000031 [33]
+10:45:54.981===========> GridTable.saveError: ERROR: el plan almacenado no debe cambiar el tipo de resultado - ERROR: el plan almacenado no debe cambiar el tipo de resultado [155]
+10:45:54.994-----------> GridTable.waitLoadingForRow: Reached 30 seconds timeout loading row 1 for SQL=SELECT AD_PrintFormat_UU,AD_PrintFormat_ID,AD_Client_ID,AD_Org_ID,Name,Description,IsActive,IsDefault,AD_Table_ID,AD_ReportView_ID,IsForm,IsTableBased,AD_PrintPaper_ID,IsStandardHeaderFooter,AD_PrintTableFormat_ID,PrinterName,HeaderMargin,FooterMargin,AD_PrintFont_ID,AD_PrintColor_ID,JasperProcess_ID,AD_Window_ID,Classname,CreateCopy,Args,GL_Category_ID,Created,CreatedBy,Updated,UpdatedBy FROM AD_PrintFormat WHERE ((( ((AD_PrintFormat.AD_PrintFormat_ID=1000031))) OR (AD_PrintFormat.AD_PrintFormat_ID=1000031)) ) AND AD_PrintFormat.AD_Client_ID IN (0,1000000) AND  (AD_PrintFormat.AD_PrintFormat_ID IS NULL OR AD_PrintFormat.AD_PrintFormat_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 493 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  ORDER BY Name [202]
+10:45:54.995-----------> GridTable.waitLoadingForRow: Reached 30 seconds timeout loading row 1 for SQL=SELECT AD_PrintFormat_UU,AD_PrintFormat_ID,AD_Client_ID,AD_Org_ID,Name,Description,IsActive,IsDefault,AD_Table_ID,AD_ReportView_ID,IsForm,IsTableBased,AD_PrintPaper_ID,IsStandardHeaderFooter,AD_PrintTableFormat_ID,PrinterName,HeaderMargin,FooterMargin,AD_PrintFont_ID,AD_PrintColor_ID,JasperProcess_ID,AD_Window_ID,Classname,CreateCopy,Args,GL_Category_ID,Created,CreatedBy,Updated,UpdatedBy FROM AD_PrintFormat WHERE ((( ((AD_PrintFormat.AD_PrintFormat_ID=1000031))) OR (AD_PrintFormat.AD_PrintFormat_ID=1000031)) ) AND AD_PrintFormat.AD_Client_ID IN (0,1000000) AND  (AD_PrintFormat.AD_PrintFormat_ID IS NULL OR AD_PrintFormat.AD_PrintFormat_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 493 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  ORDER BY Name [202]
+10:45:54.995-----------> GridTable.waitLoadingForRow: Reached 30 seconds timeout loading row 1 for SQL=SELECT AD_PrintFormat_UU,AD_PrintFormat_ID,AD_Client_ID,AD_Org_ID,Name,Description,IsActive,IsDefault,AD_Table_ID,AD_ReportView_ID,IsForm,IsTableBased,AD_PrintPaper_ID,IsStandardHeaderFooter,AD_PrintTableFormat_ID,PrinterName,HeaderMargin,FooterMargin,AD_PrintFont_ID,AD_PrintColor_ID,JasperProcess_ID,AD_Window_ID,Classname,CreateCopy,Args,GL_Category_ID,Created,CreatedBy,Updated,UpdatedBy FROM AD_PrintFormat WHERE ((( ((AD_PrintFormat.AD_PrintFormat_ID=1000031))) OR (AD_PrintFormat.AD_PrintFormat_ID=1000031)) ) AND AD_PrintFormat.AD_Client_ID IN (0,1000000) AND  (AD_PrintFormat.AD_PrintFormat_ID IS NULL OR AD_PrintFormat.AD_PrintFormat_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 493 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  ORDER BY Name [202]
+10:45:54.996-----------> GridTable.waitLoadingForRow: Reached 30 seconds timeout loading row 1 for SQL=SELECT AD_PrintFormat_UU,AD_PrintFormat_ID,AD_Client_ID,AD_Org_ID,Name,Description,IsActive,IsDefault,AD_Table_ID,AD_ReportView_ID,IsForm,IsTableBased,AD_PrintPaper_ID,IsStandardHeaderFooter,AD_PrintTableFormat_ID,PrinterName,HeaderMargin,FooterMargin,AD_PrintFont_ID,AD_PrintColor_ID,JasperProcess_ID,AD_Window_ID,Classname,CreateCopy,Args,GL_Category_ID,Created,CreatedBy,Updated,UpdatedBy FROM AD_PrintFormat WHERE ((( ((AD_PrintFormat.AD_PrintFormat_ID=1000031))) OR (AD_PrintFormat.AD_PrintFormat_ID=1000031)) ) AND AD_PrintFormat.AD_Client_ID IN (0,1000000) AND  (AD_PrintFormat.AD_PrintFormat_ID IS NULL OR AD_PrintFormat.AD_PrintFormat_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 493 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  ORDER BY Name [202]
+10:45:55.002===========> ADWindowToolbar.doOnClick: ERROR: el plan almacenado no debe cambiar el tipo de resultado [202]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.doOnClick(ADWindowToolbar.java:413)
+	at org.adempiere.webui.adwindow.ADWindowToolbar.onEvent(ADWindowToolbar.java:377)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+caused by: java.lang.IllegalStateException: Timeout loading row 1
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1099)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.dataRefreshAll(GridTab.java:948)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$27.onCallback(AbstractADWindowContent.java:2088)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$27.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$28.onCallback(AbstractADWindowContent.java:2112)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$28.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave0(AbstractADWindowContent.java:2258)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSaveCallback(AbstractADWindowContent.java:2180)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$19(AbstractADWindowContent.java:2149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:2123)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2131)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave(AbstractADWindowContent.java:2081)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+10:45:55.129-----------> GridTable.waitLoadingForRow: Reached 30 seconds timeout loading row 1 for SQL=SELECT AD_PrintFormat_UU,AD_PrintFormat_ID,AD_Client_ID,AD_Org_ID,Name,Description,IsActive,IsDefault,AD_Table_ID,AD_ReportView_ID,IsForm,IsTableBased,AD_PrintPaper_ID,IsStandardHeaderFooter,AD_PrintTableFormat_ID,PrinterName,HeaderMargin,FooterMargin,AD_PrintFont_ID,AD_PrintColor_ID,JasperProcess_ID,AD_Window_ID,Classname,CreateCopy,Args,GL_Category_ID,Created,CreatedBy,Updated,UpdatedBy FROM AD_PrintFormat WHERE ((( ((AD_PrintFormat.AD_PrintFormat_ID=1000031))) OR (AD_PrintFormat.AD_PrintFormat_ID=1000031)) ) AND AD_PrintFormat.AD_Client_ID IN (0,1000000) AND  (AD_PrintFormat.AD_PrintFormat_ID IS NULL OR AD_PrintFormat.AD_PrintFormat_ID NOT IN ( SELECT Record_ID FROM AD_Private_Access WHERE AD_Table_ID = 493 AND AD_User_ID <> 0 AND IsActive = 'Y' ))  ORDER BY Name [209]

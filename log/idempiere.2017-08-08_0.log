@@ -1,0 +1,28 @@
+*** 2017-08-08 00:00:22.052 idempiere Log (CLogFile) ***
+00:00:22.047-----------> ImportPriceList.doIt: Invalid Product=2867 [179]
+01:00:59.839===========> Configuration.invokeDesktopCleanups: Failed to invoke class org.adempiere.webui.session.SessionContextListener [29]
+java.lang.NullPointerException
+	at org.zkoss.zk.ui.http.ExecutionImpl.getAttribute(ExecutionImpl.java:470)
+	at org.adempiere.webui.adwindow.StatusBar.setStatusLine(StatusBar.java:144)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.updateUI(AbstractADWindowContent.java:3138)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onModalClose(AbstractADWindowContent.java:3101)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onEvent(AbstractADWindowContent.java:1098)
+	at org.adempiere.webui.adwindow.ADWindowContent.onEvent(ADWindowContent.java:194)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.event.Events.sendEvent(Events.java:325)
+	at org.adempiere.webui.component.Window.onPageDetached(Window.java:84)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:483)
+	at org.zkoss.zk.ui.AbstractComponent.setParent(AbstractComponent.java:1020)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1680)
+	at org.adempiere.webui.desktop.DefaultDesktop.logout(DefaultDesktop.java:676)
+
+08:33:02.538-----------> ClusterService: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 26998738ms, Master-Confirmation-Timeout: 500000ms. [101]
+08:34:35.113-----------> Trx.run: Transaction timeout. Name=SvrProcess_52f2f513-91dc-4e32-8677-88d12f2dcebc, timeout(sec)=30820 [188]

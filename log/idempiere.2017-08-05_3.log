@@ -1,0 +1,126 @@
+*** 2017-08-05 12:21:18.34 idempiere Log (CLogFile) ***
+12:21:18.339 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+12:21:18.347 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #33 [14]
+12:21:20.883 AdempiereActivator.installPackage: ni.idempiere.importcurrencyrate 1.0.0 was installed: 2017-05-19 12:08:41.274 [14]
+12:21:20.886 AdempiereActivator.installPackage: cm.itkamer.wandapos-integration2 1.0.0 was installed: 2017-06-25 15:34:11.153 [14]
+12:21:20.890 AdempiereActivator.installPackage: ni.idempiere.override.codebase 1.0.0 was installed: 2017-08-01 23:36:25.849 [14]
+12:21:21.010 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+12:21:21.010 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+12:21:21.187-----------> DB.isBuildOK: Error en la versión de la construcción 
+
+El programa asume version de construcción 3.1.0.qualifier, pero la base de datos tiene una versión ${env.ADEMPIERE_VERSION} 20080428-1232.
+Es posible que esto cause errores difíciles de corregir.
+Por favor contacte al ADMINISTRADOR. [14]
+12:21:21.435 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+12:21:21.657-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+12:21:21.658-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+12:21:21.659-----------> EMail.isValid: From is invalid=null [14]
+12:21:21.659-----------> EMail.isValid: From is invalid=null [14]
+12:21:21.659-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [14]
+12:21:21.659 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+12:21:21.659 AdempiereMonitor.init:  [14]
+12:21:35.911-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+12:21:36.349-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk365962226:2/metainfo/zk/config.xml
+with bundleresource://187.fwk365962226:19/metainfo/zk/config.xml [14]
+12:21:36.353-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://187.fwk365962226:11/metainfo/zk/config.xml
+with bundleresource://187.fwk365962226:28/metainfo/zk/config.xml [14]
+12:21:36.358-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk365962226:12/metainfo/zk/config.xml
+with bundleresource://187.fwk365962226:29/metainfo/zk/config.xml [14]
+12:21:36.412-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://187.fwk365962226:14/metainfo/zk/zk.xml
+with bundleresource://187.fwk365962226:31/metainfo/zk/zk.xml [14]
+12:21:37.162-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+12:21:37.195-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+12:21:37.298-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://187.fwk365962226:1/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:18/metainfo/zk/lang-addon.xml [14]
+12:21:37.303-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://187.fwk365962226:2/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:19/metainfo/zk/lang-addon.xml [14]
+12:21:37.308-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://187.fwk365962226:5/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:22/metainfo/zk/lang-addon.xml [14]
+12:21:37.311-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://187.fwk365962226:6/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:23/metainfo/zk/lang-addon.xml [14]
+12:21:37.314-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://187.fwk365962226:7/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:24/metainfo/zk/lang-addon.xml [14]
+12:21:37.327-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://187.fwk365962226:12/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:29/metainfo/zk/lang-addon.xml [14]
+12:21:37.336-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://187.fwk365962226:13/metainfo/zk/lang-addon.xml
+with bundleresource://187.fwk365962226:30/metainfo/zk/lang-addon.xml [14]
+12:21:37.657           WebUIServlet.init: iDempiere Web Client started successfully [14]
+12:21:38.908-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2017-08-05 12:21:39.675 idempiere Log (CLogFile) ***
+12:21:44.573-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [39]
+12:21:56.806-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [29]
+12:21:56.808-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [29]
+12:23:46.528-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [30]
+12:23:46.529-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [30]
+12:41:27.097-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+12:41:27.098-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+12:42:23.135-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [65]
+12:42:23.135-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [65]
+12:55:08.068-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [65]
+12:55:08.068-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [65]
+12:55:08.328===========> GridFieldVO.loadLookupInfo: No LookupInfo for NI_GrupoDificultad_ID [65]
+java.lang.NullPointerException
+	at org.compiere.model.MLookupFactory.getLookup_TableDir(MLookupFactory.java:788)
+	at org.compiere.model.MLookupFactory.getLookupInfo(MLookupFactory.java:226)
+	at org.compiere.model.GridFieldVO.loadLookupInfo(GridFieldVO.java:711)
+	at org.compiere.model.GridFieldVO.initFinish(GridFieldVO.java:700)
+	at org.compiere.model.GridFieldVO.create(GridFieldVO.java:312)
+	at org.compiere.model.GridTabVO.createFields(GridTabVO.java:305)
+	at org.compiere.model.GridTabVO.getFields(GridTabVO.java:499)
+	at org.compiere.model.GridTab.loadFields(GridTab.java:362)
+	at org.compiere.model.GridTab.loadTab(GridTab.java:308)
+	at org.compiere.model.GridTab.initTab(GridTab.java:299)
+	at org.compiere.model.GridWindow.initTab(GridWindow.java:195)
+
+12:56:04.338-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+12:56:04.339-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+12:56:59.811-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [65]
+12:56:59.811-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [65]
+12:57:55.865-----------> GridTable.saveWarning: FillMandatory - Nombre Proceso
+ [35]
+12:59:11.145-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [35]
+12:59:11.145-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [35]
+13:12:53.885===========> Trx.commit: POSaveNI_I_Quotationprp_55fb0530-e565-460a-a02e-620cf0ce110e [209]
+org.postgresql.util.PSQLException: ERROR: insert or update on table "ni_i_quotationprprocline" violates foreign key constraint "ccatalogo_niiquotationprprocli"
+  Detail: Key (c_catalogo_id)=(1000018) is not present in table "c_tipo_catalogo".; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.util.Trx.commit(Trx.java:399)
+	at org.compiere.model.PO.save(PO.java:2132)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+	at org.adempiere.webui.adwindow.ADTabpanel.dataSave(ADTabpanel.java:1628)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.dataSave(CompositeADTabbox.java:864)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSave0(AbstractADWindowContent.java:2187)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.onSaveCallback(AbstractADWindowContent.java:2180)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.access$19(AbstractADWindowContent.java:2149)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:2123)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$29.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager$ChainCallback.start(WindowValidatorManager.java:124)
+	at org.adempiere.webui.adwindow.validator.WindowValidatorManager.fireWindowValidatorEvent(WindowValidatorManager.java:103)
+
+13:12:53.899===========> Trx.saveError: DeleteErrorDependent - ERROR: insert or update on table "ni_i_quotationprprocline" violates foreign key constraint "ccatalogo_niiquotationprprocli"
+  Detail: Key (c_catalogo_id)=(1000018) is not present in table "c_tipo_catalogo". [209]
+13:12:53.900-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: insert or update on table "ni_i_quotationprprocline" violates foreign key constraint "ccatalogo_niiquotationprprocli"
+  Detail: Key (c_catalogo_id)=(1000018) is not present in table "c_tipo_catalogo". [209]
+13:13:58.289-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.label [209]
+13:13:58.290-----------> Msg.getMsg: NOT found: ni.idempiere.toolbar.button.action.report.tooltip [209]

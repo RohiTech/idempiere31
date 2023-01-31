@@ -1,0 +1,135 @@
+*** 2016-06-01 14:57:05.844 idempiere Log (CLogFile) ***
+14:57:05.844 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:57:05.844 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+14:57:06.360 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:57:06.360 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:57:06.376-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:57:06.516 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+14:57:06.516 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+14:57:06.594 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:57:06.610-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:57:06.610-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:57:06.626-----------> EMail.isValid: From is invalid=null [17]
+14:57:06.626-----------> EMail.isValid: From is invalid=null [17]
+14:57:06.626-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+14:57:06.626 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:57:06.626 AdempiereMonitor.init:  [17]
+14:57:11.026-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:57:11.370-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1319287199:19/metainfo/zk/config.xml [17]
+14:57:11.386-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1319287199:28/metainfo/zk/config.xml [17]
+14:57:11.386-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1319287199:29/metainfo/zk/config.xml [17]
+14:57:11.417-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1319287199:31/metainfo/zk/zk.xml [17]
+14:57:11.934-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:57:11.970-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:57:12.038-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+14:57:12.042-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+14:57:12.054-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+14:57:12.058-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+14:57:12.066-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+14:57:12.078-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+14:57:12.086-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+14:57:12.214           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:57:13.597-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-01 14:57:14.138 idempiere Log (CLogFile) ***
+14:57:16.394-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [48]
+14:57:29.128-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+14:57:29.128-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+15:02:59.296===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, PartialPayment, Balance, PaidBill FROM C_Invoice WHERE  [34]
+15:03:10.802===========> GridWindowVO.createTabs: No Tabs - AD_Window_ID=1000008 - SELECT * FROM AD_Tab_vt WHERE AD_Window_ID=? AND AD_Language='es_NI' ORDER BY SeqNo [37]
+15:03:10.823===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: No se puede ver esta información con su rol actual(No Window Model Info)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: No se puede ver esta información con su rol actual(No Window Model Info)
+	at org.adempiere.webui.adwindow.ADWindow.<init>(ADWindow.java:97)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:158)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+caused by: org.adempiere.webui.exception.ApplicationException: No se puede ver esta información con su rol actual(No Window Model Info)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initComponents(AbstractADWindowContent.java:256)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.<init>(AbstractADWindowContent.java:207)
+	at org.adempiere.webui.adwindow.ADWindowContent.<init>(ADWindowContent.java:72)
+	at org.adempiere.webui.adwindow.ADWindow.init(ADWindow.java:103)
+	at org.adempiere.webui.adwindow.ADWindow.<init>(ADWindow.java:94)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:158)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+

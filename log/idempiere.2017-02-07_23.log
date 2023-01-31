@@ -1,0 +1,88 @@
+*** 2017-02-07 18:18:54.75 idempiere Log (CLogFile) ***
+18:18:54.750 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+18:18:54.754 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+18:18:55.379 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+18:18:55.379 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+18:18:55.414-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+18:18:55.574 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+18:18:55.772-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:18:55.779-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+18:18:55.779-----------> EMail.isValid: From is invalid=null [17]
+18:18:55.779-----------> EMail.isValid: From is invalid=null [17]
+18:18:55.779-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:192.168.47.1) to you @ company.org: Invalid Data (System) [17]
+18:18:55.779 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+18:18:55.780 AdempiereMonitor.init:  [17]
+18:18:57.979-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+18:18:58.244-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1319287199:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1319287199:19/metainfo/zk/config.xml [17]
+18:18:58.251-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1319287199:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1319287199:28/metainfo/zk/config.xml [17]
+18:18:58.257-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1319287199:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1319287199:29/metainfo/zk/config.xml [17]
+18:18:58.290-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1319287199:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1319287199:31/metainfo/zk/zk.xml [17]
+18:18:58.722-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+18:18:58.751-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+18:18:58.814-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1319287199:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:18/metainfo/zk/lang-addon.xml [17]
+18:18:58.819-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1319287199:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:19/metainfo/zk/lang-addon.xml [17]
+18:18:58.827-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1319287199:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:22/metainfo/zk/lang-addon.xml [17]
+18:18:58.831-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1319287199:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:23/metainfo/zk/lang-addon.xml [17]
+18:18:58.835-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1319287199:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:24/metainfo/zk/lang-addon.xml [17]
+18:18:58.847-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1319287199:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:29/metainfo/zk/lang-addon.xml [17]
+18:18:58.857-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1319287199:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1319287199:30/metainfo/zk/lang-addon.xml [17]
+18:18:59.153           WebUIServlet.init: iDempiere Web Client started successfully [17]
+18:19:00.289-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+18:19:00.500-----------> LCO_ValidatorWH.initialize:  [69]
+18:19:00.573 PipoDictionaryService.merge: zipFilepath->C:\Users\OBENAV~1\AppData\Local\Temp\org.globalqss.idempiere.LCO.withholdings5273515092712640024_2.1.1.zip [41]
+
+*** 2017-02-07 18:19:00.743 idempiere Log (CLogFile) ***
+18:19:03.481-----------> Node: [192.168.163.1]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [49]
+18:21:10.776===========> TableIndexElementHandler.validateTableIndex: ERROR: no existe la columna am.amcanorder
+  Position: 427 [41]
+org.postgresql.util.PSQLException: ERROR: no existe la columna am.amcanorder
+  Position: 427; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:481)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:361)
+	at org.postgresql.jdbc2.AbstractJdbc2DatabaseMetaData.getIndexInfo(AbstractJdbc2DatabaseMetaData.java:4230)
+	at com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData.getIndexInfo(NewProxyDatabaseMetaData.java:3328)
+	at org.compiere.process.TableIndexValidate.validateTableIndex(TableIndexValidate.java:69)
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.validateTableIndex(TableIndexElementHandler.java:112)
+	at org.adempiere.pipo2.handler.TableIndexElementHandler.endElement(TableIndexElementHandler.java:93)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:266)
+	at org.adempiere.pipo2.PackInHandler.processElement(PackInHandler.java:258)
+	at org.adempiere.pipo2.PackInHandler.endElement(PackInHandler.java:337)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+

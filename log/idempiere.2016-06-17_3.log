@@ -1,0 +1,211 @@
+*** 2016-06-17 10:09:29.715 idempiere Log (CLogFile) ***
+10:09:29.715 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:09:29.715 Ini.loadProperties: E:\mercurialidempiere/idempiere-dev.properties #33 [17]
+10:09:30.139 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:09:30.139 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:09:30.170-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:09:30.264 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+10:09:30.279 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+10:09:30.342 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:09:30.357-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:09:30.357-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:09:30.357-----------> EMail.isValid: From is invalid=null [17]
+10:09:30.357-----------> EMail.isValid: From is invalid=null [17]
+10:09:30.357-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.43) to you @ company.org: Invalid Data (System) [17]
+10:09:30.357 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:09:30.357 AdempiereMonitor.init:  [17]
+10:09:31.870-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:09:32.135-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/config.xml [17]
+10:09:32.135-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk1399961333:11/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:28/metainfo/zk/config.xml [17]
+10:09:32.135-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/config.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/config.xml [17]
+10:09:32.166-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk1399961333:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk1399961333:31/metainfo/zk/zk.xml [17]
+10:09:32.557-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:09:32.588-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:09:32.651-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk1399961333:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:18/metainfo/zk/lang-addon.xml [17]
+10:09:32.666-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk1399961333:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:19/metainfo/zk/lang-addon.xml [17]
+10:09:32.666-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk1399961333:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:22/metainfo/zk/lang-addon.xml [17]
+10:09:32.666-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk1399961333:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:23/metainfo/zk/lang-addon.xml [17]
+10:09:32.666-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk1399961333:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:24/metainfo/zk/lang-addon.xml [17]
+10:09:32.682-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk1399961333:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:29/metainfo/zk/lang-addon.xml [17]
+10:09:32.682-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk1399961333:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk1399961333:30/metainfo/zk/lang-addon.xml [17]
+10:09:32.791           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:09:33.793-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-06-17 10:09:34.065 idempiere Log (CLogFile) ***
+10:09:35.813-----------> Node: [10.0.5.43]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+10:10:09.749-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [33]
+10:10:09.749-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [33]
+10:10:42.631===========> GridTab.processCallout: NoCurrencyConversion [38]
+10:11:19.164===========> MPaymentAllocate.saveError: Error - Monto de Factura(1275.000000) <> Totales(1285.050000000000000710542735760100185871124267578125) [33]
+10:11:19.179-----------> MPaymentAllocate.save: beforeSave failed - X_C_PaymentAllocate[1000022] [33]
+10:11:19.198-----------> MPaymentAllocate.save: Validation failed - javax.script.ScriptException: Sourced file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : Method Invocation A_PO.saveEx : at Line: 1 : in file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : A_PO .saveEx ( ) 
+
+Target exception: org.adempiere.exceptions.AdempiereException: Error: : Monto de Factura(1275.000000) <> Totales(1285.050000000000000710542735760100185871124267578125)
+ in inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' at line number 1 [33]
+10:11:19.198===========> MPaymentAllocate.saveError: Error - javax.script.ScriptException: Sourced file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : Method Invocation A_PO.saveEx : at Line: 1 : in file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : A_PO .saveEx ( ) 
+
+Target exception: org.adempiere.exceptions.AdempiereException: Error: : Monto de Factura(1275.000000) <> Totales(1285.050000000000000710542735760100185871124267578125)
+ in inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' at line number 1 [33]
+10:11:19.198-----------> GridTable.saveWarning: Error - javax.script.ScriptException: Sourced file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : Method Invocation A_PO.saveEx : at Line: 1 : in file: inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' : A_PO .saveEx ( ) 
+
+Target exception: org.adempiere.exceptions.AdempiereException: Error: : Monto de Factura(1275.000000) <> Totales(1285.050000000000000710542735760100185871124267578125)
+ in inline evaluation of: ``import java.math.BigDecimal; A_PO.setDiscountAmt(new BigDecimal(10.05)); A_PO.sa . . . '' at line number 1 [33]
+10:12:29.032===========> Trx.commit: POdel_2665a7b0-b0d2-4cfb-8427-3666be271739 [157]
+org.postgresql.util.PSQLException: ERROR: update o delete en «ad_rule» viola la llave foránea «adrule_adtablescriptvalidator» en la tabla «ad_table_scriptvalidator»
+  Detail: La llave (ad_rule_id)=(1000004) todavía es referida desde la tabla «ad_table_scriptvalidator».; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+10:12:29.079===========> MRule.saveError: DeleteErrorDependent - ERROR: update o delete en «ad_rule» viola la llave foránea «adrule_adtablescriptvalidator» en la tabla «ad_table_scriptvalidator»
+  Detail: La llave (ad_rule_id)=(1000004) todavía es referida desde la tabla «ad_table_scriptvalidator». [157]
+10:12:29.090-----------> GridTable.saveWarning: DeleteErrorDependent - ERROR: update o delete en «ad_rule» viola la llave foránea «adrule_adtablescriptvalidator» en la tabla «ad_table_scriptvalidator»
+  Detail: La llave (ad_rule_id)=(1000004) todavía es referida desde la tabla «ad_table_scriptvalidator». [157]
+10:13:06.113===========> MRule.load: NO Data found for AD_Rule_ID=1000004 [32]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Rule.<init>(X_AD_Rule.java:38)
+	at org.compiere.model.MRule.<init>(MRule.java:145)
+	at org.compiere.model.MRule.get(MRule.java:69)
+	at org.compiere.model.ModelValidationEngine.fireModelChange(ModelValidationEngine.java:372)
+	at org.compiere.model.PO.save(PO.java:2108)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+10:13:36.357===========> MRule.load: NO Data found for AD_Rule_ID=1000004 [156]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Rule.<init>(X_AD_Rule.java:38)
+	at org.compiere.model.MRule.<init>(MRule.java:145)
+	at org.compiere.model.MRule.get(MRule.java:69)
+	at org.compiere.model.ModelValidationEngine.fireModelChange(ModelValidationEngine.java:372)
+	at org.compiere.model.PO.save(PO.java:2108)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at ni.hmil.override.callout.NICalloutPayment.convertDocument(NICalloutPayment.java:948)
+
+10:13:40.632===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [36]
+10:15:14.007===========> MRule.load: NO Data found for AD_Rule_ID=1000004 [32]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Rule.<init>(X_AD_Rule.java:38)
+	at org.compiere.model.MRule.<init>(MRule.java:145)
+	at org.compiere.model.MRule.get(MRule.java:69)
+	at org.compiere.model.ModelValidationEngine.fireModelChange(ModelValidationEngine.java:372)
+	at org.compiere.model.PO.save(PO.java:2108)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at ni.hmil.override.callout.NICalloutPayment.convertDocument(NICalloutPayment.java:948)
+
+10:15:19.331===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [32]
+10:17:15.112===========> MRule.load: NO Data found for AD_Rule_ID=1000004 [156]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_AD_Rule.<init>(X_AD_Rule.java:38)
+	at org.compiere.model.MRule.<init>(MRule.java:145)
+	at org.compiere.model.MRule.get(MRule.java:69)
+	at org.compiere.model.ModelValidationEngine.fireModelChange(ModelValidationEngine.java:372)
+	at org.compiere.model.PO.save(PO.java:2108)
+	at org.compiere.model.PO.saveEx(PO.java:2216)
+	at ni.hmil.override.callout.NICalloutPayment.convertDocument(NICalloutPayment.java:948)
+
+10:17:17.152===========> NIMPayment.beforeSave: Log desde NINSSMPayment... [199]
+10:22:40.784===========> MPaymentAllocate.load: NO Data found for C_PaymentAllocate_ID=1000022 [36]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_PaymentAllocate.<init>(X_C_PaymentAllocate.java:40)
+	at org.compiere.model.MPaymentAllocate.<init>(MPaymentAllocate.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.compiere.model.GridTable.getPO(GridTable.java:3907)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2684)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+
+10:22:40.816===========> GenericPO.load: NO Data found for C_PaymentAllocate_ID=1000022 [36]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.compiere.model.GridTable.getPO(GridTable.java:3907)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2684)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$1$4.onCallback(CompositeADTabbox.java:205)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$1$4.onCallback(CompositeADTabbox.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+
+10:22:40.840===========> GridTable.dataDelete: Number of deleted rows = 0 [36]

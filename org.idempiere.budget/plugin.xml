@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.adempiere.base.IColumnCallout">
+      <callout
+            class="org.budget.callout.BudgetConfigCallout"
+            columnName="GL_Budget_Previous_Year"
+            tableName="GL_BudgetConfig">
+      </callout>
+      <callout
+            class="org.budget.callout.BudgetConfigCallout"
+            columnName="GL_Budget_Previous_Month"
+            tableName="GL_BudgetConfig">
+      </callout>
+      <callout
+            class="org.budget.callout.LookupBase"
+            columnName="IsGenerated"
+            tableName="B_BudgetPlanLine">
+      </callout>
+   </extension>
+   <extension
+         id="org.idempiere.budget.ResetBudget"
+         name="Reset Budget Config"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.idempiere.budget.ResetBudget">
+      </process>
+   </extension>
+   <extension
+         id="org.idempiere.budget.PopulateAccounts"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.idempiere.budget.PopulateAccounts">
+      </process>
+   </extension>
+   <extension
+         id="org.idempiere.budget.ImportBudget"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.idempiere.budget.ImportBudget">
+      </process>
+   </extension>
+   <extension
+         id="org.idempiere.budget.CalculateBudget"
+         name="org.idempiere.budget.CalculateBudget"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.idempiere.budget.CalculateBudget">
+      </process>
+   </extension>
+   <extension
+         id="org.idempiere.budget.GenerateBudget2SalesForecast"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.idempiere.budget.GenerateBudget2SalesForecast">
+      </process>
+   </extension>
+
+</plugin>

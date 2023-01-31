@@ -1,0 +1,116 @@
+*** 2016-05-25 14:18:48.853 idempiere Log (CLogFile) ***
+14:18:48.853 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+14:18:48.857 Ini.loadProperties: E:\mercurialidempiere/idempiere-test.properties #33 [17]
+14:18:49.482 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+14:18:49.482 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+14:18:49.506-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+14:18:49.650 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+14:18:49.654 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [17]
+14:18:49.738 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+14:18:49.748-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:18:49.752-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+14:18:49.756-----------> EMail.isValid: From is invalid=null [17]
+14:18:49.756-----------> EMail.isValid: From is invalid=null [17]
+14:18:49.756-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.27) to you @ company.org: Invalid Data (System) [17]
+14:18:49.756 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+14:18:49.756 AdempiereMonitor.init:  [17]
+14:18:51.646-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+14:18:51.981-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:19/metainfo/zk/config.xml [17]
+14:18:51.989-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://179.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:28/metainfo/zk/config.xml [17]
+14:18:51.997-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://179.fwk491298318:29/metainfo/zk/config.xml [17]
+14:18:52.053-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://179.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://179.fwk491298318:31/metainfo/zk/zk.xml [17]
+14:18:52.532-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+14:18:52.557-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+14:18:52.627-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://179.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+14:18:52.643-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://179.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+14:18:52.643-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://179.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+14:18:52.656-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://179.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+14:18:52.660-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://179.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+14:18:52.676-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://179.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+14:18:52.688-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://179.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://179.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+14:18:52.802           WebUIServlet.init: iDempiere Web Client started successfully [17]
+14:18:53.874-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-05-25 14:18:54.184 idempiere Log (CLogFile) ***
+14:18:56.230-----------> Node: [10.0.5.27]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+14:39:27.693-----------> Prop.loadProperties: E:\mercurialidempiere\home.properties not found [38]
+14:39:27.693-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [38]
+14:45:31.818===========> MRole.addAccessSQL: TableName not correctly parsed - TableNameIn=C_Invoice - AccessSqlParser[C_Invoice=WHERE|0] - #1 C_Invoice=WHERE
+ = SELECT C_Invoice_ID, DocumentNo, DateInvoiced, GrandTotal, Balance, PaidBill FROM C_Invoice WHERE  [37]
+14:45:31.909===========> NINSSAllocateInvoice.getInvoiceData:  [37]
+org.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «)»
+  Position: 221; State=42601; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.adempiere.webui.Form.NINSSAllocateInvoice.getInvoiceData(NINSSAllocateInvoice.java:81)
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.loadBPartnerInfo(WNINSSAllocateInvoice.java:334)
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.dynamicInitialise(WNINSSAllocateInvoice.java:152)
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.initForm(WNINSSAllocateInvoice.java:117)
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.<init>(WNINSSAllocateInvoice.java:95)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+14:45:38.249===========> NINSSAllocateInvoice.getInvoiceData:  [38]
+org.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «)»
+  Position: 221; State=42601; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.adempiere.webui.Form.NINSSAllocateInvoice.getInvoiceData(NINSSAllocateInvoice.java:81)
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.loadBPartnerInfo(WNINSSAllocateInvoice.java:334)
+	at org.adempiere.webui.Form.WNINSSAllocateInvoice.valueChange(WNINSSAllocateInvoice.java:300)
+	at org.adempiere.webui.editor.WEditor.fireValueChange(WEditor.java:403)
+	at org.adempiere.webui.editor.WSearchEditor.actionCombo(WSearchEditor.java:421)
+	at org.adempiere.webui.editor.WSearchEditor.access$4(WSearchEditor.java:409)
+	at org.adempiere.webui.editor.WSearchEditor$2.onEvent(WSearchEditor.java:573)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+

@@ -1,0 +1,106 @@
+*** 2016-07-05 10:25:33.569 idempiere Log (CLogFile) ***
+10:25:33.565 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [17]
+10:25:33.569 Ini.loadProperties: E:\mercurialidempiere/idempiere.properties #32 [17]
+10:25:34.155 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [17]
+10:25:34.155 DB.isBuildOK: Build Cl=3.1.0.qualifier [17]
+10:25:34.175-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [17]
+10:25:34.263 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [17]
+10:25:34.275-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:25:34.275-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [17]
+10:25:34.279-----------> EMail.isValid: From is invalid=null [17]
+10:25:34.279-----------> EMail.isValid: From is invalid=null [17]
+10:25:34.279-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (odbz:10.0.5.58) to you @ company.org: Invalid Data (System) [17]
+10:25:34.279 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [17]
+10:25:34.279 AdempiereMonitor.init:  [17]
+10:25:35.896-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+10:25:36.155-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://180.fwk491298318:2/metainfo/zk/config.xml
+with bundleresource://180.fwk491298318:19/metainfo/zk/config.xml [17]
+10:25:36.159-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://180.fwk491298318:11/metainfo/zk/config.xml
+with bundleresource://180.fwk491298318:28/metainfo/zk/config.xml [17]
+10:25:36.167-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://180.fwk491298318:12/metainfo/zk/config.xml
+with bundleresource://180.fwk491298318:29/metainfo/zk/config.xml [17]
+10:25:36.203-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://180.fwk491298318:14/metainfo/zk/zk.xml
+with bundleresource://180.fwk491298318:31/metainfo/zk/zk.xml [17]
+10:25:36.583-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [17]
+10:25:36.607-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [17]
+10:25:36.667-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://180.fwk491298318:1/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:18/metainfo/zk/lang-addon.xml [17]
+10:25:36.671-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://180.fwk491298318:2/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:19/metainfo/zk/lang-addon.xml [17]
+10:25:36.675-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://180.fwk491298318:5/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:22/metainfo/zk/lang-addon.xml [17]
+10:25:36.683-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://180.fwk491298318:6/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:23/metainfo/zk/lang-addon.xml [17]
+10:25:36.687-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://180.fwk491298318:7/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:24/metainfo/zk/lang-addon.xml [17]
+10:25:36.707-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://180.fwk491298318:12/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:29/metainfo/zk/lang-addon.xml [17]
+10:25:36.711-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://180.fwk491298318:13/metainfo/zk/lang-addon.xml
+with bundleresource://180.fwk491298318:30/metainfo/zk/lang-addon.xml [17]
+10:25:36.863           WebUIServlet.init: iDempiere Web Client started successfully [17]
+10:25:37.963-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [17]
+
+*** 2016-07-05 10:25:38.202 idempiere Log (CLogFile) ***
+10:25:40.226-----------> Node: [10.0.5.58]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [41]
+10:36:27.431===========> NIImportCR.process: org.adempiere.exceptions.AdempiereException [59]
+org.adempiere.exceptions.AdempiereException
+	at ni.idempiere.currency.process.NIImportCR.doIt(NIImportCR.java:91)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.interfaces.impl.ServerBean.process(ServerBean.java:78)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:429)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+10:40:48.789===========> NIImportCR.process: org.adempiere.exceptions.AdempiereException [71]
+org.adempiere.exceptions.AdempiereException
+	at ni.idempiere.currency.process.NIImportCR.doIt(NIImportCR.java:91)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:139)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:128)
+	at org.compiere.interfaces.impl.ServerBean.process(ServerBean.java:78)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:429)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

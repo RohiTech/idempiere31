@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Localization: launcher.gtk.aix.ppc
+Fragment-Host: org.eclipse.equinox.launcher;bundle-version="1.0.0"
+Built-By: e4Build
+Bundle-SymbolicName: org.eclipse.equinox.launcher.gtk.aix.ppc
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/equino
+ x/rt.equinox.framework.git;path="bundles/org.eclipse.equinox.launcher
+ .gtk.aix.ppc";tag="M20150204-0900";commitId=ddc1d34dfb9d45074257a5f14
+ 7900781ff7ab8da
+Bundle-Version: 1.1.100.v20150204-1316
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=aix) (osgi.arch=ppc)
+ )
+Build-Jdk: 1.7.0_51
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.1.1
+Bundle-ManifestVersion: 2
+
+Name: eclipse_1607.so
+SHA1-Digest: 1JP5oJg6o2QjRFFeKCWJj6GbVJ8=
+
+Name: launcher.gtk.aix.ppc.properties
+SHA1-Digest: kM/U3pkXMgzywU/cID5606Xh/IA=
+
+Name: about.html
+SHA1-Digest: a9lDHrGuLPkvHBUhsqWU+V2mhPw=
+
